@@ -14,8 +14,8 @@ Two-pillar daily news system: **時事新聞** (world affairs) + **科技新聞*
 
 ## Key Config
 - All dates/filenames use **JST (Asia/Tokyo)**: `TZ=Asia/Tokyo date +%Y-%m-%d` → `$TODAY`
-- Summaries dir: `/home/node/.openclaw/workspace/openclaw-projects/daily-world-news/summaries/`
-- Skill dir: `/home/node/.openclaw/workspace/openclaw-projects/daily-world-news/`
+- Summaries dir: `/home/node/.openclaw/workspace/projects/daily-world-news/summaries/`
+- Skill dir: `/home/node/.openclaw/workspace/projects/daily-world-news/`
 
 ---
 
@@ -31,7 +31,7 @@ Two-pillar daily news system: **時事新聞** (world affairs) + **科技新聞*
 Run the Python script to collect, score, and deduplicate articles:
 
 ```bash
-cd /home/node/.openclaw/workspace/openclaw-projects/daily-world-news
+cd /home/node/.openclaw/workspace/projects/daily-world-news
 YESTERDAY=$(TZ=Asia/Tokyo date -d '1 day ago' +%Y-%m-%d 2>/dev/null || TZ=Asia/Tokyo date -v-1d +%Y-%m-%d)
 python3 gather_tech.py \
   --sources TECH_SOURCES.json \
@@ -52,7 +52,7 @@ This script handles ALL data collection deterministically:
 Run the X search script to gather trending tech discussions from X:
 
 ```bash
-cd /home/node/.openclaw/workspace/openclaw-projects/x-monitor
+cd /home/node/.openclaw/workspace/projects/x-monitor
 python3 x-search.py "AI OR LLM OR GPT min_faves:100 lang:en" --count 10 --mode top -o /tmp/x-tech-ai.json
 python3 x-search.py "crypto OR bitcoin OR ethereum min_faves:100 lang:en" --count 5 --mode top -o /tmp/x-tech-crypto.json
 python3 x-search.py "AI OR 人工智能 OR LLM min_faves:50 lang:zh" --count 5 --mode top -o /tmp/x-tech-zh.json
@@ -107,7 +107,7 @@ Using the script's structured data + web search + X search results:
 - Only carry forward stories with significant new developments
 
 ### Step 2.3 — Gather World News
-- Run X search for breaking world news: `python3 /home/node/.openclaw/workspace/openclaw-projects/x-monitor/x-search.py "breaking news min_faves:500 lang:en" --count 10 --mode top -o /tmp/x-world-news.json`
+- Run X search for breaking world news: `python3 /home/node/.openclaw/workspace/projects/x-monitor/x-search.py "breaking news min_faves:500 lang:en" --count 10 --mode top -o /tmp/x-world-news.json`
 - Review X results for breaking stories that may not yet appear in web search
 - Run 15-25 web_search queries across all 9 regions
 - For major international events → Format A (multi-country perspectives from different media)
@@ -159,7 +159,7 @@ Using the script's structured data + web search + X search results:
 
 ### Step 3.3 — Generate Audio
 ```bash
-cd /home/node/.openclaw/workspace/openclaw-projects/daily-world-news && \
+cd /home/node/.openclaw/workspace/projects/daily-world-news && \
 python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODAY}.mp3
 ```
 - Verify mp3 exists after running
@@ -175,7 +175,7 @@ python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODA
 
 ### Step 4.1 — Run Validation
 ```bash
-cd /home/node/.openclaw/workspace/openclaw-projects/daily-world-news && python3 scripts/validate.py ${TODAY}
+cd /home/node/.openclaw/workspace/projects/daily-world-news && python3 scripts/validate.py ${TODAY}
 ```
 - If validation **FAILS** (exit code 1): FIX the issues before proceeding. Re-run the failed phase.
 - If validation passes with warnings: proceed but note the warnings in your summary.
