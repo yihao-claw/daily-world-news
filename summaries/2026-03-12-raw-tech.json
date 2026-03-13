@@ -1,0 +1,795 @@
+{
+  "generated_at": "2026-03-11T23:17:36.660136+00:00",
+  "today_jst": "2026-03-12",
+  "stats": {
+    "rss_fetched": 29,
+    "rss_errors": 10,
+    "github_fetched": 8,
+    "reddit_fetched": 9
+  },
+  "total_articles": 363,
+  "topic_distribution": {
+    "ai-agent": 4,
+    "llm": 68,
+    "crypto": 110,
+    "frontier-tech": 181
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.12",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.12",
+        "summary": "Changes since langchain==1.2.11\nrelease(langchain_v1): 1.2.12 (#35770)\nfeat: tracing for wrap model + tool call (#35765)",
+        "published": "2026-03-11T22:21:17+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.8",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.8",
+        "summary": "Mac assets on this release reuse the beta artifact line from v2026.3.8-beta.1.\nChanges\n\nCLI/backup: add openclaw backup create and openclaw backup verify for local state archives, including --only-config, --no-include-workspace, manifest/payload validation, and backup guidance in destructive flows. ",
+        "published": "2026-03-09T07:49:27+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.10.2a1",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.10.2a1",
+        "summary": "What's Changed\nFeatures\n\nAdd support for tool search by saving tokens and dynamically injecting appropriate tools during execution.\nIntroduce more Brave Search tools.\nCreate action for nightly releases.\n\nBug Fixes\n\nFix LockException under concurrent multi-process execution.\nResolve grouping of paral",
+        "published": "2026-03-11T15:39:01+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.16",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.16",
+        "summary": "Release Notes\n[2026-03-10]\nllama-index-core [0.14.16]\n\nAdd token-bucket rate limiter for LLM and embedding API calls (#20712)\nFix/20706 chonkie init doc (#20713)\nfix: pass tool_choice through FunctionCallingProgram (#20740)\nfeat: Multimodal LLMReranker (#20743)\nfeat: add optional embed_model to Sema",
+        "published": "2026-03-10T19:20:35+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.17.8",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc1",
+        "summary": "What's Changed\n\nparsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656\nReapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608\ndocs: format compat docs by @mxyng in #14678\ncreate: fix localhost handling by @dhiltgen in #14681\nbuild: smarter doc",
+        "published": "2026-03-10T03:30:50+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.17.8-rc0: MLX: add header vendoring and remove go build tag (#14642)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc0",
+        "summary": "prefer rocm v6 on windows\n\nAvoid building with v7 - more changes are needed\n\nMLX: add header vendoring and remove go build tag\n\nThis switches to using a vendoring approach for the mlx-c headers so that Go\ncan build without requiring a cmake first.  This enables building the new MLX\nbased code by def",
+        "published": "2026-03-10T00:24:45+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Sorting algorithms",
+        "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+        "summary": "Sorting algorithms\nToday in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts:\n\nInteractive animated demos of the most common sorting algorithms\n\nThis gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.\n\nAdd timsort,",
+        "published": "2026-03-11T22:58:06+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Quoting John Carmack",
+        "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
+        "summary": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive.\n&mdash; John Carmack, a tweet in June 2021\n\n    Tags: john-carmack, software-engineering, yagni",
+        "published": "2026-03-11T14:47:09+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "huggingface-rss",
+        "source_name": "Hugging Face Blog",
+        "source_type": "rss",
+        "title": "Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds",
+        "url": "https://huggingface.co/blog/nvidia/synthetic-code-concepts",
+        "summary": "",
+        "published": "2026-03-11T15:50:15+00:00",
+        "topics": [
+          "llm",
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "openai-rss",
+        "source_name": "OpenAI Blog",
+        "source_type": "rss",
+        "title": "Rakuten fixes issues twice as fast with Codex",
+        "url": "https://openai.com/index/rakuten",
+        "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+        "published": "2026-03-11T13:00:00+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "SEC, CFTC end years of rivalry with deal that will mean combined crypto oversight",
+        "url": "https://www.coindesk.com/policy/2026/03/11/sec-cftc-end-years-of-rivalry-with-deal-that-will-mean-combined-crypto-oversight",
+        "summary": "",
+        "published": "2026-03-11T23:00:49+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume",
+        "url": "https://www.coindesk.com/markets/2026/03/11/crypto-platform-bullish-climbs-past-coinbase-to-become-third-largest-crypto-exchange-by-spot-volume",
+        "summary": "",
+        "published": "2026-03-11T20:33:01+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin holds $70,000, starting to show relative strength versus stocks, software sector, and gold",
+        "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-holds-usd70-000-beginning-to-show-relative-strength-versus-stocks-software-sector-and-gold",
+        "summary": "",
+        "published": "2026-03-11T20:23:58+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Ripple's share buyback program values the firm at $50 billion",
+        "url": "https://www.coindesk.com/business/2026/03/11/ripple-s-share-buyback-program-values-the-firm-at-usd50-billion-bloomberg",
+        "summary": "",
+        "published": "2026-03-11T19:19:10+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bloomberg strategist doubles down on $10,000 bitcoin call but peers say it would take a nuclear war to get there",
+        "url": "https://www.coindesk.com/markets/2026/03/11/bloomberg-strategist-doubles-down-on-usd10-000-bitcoin-call-but-peers-say-it-would-take-a-nuclear-war-to-get-there",
+        "summary": "",
+        "published": "2026-03-11T17:00:20+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Atlassian to cut roughly 1,600 jobs in pivot to AI",
+        "url": "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/",
+        "summary": "Article URL: https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/\nComments URL: https://news.ycombinator.com/item?id=47343156\nPoints: 28\n# Comments: 29",
+        "published": "2026-03-11T22:29:42+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Preliminary data from a longitudinal AI impact study",
+        "url": "https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not",
+        "summary": "Article URL: https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not\nComments URL: https://news.ycombinator.com/item?id=47342139\nPoints: 14\n# Comments: 4",
+        "published": "2026-03-11T21:23:24+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Britain is ejecting hereditary nobles from Parliament after 700 years",
+        "url": "https://apnews.com/article/uk-house-of-lords-hereditary-peers-expelled-535df8781dd01e8970acda1dca99d3d4",
+        "summary": "Article URL: https://apnews.com/article/uk-house-of-lords-hereditary-peers-expelled-535df8781dd01e8970acda1dca99d3d4\nComments URL: https://news.ycombinator.com/item?id=47341845\nPoints: 91\n# Comments: 62",
+        "published": "2026-03-11T21:06:06+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Meticulous (YC S21) is hiring to redefine software dev",
+        "url": "https://jobs.ashbyhq.com/meticulous/3197ae3d-bb26-4750-9ed7-b830f640515e",
+        "summary": "Article URL: https://jobs.ashbyhq.com/meticulous/3197ae3d-bb26-4750-9ed7-b830f640515e\nComments URL: https://news.ycombinator.com/item?id=47341760\nPoints: 0\n# Comments: 0",
+        "published": "2026-03-11T21:01:42+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Many SWE-bench-Passing PRs would not be merged",
+        "url": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/",
+        "summary": "Article URL: https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/\nComments URL: https://news.ycombinator.com/item?id=47341645\nPoints: 57\n# Comments: 3",
+        "published": "2026-03-11T20:56:52+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "What Is a Tort?",
+        "url": "https://harvardlawreview.org/print/vol-139/what-is-a-tort/",
+        "summary": "Article URL: https://harvardlawreview.org/print/vol-139/what-is-a-tort/\nComments URL: https://news.ycombinator.com/item?id=47340768\nPoints: 20\n# Comments: 22",
+        "published": "2026-03-11T20:12:36+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.12",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.12",
+      "summary": "Changes since langchain==1.2.11\nrelease(langchain_v1): 1.2.12 (#35770)\nfeat: tracing for wrap model + tool call (#35765)",
+      "published": "2026-03-11T22:21:17+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.17.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc1",
+      "summary": "What's Changed\n\nparsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656\nReapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608\ndocs: format compat docs by @mxyng in #14678\ncreate: fix localhost handling by @dhiltgen in #14681\nbuild: smarter doc",
+      "published": "2026-03-10T03:30:50+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.17.8-rc0: MLX: add header vendoring and remove go build tag (#14642)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc0",
+      "summary": "prefer rocm v6 on windows\n\nAvoid building with v7 - more changes are needed\n\nMLX: add header vendoring and remove go build tag\n\nThis switches to using a vendoring approach for the mlx-c headers so that Go\ncan build without requiring a cmake first.  This enables building the new MLX\nbased code by def",
+      "published": "2026-03-10T00:24:45+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.8",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.8",
+      "summary": "Mac assets on this release reuse the beta artifact line from v2026.3.8-beta.1.\nChanges\n\nCLI/backup: add openclaw backup create and openclaw backup verify for local state archives, including --only-config, --no-include-workspace, manifest/payload validation, and backup guidance in destructive flows. ",
+      "published": "2026-03-09T07:49:27+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Sorting algorithms",
+      "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+      "summary": "Sorting algorithms\nToday in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts:\n\nInteractive animated demos of the most common sorting algorithms\n\nThis gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.\n\nAdd timsort,",
+      "published": "2026-03-11T22:58:06+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting John Carmack",
+      "url": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
+      "summary": "It is hard for less experienced developers to appreciate how rarely architecting for future requirements / applications turns out net-positive.\n&mdash; John Carmack, a tweet in June 2021\n\n    Tags: john-carmack, software-engineering, yagni",
+      "published": "2026-03-11T14:47:09+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds",
+      "url": "https://huggingface.co/blog/nvidia/synthetic-code-concepts",
+      "summary": "",
+      "published": "2026-03-11T15:50:15+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "SEC, CFTC end years of rivalry with deal that will mean combined crypto oversight",
+      "url": "https://www.coindesk.com/policy/2026/03/11/sec-cftc-end-years-of-rivalry-with-deal-that-will-mean-combined-crypto-oversight",
+      "summary": "",
+      "published": "2026-03-11T23:00:49+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume",
+      "url": "https://www.coindesk.com/markets/2026/03/11/crypto-platform-bullish-climbs-past-coinbase-to-become-third-largest-crypto-exchange-by-spot-volume",
+      "summary": "",
+      "published": "2026-03-11T20:33:01+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin holds $70,000, starting to show relative strength versus stocks, software sector, and gold",
+      "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-holds-usd70-000-beginning-to-show-relative-strength-versus-stocks-software-sector-and-gold",
+      "summary": "",
+      "published": "2026-03-11T20:23:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ripple's share buyback program values the firm at $50 billion",
+      "url": "https://www.coindesk.com/business/2026/03/11/ripple-s-share-buyback-program-values-the-firm-at-usd50-billion-bloomberg",
+      "summary": "",
+      "published": "2026-03-11T19:19:10+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bloomberg strategist doubles down on $10,000 bitcoin call but peers say it would take a nuclear war to get there",
+      "url": "https://www.coindesk.com/markets/2026/03/11/bloomberg-strategist-doubles-down-on-usd10-000-bitcoin-call-but-peers-say-it-would-take-a-nuclear-war-to-get-there",
+      "summary": "",
+      "published": "2026-03-11T17:00:20+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto-friendly fintech Revolut gains full UK banking license",
+      "url": "https://www.coindesk.com/policy/2026/03/11/crypto-friendly-fintech-revolut-gains-full-uk-banking-license",
+      "summary": "",
+      "published": "2026-03-11T16:41:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Stablecoins won't get any kind of deposit insurance under GENIUS rules, says FDIC chief",
+      "url": "https://www.coindesk.com/policy/2026/03/11/stablecoins-won-t-get-any-kind-of-deposit-insurance-under-genius-rules-says-fdic-chief",
+      "summary": "",
+      "published": "2026-03-11T16:08:56+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto Long & Short: AI agents choosing denationalized money",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-long-and-short-ai-agents-choosing-denationalized-money",
+      "summary": "",
+      "published": "2026-03-11T16:02:20+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Wells Fargo signals deeper push into crypto, filing trademark for WFUSD",
+      "url": "https://www.coindesk.com/business/2026/03/11/wells-fargo-signals-deeper-push-into-crypto-filing-trademark-for-wfusd",
+      "summary": "",
+      "published": "2026-03-11T15:23:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "European Central Bank unveils tokenized finance plan to bolster EU's financial autonomy",
+      "url": "https://www.coindesk.com/business/2026/03/11/european-central-bank-unveils-tokenized-finance-plan-to-bolster-eu-s-financial-autonomy",
+      "summary": "",
+      "published": "2026-03-11T15:11:42+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The Protocol: Ethereum Foundation starts experimenting with ‘DVT-lite’ technology",
+      "url": "https://www.coindesk.com/tech/2026/03/11/the-protocol-ethereum-foundation-starts-experimenting-with-dvt-lite-technology",
+      "summary": "",
+      "published": "2026-03-11T15:09:16+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Binance.US names compliance veteran as CEO as regulation, competition get tougher",
+      "url": "https://www.coindesk.com/business/2026/03/11/binance-us-names-compliance-veteran-as-ceo-as-regulation-competition-get-tougher",
+      "summary": "",
+      "published": "2026-03-11T15:05:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Former legal executives from crypto exchange OKX unveil DeFi connectivity, risk-rating service",
+      "url": "https://www.coindesk.com/business/2026/03/11/former-okx-legal-execs-unveil-defi-connectivity-risk-rating-service",
+      "summary": "",
+      "published": "2026-03-11T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin reverses overnight losses, rising to above $70,000 as oil renews decline",
+      "url": "https://www.coindesk.com/markets/2026/03/11/bitcoin-reverses-overnight-losses-rising-to-above-usd70-000-as-oil-renews-decline",
+      "summary": "",
+      "published": "2026-03-11T14:21:03+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Strategy's STRC preferred series gets $50 million investment from fellow BTC treasury company Strive",
+      "url": "https://www.coindesk.com/markets/2026/03/11/strategy-s-strc-preferred-series-gets-usd50-million-investment-from-fellow-btc-treasury-company-strive",
+      "summary": "",
+      "published": "2026-03-11T14:07:09+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Hedera (HBAR) drops 1.8%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/coindesk-20-performance-update-hedera-hbar-drops-1-8-leading-index-lower",
+      "summary": "",
+      "published": "2026-03-11T13:27:29+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ghana opens crypto trading sandbox with 11 firms under new VASP law",
+      "url": "https://www.coindesk.com/policy/2026/03/11/ghana-opens-crypto-trading-sandbox-with-11-firms-under-new-vasp-law",
+      "summary": "",
+      "published": "2026-03-11T13:21:43+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Mining giant Foundry to introduce institutional zcash mining pool",
+      "url": "https://www.coindesk.com/business/2026/03/10/mining-giant-foundry-to-introduce-institutional-zcash-mining-pool",
+      "summary": "",
+      "published": "2026-03-11T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "U.S. February CPI matches forecasts, reinforcing expectations for no near-term rate cuts",
+      "url": "https://www.coindesk.com/markets/2026/03/11/u-s-february-inflation-data-matches-forecasts-reinforcing-expectations-for-no-near-term-rate-cuts",
+      "summary": "",
+      "published": "2026-03-11T12:35:56+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Binance sues Wall Street Journal as newspaper says U.S. Dept. of Justice is investigating Iran transactions",
+      "url": "https://www.coindesk.com/business/2026/03/11/binance-sues-wall-street-journal-as-newspaper-says-u-s-dept-of-justice-is-investigating-iran-transactions",
+      "summary": "",
+      "published": "2026-03-11T12:29:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "openai-rss",
+      "source_name": "OpenAI Blog",
+      "source_type": "rss",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "url": "https://openai.com/index/rakuten",
+      "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+      "published": "2026-03-11T13:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "openai-rss",
+      "source_name": "OpenAI Blog",
+      "source_type": "rss",
+      "title": "Designing AI agents to resist prompt injection",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "published": "2026-03-11T11:30:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "openai-rss",
+      "source_name": "OpenAI Blog",
+      "source_type": "rss",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "published": "2026-03-11T11:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

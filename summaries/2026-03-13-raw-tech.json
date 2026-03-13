@@ -1,0 +1,789 @@
+{
+  "generated_at": "2026-03-12T19:00:18.531445+00:00",
+  "today_jst": "2026-03-13",
+  "stats": {
+    "rss_fetched": 28,
+    "rss_errors": 11,
+    "github_fetched": 10,
+    "reddit_fetched": 9
+  },
+  "total_articles": 368,
+  "topic_distribution": {
+    "llm": 60,
+    "ai-agent": 4,
+    "crypto": 120,
+    "frontier-tech": 184
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773313353: [ROCm] fix radixselect (#177149)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773313353",
+        "summary": "Summary:\n#174837 (D94770109) introduced a race condition situation.\nsymptom\nrunning it in reference service under high qps, the service will crash on such error: HSA_STATUS_ERROR_EXCEPTION: An HSAIL operation resulted in a hardware exception. code: 0x1016\nThe Race\nAfter countRadixAggregateCounts Sta",
+        "published": "2026-03-12T02:59:57+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.17.8",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc1",
+        "summary": "What's Changed\n\nparsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656\nReapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608\ndocs: format compat docs by @mxyng in #14678\ncreate: fix localhost handling by @dhiltgen in #14681\nbuild: smarter doc",
+        "published": "2026-03-10T03:30:50+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.17.8-rc0: MLX: add header vendoring and remove go build tag (#14642)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc0",
+        "summary": "prefer rocm v6 on windows\n\nAvoid building with v7 - more changes are needed\n\nMLX: add header vendoring and remove go build tag\n\nThis switches to using a vendoring approach for the mlx-c headers so that Go\ncan build without requiring a cmake first.  This enables building the new MLX\nbased code by def",
+        "published": "2026-03-10T00:24:45+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Quoting Les Orchard",
+        "url": "https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything",
+        "summary": "Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible.\nBefore AI, both camps were doing the same thing every day. Writing code by hand. Using the same editors, the same languages, the same pull request workflows. The craft-lovers and the make-it-go people sat next to each other, shipped the same products, looked indistinguishable. The motivation behind the work was invisible because the process was identical.\nNow t",
+        "published": "2026-03-12T16:28:07+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Sorting algorithms",
+        "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+        "summary": "Sorting algorithms\nToday in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts:\n\nInteractive animated demos of the most common sorting algorithms\n\nThis gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.\n\nAdd timsort,",
+        "published": "2026-03-11T22:58:06+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "huggingface-rss",
+        "source_name": "Hugging Face Blog",
+        "source_type": "rss",
+        "title": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II",
+        "url": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench",
+        "summary": "",
+        "published": "2026-03-12T03:53:34+00:00",
+        "topics": [
+          "llm",
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.12",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.12",
+        "summary": "Changes since langchain==1.2.11\nrelease(langchain_v1): 1.2.12 (#35770)\nfeat: tracing for wrap model + tool call (#35765)",
+        "published": "2026-03-11T22:21:17+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.11",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.11",
+        "summary": "Security\n\nGateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in trusted-proxy mode that could grant untrusted origins operator.admin access. (GHSA-5wcw-8jjv-m286)\n\n",
+        "published": "2026-03-12T05:07:17+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.16",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.16",
+        "summary": "Release Notes\n[2026-03-10]\nllama-index-core [0.14.16]\n\nAdd token-bucket rate limiter for LLM and embedding API calls (#20712)\nFix/20706 chonkie init doc (#20713)\nfix: pass tool_choice through FunctionCallingProgram (#20740)\nfeat: Multimodal LLMReranker (#20743)\nfeat: add optional embed_model to Sema",
+        "published": "2026-03-10T19:20:35+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.10.2a1",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.10.2a1",
+        "summary": "What's Changed\nFeatures\n\nAdd support for tool search by saving tokens and dynamically injecting appropriate tools during execution.\nIntroduce more Brave Search tools.\nCreate action for nightly releases.\n\nBug Fixes\n\nFix LockException under concurrent multi-process execution.\nResolve grouping of paral",
+        "published": "2026-03-11T15:39:01+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+        "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+        "published": "2026-03-12T05:56:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "The Emperor has no wallet",
+        "url": "https://www.coindesk.com/opinion/2026/03/12/the-emperor-has-no-wallet",
+        "summary": "",
+        "published": "2026-03-12T17:06:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "U.S. Senate votes to ban CBDCs in housing bill that may face trouble in the House",
+        "url": "https://www.coindesk.com/policy/2026/03/12/u-s-senate-votes-to-ban-cbdcs-in-housing-bill-that-may-face-trouble-in-the-house",
+        "summary": "",
+        "published": "2026-03-12T16:21:15+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Ethereum layer-2 developer OP Labs cuts roles to 'narrow focus'",
+        "url": "https://www.coindesk.com/business/2026/03/12/ethereum-layer-2-developer-op-labs-cuts-roles-to-narrow-focus",
+        "summary": "",
+        "published": "2026-03-12T16:19:31+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Here is what $100 oil means for Bitcoin network",
+        "url": "https://www.coindesk.com/markets/2026/03/12/here-is-what-usd100-oil-means-for-bitcoin-network",
+        "summary": "",
+        "published": "2026-03-12T15:57:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Show HN: Aurion OS – A 32-bit GUI operating system written from scratch in C",
+        "url": "https://github.com/Luka12-dev/AurionOS",
+        "summary": "Hi HN! I'm 13 and I built Aurion OS\nas a solo learning project over 14 days\n(~12 hours/day).It's a 32-bit x86 operating system\nwritten entirely in C and x86 Assembly \nwith no external libraries.What it has:\n Custom bootloader and kernel\n VESA framebuffer graphics (1920x1080,\n double-buffered)\n Window manager with draggable,\n overlapping windows\n macOS-inspired dock with transparency\n PS/2 keyboard and mouse drivers\n ATA hard drive driver with filesystem\n PCI bus enumeration\n RTL8139 network driv",
+        "published": "2026-03-12T18:33:30+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Scrt: A CLI secret manager for developers, sysadmins and DevOps",
+        "url": "https://github.com/loderunner/scrt",
+        "summary": "Article URL: https://github.com/loderunner/scrt\nComments URL: https://news.ycombinator.com/item?id=47354366\nPoints: 6\n# Comments: 4",
+        "published": "2026-03-12T17:31:47+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Contextual commits – An open standard for capturing the why in Git history",
+        "url": "https://vidimitrov.substack.com/p/contextual-commits-an-open-standard",
+        "summary": "Article URL: https://vidimitrov.substack.com/p/contextual-commits-an-open-standard\nComments URL: https://news.ycombinator.com/item?id=47354263\nPoints: 8\n# Comments: 0",
+        "published": "2026-03-12T17:25:27+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Bubble Sorted Amen Break",
+        "url": "https://parametricavocado.itch.io/amen-sorting",
+        "summary": "Article URL: https://parametricavocado.itch.io/amen-sorting\nComments URL: https://news.ycombinator.com/item?id=47354098\nPoints: 83\n# Comments: 34",
+        "published": "2026-03-12T17:13:56+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Show HN: Understudy – Teach a desktop agent by demonstrating a task once",
+        "url": "https://github.com/understudy-ai/understudy",
+        "summary": "I built Understudy because a lot of real work still spans native desktop apps, browser tabs, terminals, and chat tools. Most current agents live in only one of those surfaces.Understudy is a local-first desktop agent runtime that can operate GUI apps, browsers, shell tools, files, and messaging in one session. The part I'm most interested in feedback on is teach-by-demonstration: you do a task once, the agent records screen video + semantic events, extracts the intent rather than coordinates, an",
+        "published": "2026-03-12T17:04:35+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Converge (YC S23) Is Hiring a Founding Platform Engineer (NYC, Onsite)",
+        "url": "https://www.runconverge.com/careers/founding-platform-engineer",
+        "summary": "Article URL: https://www.runconverge.com/careers/founding-platform-engineer\nComments URL: https://news.ycombinator.com/item?id=47353904\nPoints: 0\n# Comments: 0",
+        "published": "2026-03-12T17:01:46+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773313353: [ROCm] fix radixselect (#177149)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773313353",
+      "summary": "Summary:\n#174837 (D94770109) introduced a race condition situation.\nsymptom\nrunning it in reference service under high qps, the service will crash on such error: HSA_STATUS_ERROR_EXCEPTION: An HSAIL operation resulted in a hardware exception. code: 0x1016\nThe Race\nAfter countRadixAggregateCounts Sta",
+      "published": "2026-03-12T02:59:57+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.12",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.12",
+      "summary": "Changes since langchain==1.2.11\nrelease(langchain_v1): 1.2.12 (#35770)\nfeat: tracing for wrap model + tool call (#35765)",
+      "published": "2026-03-11T22:21:17+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.11",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.11",
+      "summary": "Security\n\nGateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in trusted-proxy mode that could grant untrusted origins operator.admin access. (GHSA-5wcw-8jjv-m286)\n\n",
+      "published": "2026-03-12T05:07:17+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+      "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+      "published": "2026-03-12T05:56:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.17.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc1",
+      "summary": "What's Changed\n\nparsers: repair unclosed arg_value tags in GLM tool calls by @BruceMacD in #14656\nReapply \"don't require pulling stubs for cloud models\" again by @jmorganca in #14608\ndocs: format compat docs by @mxyng in #14678\ncreate: fix localhost handling by @dhiltgen in #14681\nbuild: smarter doc",
+      "published": "2026-03-10T03:30:50+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.17.8-rc0: MLX: add header vendoring and remove go build tag (#14642)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.17.8-rc0",
+      "summary": "prefer rocm v6 on windows\n\nAvoid building with v7 - more changes are needed\n\nMLX: add header vendoring and remove go build tag\n\nThis switches to using a vendoring approach for the mlx-c headers so that Go\ncan build without requiring a cmake first.  This enables building the new MLX\nbased code by def",
+      "published": "2026-03-10T00:24:45+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Les Orchard",
+      "url": "https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything",
+      "summary": "Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible.\nBefore AI, both camps were doing the same thing every day. Writing code by hand. Using the same editors, the same languages, the same pull request workflows. The craft-lovers and the make-it-go people sat next to each other, shipped the same products, looked indistinguishable. The motivation behind the work was invisible because the process was identical.\nNow t",
+      "published": "2026-03-12T16:28:07+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Sorting algorithms",
+      "url": "https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything",
+      "summary": "Sorting algorithms\nToday in animated explanations built using Claude: I've always been a fan of animated demonstrations of sorting algorithms so I decided to spin some up on my phone using Claude Artifacts, then added Python's timsort algorithm, then a feature to run them all at once. Here's the full sequence of prompts:\n\nInteractive animated demos of the most common sorting algorithms\n\nThis gave me bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort.\n\nAdd timsort,",
+      "published": "2026-03-11T22:58:06+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The Emperor has no wallet",
+      "url": "https://www.coindesk.com/opinion/2026/03/12/the-emperor-has-no-wallet",
+      "summary": "",
+      "published": "2026-03-12T17:06:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "U.S. Senate votes to ban CBDCs in housing bill that may face trouble in the House",
+      "url": "https://www.coindesk.com/policy/2026/03/12/u-s-senate-votes-to-ban-cbdcs-in-housing-bill-that-may-face-trouble-in-the-house",
+      "summary": "",
+      "published": "2026-03-12T16:21:15+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ethereum layer-2 developer OP Labs cuts roles to 'narrow focus'",
+      "url": "https://www.coindesk.com/business/2026/03/12/ethereum-layer-2-developer-op-labs-cuts-roles-to-narrow-focus",
+      "summary": "",
+      "published": "2026-03-12T16:19:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Here is what $100 oil means for Bitcoin network",
+      "url": "https://www.coindesk.com/markets/2026/03/12/here-is-what-usd100-oil-means-for-bitcoin-network",
+      "summary": "",
+      "published": "2026-03-12T15:57:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Alleged Ponzi scheme victims sue JPMorgan for banking supposed $328 million scam",
+      "url": "https://www.coindesk.com/business/2026/03/12/alleged-ponzi-scheme-victims-sue-jpmorgan-for-banking-supposed-usd328-million-scam",
+      "summary": "",
+      "published": "2026-03-12T15:48:34+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin holds $70,000 level as surging oil prices and credit issues have stocks tumbling",
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-holds-usd70-000-level-as-surging-oil-prices-and-credit-issues-have-stocks-tumbling",
+      "summary": "",
+      "published": "2026-03-12T15:41:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Cathie Wood's Ark Invest says quantum computing is a long-term risk for bitcoin, not an imminent threat",
+      "url": "https://www.coindesk.com/tech/2026/03/12/cathie-wood-s-ark-invest-says-quantum-computing-is-a-long-term-risk-for-bitcoin-not-an-imminent-threat",
+      "summary": "",
+      "published": "2026-03-12T15:28:13+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Prediction markets get tailored U.S. guidance from former foe CFTC",
+      "url": "https://www.coindesk.com/policy/2026/03/12/prediction-markets-get-tailored-u-s-guidance-from-former-foe-cftc",
+      "summary": "",
+      "published": "2026-03-12T15:26:42+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Vitalik Buterin says Ethereum should be used as a simple digital bulletin board",
+      "url": "https://www.coindesk.com/tech/2026/03/12/vitalik-buterin-says-ethereum-should-be-used-as-a-simple-digital-bulletin-board",
+      "summary": "",
+      "published": "2026-03-12T15:25:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Circle’s outperformance highlights USDC’s staying power, says bullish Wall Street analyst",
+      "url": "https://www.coindesk.com/markets/2026/03/12/circle-s-outperformance-highlights-usdc-s-staying-power-says-bullish-wall-street-analyst",
+      "summary": "",
+      "published": "2026-03-12T15:00:52+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Lido launches stablecoin yield product to expand beyond ether",
+      "url": "https://www.coindesk.com/tech/2026/03/12/lido-launches-stablecoin-yield-product-to-expand-beyond-ether",
+      "summary": "",
+      "published": "2026-03-12T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto for Advisors: Crypto accounting; comparing the US and Europe",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-for-advisors-crypto-accounting-comparing-the-us-and-europe",
+      "summary": "",
+      "published": "2026-03-12T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Avalanche’s business chief says crypto must grow up and solve real problems",
+      "url": "https://www.coindesk.com/coindesk-news/2026/03/12/avalanche-s-business-chiefsays-crypto-must-grow-up-and-solve-real-problems",
+      "summary": "",
+      "published": "2026-03-12T14:55:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin selling intensifies across all wallet sizes despite price holding near $70,000",
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-selling-intensifies-across-all-wallet-sizes-despite-price-holding-near-usd70-000",
+      "summary": "",
+      "published": "2026-03-12T14:29:22+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Eightco shares jump on $125 million funding commitment, investment in OpenAI, Beast Industries",
+      "url": "https://www.coindesk.com/business/2026/03/12/eightco-shares-jump-on-usd125-million-funding-commitment-investment-in-openai-beast-industries",
+      "summary": "",
+      "published": "2026-03-12T14:03:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Tether invests in Ark Labs to make Bitcoin ready for stablecoins and payments",
+      "url": "https://www.coindesk.com/business/2026/03/12/tether-invests-in-ark-labs-to-make-bitcoin-ready-for-stablecoins-and-payments",
+      "summary": "",
+      "published": "2026-03-12T13:19:05+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Polkadot (DOT) drops 2.3% as index trades lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/12/coindesk-20-performance-update-polkadot-dot-drops-2-3-as-index-trades-lower",
+      "summary": "",
+      "published": "2026-03-12T13:16:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto accounting firm Cryptio raises $45 million as institutional demand accelerates",
+      "url": "https://www.coindesk.com/business/2026/03/12/crypto-accounting-firm-cryptio-raises-usd45-million-in-series-b-funding-round",
+      "summary": "",
+      "published": "2026-03-12T12:49:50+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "BlackRock debuts staked ether ETF as demand grows for yield in crypto funds",
+      "url": "https://www.coindesk.com/markets/2026/03/12/blackrock-debuts-staked-ether-etf-as-demand-grows-for-yield-in-crypto-funds",
+      "summary": "",
+      "published": "2026-03-12T12:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin futures trading is now five times bigger than spot on Binance",
+      "url": "https://www.coindesk.com/markets/2026/03/12/bitcoin-futures-trading-is-now-five-times-bigger-than-spot-on-binance",
+      "summary": "",
+      "published": "2026-03-12T11:15:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II",
+      "url": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench",
+      "summary": "",
+      "published": "2026-03-12T03:53:34+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "The Daily: SEC and CFTC sign crypto coordination pact, Ripple launches $750 million share buyback program, and more",
+      "url": "https://www.theblock.co/post/393440/the-daily-sec-and-cftc-sign-crypto-coordination-pact-ripple-launches-750-million-share-buyback-program-and-more?utm_source=rss&utm_medium=rss",
+      "summary": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
+      "published": "2026-03-12T17:11:13+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
