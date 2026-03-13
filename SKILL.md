@@ -85,7 +85,7 @@ Using the script's structured data + web search + X search results:
 - Save to `summaries/${TODAY}-tech.md`
 
 ### Step 1.5 — Send Tech Summary to Telegram
-- Use message tool: action=send, channel=telegram, target=-1003767828002, threadId=36
+- Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
 - **⚠️ Telegram 4096 char limit**: If summary > 3800 chars, split into multiple messages:
   1. Split at section boundaries (## headers) to keep logical grouping
   2. Each chunk must be ≤ 3800 chars (leave margin for formatting)
@@ -126,7 +126,7 @@ Using the script's structured data + web search + X search results:
 - Save to `summaries/${TODAY}.md`
 
 ### Step 2.6 — Send World Summary to Telegram
-- Use message tool: action=send, channel=telegram, target=-1003767828002, threadId=36
+- Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
 - **⚠️ Telegram 4096 char limit**: If summary > 3800 chars, split into multiple messages:
   1. Split at section boundaries (## headers or region headers) to keep logical grouping
   2. Each chunk must be ≤ 3800 chars (leave margin for formatting)
@@ -166,7 +166,7 @@ python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODA
 - **If TTS fails (503 or other error):** wait 30 seconds, then retry up to 2 more times. Edge TTS 503 is usually transient.
 
 ### Step 3.4 — Send Audio to Telegram
-- Use message tool: action=send, channel=telegram, target=-1003767828002, threadId=36
+- Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
 - asVoice=true, filePath=summaries/${TODAY}.mp3, message="🎙️ 每日新聞 Podcast"
 
 ---
