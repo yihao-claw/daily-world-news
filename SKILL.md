@@ -82,6 +82,10 @@ Using the script's structured data + web search + X search results:
 3. **Write trend analysis** connecting the dots
 
 **Output format:** Top 3 headlines → topic sections (by score desc) → GitHub Releases → Blog Picks → Crypto market snapshot. Each story: `• 🔥{score} **[Title]** — [2-3 sentence summary] 📎 URL`. No markdown tables.
+
+**⚖️ 科技新聞反面觀點要求：**
+- 每個重大 LLM/AI Agent 進展需加一句「批評或風險視角」（例：效能提升的代價、安全疑慮、競爭威脅）
+- 加密貨幣報導需同時提及看多和看空觀點，附具體數字佐證（鏈上數據、交易量、持倉分布）
 - Save to `summaries/${TODAY}-tech.md`
 
 ### Step 1.5 — Send Tech Summary to Telegram
@@ -114,6 +118,20 @@ Using the script's structured data + web search + X search results:
 - For regional news → Format B (standard)
 - Curate 15-20 stories, 3-5 using Format A
 - **Every story MUST have 📎 source links** — zero tolerance
+
+#### ⚖️ 反面觀點要求（Counter-Perspective Mandate）
+- 每則重大新聞（Format A）**必須包含至少一個反對觀點或批評聲音**
+- 反面觀點需來自不同國家、立場或利益相關方（例：政府官方 vs 反對黨、西方媒體 vs 當地媒體、行業受益方 vs 受損方）
+- 反面觀點格式：`🔻 [來源/立場]：[觀點摘要]`
+- 禁止只呈現單一敘事——即便主流媒體一面倒，仍需尋找少數聲音
+
+#### 📊 數據佐證要求（Data Evidence Mandate）
+- 涉及經濟、軍事、科技、氣候的報導**必須附具體數字**：
+  - ❌ 「大幅增長」→ ✅ 「同比增長 12.3%（IMF 數據）」
+  - ❌ 「傷亡慘重」→ ✅ 「已造成 47 人死亡（聯合國人道協調廳）」
+  - ❌ 「氣溫異常」→ ✅ 「較往年同期高出 3.2°C（WMO）」
+- 數據來源需標注機構縮寫（IMF, UN, WHO, WTO, WMO, OECD 等）
+- 若暫無官方數據，寫「數據待核實」，不得杜撰數字
 
 ### Step 2.4 — Verify Sources (MANDATORY — zero exceptions)
 - Review EVERY story one by one. Missing 📎 link → run web_search to find a source URL and add it

@@ -1,0 +1,807 @@
+{
+  "generated_at": "2026-03-14T19:00:33.884793+00:00",
+  "today_jst": "2026-03-15",
+  "stats": {
+    "rss_fetched": 24,
+    "rss_errors": 15,
+    "github_fetched": 10,
+    "reddit_fetched": 9
+  },
+  "total_articles": 344,
+  "topic_distribution": {
+    "llm": 58,
+    "ai-agent": 6,
+    "crypto": 107,
+    "frontier-tech": 173
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+        "summary": "What's Changed\n\nImproved ordering models when running ollama\nOllama's cloud models no longer require downloading via ollama pull. Setting :cloud as a tag will now automatically connect to cloud models.\nollama launch claude now supports setting the compaction window for Claude Code\n\nNew Contributors\n",
+        "published": "2026-03-14T05:44:17+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773512863: [dynamo] Add validation for config override env vars (#176735)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773512863",
+        "summary": "Validate config keys at parse time for both\ndynamo and inductor overrides, surfacing typos as clear ValueErrors\ninstead of deep InternalTorchDynamoError stack traces.\nAuthored with Claude.\nPull Request resolved: #176735\nApproved by: https://github.com/williamwen42\nghstack dependencies: #176734",
+        "published": "2026-03-14T13:39:20+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773502014",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773502014",
+        "summary": "Add NCCL collective sequence number (seq_num) to Kineto profiler trac…",
+        "published": "2026-03-14T10:43:32+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773495265: [DTensor] Add nansum sharding strategy and test (#176819)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773495265",
+        "summary": "Validation results (Partial rules are false positives; does not handle nan -&gt; 0s):\n(pytorch-3048) [pianpwk@devvm3048.dkl0 /data/users/pianpwk/ptclone/pytorch (_tmp_shard_prop_coverage_39)]$ python -m torch.distributed.tensor._ops.strategy_validation --op nansum\nTesting ops: aten.nansum\nDevice: cu",
+        "published": "2026-03-14T09:25:05+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773482189: [torchtitan hash update] update the pinned torchtitan hash (#176956)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773482189",
+        "summary": "This PR is auto-generated nightly by this action.\nUpdate the pinned torchtitan hash.\nPull Request resolved: #176956\nApproved by: https://github.com/pytorchbot",
+        "published": "2026-03-14T04:58:42+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773478698: [DTensor] fix scaled_mm sharding strategy (#177234)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773478698",
+        "summary": "For pytorch/ao#4010, the existing strategy incorrect copies scaled_mm input strategies (2d) onto the scale tensor (1d)\nPull Request resolved: #177234\nApproved by: https://github.com/danielvegamyhre",
+        "published": "2026-03-14T04:27:24+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.3.5",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5",
+        "summary": "Changes since langchain-anthropic==1.3.4\nrelease(anthropic): 1.3.5 (#35873)\nfix(anthropic): Ignore general usage cache_creation fields if more specific fields are set (#35845)\nperf(.github): set a timeout on get min versions HTTP calls (#35851)\nfeat(model-profiles): new fields + Makefile target (#35",
+        "published": "2026-03-14T03:12:45+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+        "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+        "published": "2026-03-13T14:13:19+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+        "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+        "published": "2026-03-13T13:45:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.10.2rc2",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.10.2rc2",
+        "summary": "What's Changed\nBug Fixes\n\nRemove exclusive locks from read-only storage operations\n\nDocumentation\n\nUpdate changelog and version for v1.10.2rc1\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-14T04:49:54+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+        "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+        "published": "2026-03-12T05:56:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Hoskinson might be wrong about the future of decentralized compute",
+        "url": "https://www.coindesk.com/opinion/2026/03/14/hoskinson-might-be-wrong-about-the-future-of-decentralized-compute",
+        "summary": "",
+        "published": "2026-03-14T18:30:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Crypto’s multi-million F1 sponsorship under fire as Middle East war hits region's biggest events",
+        "url": "https://www.coindesk.com/business/2026/03/14/crypto-s-multi-million-f1-sponsorship-under-fire-as-middle-east-war-hits-region-s-biggest-events",
+        "summary": "",
+        "published": "2026-03-14T18:00:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Ethereum Foundation sells 5,000 ether to Tom Lee's BitMine in $10.2 million deal",
+        "url": "https://www.coindesk.com/business/2026/03/14/ethereum-foundation-sells-5-000-ether-to-tom-lee-s-bitmine-in-usd10-2-million-deal",
+        "summary": "",
+        "published": "2026-03-14T17:56:34+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Boris Johnson calling Bitcoin a ‘Ponzi’ draws rebuttal from Michael Saylor and others",
+        "url": "https://www.coindesk.com/business/2026/03/14/boris-johnson-calling-bitcoin-a-ponzi-draws-rebuttal-from-michael-saylor-and-others",
+        "summary": "",
+        "published": "2026-03-14T17:18:37+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Hostile Volume – A game about adjusting volume with intentionally bad UI",
+        "url": "https://hostilevolume.com/",
+        "summary": "Article URL: https://hostilevolume.com/\nComments URL: https://news.ycombinator.com/item?id=47379712\nPoints: 3\n# Comments: 0",
+        "published": "2026-03-14T18:39:10+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Digg.com Closing Due to Spam",
+        "url": "https://digg.com?hn",
+        "summary": "Article URL: https://digg.com?hn\nComments URL: https://news.ycombinator.com/item?id=47379391\nPoints: 14\n# Comments: 2",
+        "published": "2026-03-14T18:09:38+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Sunsetting Jazzband",
+        "url": "https://jazzband.co/news/2026/03/14/sunsetting-jazzband",
+        "summary": "Article URL: https://jazzband.co/news/2026/03/14/sunsetting-jazzband\nComments URL: https://news.ycombinator.com/item?id=47379067\nPoints: 39\n# Comments: 5",
+        "published": "2026-03-14T17:40:23+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "In Praise of Stupid Questions",
+        "url": "https://mathenchant.wordpress.com/2026/03/12/in-praise-of-stupid-questions/",
+        "summary": "Article URL: https://mathenchant.wordpress.com/2026/03/12/in-praise-of-stupid-questions/\nComments URL: https://news.ycombinator.com/item?id=47378787\nPoints: 4\n# Comments: 1",
+        "published": "2026-03-14T17:12:18+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "What happens when US economic data becomes unreliable",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/what-happens-when-us-economic-data-becomes-unreliable",
+        "summary": "Article URL: https://mitsloan.mit.edu/ideas-made-to-matter/what-happens-when-us-economic-data-becomes-unreliable\nComments URL: https://news.ycombinator.com/item?id=47378638\nPoints: 209\n# Comments: 158",
+        "published": "2026-03-14T16:58:40+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "NMAP in the Movies",
+        "url": "https://nmap.org/movies/",
+        "summary": "Article URL: https://nmap.org/movies/\nComments URL: https://news.ycombinator.com/item?id=47378268\nPoints: 99\n# Comments: 13",
+        "published": "2026-03-14T16:25:34+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+      "summary": "What's Changed\n\nImproved ordering models when running ollama\nOllama's cloud models no longer require downloading via ollama pull. Setting :cloud as a tag will now automatically connect to cloud models.\nollama launch claude now supports setting the compaction window for Claude Code\n\nNew Contributors\n",
+      "published": "2026-03-14T05:44:17+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773512863: [dynamo] Add validation for config override env vars (#176735)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773512863",
+      "summary": "Validate config keys at parse time for both\ndynamo and inductor overrides, surfacing typos as clear ValueErrors\ninstead of deep InternalTorchDynamoError stack traces.\nAuthored with Claude.\nPull Request resolved: #176735\nApproved by: https://github.com/williamwen42\nghstack dependencies: #176734",
+      "published": "2026-03-14T13:39:20+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773502014",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773502014",
+      "summary": "Add NCCL collective sequence number (seq_num) to Kineto profiler trac…",
+      "published": "2026-03-14T10:43:32+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773495265: [DTensor] Add nansum sharding strategy and test (#176819)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773495265",
+      "summary": "Validation results (Partial rules are false positives; does not handle nan -&gt; 0s):\n(pytorch-3048) [pianpwk@devvm3048.dkl0 /data/users/pianpwk/ptclone/pytorch (_tmp_shard_prop_coverage_39)]$ python -m torch.distributed.tensor._ops.strategy_validation --op nansum\nTesting ops: aten.nansum\nDevice: cu",
+      "published": "2026-03-14T09:25:05+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773482189: [torchtitan hash update] update the pinned torchtitan hash (#176956)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773482189",
+      "summary": "This PR is auto-generated nightly by this action.\nUpdate the pinned torchtitan hash.\nPull Request resolved: #176956\nApproved by: https://github.com/pytorchbot",
+      "published": "2026-03-14T04:58:42+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773478698: [DTensor] fix scaled_mm sharding strategy (#177234)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773478698",
+      "summary": "For pytorch/ao#4010, the existing strategy incorrect copies scaled_mm input strategies (2d) onto the scale tensor (1d)\nPull Request resolved: #177234\nApproved by: https://github.com/danielvegamyhre",
+      "published": "2026-03-14T04:27:24+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.3.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5",
+      "summary": "Changes since langchain-anthropic==1.3.4\nrelease(anthropic): 1.3.5 (#35873)\nfix(anthropic): Ignore general usage cache_creation fields if more specific fields are set (#35845)\nperf(.github): set a timeout on get min versions HTTP calls (#35851)\nfeat(model-profiles): new fields + Makefile target (#35",
+      "published": "2026-03-14T03:12:45+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+      "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+      "published": "2026-03-13T14:13:19+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+      "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+      "published": "2026-03-13T13:45:07+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+      "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+      "published": "2026-03-12T05:56:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Jannis Leidel",
+      "url": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "summary": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable.\nJazzband was designed for a world where the worst case was someone accidentally merging the wrong PR. In a world where only 1 in 10 AI-generated PRs meets project standards, where curl had to shut down its bug bounty because confirmation rates dropped below 5%, and where GitHub’s own response was a kill switch to disable pull requests entirely – a",
+      "published": "2026-03-14T18:41:25+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "summary": "I was a speaker last month at the Pragmatic Summit in San Francisco, where I participated in a fireside chat session about agentic engineering hosted by Eric Lui from Statsig.\n\nThe video is available on YouTube. Here are my highlights from the conversation.\n\n \n\nStages of AI adoption\n\nWe started by talking about the different phases a software developer goes through in adopting AI coding tools.\n\n02:45\n\nI feel like there are different stages of AI adoption as a programmer. You start off with you'v",
+      "published": "2026-03-14T18:19:38+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "BREAKING: Expensive new evidence that scaling is not all you need",
+      "url": "https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that",
+      "summary": "Two more colossally expensive experiments have failed",
+      "published": "2026-03-14T18:23:18+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval",
+      "summary": "",
+      "published": "2026-03-13T20:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Hoskinson might be wrong about the future of decentralized compute",
+      "url": "https://www.coindesk.com/opinion/2026/03/14/hoskinson-might-be-wrong-about-the-future-of-decentralized-compute",
+      "summary": "",
+      "published": "2026-03-14T18:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto’s multi-million F1 sponsorship under fire as Middle East war hits region's biggest events",
+      "url": "https://www.coindesk.com/business/2026/03/14/crypto-s-multi-million-f1-sponsorship-under-fire-as-middle-east-war-hits-region-s-biggest-events",
+      "summary": "",
+      "published": "2026-03-14T18:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ethereum Foundation sells 5,000 ether to Tom Lee's BitMine in $10.2 million deal",
+      "url": "https://www.coindesk.com/business/2026/03/14/ethereum-foundation-sells-5-000-ether-to-tom-lee-s-bitmine-in-usd10-2-million-deal",
+      "summary": "",
+      "published": "2026-03-14T17:56:34+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Boris Johnson calling Bitcoin a ‘Ponzi’ draws rebuttal from Michael Saylor and others",
+      "url": "https://www.coindesk.com/business/2026/03/14/boris-johnson-calling-bitcoin-a-ponzi-draws-rebuttal-from-michael-saylor-and-others",
+      "summary": "",
+      "published": "2026-03-14T17:18:37+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Wall Street pushes tokenized stocks, but institutions aren’t eager to trade them",
+      "url": "https://www.coindesk.com/business/2026/03/14/wall-street-pushes-tokenized-stocks-but-institutions-aren-t-eager-to-trade-them",
+      "summary": "",
+      "published": "2026-03-14T16:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Brazil industry giants representing 850 companies decry stablecoin tax threat",
+      "url": "https://www.coindesk.com/business/2026/03/14/brazil-industry-giants-representing-850-companies-decry-stablecoin-tax-threat",
+      "summary": "",
+      "published": "2026-03-14T14:58:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The math behind Strategy’s path to 1 million bitcoin by the end of 2026",
+      "url": "https://www.coindesk.com/markets/2026/03/14/the-math-behind-strategy-s-path-to-1-million-bitcoin-by-the-end-of-2026",
+      "summary": "",
+      "published": "2026-03-14T14:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "AI developers may not be keen on crypto, but stablecoins are the secret to agentic finance, crypto insiders say",
+      "url": "https://www.coindesk.com/business/2026/03/14/ai-developers-may-not-be-keen-on-crypto-but-stablecoins-are-the-secret-to-agentic-finance-crypto-insiders-say",
+      "summary": "",
+      "published": "2026-03-14T14:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin holds $71,000 despite Trump warning of strikes on Iran's oil-rich Kharg Island",
+      "url": "https://www.coindesk.com/markets/2026/03/14/bitcoin-holds-usd71-000-despite-trump-warning-after-iran-oil-strikes",
+      "summary": "",
+      "published": "2026-03-14T06:08:27+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin can survive 72% of the world's submarine cables being cut, but a targeted attack on five hosting providers could cripple it",
+      "url": "https://www.coindesk.com/markets/2026/03/13/bitcoin-can-survive-72-of-the-world-s-submarine-cables-being-cut-but-a-targeted-attack-on-five-hosting-providers-could-cripple-it",
+      "summary": "",
+      "published": "2026-03-14T03:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "A huge gap between network use and token value is the most important thing happening in XRP right now",
+      "url": "https://www.coindesk.com/markets/2026/03/13/dnp-xrp-ledger-activity-is-hitting-records-but-why-are-xrp-prices-down-62-from-peak",
+      "summary": "",
+      "published": "2026-03-13T23:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Court closes Custodia fight with Federal Reserve just as Fed opens master-account door",
+      "url": "https://www.coindesk.com/policy/2026/03/13/court-closes-custodia-fight-with-federal-reserve-just-as-fed-opens-master-account-door",
+      "summary": "",
+      "published": "2026-03-13T21:04:03+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Circle overtakes BlackRock in tokenized Treasuries as market hits record $11 billion",
+      "url": "https://www.coindesk.com/markets/2026/03/13/circle-overtakes-blackrock-in-tokenized-treasuries-as-market-hits-record-usd11-billion",
+      "summary": "",
+      "published": "2026-03-13T19:41:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "SEC dismisses civil fraud case against BitClout, DeSo founder Nader Al-Naji with prejudice",
+      "url": "https://www.theblock.co/post/393611/sec-dismisses-civil-fraud-case-against-bitclout-deso-founder-nader-al-naji-with-prejudice?utm_source=rss&utm_medium=rss",
+      "summary": "The SEC in 2024 had accused Al-Naji of allegedly spending more than $7 million of investor funds on personal expenses.",
+      "published": "2026-03-14T17:00:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "IRS crypto reporting rules set stage for confusing tax season: Here’s what you need to know",
+      "url": "https://www.theblock.co/post/393574/irs-crypto-reporting-rules-set-stage-for-confusing-tax-season-heres-what-you-need-to-know?utm_source=rss&utm_medium=rss",
+      "summary": "Traders involved in DeFi and have transactions and transfers between multiple wallets and exchanges will face more challenges.",
+      "published": "2026-03-14T12:31:01+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
