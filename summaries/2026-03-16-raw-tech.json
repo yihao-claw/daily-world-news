@@ -1,0 +1,801 @@
+{
+  "generated_at": "2026-03-15T19:00:25.629992+00:00",
+  "today_jst": "2026-03-16",
+  "stats": {
+    "rss_fetched": 20,
+    "rss_errors": 19,
+    "github_fetched": 10,
+    "reddit_fetched": 9
+  },
+  "total_articles": 277,
+  "topic_distribution": {
+    "llm": 41,
+    "ai-agent": 5,
+    "crypto": 75,
+    "frontier-tech": 156
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773583190: [dynamo ] Enabling batch_isend_irecv to compile (#161213)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773583190",
+        "summary": "This is a first stab at enabling compilation for operators involving pointwise communications.\nI've taken advantage of the traceable functional collectives paradigm a little here and adapted the function call args to batch_isend_irecv to not return any work objects. Rather, the graph now contains te",
+        "published": "2026-03-15T08:45:57+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773565138: Fix logspam from deprecated config warnings (#177275)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773565138",
+        "summary": "Issue from #169837\nInternal operations like get_config_copy() were triggering deprecation warnings during metrics collection when they iterated through all configs, including deprecated ones the user never touched. This also consumed the warning state, preventing users from seeing it later.\nAdded _g",
+        "published": "2026-03-15T04:30:07+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773556618",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773556618",
+        "summary": "Revert \"Slicing with backed should produce backed output when possibl…",
+        "published": "2026-03-15T02:32:32+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+        "summary": "Ollama 0.18 includes improved performance for OpenClaw and Ollama’s cloud models, including the new Nemotron-3-Super model by NVIDIA designed for high-performance agentic reasoning tasks.\nImproved OpenClaw performance with Kimi-K2.5\nThis release of Ollama improves performance of cloud models and the",
+        "published": "2026-03-15T17:26:14+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "reddit-ChatGPT",
+        "source_name": "r/ChatGPT",
+        "source_type": "reddit",
+        "title": "This is the real prequel to Terminator",
+        "url": "https://reddit.com/r/ChatGPT/comments/1rud4k5/this_is_the_real_prequel_to_terminator/",
+        "summary": "",
+        "published": "2026-03-15T12:45:20+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": false,
+        "reddit_score": 1908,
+        "quality_score": 10
+      },
+      {
+        "source_id": "reddit-ChatGPT",
+        "source_name": "r/ChatGPT",
+        "source_type": "reddit",
+        "title": "Welcome to LinkedIn Park (im sorry for this)",
+        "url": "https://reddit.com/r/ChatGPT/comments/1ruhi9t/welcome_to_linkedin_park_im_sorry_for_this/",
+        "summary": "",
+        "published": "2026-03-15T15:50:03+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": false,
+        "reddit_score": 792,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+        "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+        "published": "2026-03-13T14:13:19+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.16",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.16",
+        "summary": "Release Notes\n[2026-03-10]\nllama-index-core [0.14.16]\n\nAdd token-bucket rate limiter for LLM and embedding API calls (#20712)\nFix/20706 chonkie init doc (#20713)\nfix: pass tool_choice through FunctionCallingProgram (#20740)\nfeat: Multimodal LLMReranker (#20743)\nfeat: add optional embed_model to Sema",
+        "published": "2026-03-10T19:20:35+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.3.5",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5",
+        "summary": "Changes since langchain-anthropic==1.3.4\nrelease(anthropic): 1.3.5 (#35873)\nfix(anthropic): Ignore general usage cache_creation fields if more specific fields are set (#35845)\nperf(.github): set a timeout on get min versions HTTP calls (#35851)\nfeat(model-profiles): new fields + Makefile target (#35",
+        "published": "2026-03-14T03:12:45+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "is_followup": true,
+        "quality_score": 6
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+        "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+        "published": "2026-03-13T13:45:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "is_followup": true,
+        "quality_score": 6
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+        "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+        "published": "2026-03-12T05:56:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin set for best week since September 2025 as correlation with tech stocks weakens",
+        "url": "https://www.coindesk.com/markets/2026/03/15/bitcoin-set-for-best-week-since-september-2025-as-correlation-with-tech-stocks-weakens",
+        "summary": "",
+        "published": "2026-03-15T16:44:57+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Here is why Nasdaq and owner of NYSE are putting the $126 trillion equity market on blockchain",
+        "url": "https://www.coindesk.com/business/2026/03/15/here-is-why-nasdaq-and-owner-of-nyse-are-putting-the-usd126-trillion-equity-market-on-blockchain",
+        "summary": "",
+        "published": "2026-03-15T16:00:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitwise’s Matt Hougan revisits $1 million bitcoin — analysts agree but debate his timeline",
+        "url": "https://www.coindesk.com/markets/2026/03/15/bitwise-s-matt-hougan-revisits-usd1-million-bitcoin-analysts-agree-but-debate-his-timeline",
+        "summary": "",
+        "published": "2026-03-15T14:00:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Visa is ready for AI agents. So is Coinbase. They're building very different internets",
+        "url": "https://www.coindesk.com/tech/2026/03/15/visa-is-ready-for-ai-agents-so-is-coinbase-they-re-building-very-different-internets",
+        "summary": "",
+        "published": "2026-03-15T13:00:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Office.eu launches as Europe's sovereign office platform",
+        "url": "https://office.eu/media/pressrelease-20260304",
+        "summary": "Article URL: https://office.eu/media/pressrelease-20260304\nComments URL: https://news.ycombinator.com/item?id=47390233\nPoints: 67\n# Comments: 32",
+        "published": "2026-03-15T18:22:36+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Grandparents are glued to their phones, families are worried [video]",
+        "url": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
+        "summary": "Article URL: https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried\nComments URL: https://news.ycombinator.com/item?id=47389784\nPoints: 90\n# Comments: 47",
+        "published": "2026-03-15T17:43:19+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Ask HN: How is AI-assisted coding going for you professionally?",
+        "url": "https://news.ycombinator.com/item?id=47388646",
+        "summary": "Comment sections on AI threads tend to split into \"we're all cooked\" and \"AI is useless.\" I'd like to cut through the noise and learn what's actually working and what isn't, from concrete experience.If you've recently used AI tools for professional coding work, tell us about it.What tools did you use? What worked well and why? What challenges did you hit, and how (if at all) did you solve them?Please share enough context (stack, project type, team size, experience level) for others to learn from",
+        "published": "2026-03-15T15:58:23+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "In Memoriam: John W. Addison, my PhD advisor",
+        "url": "https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/",
+        "summary": "Article URL: https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/\nComments URL: https://news.ycombinator.com/item?id=47388531\nPoints: 25\n# Comments: 2",
+        "published": "2026-03-15T15:46:19+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "UMD Scientists Create 'Smart Underwear' to Measure Human Flatulence",
+        "url": "https://cbmg.umd.edu/news-events/news/brantley-hall-umd-scientists-create-smart-underwear-measure-human-flatulence",
+        "summary": "Article URL: https://cbmg.umd.edu/news-events/news/brantley-hall-umd-scientists-create-smart-underwear-measure-human-flatulence\nComments URL: https://news.ycombinator.com/item?id=47388519\nPoints: 63\n# Comments: 39",
+        "published": "2026-03-15T15:45:24+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Show HN: GDSL – 800 line kernel: Lisp subset in 500, C subset in 1300",
+        "url": "https://firthemouse.github.io/",
+        "summary": "Article URL: https://firthemouse.github.io/\nComments URL: https://news.ycombinator.com/item?id=47388479\nPoints: 30\n# Comments: 5",
+        "published": "2026-03-15T15:40:13+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773583190: [dynamo ] Enabling batch_isend_irecv to compile (#161213)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773583190",
+      "summary": "This is a first stab at enabling compilation for operators involving pointwise communications.\nI've taken advantage of the traceable functional collectives paradigm a little here and adapted the function call args to batch_isend_irecv to not return any work objects. Rather, the graph now contains te",
+      "published": "2026-03-15T08:45:57+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773565138: Fix logspam from deprecated config warnings (#177275)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773565138",
+      "summary": "Issue from #169837\nInternal operations like get_config_copy() were triggering deprecation warnings during metrics collection when they iterated through all configs, including deprecated ones the user never touched. This also consumed the warning state, preventing users from seeing it later.\nAdded _g",
+      "published": "2026-03-15T04:30:07+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773556618",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773556618",
+      "summary": "Revert \"Slicing with backed should produce backed output when possibl…",
+      "published": "2026-03-15T02:32:32+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+      "summary": "Ollama 0.18 includes improved performance for OpenClaw and Ollama’s cloud models, including the new Nemotron-3-Super model by NVIDIA designed for high-performance agentic reasoning tasks.\nImproved OpenClaw performance with Kimi-K2.5\nThis release of Ollama improves performance of cloud models and the",
+      "published": "2026-03-15T17:26:14+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+      "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+      "published": "2026-03-13T14:13:19+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+      "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+      "published": "2026-03-12T05:56:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin set for best week since September 2025 as correlation with tech stocks weakens",
+      "url": "https://www.coindesk.com/markets/2026/03/15/bitcoin-set-for-best-week-since-september-2025-as-correlation-with-tech-stocks-weakens",
+      "summary": "",
+      "published": "2026-03-15T16:44:57+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Here is why Nasdaq and owner of NYSE are putting the $126 trillion equity market on blockchain",
+      "url": "https://www.coindesk.com/business/2026/03/15/here-is-why-nasdaq-and-owner-of-nyse-are-putting-the-usd126-trillion-equity-market-on-blockchain",
+      "summary": "",
+      "published": "2026-03-15T16:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitwise’s Matt Hougan revisits $1 million bitcoin — analysts agree but debate his timeline",
+      "url": "https://www.coindesk.com/markets/2026/03/15/bitwise-s-matt-hougan-revisits-usd1-million-bitcoin-analysts-agree-but-debate-his-timeline",
+      "summary": "",
+      "published": "2026-03-15T14:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Visa is ready for AI agents. So is Coinbase. They're building very different internets",
+      "url": "https://www.coindesk.com/tech/2026/03/15/visa-is-ready-for-ai-agents-so-is-coinbase-they-re-building-very-different-internets",
+      "summary": "",
+      "published": "2026-03-15T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "AI agents are quietly rewriting prediction market trading",
+      "url": "https://www.coindesk.com/tech/2026/03/15/ai-agents-are-quietly-rewriting-prediction-market-trading",
+      "summary": "",
+      "published": "2026-03-15T12:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin sold off first when the U.S.-Iran war began. Two weeks later, it's outperforming nearly everything",
+      "url": "https://www.coindesk.com/markets/2026/03/14/bitcoin-sold-off-first-when-the-u-s-iran-war-began-two-weeks-later-it-s-outperforming-nearly-everything",
+      "summary": "",
+      "published": "2026-03-15T03:50:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto broker Bitpanda bets on banks and tokenization to expand globally ahead of IPO plans",
+      "url": "https://www.coindesk.com/business/2026/03/14/crypto-broker-bitpanda-bets-on-banks-and-tokenization-to-expand-globally-ahead-of-ipo-plans",
+      "summary": "",
+      "published": "2026-03-14T20:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Aave and CoW Swap publish dueling post-mortems after $50 million DeFi swap disaster",
+      "url": "https://www.theblock.co/post/393621/aave-and-cow-swap-publish-dueling-post-mortems-after-50-million-defi-swap-disaster?utm_source=rss&utm_medium=rss",
+      "summary": "CoW Swap's post-mortem reveals that the transaction, initially submitted via a private RPC, apparently leaked to the public mempool.",
+      "published": "2026-03-15T18:18:52+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Venus Protocol left with roughly $2M in bad debt after exploit manipulates Thena’s THE token price",
+      "url": "https://www.theblock.co/post/393622/venus-protocol-left-with-roughly-2m-in-bad-debt-after-exploit-manipulates-thenas-the-token-price?utm_source=rss&utm_medium=rss",
+      "summary": "The attack used a donation mechanism to bypass Venus's supply cap, a similar mechanism to the infamous Mango Markets exploit in 2022.",
+      "published": "2026-03-15T15:52:51+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Custodia’s five-year fight for a Fed master account effectively ends in 7-3 appeals court loss",
+      "url": "https://www.theblock.co/post/393617/custodias-five-year-fight-for-a-fed-master-account-effectively-ends-in-7-3-appeals-court-loss?utm_source=rss&utm_medium=rss",
+      "summary": "The decision arrives days after the Kansas City Fed granted Kraken the first-ever crypto master account, a landmark for the crypto industry.",
+      "published": "2026-03-14T20:01:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Office.eu launches as Europe's sovereign office platform",
+      "url": "https://office.eu/media/pressrelease-20260304",
+      "summary": "Article URL: https://office.eu/media/pressrelease-20260304\nComments URL: https://news.ycombinator.com/item?id=47390233\nPoints: 67\n# Comments: 32",
+      "published": "2026-03-15T18:22:36+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Grandparents are glued to their phones, families are worried [video]",
+      "url": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
+      "summary": "Article URL: https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried\nComments URL: https://news.ycombinator.com/item?id=47389784\nPoints: 90\n# Comments: 47",
+      "published": "2026-03-15T17:43:19+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Ask HN: How is AI-assisted coding going for you professionally?",
+      "url": "https://news.ycombinator.com/item?id=47388646",
+      "summary": "Comment sections on AI threads tend to split into \"we're all cooked\" and \"AI is useless.\" I'd like to cut through the noise and learn what's actually working and what isn't, from concrete experience.If you've recently used AI tools for professional coding work, tell us about it.What tools did you use? What worked well and why? What challenges did you hit, and how (if at all) did you solve them?Please share enough context (stack, project type, team size, experience level) for others to learn from",
+      "published": "2026-03-15T15:58:23+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "In Memoriam: John W. Addison, my PhD advisor",
+      "url": "https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/",
+      "summary": "Article URL: https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/\nComments URL: https://news.ycombinator.com/item?id=47388531\nPoints: 25\n# Comments: 2",
+      "published": "2026-03-15T15:46:19+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "UMD Scientists Create 'Smart Underwear' to Measure Human Flatulence",
+      "url": "https://cbmg.umd.edu/news-events/news/brantley-hall-umd-scientists-create-smart-underwear-measure-human-flatulence",
+      "summary": "Article URL: https://cbmg.umd.edu/news-events/news/brantley-hall-umd-scientists-create-smart-underwear-measure-human-flatulence\nComments URL: https://news.ycombinator.com/item?id=47388519\nPoints: 63\n# Comments: 39",
+      "published": "2026-03-15T15:45:24+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Show HN: GDSL – 800 line kernel: Lisp subset in 500, C subset in 1300",
+      "url": "https://firthemouse.github.io/",
+      "summary": "Article URL: https://firthemouse.github.io/\nComments URL: https://news.ycombinator.com/item?id=47388479\nPoints: 30\n# Comments: 5",
+      "published": "2026-03-15T15:40:13+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Learning athletic humanoid tennis skills from imperfect human motion data",
+      "url": "https://zzk273.github.io/LATENT/",
+      "summary": "Article URL: https://zzk273.github.io/LATENT/\nComments URL: https://news.ycombinator.com/item?id=47388273\nPoints: 40\n# Comments: 2",
+      "published": "2026-03-15T15:21:04+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "What makes Intel Optane stand out (2023)",
+      "url": "https://blog.zuthof.nl/2023/06/02/what-makes-intel-optane-stand-out/",
+      "summary": "Article URL: https://blog.zuthof.nl/2023/06/02/what-makes-intel-optane-stand-out/\nComments URL: https://news.ycombinator.com/item?id=47388141\nPoints: 106\n# Comments: 82",
+      "published": "2026-03-15T15:09:41+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Separating the Wayland compositor and window manager",
+      "url": "https://isaacfreund.com/blog/river-window-management/",
+      "summary": "Article URL: https://isaacfreund.com/blog/river-window-management/\nComments URL: https://news.ycombinator.com/item?id=47388137\nPoints: 80\n# Comments: 35",
+      "published": "2026-03-15T15:09:24+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "The Webpage Has Instructions. The Agent Has Your Credentials",
+      "url": "https://openguard.sh/blog/prompt-injections/",
+      "summary": "Article URL: https://openguard.sh/blog/prompt-injections/\nComments URL: https://news.ycombinator.com/item?id=47387870\nPoints: 22\n# Comments: 10",
+      "published": "2026-03-15T14:43:33+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Glassworm Is Back: A New Wave of Invisible Unicode Attacks Hits Repositories",
+      "url": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
+      "summary": "Article URL: https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode\nComments URL: https://news.ycombinator.com/item?id=47387047\nPoints: 123\n# Comments: 59",
+      "published": "2026-03-15T13:08:02+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Show HN: What if your synthesizer was powered by APL (or a dumb K clone)?",
+      "url": "https://octetta.github.io/k-synth/",
+      "summary": "I built k-synth as an experiment to see if a minimalist, K-inspired array language could make sketching waveforms faster and more intuitive than traditional code. I’ve put together a web-based toolkit so you can try the syntax directly in the browser without having to touch a compiler:Live Toolkit: https://octetta.github.io/k-synth/If you visit the page, here is a quick path to an audio payoff:- Click \"patches\" and choose dm-bell.ks.- Click \"run\"—the notebook area will update. Click the waveform",
+      "published": "2026-03-15T12:58:13+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Hollywood Enters Oscars Weekend in Existential Crisis",
+      "url": "https://www.theculturenewspaper.com/hollywood-enters-oscars-weekend-in-existential-crisis/",
+      "summary": "Article URL: https://www.theculturenewspaper.com/hollywood-enters-oscars-weekend-in-existential-crisis/\nComments URL: https://news.ycombinator.com/item?id=47386856\nPoints: 66\n# Comments: 168",
+      "published": "2026-03-15T12:41:56+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
