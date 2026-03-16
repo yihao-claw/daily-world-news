@@ -1,0 +1,805 @@
+{
+  "generated_at": "2026-03-16T19:00:54.820746+00:00",
+  "today_jst": "2026-03-17",
+  "stats": {
+    "rss_fetched": 24,
+    "rss_errors": 15,
+    "github_fetched": 11,
+    "reddit_fetched": 9
+  },
+  "total_articles": 311,
+  "topic_distribution": {
+    "llm": 49,
+    "ai-agent": 6,
+    "crypto": 105,
+    "frontier-tech": 151
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773675714",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773675714",
+        "summary": "[flop_counter] Fix sdpa_flop_count to support GQA (grouped-query atte…",
+        "published": "2026-03-16T11:14:37+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773655821: [torchtitan hash update] update the pinned torchtitan hash (#177500)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773655821",
+        "summary": "This PR is auto-generated nightly by this action.\nUpdate the pinned torchtitan hash.\nPull Request resolved: #177500\nApproved by: https://github.com/pytorchbot",
+        "published": "2026-03-16T05:33:39+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773652184: [torchTLX] unify knobs into one tlx_mode config (#176456)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773652184",
+        "summary": "Summary:\nX-link: meta-pytorch/tritonbench#917\nConsolidates two separate TLX configuration knobs into a single unified tlx_mode config with three modes: \"default\", \"allow\", and \"force\".\nPreviously, TLX templates required setting two separate environment variables:\n\nTORCHINDUCTOR_ENABLE_TLX_TEMPLATES=",
+        "published": "2026-03-16T04:39:06+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+        "summary": "Ollama 0.18 includes improved performance for OpenClaw and Ollama’s cloud models, including the new Nemotron-3-Super model by NVIDIA designed for high-performance agentic reasoning tasks.\nImproved OpenClaw performance with Kimi-K2.5\nThis release of Ollama improves performance of cloud models and the",
+        "published": "2026-03-15T17:26:14+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "garymarcus-rss",
+        "source_name": "Gary Marcus",
+        "source_type": "rss",
+        "title": "BREAKING: Sam Altman concedes that we need major breakthroughs beyond mere scaling to get to AGI",
+        "url": "https://garymarcus.substack.com/p/breaking-sam-altman-concedes-that",
+        "summary": "It&#8217;s past time to look for new architectures",
+        "published": "2026-03-16T01:47:08+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "How coding agents work",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
+        "summary": "Agentic Engineering Patterns &gt;\n    As with any tool, understanding how coding agents work under the hood can help you make better decisions about how to apply them.\nA coding agent is a piece of software that acts as a harness for an LLM, extending that LLM with additional capabilities that are powered by invisible prompts and implemented as callable tools.\nLarge Language Models\nAt the heart of any coding agent is a Large Language Model, or LLM. These have names like GPT-5.4 or Claude Opus 4.6",
+        "published": "2026-03-16T14:01:41+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.3.5",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5",
+        "summary": "Changes since langchain-anthropic==1.3.4\nrelease(anthropic): 1.3.5 (#35873)\nfix(anthropic): Ignore general usage cache_creation fields if more specific fields are set (#35845)\nperf(.github): set a timeout on get min versions HTTP calls (#35851)\nfeat(model-profiles): new fields + Makefile target (#35",
+        "published": "2026-03-14T03:12:45+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+        "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+        "published": "2026-03-13T14:13:19+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+        "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+        "published": "2026-03-13T13:45:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.11.0rc1",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.11.0rc1",
+        "summary": "What's Changed\nFeatures\n\nAdd Plus API token authentication for a2a enterprise\nImplement plan execute pattern\n\nBug Fixes\n\nResolve code interpreter sandbox escape issue\n\nDocumentation\n\nUpdate changelog and version for v1.10.2rc2\n\nContributors\n@Copilot, @greysonlalonde, @lorenzejay, @theCyberTech",
+        "published": "2026-03-16T13:57:27+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+        "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+        "published": "2026-03-12T05:56:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Ethereum Foundation’s new mandate sparks debate about its role, priorities",
+        "url": "https://www.coindesk.com/tech/2026/03/16/ethereum-foundation-s-new-mandate-sparks-debate-about-its-role-priorities",
+        "summary": "",
+        "published": "2026-03-16T16:22:18+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Circle is up 100% in a month: Why this boring stablecoin stock is suddenly the hottest trade in crypto",
+        "url": "https://www.coindesk.com/markets/2026/03/16/circle-is-up-100-in-a-month-why-this-boring-stablecoin-is-suddenly-the-hottest-trade-in-crypto",
+        "summary": "",
+        "published": "2026-03-16T16:15:58+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Institutions had ‘diamond hands’ during bitcoin's 50% plunge, Bitwise's Matt Hougan says",
+        "url": "https://www.coindesk.com/markets/2026/03/16/institutions-had-diamond-hands-during-bitcoin-s-50-plunge-bitwise-s-matt-hougan-says",
+        "summary": "",
+        "published": "2026-03-16T15:12:11+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin eyes $75,000, nearing 25% bounce from February bottom",
+        "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-eyes-usd75-000-nearing-25-bounce-from-february-bottom",
+        "summary": "",
+        "published": "2026-03-16T14:26:41+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "The return-to-the-office trend backfires",
+        "url": "https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/",
+        "summary": "Article URL: https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/\nComments URL: https://news.ycombinator.com/item?id=47402651\nPoints: 36\n# Comments: 11",
+        "published": "2026-03-16T18:13:18+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Jemalloc un-abandoned by Meta",
+        "url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+        "summary": "https://github.com/jemalloc/jemalloc\n\nComments URL: https://news.ycombinator.com/item?id=47402640\nPoints: 77\n# Comments: 17",
+        "published": "2026-03-16T18:12:32+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Agent Skills – Open Security Database",
+        "url": "https://index.tego.security/skills/",
+        "summary": "Article URL: https://index.tego.security/skills/\nComments URL: https://news.ycombinator.com/item?id=47402118\nPoints: 5\n# Comments: 1",
+        "published": "2026-03-16T17:35:58+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Language Model Teams as Distrbuted Systems",
+        "url": "https://arxiv.org/abs/2603.12229",
+        "summary": "Article URL: https://arxiv.org/abs/2603.12229\nComments URL: https://news.ycombinator.com/item?id=47401901\nPoints: 13\n# Comments: 1",
+        "published": "2026-03-16T17:19:13+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "The “small web” is bigger than you might think",
+        "url": "https://kevinboone.me/small_web_is_big.html",
+        "summary": "Article URL: https://kevinboone.me/small_web_is_big.html\nComments URL: https://news.ycombinator.com/item?id=47401879\nPoints: 98\n# Comments: 29",
+        "published": "2026-03-16T17:17:57+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Launch HN: Chamber (YC W26) – An AI Teammate for GPU Infrastructure",
+        "url": "https://www.usechamber.io/",
+        "summary": "Hey HN, we're Jie Shen, Charles, Andreas, and Shaocheng. We built Chamber (https://usechamber.io), an AI agent that manages GPU infrastructure for you. You talk to it wherever your team already works and it handles things like provisioning clusters, diagnosing failed jobs, managing workloads. Demo: https://www.youtube.com/watch?v=xdqh2C_hif4We all worked on GPU infrastructure at Amazon. Between us we've spent years on this problem — monitoring GPU fleets, debugging failures at scale, building th",
+        "published": "2026-03-16T17:09:34+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773675714",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773675714",
+      "summary": "[flop_counter] Fix sdpa_flop_count to support GQA (grouped-query atte…",
+      "published": "2026-03-16T11:14:37+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773655821: [torchtitan hash update] update the pinned torchtitan hash (#177500)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773655821",
+      "summary": "This PR is auto-generated nightly by this action.\nUpdate the pinned torchtitan hash.\nPull Request resolved: #177500\nApproved by: https://github.com/pytorchbot",
+      "published": "2026-03-16T05:33:39+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773652184: [torchTLX] unify knobs into one tlx_mode config (#176456)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773652184",
+      "summary": "Summary:\nX-link: meta-pytorch/tritonbench#917\nConsolidates two separate TLX configuration knobs into a single unified tlx_mode config with three modes: \"default\", \"allow\", and \"force\".\nPreviously, TLX templates required setting two separate environment variables:\n\nTORCHINDUCTOR_ENABLE_TLX_TEMPLATES=",
+      "published": "2026-03-16T04:39:06+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.0",
+      "summary": "Ollama 0.18 includes improved performance for OpenClaw and Ollama’s cloud models, including the new Nemotron-3-Super model by NVIDIA designed for high-performance agentic reasoning tasks.\nImproved OpenClaw performance with Kimi-K2.5\nThis release of Ollama improves performance of cloud models and the",
+      "published": "2026-03-15T17:26:14+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.3.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5",
+      "summary": "Changes since langchain-anthropic==1.3.4\nrelease(anthropic): 1.3.5 (#35873)\nfix(anthropic): Ignore general usage cache_creation fields if more specific fields are set (#35845)\nperf(.github): set a timeout on get min versions HTTP calls (#35851)\nfeat(model-profiles): new fields + Makefile target (#35",
+      "published": "2026-03-14T03:12:45+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+      "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+      "published": "2026-03-13T14:13:19+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+      "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+      "published": "2026-03-13T13:45:07+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+      "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+      "published": "2026-03-12T05:56:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "BREAKING: Sam Altman concedes that we need major breakthroughs beyond mere scaling to get to AGI",
+      "url": "https://garymarcus.substack.com/p/breaking-sam-altman-concedes-that",
+      "summary": "It&#8217;s past time to look for new architectures",
+      "published": "2026-03-16T01:47:08+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "How coding agents work",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
+      "summary": "Agentic Engineering Patterns &gt;\n    As with any tool, understanding how coding agents work under the hood can help you make better decisions about how to apply them.\nA coding agent is a piece of software that acts as a harness for an LLM, extending that LLM with additional capabilities that are powered by invisible prompts and implemented as callable tools.\nLarge Language Models\nAt the heart of any coding agent is a Large Language Model, or LLM. These have names like GPT-5.4 or Claude Opus 4.6",
+      "published": "2026-03-16T14:01:41+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "What is agentic engineering?",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
+      "summary": "Agentic Engineering Patterns &gt;\n    I use the term agentic engineering to describe the practice of developing software with the assistance of coding agents.\nWhat are coding agents? They're agents that can both write and execute code. Popular examples include Claude Code, OpenAI Codex, and Gemini CLI.\nWhat's an agent? Clearly defining that term is a challenge that has frustrated AI researchers since at least the 1990s but the definition I've come to accept, at least in the field of Large Langua",
+      "published": "2026-03-15T22:41:57+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ethereum Foundation’s new mandate sparks debate about its role, priorities",
+      "url": "https://www.coindesk.com/tech/2026/03/16/ethereum-foundation-s-new-mandate-sparks-debate-about-its-role-priorities",
+      "summary": "",
+      "published": "2026-03-16T16:22:18+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Circle is up 100% in a month: Why this boring stablecoin stock is suddenly the hottest trade in crypto",
+      "url": "https://www.coindesk.com/markets/2026/03/16/circle-is-up-100-in-a-month-why-this-boring-stablecoin-is-suddenly-the-hottest-trade-in-crypto",
+      "summary": "",
+      "published": "2026-03-16T16:15:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Institutions had ‘diamond hands’ during bitcoin's 50% plunge, Bitwise's Matt Hougan says",
+      "url": "https://www.coindesk.com/markets/2026/03/16/institutions-had-diamond-hands-during-bitcoin-s-50-plunge-bitwise-s-matt-hougan-says",
+      "summary": "",
+      "published": "2026-03-16T15:12:11+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin eyes $75,000, nearing 25% bounce from February bottom",
+      "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-eyes-usd75-000-nearing-25-bounce-from-february-bottom",
+      "summary": "",
+      "published": "2026-03-16T14:26:41+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin outperforms gold and stocks in global turmoil as ETFs and Strategy accumulate",
+      "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-outperforms-gold-and-stocks-in-global-turmoil-as-etfs-and-strategy-accumulate",
+      "summary": "",
+      "published": "2026-03-16T13:53:42+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Ethereum (ETH) price jumps 8.8%, leading index higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/16/coindesk-20-performance-update-ethereum-eth-price-jumps-8-8-leading-index-higher",
+      "summary": "",
+      "published": "2026-03-16T13:17:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto wealth platform Abra to go public through $750 million SPAC deal",
+      "url": "https://www.coindesk.com/business/2026/03/16/crypto-wealth-platform-abra-to-go-public-through-usd750-million-spac-deal",
+      "summary": "",
+      "published": "2026-03-16T13:14:50+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitmine buys 60,999 ether as Tom Lee touts crypto strength amid Iran war",
+      "url": "https://www.coindesk.com/business/2026/03/16/bitmine-buys-60-999-ether-as-tom-lee-touts-crypto-strength-amid-iran-war",
+      "summary": "",
+      "published": "2026-03-16T13:02:16+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "U.S., UK, Canada start Operation Atlantic to disrupt crypto approval-phishing scams",
+      "url": "https://www.coindesk.com/business/2026/03/16/u-s-uk-canada-start-operation-atlantic-to-disrupt-crypto-approval-phishing-scams",
+      "summary": "",
+      "published": "2026-03-16T12:50:36+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Metaplanet raises $255 million to accelerate bitcoin accumulation",
+      "url": "https://www.coindesk.com/markets/2026/03/16/metaplanet-raises-usd255-million-to-accelerate-bitcoin-accumulation",
+      "summary": "",
+      "published": "2026-03-16T12:11:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Michael Saylor's Strategy made another huge buy of bitcoin, adding $1.57 billion worth last week",
+      "url": "https://www.coindesk.com/markets/2026/03/16/michael-saylor-s-strategy-made-another-huge-buy-of-bitcoin-adding-usd1-57-billion-worth-last-week",
+      "summary": "",
+      "published": "2026-03-16T12:11:51+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "SEC drops lawsuit against BitClout’s Nader Al-Naji",
+      "url": "https://www.coindesk.com/policy/2026/03/16/sec-drops-case-against-bitclout-s-nader-al-naji",
+      "summary": "",
+      "published": "2026-03-16T12:05:55+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "South Korea fines Bithumb $24 million, orders 6-month partial suspension over money laundering violations",
+      "url": "https://www.coindesk.com/business/2026/03/16/south-korea-fines-bithumb-usd24-million-orders-6-month-partial-suspension-over-aml-violations",
+      "summary": "",
+      "published": "2026-03-16T12:04:06+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Memecoins outpace bitcoin, ether as 'barbell strategy' wins out",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/16/memecoins-outpace-bitcoin-ether-as-barbell-strategy-wins-out",
+      "summary": "",
+      "published": "2026-03-16T11:29:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Altcoins jump as bitcoin inches toward potential $74,000 breakout",
+      "url": "https://www.coindesk.com/markets/2026/03/16/altcoins-jump-as-bitcoin-inches-toward-potential-usd74-000-breakout",
+      "summary": "",
+      "published": "2026-03-16T10:35:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Trump-backed WLFI passes proposal letting $5 million stakers buy 'direct access' to team",
+      "url": "https://www.coindesk.com/tech/2026/03/16/trump-backed-wlfi-passes-proposal-letting-usd5-million-stakers-buy-direct-access-to-team",
+      "summary": "",
+      "published": "2026-03-16T09:09:48+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Fed headlines central bank rate decisions, Gemini earnings: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/03/16/fed-headlines-central-bank-rate-decisions-gemini-earnings-crypto-week-ahead",
+      "summary": "",
+      "published": "2026-03-16T08:42:38+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Australian Senate panel backs crypto regulation framework",
+      "url": "https://www.coindesk.com/markets/2026/03/16/australian-senate-backs-crypto-regulation-framework",
+      "summary": "",
+      "published": "2026-03-16T06:28:01+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
