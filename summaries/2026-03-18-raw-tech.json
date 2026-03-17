@@ -1,0 +1,819 @@
+{
+  "generated_at": "2026-03-17T19:00:20.915687+00:00",
+  "today_jst": "2026-03-18",
+  "stats": {
+    "rss_fetched": 25,
+    "rss_errors": 14,
+    "github_fetched": 12,
+    "reddit_fetched": 8
+  },
+  "total_articles": 354,
+  "topic_distribution": {
+    "llm": 57,
+    "ai-agent": 7,
+    "crypto": 112,
+    "frontier-tech": 178
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.1",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.1",
+        "summary": "OpenClaw with Ollama now comes with web search and web fetch\n\nOllama now ships with web search and web fetch plugin for OpenClaw. This allows Ollama's models (local or cloud) to search the web for the latest content and news. This also allows OpenClaw with Ollama to be able to fetch the web and extr",
+        "published": "2026-03-17T18:24:28+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.1-rc0: cmd/launch: skip --install-daemon when systemd is unavailable (#14883)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.1-rc0",
+        "summary": "In container environments without systemd, openclaw onboard --install-daemon exits non-zero because it cannot create a systemd\nuser service. This causes ollama launch openclaw to abort even\nthough the gateway can be started as a foreground child process.\nOnly pass --install-daemon when systemd user ",
+        "published": "2026-03-16T20:50:04+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773772539: [inductor] fix redundant buffer materialization across layers (#176307)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773772539",
+        "summary": "Pull Request resolved: #176307\nApproved by: https://github.com/eellison",
+        "published": "2026-03-17T14:24:43+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "garymarcus-rss",
+        "source_name": "Gary Marcus",
+        "source_type": "rss",
+        "title": "F Cancer",
+        "url": "https://garymarcus.substack.com/p/f-cancer",
+        "summary": "The real test of AI",
+        "published": "2026-03-16T19:10:37+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Quoting Tim Schilling",
+        "url": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+        "summary": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...]\nFor a reviewer, it’s demoralizing to communicate with a facade of a human.\nThis is because contributing to open source, especially Django, is a communal endeavor. Removing your humanity from that experience makes that endeavor more difficult. If you use an LLM to contribute to Django, it needs to be as a compleme",
+        "published": "2026-03-17T16:13:37+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Subagents",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+        "summary": "Agentic Engineering Patterns &gt;\n    LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past two years even as the LLMs themselves have seen dramatic improvements in their abilities - they generally top out at around 1,000,000, and benchmarks frequently report better quality results below 200,000.\nCarefully managing the context such that it fits within those limits is critical to gett",
+        "published": "2026-03-17T12:32:28+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+        "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+        "published": "2026-03-17T18:42:48+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+        "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+        "published": "2026-03-13T14:13:19+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+        "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+        "published": "2026-03-13T13:45:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.18",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18",
+        "summary": "Release Notes\n[2026-03-16]\nllama-index-agent-agentmesh [0.2.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-agent-azure [0.3.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-callbacks-agentops [0.5.0]\n\nchore: deprecate python 3.9 once and for all (#20956)",
+        "published": "2026-03-16T19:42:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+        "published": "2026-03-17T00:02:12+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+        "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+        "published": "2026-03-12T05:56:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Arizona Attorney General files criminal charges against prediction market Kalshi",
+        "url": "https://www.coindesk.com/policy/2026/03/17/arizona-attorney-general-charges-kalshi-with-illegal-gambling-election-betting",
+        "summary": "",
+        "published": "2026-03-17T17:49:19+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Facing a crisis, Bitcoin treasury companies need to pivot to survive",
+        "url": "https://www.coindesk.com/opinion/2026/03/17/facing-a-crisis-bitcoin-treasury-companies-need-to-pivot-to-survive",
+        "summary": "",
+        "published": "2026-03-17T16:30:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Strategy’s latest massive bitcoin purchase offers insight into its evolving funding model",
+        "url": "https://www.coindesk.com/markets/2026/03/17/strategy-s-massive-bitcoin-purchase-offers-insight-into-its-evolving-funding-model",
+        "summary": "",
+        "published": "2026-03-17T15:44:01+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "科氪｜不止平整，更懂高效！全球最平整折叠手机 OPPO Find N6 全球发布",
+        "url": "https://36kr.com/p/3727140263410825?f=rss",
+        "summary": "2026 年 3 月 17 日，中国·东莞 —— 今日，折叠旗舰 OPPO Find N6 在 OPPO 滨海湾园区面向全球正式发布。在这座为工程师打造的创新乐园里，OPPO 以 8 年深耕折叠领域的技术沉淀，通过新一代钛合金天穹铰链与天穹记忆玻璃两大颠覆性黑科技，彻底破解困扰折叠屏行业 8 年的折痕难题，让 Find N6 成为德国莱茵 TÜV 实验室测试过的「全球最平整折叠手机」，引领折叠屏正式迈入「无感折痕，久用平整」的全新世代；配以极致的工业设计、无短板的旗舰硬件、重构效率的生产力AI外挂等全面旗舰体验，OPPO Find N6 重新定义折叠旗舰新标杆。\n  \n  官方图片\n  OPPO 首席产品官刘作虎强调：“今天，OPPO Find N6 打破了行业的刻板印象，它不止出厂平，而是久用依然平。”\n  两大黑科技破局，跨越折叠屏 8 年折痕天堑\n  折叠屏发展 8 年，久用后折痕加深始终是用户的核心痛点。其根源既在于铰链支撑面的平整度局限，也在于屏幕材料长期弯折后产生的不可逆变形。为彻底攻克这一行业难题，OPPO Find N6 带来两大跨时代黑科技，从结构与材料两大维度，实现",
+        "published": "2026-03-17T15:15:33+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "桌游DM、儿童陪护……在清华，我们看到了龙虾九种「叛逆」的玩法",
+        "url": "https://36kr.com/p/3727015748107398?f=rss",
+        "summary": "文｜王欣逸 钟楚笛\n  编辑｜周鑫雨\n  3月15日，清华校园。看惯了市面上一水儿的提效工具、高深莫测的部署教程，在由清北学生社区AttraX发起的“Outlier” OpenClaw黑客松路演上，我们看到了一些跳脱的、叛逆的“龙虾”玩法。\n  OpenClaw，俗称龙虾，当下最火的Agent开源框架。它能在计算机本地及云端部署，全面接管用户电脑，自动完成文件处理、邮件收发等任务。\n  随着2026年3月，腾讯等大厂接连举办免费的龙虾部署活动，这项原本局限在极客圈子里的狂欢，逐渐蔓延至大众。\n  龙虾的火热，超乎预期。最初，AttraX团队把活动定位为“AI浪潮下的跨学科碰撞”。但活动报名人数出乎意料的多，也有不少合作方找上门来。\n  即便最终只有25个团队入围路演，但前期，报名人数超过了300人。\n  举办黑客松的报告厅座位不足100个，但最终挤进了超500人。场馆内多是年轻面孔，很多是来自清华、北大、北科的学生，也有从业十多年的电影导演、AI自媒体博主、脱口秀演员、高中就辍学的创业者，甚至还有不少带着小朋友的家长。\n  参赛的Thomas是一名学生，这是他第二次参加黑客松。从讲台下",
+        "published": "2026-03-17T12:39:17+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪晚报｜苹果首席运营官Sabih Khan现身深圳；马斯克：电动超跑Roadster或将于四月下旬亮相；华为面向AI推理场景发布新一代AI数据基础设施",
+        "url": "https://36kr.com/p/3726912161184128?f=rss",
+        "summary": "大公司：\n  西门子与Rittal达成数据中心能源基础设施战略合作伙伴关系\n  西门子和Rittal已建立战略合作伙伴关系，共同开发面向未来的产品，为数据中心更高效的电力分发提供可持续解决方案。（财联社）\n  腾讯音乐：2025年全年总收入329亿元，同比增长15.8%\n  36氪获悉，腾讯音乐发布截至2025年12月31日止第四季度及全年的未经审计财务业绩。腾讯音乐第四季度总收入86.4亿元，同比增长15.9%，调整后净利润25.8亿元，同比增长7.6%；全年总收入329亿元，同比增长15.8%，调整后净利润99.2亿元，同比增长22.0%。全年在线音乐订阅收入同比增长16.0%至176.6亿元，全年在线音乐非订阅收入同比增长39.2%至90.7亿元。与此同时，腾讯音乐宣布将派发约3.68亿美元（约合人民币25.76亿元）的年度现金股息。\n  香港航空再次大幅上调国际航线燃油附加费，东航南航跟进\n  为应对燃油价格上涨，在3月12日上调燃油附加费后，香港航空今日发通知，将于18日再次上调燃油附加费：由中国香港飞往中国大陆的燃油附加费保持190港元不变；由中国香港飞往亚洲的短途航班由2",
+        "published": "2026-03-17T10:56:04+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "招商蛇口：2025年营收同降13.53%至1547.28亿元 两大业务逆势增长",
+        "url": "https://36kr.com/p/3726887582185858?f=rss",
+        "summary": "3月16日晚间，招商蛇口发布2025年年度报告。\n  年报显示，2025年，招商蛇口实现营收1547.28亿元，同比下滑13.53%。归属于上市公司股东的净利润为10.24亿元，同比大跌74.65%，两项核心数据均创下近五年新低。而扣除非经常性损益的净利润更是大降93.10%至1.69亿元；再有加权净资产收益率，也从2024年的3.36%跌至2025年的0.73%，同样刷新近年来的最低纪录。\n  \n  图源：企业年报\n  针对业绩大变动，招商蛇口称主要是受公司开发业务项目结转规模同比下降，以及投资收益同比减少的影响。\n  全年来看，第四季度的表现很是特别。当季公司营收650亿元，几乎达到全年业绩的半数。但同时，归属于上市公司股东的净利润却为-14.73亿元。这种旺季不旺的表现，一方面与公司库存项目减值集中计提有关，另一方面，部分项目收入结算被因个别原因被推迟，也导致公司利润偏低。\n  从三大主营业务各自表现看，可谓喜忧参半。\n  首先，开发业务上，过去一年，实现签约销售金额1960.09亿元，销售面积716.12万平方米，虽然全口径销售金额排名提升至行业第四位，算是向好，但销售额和面积",
+        "published": "2026-03-17T10:26:39+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "华为游戏渠道服突发异常，大量玩家账号短暂出现无法登录情况",
+        "url": "https://36kr.com/p/3726832908368521?f=rss",
+        "summary": "文 | 贝果树\n  编辑 | 刘士武\n  \n  华为渠道服玩家无法登录游戏\n  3月17日，大量玩家反馈在登录华为渠道服的多款游戏时，被提示“游戏内账号有未成年消费申诉记录并已完成退款，已终止服务，无法登录”。但玩家表示，账号已完成成年人实名认证且未发起过退款申诉，此异常涉及《闪耀暖暖》《恋与深空》《蛋仔派对》等多款游戏。\n  叠纸游戏在微博接受玩家反馈时表示，“华为渠道登录提示终止服务的情况已反馈，核实为华为方原因导致”。\n  \n  来源：微博\n  同各大手机品牌渠道服相似，华为渠道服是通过华为应用市场下载的游戏专属版本，渠道服玩家需要使用华为账号登录。渠道服游戏账号数据与官方服务器数据不互通，单独在华为服务器内储存。当然在渠道服中，玩家也能享受一些专属的礼包和福利。\n  渠道服起源于移动互联网发展的早期阶段，彼时社交软件和短视频平台还未普及，手机预装的应用商店是最强势的流量渠道。基于此优势，渠道商会与游戏厂商进行合作，对游戏中的内购收入进行抽成。而游戏则能在应用商店内进行曝光，获取下载量及用户。\n  但随着社交软件和短视频平台成为了新的流量入口，渠道服的优势逐渐式微。而渠道服账号与",
+        "published": "2026-03-17T10:17:56+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "透视滴滴2025年报：国际业务超预期，持续加码拉美市场",
+        "url": "https://36kr.com/p/3726781163682439?f=rss",
+        "summary": "3月13日，滴滴发布2025年第四季度及全年业绩报告，国际业务表现超预期。\n  财报显示，2025年四季度，滴滴国际业务GTV（交易额）同比增长47.1%至366亿元，订单量同比增长24.5%至12.65亿单，日均订单量超1300万单，已占到中国出行的三分之一。\n  2025年4月，滴滴宣布重启巴西外卖后，进一步加大对拉美等重点海外市场的投入。滴滴旗下99平台通过“出行+外卖+金融”三大服务协同，为巴西当地用户打造一站式生活服务平台。\n  \n  99骑手在送餐\n  持续投入使得滴滴过往三个季度的订单量和GTV均实现双位数阶梯式增长，第四季度单量再创新高。\n  纵观2025全年，滴滴国际业务订单量同比增长24.7%至45.05亿单，近三年订单复合增长率达32%；全年国际业务GTV同比增长28.2%至1170亿元，继续保持稳中有升。\n  中金在最新研报中指出，看好滴滴国际化业务带来的长期价值，维持“跑赢大盘”评级。\n  国际出行连续两年盈利，稳守海外基本盘\n  财报显示，作为滴滴国际业务的核心主力，国际出行业务已连续两年保持经调整息税摊销前盈利。\n  自2018年出海至今，滴滴国际业务服务",
+        "published": "2026-03-17T09:59:03+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.1",
+      "summary": "OpenClaw with Ollama now comes with web search and web fetch\n\nOllama now ships with web search and web fetch plugin for OpenClaw. This allows Ollama's models (local or cloud) to search the web for the latest content and news. This also allows OpenClaw with Ollama to be able to fetch the web and extr",
+      "published": "2026-03-17T18:24:28+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.1-rc0: cmd/launch: skip --install-daemon when systemd is unavailable (#14883)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.1-rc0",
+      "summary": "In container environments without systemd, openclaw onboard --install-daemon exits non-zero because it cannot create a systemd\nuser service. This causes ollama launch openclaw to abort even\nthough the gateway can be started as a foreground child process.\nOnly pass --install-daemon when systemd user ",
+      "published": "2026-03-16T20:50:04+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773772539: [inductor] fix redundant buffer materialization across layers (#176307)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773772539",
+      "summary": "Pull Request resolved: #176307\nApproved by: https://github.com/eellison",
+      "published": "2026-03-17T14:24:43+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+      "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+      "published": "2026-03-17T18:42:48+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+      "published": "2026-03-17T00:02:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+      "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+      "published": "2026-03-13T14:13:19+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.19",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
+      "summary": "Changes since langchain-core==1.2.18\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
+      "published": "2026-03-13T13:45:07+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+      "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+      "published": "2026-03-12T05:56:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "F Cancer",
+      "url": "https://garymarcus.substack.com/p/f-cancer",
+      "summary": "The real test of AI",
+      "published": "2026-03-16T19:10:37+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Tim Schilling",
+      "url": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+      "summary": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...]\nFor a reviewer, it’s demoralizing to communicate with a facade of a human.\nThis is because contributing to open source, especially Django, is a communal endeavor. Removing your humanity from that experience makes that endeavor more difficult. If you use an LLM to contribute to Django, it needs to be as a compleme",
+      "published": "2026-03-17T16:13:37+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Subagents",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "summary": "Agentic Engineering Patterns &gt;\n    LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past two years even as the LLMs themselves have seen dramatic improvements in their abilities - they generally top out at around 1,000,000, and benchmarks frequently report better quality results below 200,000.\nCarefully managing the context such that it fits within those limits is critical to gett",
+      "published": "2026-03-17T12:32:28+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Introducing Mistral Small 4",
+      "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+      "summary": "Introducing Mistral Small 4\nBig new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this:\n\nMistral Small 4 is the first Mistral model to unify the capabilities of our flagship models, Magistral for reasoning, Pixtral for multimodal, and Devstral for agentic coding, into a single, versatile model.\n\nIt supports reasoning_effort=\"none\" or reasoning_effort=\"high\", with the latter providing \"equivale",
+      "published": "2026-03-16T23:41:17+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Use subagents and custom agents in Codex",
+      "url": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
+      "summary": "Use subagents and custom agents in Codex\nSubagents were announced in general availability today for OpenAI Codex, after several weeks of preview behind a feature flag.\nThey're very similar to the Claude Code implementation, with default subagents for \"explorer\", \"worker\" and \"default\". It's unclear to me what the difference between \"worker\" and \"default\" is but based on their CSV example I think \"worker\" is intended for running large numbers of small tasks in parallel.\nCodex also lets you define",
+      "published": "2026-03-16T23:03:56+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting A member of Anthropic’s alignment-science team",
+      "url": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
+      "summary": "The point of the blackmail exercise was to have something to describe to policymakers—results that are visceral enough to land with people, and make misalignment risk actually salient in practice for people who had never thought about it before.\n&mdash; A member of Anthropic’s alignment-science team, as told to Gideon Lewis-Kraus\n\n    Tags: ai-ethics, anthropic, claude, generative-ai, ai, llms",
+      "published": "2026-03-16T21:38:55+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Guilherme Rambo",
+      "url": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
+      "summary": "Tidbit: the software-based camera indicator light in the MacBook Neo runs in the secure exclave¹ part of the chip, so it is almost as secure as the hardware indicator light. What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen. It runs in a privileged environment separate from the kernel and blits the light directly onto the screen hardware.\n&mdash; Guilherme Rambo, in a text message to John Gruber\n\n    Tags",
+      "published": "2026-03-16T20:34:13+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Coding agents for data analysis",
+      "url": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
+      "summary": "Coding agents for data analysis\nHere's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aimed at data journalists demonstrating ways that tools like Claude Code and OpenAI Codex can be used to explore, analyze and clean data.\nHere's the table of contents:\n\n\nCoding agents\nWarmup: ChatGPT and Claude\nSetup Claude Code and Codex\nAsking questions against a database\nExploring data with agents\nCleaning data: decoding neighborhood codes\nCreating ",
+      "published": "2026-03-16T20:12:32+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Arizona Attorney General files criminal charges against prediction market Kalshi",
+      "url": "https://www.coindesk.com/policy/2026/03/17/arizona-attorney-general-charges-kalshi-with-illegal-gambling-election-betting",
+      "summary": "",
+      "published": "2026-03-17T17:49:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Facing a crisis, Bitcoin treasury companies need to pivot to survive",
+      "url": "https://www.coindesk.com/opinion/2026/03/17/facing-a-crisis-bitcoin-treasury-companies-need-to-pivot-to-survive",
+      "summary": "",
+      "published": "2026-03-17T16:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Strategy’s latest massive bitcoin purchase offers insight into its evolving funding model",
+      "url": "https://www.coindesk.com/markets/2026/03/17/strategy-s-massive-bitcoin-purchase-offers-insight-into-its-evolving-funding-model",
+      "summary": "",
+      "published": "2026-03-17T15:44:01+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Popular Solana wallet Phantom wins CFTC nod to access regulated derivatives markets",
+      "url": "https://www.coindesk.com/policy/2026/03/17/phantom-wins-cftc-no-action-relief-clearing-path-for-crypto-wallet-access-to-regulated-derivatives-markets",
+      "summary": "",
+      "published": "2026-03-17T15:06:21+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Sam Altman's World teams up with Coinbase to prove there is a real person behind every AI transaction",
+      "url": "https://www.coindesk.com/tech/2026/03/17/sam-altman-s-world-teams-up-with-coinbase-to-prove-there-is-a-real-person-behind-every-ai-transaction",
+      "summary": "",
+      "published": "2026-03-17T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Vietnam pushes local crypto exchanges as Hanoi moves to block offshore trading: Reuters",
+      "url": "https://www.coindesk.com/policy/2026/03/17/vietnam-pushes-local-crypto-exchanges-as-hanoi-moves-to-block-offshore-trading-reuters",
+      "summary": "",
+      "published": "2026-03-17T14:45:13+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Robinhood’s new venture fund just snapped up stakes in Stripe and ElevenLabs",
+      "url": "https://www.coindesk.com/markets/2026/03/17/robinhood-s-new-venture-fund-just-snapped-up-stakes-in-stripe-and-elevenlabs",
+      "summary": "",
+      "published": "2026-03-17T14:33:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "'Gensler and Biden were just better for crypto,' says Tally CEO as DAO governance platform shuts down",
+      "url": "https://www.coindesk.com/markets/2026/03/17/gensler-and-biden-were-just-better-for-crypto-says-tally-ceo-as-dao-governance-platform-shuts-down",
+      "summary": "",
+      "published": "2026-03-17T14:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto trading firm GSR expands token advisory with $57 million in acquisitions",
+      "url": "https://www.coindesk.com/business/2026/03/17/crypto-trading-firm-gsr-expands-token-advisory-with-usd57-million-in-acquisitions",
+      "summary": "",
+      "published": "2026-03-17T14:15:09+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "U.S. Democrats target government officials gaming prediction markets on war action",
+      "url": "https://www.coindesk.com/policy/2026/03/17/u-s-democrats-target-government-officials-gaming-prediction-markets-on-war-action",
+      "summary": "",
+      "published": "2026-03-17T14:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "U.S. regional banks building tokenized deposit network on ZKsync to rival stablecoins",
+      "url": "https://www.coindesk.com/business/2026/03/17/u-s-regional-banks-building-tokenized-deposit-network-on-zksync-to-rival-stablecoins",
+      "summary": "",
+      "published": "2026-03-17T13:42:17+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Uniswap (UNI) drops 4.1%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/17/coindesk-20-performance-update-uniswap-uni-drops-4-1-leading-index-lower",
+      "summary": "",
+      "published": "2026-03-17T13:17:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ripple looks to expand crypto and payment services in Brazil",
+      "url": "https://www.coindesk.com/business/2026/03/17/ripple-looks-to-expand-crypto-and-payment-services-in-brazil",
+      "summary": "",
+      "published": "2026-03-17T13:06:52+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
