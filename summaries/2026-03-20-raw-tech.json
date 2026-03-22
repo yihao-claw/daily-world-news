@@ -1,0 +1,804 @@
+{
+  "generated_at": "2026-03-19T19:00:45.100801+00:00",
+  "today_jst": "2026-03-20",
+  "stats": {
+    "rss_fetched": 24,
+    "rss_errors": 15,
+    "github_fetched": 11,
+    "reddit_fetched": 9
+  },
+  "total_articles": 354,
+  "topic_distribution": {
+    "llm": 53,
+    "ai-agent": 6,
+    "crypto": 112,
+    "frontier-tech": 183
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+        "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+        "published": "2026-03-19T01:34:56+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+        "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+        "published": "2026-03-18T20:20:10+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773914564",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773914564",
+        "summary": "Fix an fp16 overflow in test_max_autotune.py test_precompilations (#1…",
+        "published": "2026-03-19T05:28:58+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773912651: Revert \"Add SymInt and SymFloat to Number (#177445)\"",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773912651",
+        "summary": "This reverts commit 56676a6.\nReverted #177445 on behalf of https://github.com/aorenste due to failing internal tests (comment)",
+        "published": "2026-03-19T04:09:27+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773910990: Revert \"Fix type annotation for _sym_get_coordinate (#177446)\"",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773910990",
+        "summary": "This reverts commit b8d53c6.\nReverted #177446 on behalf of https://github.com/aorenste due to blocking the revert of #177445 which is failing internal tests (comment)",
+        "published": "2026-03-19T04:07:09+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1773908936: Revert \"[triton hash update] update the pinned triton hash (#148492)\"",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773908936",
+        "summary": "This reverts commit 5de4dd3.\nReverted #148492 on behalf of https://github.com/pytorch-auto-revert due to Reverted automatically by pytorch's autorevert, to avoid this behaviour add the tag autorevert: disable (comment)",
+        "published": "2026-03-19T03:02:39+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+        "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+        "published": "2026-03-19T17:16:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+        "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+        "published": "2026-03-17T18:42:48+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.18",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18",
+        "summary": "Release Notes\n[2026-03-16]\nllama-index-agent-agentmesh [0.2.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-agent-azure [0.3.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-callbacks-agentops [0.5.0]\n\nchore: deprecate python 3.9 once and for all (#20956)",
+        "published": "2026-03-16T19:42:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.11.0",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.11.0",
+        "summary": "What's Changed\nDocumentation\n\nUpdate changelog and version for v1.11.0rc2\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-18T13:38:51+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+        "published": "2026-03-17T00:02:12+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Market maker IMC Trading hires Alex Casimo as chief commercial officer for its crypto business",
+        "url": "https://www.coindesk.com/business/2026/03/19/market-maker-imc-trading-hires-alex-casimo-as-chief-commercial-officer-for-its-crypto-business",
+        "summary": "",
+        "published": "2026-03-19T18:34:40+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin holds $69,000 as gold tumbles and oil spikes, but one analyst says stay on sidelines",
+        "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-holds-usd69-000-as-gold-tumbles-oil-spikes-but-analyst-says-stay-on-sidelines",
+        "summary": "",
+        "published": "2026-03-19T16:54:28+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Quadruple witching arrives tomorrow as markets brace for potential bitcoin volatility",
+        "url": "https://www.coindesk.com/markets/2026/03/10/quadruple-witching-arrives-tomorrow-as-markets-brace-for-potential-bitcoin-volatility",
+        "summary": "",
+        "published": "2026-03-19T16:40:01+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "As crypto trading platforms race to deploy AI agents, here's what a Nasdaq executive is seeing",
+        "url": "https://www.coindesk.com/business/2026/03/19/crypto-trading-platforms-race-to-deploy-ai-agents-job-losses-to-artificial-intelligence-will-continue-to-mount",
+        "summary": "",
+        "published": "2026-03-19T16:16:26+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Noq: n0's new QUIC implementation in Rust",
+        "url": "https://www.iroh.computer/blog/noq-announcement",
+        "summary": "Article URL: https://www.iroh.computer/blog/noq-announcement\nComments URL: https://news.ycombinator.com/item?id=47443588\nPoints: 24\n# Comments: 2",
+        "published": "2026-03-19T18:17:15+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Connecticut and the 1 Kilometer Effect",
+        "url": "https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/",
+        "summary": "Article URL: https://alearningaday.blog/2026/03/19/connecticut-and-the-1-kilometer-effect/\nComments URL: https://news.ycombinator.com/item?id=47443239\nPoints: 8\n# Comments: 0",
+        "published": "2026-03-19T17:52:11+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "UK's Ofcom has today fined 4chan £450k for not having age checks in place",
+        "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography",
+        "summary": "Article URL: https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/4chan-fined-450000-for-not-protecting-children-from-online-pornography\nComments URL: https://news.ycombinator.com/item?id=47442838\nPoints: 47\n# Comments: 47",
+        "published": "2026-03-19T17:27:33+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "An update on Steam / GOG changes for OpenTTD",
+        "url": "https://www.openttd.org/news/2026/03/19/steam-changes-update",
+        "summary": "Article URL: https://www.openttd.org/news/2026/03/19/steam-changes-update\nComments URL: https://news.ycombinator.com/item?id=47442834\nPoints: 91\n# Comments: 53",
+        "published": "2026-03-19T17:27:17+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "How to Not Pay Your Taxes",
+        "url": "https://taylor.town/succession-000",
+        "summary": "Article URL: https://taylor.town/succession-000\nComments URL: https://news.ycombinator.com/item?id=47442699\nPoints: 59\n# Comments: 36",
+        "published": "2026-03-19T17:16:36+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Android: Balancing Openness and Choice with Safety",
+        "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification.html",
+        "summary": "Article URL: https://android-developers.googleblog.com/2026/03/android-developer-verification.html\nComments URL: https://news.ycombinator.com/item?id=47442690\nPoints: 40\n# Comments: 29",
+        "published": "2026-03-19T17:16:04+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+      "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+      "published": "2026-03-19T01:34:56+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+      "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+      "published": "2026-03-18T20:20:10+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773914564",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773914564",
+      "summary": "Fix an fp16 overflow in test_max_autotune.py test_precompilations (#1…",
+      "published": "2026-03-19T05:28:58+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773912651: Revert \"Add SymInt and SymFloat to Number (#177445)\"",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773912651",
+      "summary": "This reverts commit 56676a6.\nReverted #177445 on behalf of https://github.com/aorenste due to failing internal tests (comment)",
+      "published": "2026-03-19T04:09:27+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773910990: Revert \"Fix type annotation for _sym_get_coordinate (#177446)\"",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773910990",
+      "summary": "This reverts commit b8d53c6.\nReverted #177446 on behalf of https://github.com/aorenste due to blocking the revert of #177445 which is failing internal tests (comment)",
+      "published": "2026-03-19T04:07:09+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1773908936: Revert \"[triton hash update] update the pinned triton hash (#148492)\"",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1773908936",
+      "summary": "This reverts commit 5de4dd3.\nReverted #148492 on behalf of https://github.com/pytorch-auto-revert due to Reverted automatically by pytorch's autorevert, to avoid this behaviour add the tag autorevert: disable (comment)",
+      "published": "2026-03-19T03:02:39+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+      "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+      "published": "2026-03-19T17:16:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+      "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+      "published": "2026-03-17T18:42:48+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+      "published": "2026-03-17T00:02:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+      "summary": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv, ruff, and ty - three increasingly load-bearing open source projects in the Python ecosystem. I have thoughts!\nThe official line from OpenAI and Astral\nThe Astral team will become part of the Codex team at OpenAI.\nCharlie Marsh has this to say:\n\nOpen source is at the heart of that impact and the heart of that story; it sits at the center o",
+      "published": "2026-03-19T16:45:15+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "url": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+      "summary": "Autoresearching Apple&#x27;s &quot;LLM in a Flash&quot; to run Qwen 397B locally\nHere's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ tokens/second on a 48GB MacBook Pro M3 Max despite that model taking up 209GB (120GB quantized) on disk.\nQwen3.5-397B-A17B is a Mixture-of-Experts (MoE) model, which means that each token only needs to run against a subset of the overall model weights. These expert weights can be streamed int",
+      "published": "2026-03-18T23:56:46+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "**Introducing SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding**",
+      "url": "https://huggingface.co/blog/nvidia/speed-bench",
+      "summary": "",
+      "published": "2026-03-19T14:04:54+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Market maker IMC Trading hires Alex Casimo as chief commercial officer for its crypto business",
+      "url": "https://www.coindesk.com/business/2026/03/19/market-maker-imc-trading-hires-alex-casimo-as-chief-commercial-officer-for-its-crypto-business",
+      "summary": "",
+      "published": "2026-03-19T18:34:40+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin holds $69,000 as gold tumbles and oil spikes, but one analyst says stay on sidelines",
+      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-holds-usd69-000-as-gold-tumbles-oil-spikes-but-analyst-says-stay-on-sidelines",
+      "summary": "",
+      "published": "2026-03-19T16:54:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Quadruple witching arrives tomorrow as markets brace for potential bitcoin volatility",
+      "url": "https://www.coindesk.com/markets/2026/03/10/quadruple-witching-arrives-tomorrow-as-markets-brace-for-potential-bitcoin-volatility",
+      "summary": "",
+      "published": "2026-03-19T16:40:01+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "As crypto trading platforms race to deploy AI agents, here's what a Nasdaq executive is seeing",
+      "url": "https://www.coindesk.com/business/2026/03/19/crypto-trading-platforms-race-to-deploy-ai-agents-job-losses-to-artificial-intelligence-will-continue-to-mount",
+      "summary": "",
+      "published": "2026-03-19T16:16:26+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "OpenClaw developers targeted in GitHub phishing scam offering fake token airdrops",
+      "url": "https://www.coindesk.com/tech/2026/03/19/openclaw-developers-targeted-in-github-phishing-scam-offering-fake-token-airdrops",
+      "summary": "",
+      "published": "2026-03-19T15:45:10+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto for Advisors: Bitcoin’s price discovery",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/18/crypto-for-advisors-bitcoin-s-price-discovery",
+      "summary": "",
+      "published": "2026-03-19T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "ECB seeks experts to help integrate digital euro into ATMs, card payment terminals",
+      "url": "https://www.coindesk.com/policy/2026/03/19/ecb-seeks-experts-to-help-integrate-digital-euro-into-atms-card-payment-terminals",
+      "summary": "",
+      "published": "2026-03-19T14:46:37+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin $20,000 put option is third most popular strike ahead of quarterly expiry",
+      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-usd20-000-put-option-is-third-most-popular-strike-ahead-of-quarterly-expiry",
+      "summary": "",
+      "published": "2026-03-19T14:34:51+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Major League Baseball signs prediction markets pacts with CFTC, Polymarket",
+      "url": "https://www.coindesk.com/policy/2026/03/19/major-league-baseball-signs-prediction-markets-pacts-with-cftc-polymarket",
+      "summary": "",
+      "published": "2026-03-19T14:20:47+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: NEAR Protocol (NEAR) drops 3.3%, leading index lower",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/19/coindesk-20-performance-update-near-protocol-near-drops-3-3-leading-index-lower",
+      "summary": "",
+      "published": "2026-03-19T13:16:07+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Browser maker Opera seeks 160 million CELO stake  to become key network stakeholder",
+      "url": "https://www.coindesk.com/business/2026/03/19/browser-maker-opera-seeks-160-million-celo-stake-to-become-key-network-stakeholder",
+      "summary": "",
+      "published": "2026-03-19T12:52:26+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "XRP treasury firm Evernorth discloses $233.7 million impairment on holdings in SPAC filing",
+      "url": "https://www.coindesk.com/business/2026/03/19/xrp-treasury-firm-evernorth-discloses-usd233-7-million-impairment-on-holdings-in-spac-filing",
+      "summary": "",
+      "published": "2026-03-19T12:46:48+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Coinbase faces a multibillion-dollar threat from D.C. but a 'rewards' loophole could protect its stablecoin revenue",
+      "url": "https://www.coindesk.com/policy/2026/03/19/coinbase-faces-a-multibillion-dollar-threat-from-d-c-but-a-rewards-loophole-could-protect-its-stablecoin-revenue",
+      "summary": "",
+      "published": "2026-03-19T12:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin’s biggest DeFi drawback under attack as OpNet unlocks smart contracts on mainnet",
+      "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-s-biggest-defi-drawback-under-attack-as-opnet-unlocks-smart-contracts-on-mainnet",
+      "summary": "",
+      "published": "2026-03-19T12:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto.com cuts 12% of staff as it integrates AI across the business for efficiency",
+      "url": "https://www.coindesk.com/business/2026/03/19/crypto-com-cuts-12-of-staff-as-it-integrates-ai-into-internal-processes",
+      "summary": "",
+      "published": "2026-03-19T11:44:37+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Capital is shifting into digital dollars as bitcoin wilts",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/19/capital-is-shifting-into-digital-dollars-as-bitcoin-wilts",
+      "summary": "",
+      "published": "2026-03-19T11:28:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Venus’ XVS token plunges 9% as exploit leaves protocol with bad debt",
+      "url": "https://www.coindesk.com/markets/2026/03/19/venus-xvs-token-plunges-9-as-exploit-leaves-protocol-with-bad-debt",
+      "summary": "",
+      "published": "2026-03-19T11:18:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

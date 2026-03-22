@@ -1,0 +1,802 @@
+{
+  "generated_at": "2026-03-22T19:00:23.677551+00:00",
+  "today_jst": "2026-03-23",
+  "stats": {
+    "rss_fetched": 21,
+    "rss_errors": 18,
+    "github_fetched": 9,
+    "reddit_fetched": 0
+  },
+  "total_articles": 209,
+  "topic_distribution": {
+    "llm": 20,
+    "ai-agent": 5,
+    "crypto": 58,
+    "frontier-tech": 126
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+        "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+        "published": "2026-03-21T21:58:06+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+        "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+        "published": "2026-03-18T20:20:10+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "sebas-rss",
+        "source_name": "Sebastian Raschka",
+        "source_type": "rss",
+        "title": "A Visual Guide to Attention Variants in Modern LLMs",
+        "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+        "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+        "published": "2026-03-22T11:55:40+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Profiling Hacker News users based on their comments",
+        "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+        "summary": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News.\nObtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the author of a comment is tagged there as author_username. Here's a JSON feed of my (simonw) most recent comments, for example:\nhttps://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&amp;hi",
+        "published": "2026-03-21T23:59:47+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Using Git with coding agents",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+        "summary": "Agentic Engineering Patterns &gt;\n    Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced.\nThis fluency means we can be more ambitious about how we use Git ourselves. We don't need to  memorize how to do things with Git, but staying aware of what's possible means we can take advantage of the ful",
+        "published": "2026-03-21T22:08:24+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "huggingface-rss",
+        "source_name": "Hugging Face Blog",
+        "source_type": "rss",
+        "title": "Build a Domain-Specific Embedding Model in Under a Day",
+        "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+        "summary": "",
+        "published": "2026-03-20T19:38:16+00:00",
+        "topics": [
+          "llm",
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 8
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+        "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+        "published": "2026-03-19T17:16:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+        "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+        "published": "2026-03-17T18:42:48+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.18",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18",
+        "summary": "Release Notes\n[2026-03-16]\nllama-index-agent-agentmesh [0.2.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-agent-azure [0.3.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-callbacks-agentops [0.5.0]\n\nchore: deprecate python 3.9 once and for all (#20956)",
+        "published": "2026-03-16T19:42:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.11.0",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.11.0",
+        "summary": "What's Changed\nDocumentation\n\nUpdate changelog and version for v1.11.0rc2\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-18T13:38:51+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.2",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.2",
+        "summary": "This patch release fixes several critical regressions and stability issues introduced in v1.13.1, including:\n\na severe regression in prompt message transformation that caused multiple LLM-plugin invocation failures across\nLLM-related nodes, including LLM and Question Classifier.\nKnowledge Retrieval ",
+        "published": "2026-03-18T14:25:56+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+        "published": "2026-03-17T00:02:12+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Resolv’s USR stablecoin depegs after attacker mints 80 million unbacked tokens, extracts roughly $25 million",
+        "url": "https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million?utm_source=rss&utm_medium=rss",
+        "summary": "Analysts traced the flaw to a privileged minting role controlled by a single externally owned account with no mint limits or oracle checks.",
+        "published": "2026-03-22T15:39:33+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Bitcoin mining difficulty drops 7.8% as miner exodus accelerates amid AI pivot",
+        "url": "https://www.theblock.co/post/394579/bitcoin-mining-difficulty-drops-7-8-as-miner-exodus-accelerates-amid-ai-pivot?utm_source=rss&utm_medium=rss",
+        "summary": "Difficulty is now nearly 10% below where it started the year, despite a sharp 14.7% rebound in February after weather-related disruptions subsided.",
+        "published": "2026-03-21T21:41:17+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Brazil’s new finance minister shelves crypto tax consultation amid election pivot: Reuters",
+        "url": "https://www.theblock.co/post/394576/brazils-new-finance-minister-shelves-crypto-tax-consultation-amid-election-pivot-reuters?utm_source=rss&utm_medium=rss",
+        "summary": "The consultation was expected to address the tax treatment of crypto transactions following central bank regulations finalized last year.",
+        "published": "2026-03-21T20:01:09+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "The SEC explains how it's viewing a crypto security: State of Crypto",
+        "url": "https://www.coindesk.com/policy/2026/03/22/the-sec-explains-how-it-s-viewing-a-crypto-security-state-of-crypto",
+        "summary": "",
+        "published": "2026-03-22T18:00:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Why I love NixOS",
+        "url": "https://www.birkey.co/2026-03-22-why-i-love-nixos.html",
+        "summary": "Article URL: https://www.birkey.co/2026-03-22-why-i-love-nixos.html\nComments URL: https://news.ycombinator.com/item?id=47479751\nPoints: 64\n# Comments: 50",
+        "published": "2026-03-22T17:17:06+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Five Years of Running a Systems Reading Group at Microsoft",
+        "url": "https://armaansood.com/posts/systems-reading-group/",
+        "summary": "Article URL: https://armaansood.com/posts/systems-reading-group/\nComments URL: https://news.ycombinator.com/item?id=47479627\nPoints: 8\n# Comments: 1",
+        "published": "2026-03-22T17:06:38+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Introducing DoorDash Tasks",
+        "url": "https://about.doordash.com/en-us/news/introducing-doordash-tasks",
+        "summary": "Article URL: https://about.doordash.com/en-us/news/introducing-doordash-tasks\nComments URL: https://news.ycombinator.com/item?id=47479417\nPoints: 29\n# Comments: 33",
+        "published": "2026-03-22T16:48:37+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Ask HN: Apple terminated our dev account over a rogue employee",
+        "url": "https://news.ycombinator.com/item?id=47479115",
+        "summary": "I know that HN isn't a customer support forum and it might not be right to post this here, but we are absolutely desperate and hoping someone in this community can point us in the right direction.We are a small software company in Africa. For over two years, we've built and maintained an app. It has become a vital economic engine for our local community, employing a whole fleet of delivery agents and serving as a lifeline for local stores and restaurants.Recently, we discovered that a single emp",
+        "published": "2026-03-22T16:23:50+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "MAUI Is Coming to Linux",
+        "url": "https://avaloniaui.net/blog/maui-avalonia-preview-1",
+        "summary": "Article URL: https://avaloniaui.net/blog/maui-avalonia-preview-1\nComments URL: https://news.ycombinator.com/item?id=47478687\nPoints: 53\n# Comments: 16",
+        "published": "2026-03-22T15:43:21+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "The Future of Version Control",
+        "url": "https://bramcohen.com/p/manyana",
+        "summary": "Article URL: https://bramcohen.com/p/manyana\nComments URL: https://news.ycombinator.com/item?id=47478401\nPoints: 167\n# Comments: 80",
+        "published": "2026-03-22T15:16:28+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+      "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+      "published": "2026-03-21T21:58:06+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+      "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+      "published": "2026-03-18T20:20:10+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+      "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+      "published": "2026-03-19T17:16:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+      "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+      "published": "2026-03-17T18:42:48+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+      "published": "2026-03-17T00:02:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "sebas-rss",
+      "source_name": "Sebastian Raschka",
+      "source_type": "rss",
+      "title": "A Visual Guide to Attention Variants in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+      "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+      "published": "2026-03-22T11:55:40+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Resolv’s USR stablecoin depegs after attacker mints 80 million unbacked tokens, extracts roughly $25 million",
+      "url": "https://www.theblock.co/post/394582/resolvs-usr-stablecoin-depegs-after-attacker-mints-80-million-unbacked-tokens-extracts-roughly-25-million?utm_source=rss&utm_medium=rss",
+      "summary": "Analysts traced the flaw to a privileged minting role controlled by a single externally owned account with no mint limits or oracle checks.",
+      "published": "2026-03-22T15:39:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin mining difficulty drops 7.8% as miner exodus accelerates amid AI pivot",
+      "url": "https://www.theblock.co/post/394579/bitcoin-mining-difficulty-drops-7-8-as-miner-exodus-accelerates-amid-ai-pivot?utm_source=rss&utm_medium=rss",
+      "summary": "Difficulty is now nearly 10% below where it started the year, despite a sharp 14.7% rebound in February after weather-related disruptions subsided.",
+      "published": "2026-03-21T21:41:17+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Brazil’s new finance minister shelves crypto tax consultation amid election pivot: Reuters",
+      "url": "https://www.theblock.co/post/394576/brazils-new-finance-minister-shelves-crypto-tax-consultation-amid-election-pivot-reuters?utm_source=rss&utm_medium=rss",
+      "summary": "The consultation was expected to address the tax treatment of crypto transactions following central bank regulations finalized last year.",
+      "published": "2026-03-21T20:01:09+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The SEC explains how it's viewing a crypto security: State of Crypto",
+      "url": "https://www.coindesk.com/policy/2026/03/22/the-sec-explains-how-it-s-viewing-a-crypto-security-state-of-crypto",
+      "summary": "",
+      "published": "2026-03-22T18:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ethereum faces make-or-break moment in high-stakes balancing act as scaling, quantum and AI pressures mount",
+      "url": "https://www.coindesk.com/tech/2026/03/22/ethereum-faces-make-or-break-moment-in-high-stakes-balancing-act-as-scaling-quantum-and-ai-pressures-mount",
+      "summary": "",
+      "published": "2026-03-22T17:00:57+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The genius and the danger of STRC: How Strategy’s new funding model bends so it doesn't break",
+      "url": "https://www.coindesk.com/business/2026/03/22/the-genius-and-the-danger-of-strc-how-strategy-s-new-funding-model-bends-so-it-doesn-t-break",
+      "summary": "",
+      "published": "2026-03-22T16:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Gold falters as macro pressures build, bitcoin holds liquidity trend",
+      "url": "https://www.coindesk.com/markets/2026/03/20/gold-falters-as-macro-pressures-build-bitcoin-holds-liquidity-trend",
+      "summary": "",
+      "published": "2026-03-22T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "XRP falls 3% as breakdown below $1.44 and bitcoin weakness caps recovery",
+      "url": "https://www.coindesk.com/markets/2026/03/22/xrp-falls-3-as-breakdown-below-usd1-44-and-bitcoin-weakness-caps-recovery",
+      "summary": "",
+      "published": "2026-03-22T06:47:52+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin miners are losing $19,000 on every BTC produced as difficulty drops 7.8%",
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-miners-are-losing-usd19-000-on-every-btc-produced-as-difficulty-drops-7-8",
+      "summary": "",
+      "published": "2026-03-22T06:26:48+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin drops below $69,200 as Trump gives 48-hour ultimatum on Iran power plants",
+      "url": "https://www.coindesk.com/markets/2026/03/22/bitcoin-drops-below-usd69-200-as-trump-gives-48-hour-ultimatum-on-iran-power-plants",
+      "summary": "",
+      "published": "2026-03-22T06:00:08+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Profiling Hacker News users based on their comments",
+      "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+      "summary": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News.\nObtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the author of a comment is tagged there as author_username. Here's a JSON feed of my (simonw) most recent comments, for example:\nhttps://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&amp;hi",
+      "published": "2026-03-21T23:59:47+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Using Git with coding agents",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+      "summary": "Agentic Engineering Patterns &gt;\n    Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced.\nThis fluency means we can be more ambitious about how we use Git ourselves. We don't need to  memorize how to do things with Git, but staying aware of what's possible means we can take advantage of the ful",
+      "published": "2026-03-21T22:08:24+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Why I love NixOS",
+      "url": "https://www.birkey.co/2026-03-22-why-i-love-nixos.html",
+      "summary": "Article URL: https://www.birkey.co/2026-03-22-why-i-love-nixos.html\nComments URL: https://news.ycombinator.com/item?id=47479751\nPoints: 64\n# Comments: 50",
+      "published": "2026-03-22T17:17:06+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Five Years of Running a Systems Reading Group at Microsoft",
+      "url": "https://armaansood.com/posts/systems-reading-group/",
+      "summary": "Article URL: https://armaansood.com/posts/systems-reading-group/\nComments URL: https://news.ycombinator.com/item?id=47479627\nPoints: 8\n# Comments: 1",
+      "published": "2026-03-22T17:06:38+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Introducing DoorDash Tasks",
+      "url": "https://about.doordash.com/en-us/news/introducing-doordash-tasks",
+      "summary": "Article URL: https://about.doordash.com/en-us/news/introducing-doordash-tasks\nComments URL: https://news.ycombinator.com/item?id=47479417\nPoints: 29\n# Comments: 33",
+      "published": "2026-03-22T16:48:37+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Ask HN: Apple terminated our dev account over a rogue employee",
+      "url": "https://news.ycombinator.com/item?id=47479115",
+      "summary": "I know that HN isn't a customer support forum and it might not be right to post this here, but we are absolutely desperate and hoping someone in this community can point us in the right direction.We are a small software company in Africa. For over two years, we've built and maintained an app. It has become a vital economic engine for our local community, employing a whole fleet of delivery agents and serving as a lifeline for local stores and restaurants.Recently, we discovered that a single emp",
+      "published": "2026-03-22T16:23:50+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "MAUI Is Coming to Linux",
+      "url": "https://avaloniaui.net/blog/maui-avalonia-preview-1",
+      "summary": "Article URL: https://avaloniaui.net/blog/maui-avalonia-preview-1\nComments URL: https://news.ycombinator.com/item?id=47478687\nPoints: 53\n# Comments: 16",
+      "published": "2026-03-22T15:43:21+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "The Future of Version Control",
+      "url": "https://bramcohen.com/p/manyana",
+      "summary": "Article URL: https://bramcohen.com/p/manyana\nComments URL: https://news.ycombinator.com/item?id=47478401\nPoints: 167\n# Comments: 80",
+      "published": "2026-03-22T15:16:28+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Show HN: Revise – An AI Editor for Documents",
+      "url": "https://revise.io",
+      "summary": "I started building this 10 months ago, largely using agentic coding tools. I've stayed very involved in the code base and architecture, and have never moved faster in my life as a dev.The word processor engine and rendering layer are all built from scratch - the only 3rd party library I used was the excellent Y.js for the CRDT stack.Would love some feedback!\n\nComments URL: https://news.ycombinator.com/item?id=47477339\nPoints: 29\n# Comments: 28",
+      "published": "2026-03-22T13:28:45+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
+      "url": "https://noquiche.fyi/voodoo",
+      "summary": "Article URL: https://noquiche.fyi/voodoo\nComments URL: https://news.ycombinator.com/item?id=47477284\nPoints: 110\n# Comments: 19",
+      "published": "2026-03-22T13:24:38+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Bored of eating your own dogfood? Try smelling your own farts",
+      "url": "https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/",
+      "summary": "Article URL: https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/\nComments URL: https://news.ycombinator.com/item?id=47477158\nPoints: 268\n# Comments: 164",
+      "published": "2026-03-22T13:12:31+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "A case against currying",
+      "url": "https://emi-h.com/articles/a-case-against-currying.html",
+      "summary": "Article URL: https://emi-h.com/articles/a-case-against-currying.html\nComments URL: https://news.ycombinator.com/item?id=47477090\nPoints: 65\n# Comments: 82",
+      "published": "2026-03-22T13:03:55+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Project Nomad – Knowledge That Never Goes Offline",
+      "url": "https://www.projectnomad.us",
+      "summary": "Article URL: https://www.projectnomad.us\nComments URL: https://news.ycombinator.com/item?id=47476821\nPoints: 222\n# Comments: 41",
+      "published": "2026-03-22T12:28:38+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "hn-rss",
+      "source_name": "Hacker News Frontpage",
+      "source_type": "rss",
+      "title": "Brute-forcing my algorithmic ignorance with an LLM in 7 days",
+      "url": "http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1",
+      "summary": "Article URL: http://blog.dominikrudnik.pl/my-google-recruitment-journey-part-1\nComments URL: https://news.ycombinator.com/item?id=47476776\nPoints: 73\n# Comments: 48",
+      "published": "2026-03-22T12:23:04+00:00",
+      "topics": [
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

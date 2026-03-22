@@ -1,0 +1,800 @@
+{
+  "generated_at": "2026-03-20T19:00:18.414315+00:00",
+  "today_jst": "2026-03-21",
+  "stats": {
+    "rss_fetched": 26,
+    "rss_errors": 13,
+    "github_fetched": 11,
+    "reddit_fetched": 9
+  },
+  "total_articles": 351,
+  "topic_distribution": {
+    "llm": 54,
+    "ai-agent": 6,
+    "crypto": 104,
+    "frontier-tech": 187
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1774027711",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774027711",
+        "summary": "Revert \"Fix symbolic_context reuse for grad in meta tensor creation (…",
+        "published": "2026-03-20T12:57:28+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1774009733: [BE][Ez]: Add missing reserve values and moves (#177885)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774009733",
+        "summary": "Add a few missing std::vector reserve calls to reduce allocation churn using Claude.\nAdd some std::max guards to make sure it doesn't underflow in the implicit conversion\nAdd a few missing move to std::make_tuple\n\nMostly authored by claude code\nPull Request resolved: #177885\nApproved by: https://git",
+        "published": "2026-03-20T04:38:45+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1774006048: [xpu] Update torch-xpu-ops commit pin (#177721)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774006048",
+        "summary": "Motivation\nUpdate the torch-xpu-ops commit, including:\n\nAdd addmm, mm, bmm, baddbmm on SparseCsrXPU\nEnable fused RMS norm forward and backward on XPU\nCode clean up\n\nAdditional Context\nThese two ops (_fused_rms_norm_xpu and _fused_rms_norm_backward_xpu)  must be registered upstream in PyTorch, not in",
+        "published": "2026-03-20T02:22:46+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+        "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+        "published": "2026-03-19T01:34:56+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+        "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+        "published": "2026-03-18T20:20:10+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "huggingface-rss",
+        "source_name": "Hugging Face Blog",
+        "source_type": "rss",
+        "title": "Nemotron 3 Content Safety 4B: Multimodal, Multilingual Content Moderation",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-3-content-safety",
+        "summary": "",
+        "published": "2026-03-20T17:00:44+00:00",
+        "topics": [
+          "llm",
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+        "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+        "published": "2026-03-19T17:16:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+        "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+        "published": "2026-03-14T05:17:10+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.18",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18",
+        "summary": "Release Notes\n[2026-03-16]\nllama-index-agent-agentmesh [0.2.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-agent-azure [0.3.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-callbacks-agentops [0.5.0]\n\nchore: deprecate python 3.9 once and for all (#20956)",
+        "published": "2026-03-16T19:42:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.11.0",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.11.0",
+        "summary": "What's Changed\nDocumentation\n\nUpdate changelog and version for v1.11.0rc2\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-18T13:38:51+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.2",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.2",
+        "summary": "This patch release fixes several critical regressions and stability issues introduced in v1.13.1, including:\n\na severe regression in prompt message transformation that caused multiple LLM-plugin invocation failures across\nLLM-related nodes, including LLM and Question Classifier.\nKnowledge Retrieval ",
+        "published": "2026-03-18T14:25:56+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+        "published": "2026-03-17T00:02:12+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Kalshi gets temporary Nevada ban in dispute over sports betting",
+        "url": "https://www.coindesk.com/policy/2026/03/20/kalshi-gets-temporary-nevada-ban-in-dispute-over-sports-betting",
+        "summary": "",
+        "published": "2026-03-20T18:45:29+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech",
+        "url": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech",
+        "summary": "",
+        "published": "2026-03-20T17:04:22+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble",
+        "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-latest-fear-unlocked-as-rate-hikes-bets-rise-and-bond-markets-crumble",
+        "summary": "",
+        "published": "2026-03-20T14:51:48+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Why CoinDesk PitchFest matters heading into Miami",
+        "url": "https://www.coindesk.com/opinion/2026/03/20/why-coindesk-pitchfest-matters-heading-into-miami",
+        "summary": "",
+        "published": "2026-03-20T14:30:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "BYD's bet on EVs is paying off as drivers ditch gas amid rising oil prices",
+        "url": "https://electrek.co/2026/03/20/byd-ev-demand-surges-drivers-ditch-gas-amid-rising-oil-prices/",
+        "summary": "Article URL: https://electrek.co/2026/03/20/byd-ev-demand-surges-drivers-ditch-gas-amid-rising-oil-prices/\nComments URL: https://news.ycombinator.com/item?id=47458549\nPoints: 34\n# Comments: 6",
+        "published": "2026-03-20T18:19:58+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility",
+        "url": "https://news.ycombinator.com/item?id=47457472",
+        "summary": "Hi HN! We're Vincent and Jochen from sitefire (https://sitefire.ai). Our platform makes it easy for brands to improve their visibility in AI search.We’ve been working together for years and have backgrounds in RL/optimization at Stanford and software engineering. We came to this idea after speaking with marketing teams who were seeing declining traffic due to Google’s AI Overviews and didn’t know what to do.This space can feel esoteric. Many case studies, few actual studies. Constant battle agai",
+        "published": "2026-03-20T17:05:38+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
+        "url": "https://www.sharpai.org/benchmark/",
+        "summary": "Article URL: https://www.sharpai.org/benchmark/\nComments URL: https://news.ycombinator.com/item?id=47457107\nPoints: 84\n# Comments: 96",
+        "published": "2026-03-20T16:41:42+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "90% of crypto's Illinois primary spending failed to achieve its objective",
+        "url": "https://www.mollywhite.net/micro/entry/202603172318",
+        "summary": "Article URL: https://www.mollywhite.net/micro/entry/202603172318\nComments URL: https://news.ycombinator.com/item?id=47456987\nPoints: 58\n# Comments: 45",
+        "published": "2026-03-20T16:34:04+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
+        "url": "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/",
+        "summary": "Article URL: https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/\nComments URL: https://news.ycombinator.com/item?id=47456153\nPoints: 220\n# Comments: 158",
+        "published": "2026-03-20T15:39:19+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Having Kids (2019)",
+        "url": "https://paulgraham.com/kids.html",
+        "summary": "Article URL: https://paulgraham.com/kids.html\nComments URL: https://news.ycombinator.com/item?id=47455489\nPoints: 104\n# Comments: 191",
+        "published": "2026-03-20T14:56:03+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1774027711",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774027711",
+      "summary": "Revert \"Fix symbolic_context reuse for grad in meta tensor creation (…",
+      "published": "2026-03-20T12:57:28+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1774009733: [BE][Ez]: Add missing reserve values and moves (#177885)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774009733",
+      "summary": "Add a few missing std::vector reserve calls to reduce allocation churn using Claude.\nAdd some std::max guards to make sure it doesn't underflow in the implicit conversion\nAdd a few missing move to std::make_tuple\n\nMostly authored by claude code\nPull Request resolved: #177885\nApproved by: https://git",
+      "published": "2026-03-20T04:38:45+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1774006048: [xpu] Update torch-xpu-ops commit pin (#177721)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774006048",
+      "summary": "Motivation\nUpdate the torch-xpu-ops commit, including:\n\nAdd addmm, mm, bmm, baddbmm on SparseCsrXPU\nEnable fused RMS norm forward and backward on XPU\nCode clean up\n\nAdditional Context\nThese two ops (_fused_rms_norm_xpu and _fused_rms_norm_backward_xpu)  must be registered upstream in PyTorch, not in",
+      "published": "2026-03-20T02:22:46+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+      "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+      "published": "2026-03-19T01:34:56+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+      "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+      "published": "2026-03-18T20:20:10+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+      "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+      "published": "2026-03-19T17:16:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+      "published": "2026-03-17T00:02:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.13-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.13-beta.1",
+      "summary": "Pre-release for npm beta tag v2026.3.13-beta.1.\nmacOS assets are built with stable app version 2026.3.13 so they can be reused for the later non-beta release. appcast.xml is intentionally unchanged in this pre-release.\nChanges\n\nAndroid/chat settings: redesign the chat settings sheet with grouped dev",
+      "published": "2026-03-14T05:17:10+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Nemotron 3 Content Safety 4B: Multimodal, Multilingual Content Moderation",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-content-safety",
+      "summary": "",
+      "published": "2026-03-20T17:00:44+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+      "summary": "",
+      "published": "2026-03-20T14:14:46+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Kalshi gets temporary Nevada ban in dispute over sports betting",
+      "url": "https://www.coindesk.com/policy/2026/03/20/kalshi-gets-temporary-nevada-ban-in-dispute-over-sports-betting",
+      "summary": "",
+      "published": "2026-03-20T18:45:29+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech",
+      "url": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech",
+      "summary": "",
+      "published": "2026-03-20T17:04:22+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble",
+      "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-latest-fear-unlocked-as-rate-hikes-bets-rise-and-bond-markets-crumble",
+      "summary": "",
+      "published": "2026-03-20T14:51:48+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Why CoinDesk PitchFest matters heading into Miami",
+      "url": "https://www.coindesk.com/opinion/2026/03/20/why-coindesk-pitchfest-matters-heading-into-miami",
+      "summary": "",
+      "published": "2026-03-20T14:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push",
+      "url": "https://www.coindesk.com/business/2026/03/20/crypto-wallet-maker-ledger-taps-a-former-circle-exec-as-cfo-to-help-lead-its-push-into-the-public-markets",
+      "summary": "",
+      "published": "2026-03-20T13:57:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Kalshi valuation doubles to $22 billion in latest funding round: Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/03/20/kalshi-valuation-doubles-to-usd22-billion-in-latest-funding-round-bloomberg",
+      "summary": "",
+      "published": "2026-03-20T13:25:59+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Aptos (APT) gains 6.3% as index rises",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/20/coindesk-20-performance-update-aptos-apt-gains-6-3-as-index-rises",
+      "summary": "",
+      "published": "2026-03-20T13:12:55+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Coinbase introduces stock perpetual futures contracts for non-U.S. customers",
+      "url": "https://www.coindesk.com/markets/2026/03/20/coinbase-introduces-stock-perpetual-futures-contracts-for-non-u-s-customers",
+      "summary": "",
+      "published": "2026-03-20T12:51:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Iran war volatility is driving oil trading boom on Hyperliquid, says JPMorgan",
+      "url": "https://www.coindesk.com/business/2026/03/20/iran-war-volatility-is-driving-oil-trading-boom-on-hyperliquid-says-jpmorgan",
+      "summary": "",
+      "published": "2026-03-20T12:45:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin holds steady, with one analyst seeing the upside emerging",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/20/bitcoin-holds-steady-with-one-analyst-seeing-the-upside-emerging",
+      "summary": "",
+      "published": "2026-03-20T11:41:48+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto market steadies as derivatives signal caution, macro pressure builds",
+      "url": "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds",
+      "summary": "",
+      "published": "2026-03-20T10:49:32+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ripple data reveals stablecoins are becoming the go-to tool for corporate treasury",
+      "url": "https://www.coindesk.com/markets/2026/03/20/ripple-s-survey-shows-banks-fintechs-and-corporates-are-all-in-on-digital-assets-prioritizing-stablecoins-and-custody",
+      "summary": "",
+      "published": "2026-03-20T08:48:22+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin’s price action looks dangerously similar to the pattern that sent it crashing to $60,000",
+      "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-price-action-looks-dangerously-similar-to-the-pattern-that-sent-it-crashing-to-usd60-000",
+      "summary": "",
+      "published": "2026-03-20T07:14:42+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin jumps to $70,800 as oil retreats; ether and XRP lag",
+      "url": "https://www.coindesk.com/markets/2026/03/20/bitcoin-jumps-to-usd70-800-as-oil-retreats-ether-and-xrp-lag",
+      "summary": "",
+      "published": "2026-03-20T05:43:42+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Morgan Stanley sets MSBT ticker and $1 million seed capital for bitcoin ETF",
+      "url": "https://www.coindesk.com/markets/2026/03/20/morgan-stanley-sets-msbt-ticker-and-usd1-million-seed-capital-for-bitcoin-etf",
+      "summary": "",
+      "published": "2026-03-20T05:05:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto Clarity Act inches toward Senate hearing as lawmakers weigh legislative trades",
+      "url": "https://www.coindesk.com/policy/2026/03/19/crypto-clarity-act-inches-toward-senate-hearing-as-lawmakers-weigh-legislative-trades",
+      "summary": "",
+      "published": "2026-03-19T22:10:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "DeFi risk management giant Gauntlet sees $380 million exit as OKX crypto campaign ends",
+      "url": "https://www.coindesk.com/tech/2026/03/19/defi-risk-management-giant-gauntlet-sees-usd380-million-exit-as-okx-crypto-campaign-ends",
+      "summary": "",
+      "published": "2026-03-19T20:12:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto markets – and the American people – deserve clarity",
+      "url": "https://www.coindesk.com/opinion/2026/03/19/crypto-markets-and-the-american-people-deserve-clarity",
+      "summary": "",
+      "published": "2026-03-19T20:12:30+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Appeals court clears way for Nevada to temporarily ban prediction market Kalshi",
+      "url": "https://www.coindesk.com/policy/2026/03/19/appeals-court-clears-way-for-nevada-to-temporarily-ban-prediction-market-kalshi",
+      "summary": "",
+      "published": "2026-03-19T20:12:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Coinbase's bitcoin yield fund goes onchain with Apex's tokenization push",
+      "url": "https://www.coindesk.com/business/2026/03/19/coinbase-s-bitcoin-yield-fund-goes-onchain-with-apex-s-tokenization-push",
+      "summary": "",
+      "published": "2026-03-19T20:09:17+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
