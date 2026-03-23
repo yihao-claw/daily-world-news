@@ -1,0 +1,819 @@
+{
+  "generated_at": "2026-03-23T19:00:51.241070+00:00",
+  "today_jst": "2026-03-24",
+  "stats": {
+    "rss_fetched": 25,
+    "rss_errors": 14,
+    "github_fetched": 10,
+    "reddit_fetched": 9
+  },
+  "total_articles": 303,
+  "topic_distribution": {
+    "ai-agent": 7,
+    "llm": 48,
+    "crypto": 91,
+    "frontier-tech": 157
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-openai==1.1.12",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.12",
+        "summary": "Changes since langchain-openai==1.1.11\nfix(openai): bump min core version (#36180)\nrelease(openai): 1.1.12 (#36178)\nfix(core,model-profiles): add missing ModelProfile fields, warn on schema drift (#36129)\nfix(openai): support phase parameter (#36161)\nfix(openai): preserve namespace field in streamin",
+        "published": "2026-03-23T18:59:31+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: v2026.3.23-beta.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-beta.1",
+        "summary": "v2026.3.23-beta.1",
+        "published": "2026-03-23T18:55:05+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.22",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22",
+        "summary": "Breaking\n\nPlugins/install: bare openclaw plugins install &lt;package&gt; now prefers ClawHub before npm for npm-safe names, and only falls back to npm when ClawHub does not have that package or version. Docs: https://docs.openclaw.ai/tools/clawhub\nBrowser/Chrome MCP: remove the legacy Chrome extensi",
+        "published": "2026-03-23T11:11:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+        "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+        "published": "2026-03-17T18:42:48+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.18",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18",
+        "summary": "Release Notes\n[2026-03-16]\nllama-index-agent-agentmesh [0.2.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-agent-azure [0.3.0]\n\nchore: deprecate python 3.9 once and for all (#20956)\n\nllama-index-callbacks-agentops [0.5.0]\n\nchore: deprecate python 3.9 once and for all (#20956)",
+        "published": "2026-03-16T19:42:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+        "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+        "published": "2026-03-21T21:58:06+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+        "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+        "published": "2026-03-18T20:20:10+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Quoting David Abram",
+        "url": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+        "summary": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save months of pain later.\nNone of these problems can be solved LLMs. They can suggest code, help with boilerplate, sometimes can act as a sounding board. But they don't understand the system, they don't carr",
+        "published": "2026-03-23T18:56:18+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Beats now have notes",
+        "url": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+        "summary": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site.\nOn any given day these frequently outnumber my regular posts. They were looking a little bit thin and were lacking any form of explanation beyond a link, so I've added the ability to annotate them with a \"note\" which now shows up as part of their display.\nHere's what that looks like for the content I publ",
+        "published": "2026-03-23T02:13:13+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Starlette 1.0 skill",
+        "url": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+        "summary": "Research: Starlette 1.0 skill\n    See Experimenting with Starlette 1.0 with Claude skills.\n    \n        Tags: starlette",
+        "published": "2026-03-23T00:05:00+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Experimenting with Starlette 1.0 with Claude skills",
+        "url": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+        "summary": "Starlette 1.0 is out! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI, which has attracted a huge amount of buzz that seems to have overshadowed Starlette itself.\nKim Christie started working on Starlette in 2018 and it quickly became my favorite out of the new breed of Python ASGI frameworks. The only reason I didn't use it as the basis for my own Datasett",
+        "published": "2026-03-22T23:57:44+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+        "published": "2026-03-17T00:02:12+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "BlackRock is betting billions that tokenized funds will do for Wall Street what the internet did to mail",
+        "url": "https://www.coindesk.com/business/2026/03/23/blackrock-is-betting-billions-that-tokenized-funds-will-do-for-wall-street-what-the-internet-did-to-mail",
+        "summary": "",
+        "published": "2026-03-23T16:12:09+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Strategy tops up capital-raising plans, bringing potential bitcoin buying power back to $42 billion",
+        "url": "https://www.coindesk.com/markets/2026/03/23/strategy-tops-up-capital-raising-plans-bringing-potential-bitcoin-buying-power-back-to-usd42-billion",
+        "summary": "",
+        "published": "2026-03-23T14:58:25+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Pharmaceutical firm pivots to stablecoins, holds nearly 9% of SKY's supply",
+        "url": "https://www.coindesk.com/business/2026/03/23/pharmaceutical-firm-pivots-to-stablecoins-holds-nearly-9-of-sky-s-supply",
+        "summary": "",
+        "published": "2026-03-23T14:25:29+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Backpack launches BP token on Solana with 25% airdrop, no insider allocation",
+        "url": "https://www.coindesk.com/business/2026/03/23/backpack-launches-bp-token-on-solana-with-25-airdrop-no-insider-allocation",
+        "summary": "",
+        "published": "2026-03-23T13:52:21+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "氪星晚报 ｜阿里明日或将发布重要芯片产品；全球首个脑机接口创新产品获得医保编码；LG电子称今年将全力推进机器人业务",
+        "url": "https://36kr.com/p/3735459789242375?f=rss",
+        "summary": "大公司：\n  双林股份港股上市获中国证监会备案\n  36氪获悉，中国证监会国际合作司发布关于双林股份有限公司境外发行上市备案通知书，公司拟发行不超过89,697,300股境外上市普通股并在香港联合交易所上市。\n  宝盖新材料港股IPO获中国证监会备案\n  36氪获悉，中国证监会国际合作司发布关于山东宝盖新材料科技股份有限公司境外发行上市备案通知书，公司拟发行不超过16,640,500股境外上市普通股并在香港联合交易所上市。\n  云天化：2025年净利润51.56亿元，拟每10股派12元\n  36氪获悉，云天化发布2025年业绩报告。报告显示，公司2025年实现营业收入484.15亿元，同比下降21.47%；归属于上市公司股东的净利润为51.56亿元，同比下降3.40%。公司拟向全体股东每10股派发现金红利12元(含税)，2025年度合计分红25.52亿元，占当年净利润的49.50%。\n  首个国产企业级满血版OpenClaw来了！百度DuMate全量上线\n  3月22日，百度智能云DuMate正式上线，面向用户全量开放。这是国内首个国产企业级龙虾产品，支持本地部署，企业级用户也能安全合",
+        "published": "2026-03-23T11:52:21+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪AI测评小程序重磅上线！帮你pick最适合自己的AI神器！",
+        "url": "https://36kr.com/p/3735404612370441?f=rss",
+        "summary": "这个春天，一打开手机，全网似乎都开始“养龙虾”了。\n  只是从“养龙虾”再到“卸龙虾”，AI应用圈的的变化速度超乎想象。\n  AI应用大批涌现的当下，跟风实在易踩坑。\n  AI遍地走，到底谁靠谱？\n  别急，36氪AI测评来帮你！\n  \n  01\n  36氪AI测评小程序，正式上线啦！\n  \n  ⬆️扫码体验36氪AI测评小程序⬆️\n  其实，36氪早就上线了AI测评网（网页版），被大家戏称为“AI应用领域的大众点评”。\n  现在，小程序版也正式来了！ 微信里搜一搜，就能打开这个“AI应用百宝箱”，通勤摸鱼都能刷，随时随地帮你找到顺手的AI工具。\n  \n  36氪AI测评小程序-首页\n  正如36氪AI测评slogan：选靠谱AI，看真实评测。我们玩儿的就是真实！\n  市面上的“水评”多如牛毛——要么短到只有一句“好用”，要么软得看不出真假。\n  在这里，没有敷衍的打卡，没有虚伪的客套，只有无数大神在社区“肝”出来的神仙分享，以及毫无情面的疯狂吐槽，帮你快速扒开滤镜，看清这些AI的真实面孔！\n  目前，36氪AI测评已经收录了400+款AI应用（还在疯狂更新中），覆盖办公、编程、设计、",
+        "published": "2026-03-23T10:54:15+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "硬氪首发 | 前华为自动驾驶核心成员创业，要做“会走路”的情绪陪伴机器人",
+        "url": "https://36kr.com/p/3735384009048325?f=rss",
+        "summary": "作者&nbsp;|&nbsp;林晴晴\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，情绪陪伴场景小型具身机器人公司「青心意创」已于近期完成Pre-A轮融资，本轮融资由厚雪资本和天际资本领投，老股东乐朴资本持续跟投，新辉资本担任长期财务顾问。本轮融资将主要用于超小型双足陪伴机器人的产品研发及技术平台搭建、核心算法迭代与团队扩充。此前，公司已完成由初心资本、乐朴资本及多位科技领域个人投资者参与的天使轮融资。\n  「青心意创」核心团队于2024年初组建，将前沿的具身智能以及自动驾驶大小脑协同软硬件等全栈技术能力应用于陪伴机器人的研发与探索，在全球率先实现了直膝行走，并首创强化学习“情绪步态大模型”，完成了情绪步态生成、全身运动控制及多模态交互等核心算法的验证与集成。目前，公司正推进首个具身角色智能机器人的开发，其初代版本已完成全栈自研及模型搭建。\n  伴随城市独居人口增加与情感消费趋势显现，具备交互能力的陪伴型机器人市场关注度逐步提升。目前市面上相关产品主要分为两类：一类是基于大型语言模型的桌面智能硬件，交互以语音为主，形态固定；另一类是采用轮式底盘的移动机器人，运动能力与拟人化表",
+        "published": "2026-03-23T10:29:50+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "创想三维IPO：造物平权下的版权困境",
+        "url": "https://36kr.com/p/3735364151836680?f=rss",
+        "summary": "作者&nbsp;|&nbsp;丁卯\n  编辑&nbsp;|&nbsp;张帆\n  2026年3月9日，创想三维再次向香港联交所递交招股书，拟在主板挂牌上市，中金公司担任独家保荐人。作为3D打印行业领军者，这是公司第三次冲刺资本市场，若进展顺利，创想三维有望摘得港股“消费级3D打印第一股”的桂冠。\n  然而，招股书揭开的不仅是公司规模的扩张，更是其面对拓竹猛烈进攻下的节节败退。这位昔日王者在丢掉行业头把交椅的同时，财务报表也透露出利润缩水、现金流收紧的危险信号。\n  那么，在造物平权的趋势下，消费级3D打印究竟是不是一门好生意？创想三维还值得关注?\n  3D打印是不是好赛道\n  在分析创想三维之前，先要明确消费级3D打印到底是不是好赛道。\n  近两年，作为热门赛道，3D打印的行业张力主要源自两个维度：一个是造物平权释放出的巨大增量空间；另一个则是软件与生态闭环下盈利的确定性和由此衍生出的耗材等业务持续创现的能力。\n  首先，造物平权是消费级3D打印最大的想象力来源。\n  消费升级趋势下，大众对产品的需求从标准工业品转向个性化和定制化，驱动快响应、小批量、柔性化的分布式制造崛起，而消费级3D",
+        "published": "2026-03-23T10:14:42+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "这300家企业，正在定义全球具身智能产业",
+        "url": "https://36kr.com/p/3735344485744905?f=rss",
+        "summary": "站在人与机器共生的新起点，具身智能正推动技术从“感知世界”走向“行动于世界”，一场融合软硬件、数据与场景的产业变革已悄然展开。\n  从具身机器人的“大脑”模型研发，到核心硬件与本体制造，具身智能产业正在从研发向产业化和商业化落地迈进。从产业全链条来看，具身智能产业依托上游核心技术，在中游形成产品与解决方案，在下游场景中实现价值落地。下面这张图中，我们梳理出当下中美两国具身智能赛道值得关注的“弄潮儿”，供你参考。\n  \n  上游\n  \n  中游\n  \n  下游\n  参考来源\n  1.《2026年具身智能产业发展研究报告》，36氪研究院\n  2.《2025年中国商用具身智能白皮书》，艾瑞咨询\n  3.《2025年中国具身智能产业星图》，广发证券、智友·雅瑞",
+        "published": "2026-03-23T09:49:35+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪报告图解 | 这条AI赛道，2026年规模有望破万亿",
+        "url": "https://36kr.com/p/3735341158121733?f=rss",
+        "summary": "近期，36氪研究发布了《2026年具身智能产业发展研究报告》（以下简称“报告”）。报道提到，截至2025年12月21日，全年融资事件超305起，总额超过380亿元，参与的投资机构数量超过600家。资本的密集涌入，充分印证了产业发展的潜力与市场信心。\n  从技术成熟度、产业链完备度与市场拓展速度来看，中国具身智能产业已处于全球第一梯队。根据36氪研究院测算，中国具身智能市场规模已从2018年的2133亿元迅速增长至2025年的9150亿元，并有望在2026年突破万亿元关口。并且，商业化落地节奏也在日趋加快，具身智能应用持续向工业领域、服务领域、特种领域、交通出行领域等下游场景渗透。\n  报告预计，未来具身智能具身智能将在世界模型、数据闭环与协作机制的驱动下转化为可规模部署的通用劳动力，其场景落地将沿技术成熟度与环境复杂度逐级展开，形成多层市场空间。与此同时，中国具身智能市场竞争也将转向技术底座、盈利能力与供应链体系等生态层面的综合较量。\n  以下是我们挑选出的报告核心内容。想获得《2026年具身智能产业发展研究报告》完整版，欢迎关注「具身万象」公众号，后台回复关键词「具身万象」领取。\n ",
+        "published": "2026-03-23T09:46:24+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-openai==1.1.12",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.12",
+      "summary": "Changes since langchain-openai==1.1.11\nfix(openai): bump min core version (#36180)\nrelease(openai): 1.1.12 (#36178)\nfix(core,model-profiles): add missing ModelProfile fields, warn on schema drift (#36129)\nfix(openai): support phase parameter (#36161)\nfix(openai): preserve namespace field in streamin",
+      "published": "2026-03-23T18:59:31+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: v2026.3.23-beta.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-beta.1",
+      "summary": "v2026.3.23-beta.1",
+      "published": "2026-03-23T18:55:05+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22",
+      "summary": "Breaking\n\nPlugins/install: bare openclaw plugins install &lt;package&gt; now prefers ClawHub before npm for npm-safe names, and only falls back to npm when ClawHub does not have that package or version. Docs: https://docs.openclaw.ai/tools/clawhub\nBrowser/Chrome MCP: remove the legacy Chrome extensi",
+      "published": "2026-03-23T11:11:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+      "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+      "published": "2026-03-21T21:58:06+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+      "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+      "published": "2026-03-18T20:20:10+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-anthropic==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
+      "summary": "Changes since langchain-anthropic==1.3.5\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfeat(anthropic): delegate cache_control kwarg to anthropic top-level param (#35967)\nchore(model-profiles",
+      "published": "2026-03-17T18:42:48+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v28.4: Bitcoin Core 28.4 final",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Tree-SHA512: 51bf166dceb7100ec3978a8c27f54d98e01ff115951c3e025bc19dba3c8d2ef5c3242bc1b811b6af7b4e7005dabf99bb5966b68bebf78d4ad970221ccb240ab8",
+      "published": "2026-03-17T00:02:12+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting David Abram",
+      "url": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+      "summary": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save months of pain later.\nNone of these problems can be solved LLMs. They can suggest code, help with boilerplate, sometimes can act as a sounding board. But they don't understand the system, they don't carr",
+      "published": "2026-03-23T18:56:18+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Beats now have notes",
+      "url": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+      "summary": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site.\nOn any given day these frequently outnumber my regular posts. They were looking a little bit thin and were lacking any form of explanation beyond a link, so I've added the ability to annotate them with a \"note\" which now shows up as part of their display.\nHere's what that looks like for the content I publ",
+      "published": "2026-03-23T02:13:13+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Starlette 1.0 skill",
+      "url": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+      "summary": "Research: Starlette 1.0 skill\n    See Experimenting with Starlette 1.0 with Claude skills.\n    \n        Tags: starlette",
+      "published": "2026-03-23T00:05:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Experimenting with Starlette 1.0 with Claude skills",
+      "url": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+      "summary": "Starlette 1.0 is out! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI, which has attracted a huge amount of buzz that seems to have overshadowed Starlette itself.\nKim Christie started working on Starlette in 2018 and it quickly became my favorite out of the new breed of Python ASGI frameworks. The only reason I didn't use it as the basis for my own Datasett",
+      "published": "2026-03-22T23:57:44+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "PCGamer Article Performance Audit",
+      "url": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
+      "summary": "Research: PCGamer Article Performance Audit\n    Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading, highlighting a truly horrifying example of web bloat that added up to 100s more MBs thanks to auto-playing video ads. I decided to have Claude Code for web use Rodney to investigate the page - prompt here.\n    \n        Tags: web-performance, rodney",
+      "published": "2026-03-22T22:49:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "JavaScript Sandboxing Research",
+      "url": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "summary": "Research: JavaScript Sandboxing Research\n    Aaron Harper wrote about Node.js worker threads, which inspired me to run a research task to see if they might help with running JavaScript in a sandbox. Claude Code went way beyond my initial question and produced a comparison of isolated-vm, vm2, quickjs-emscripten, QuickJS-NG, ShadowRealm, and Deno Workers.\n    \n        Tags: sandboxing, javascript, nodejs, claude-code",
+      "published": "2026-03-22T19:53:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "DNS Lookup",
+      "url": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
+      "summary": "Tool: DNS Lookup\n    TIL that Cloudflare's 1.1.1.1 DNS service (and 1.1.1.2 and 1.1.1.3, which block malware and malware + adult content respectively) has a CORS-enabled JSON API, so I had Claude Code build me a UI for running DNS queries against all three of those resolvers.\n    \n        Tags: dns, cors, cloudflare",
+      "published": "2026-03-22T19:16:30+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "BlackRock is betting billions that tokenized funds will do for Wall Street what the internet did to mail",
+      "url": "https://www.coindesk.com/business/2026/03/23/blackrock-is-betting-billions-that-tokenized-funds-will-do-for-wall-street-what-the-internet-did-to-mail",
+      "summary": "",
+      "published": "2026-03-23T16:12:09+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Strategy tops up capital-raising plans, bringing potential bitcoin buying power back to $42 billion",
+      "url": "https://www.coindesk.com/markets/2026/03/23/strategy-tops-up-capital-raising-plans-bringing-potential-bitcoin-buying-power-back-to-usd42-billion",
+      "summary": "",
+      "published": "2026-03-23T14:58:25+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Pharmaceutical firm pivots to stablecoins, holds nearly 9% of SKY's supply",
+      "url": "https://www.coindesk.com/business/2026/03/23/pharmaceutical-firm-pivots-to-stablecoins-holds-nearly-9-of-sky-s-supply",
+      "summary": "",
+      "published": "2026-03-23T14:25:29+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Backpack launches BP token on Solana with 25% airdrop, no insider allocation",
+      "url": "https://www.coindesk.com/business/2026/03/23/backpack-launches-bp-token-on-solana-with-25-airdrop-no-insider-allocation",
+      "summary": "",
+      "published": "2026-03-23T13:52:21+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) gains 2.3%, leading index higher",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/23/coindesk-20-performance-update-bitcoin-cash-bch-gains-2-3-leading-index-higher",
+      "summary": "",
+      "published": "2026-03-23T13:13:25+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Tom Lee's Bitmine extends buying streak with $138 million ETH purchase, betting on crypto slump ending",
+      "url": "https://www.coindesk.com/business/2026/03/23/tom-lee-s-bitmine-extends-buying-streak-with-usd138-million-eth-purchase-betting-on-crypto-slump-ending",
+      "summary": "",
+      "published": "2026-03-23T12:57:17+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin's wild roller coaster ride leaves leveraged traders with $415 million in liquidations",
+      "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-s-wild-roller-coaster-ride-leaves-leveraged-traders-with-usd415-million-in-losses",
+      "summary": "",
+      "published": "2026-03-23T12:42:06+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "H100 eyes Europe’s largest bitcoin treasury with 3,500 BTC in proposed acquistions",
+      "url": "https://www.coindesk.com/markets/2026/03/23/h100-eyes-europe-s-largest-bitcoin-treasury-with-3-500-btc-in-proposed-acquistions",
+      "summary": "",
+      "published": "2026-03-23T12:35:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Strategy returns to 'small' bitcoin purchases, adding $76.6 million in BTC last week",
+      "url": "https://www.coindesk.com/markets/2026/03/23/strategy-returns-to-small-bitcoin-purchases-adding-usd76-6-million-in-btc-last-week",
+      "summary": "",
+      "published": "2026-03-23T12:22:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Brazil’s finance minister delays divisive crypto tax plan",
+      "url": "https://www.coindesk.com/policy/2026/03/23/brazil-s-finance-minister-delays-divisive-crypto-tax-plan",
+      "summary": "",
+      "published": "2026-03-23T11:55:06+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin surges above $71,000 as Trump postpones Iran strikes for 5 days",
+      "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-surges-above-usd71-000-as-trump-postpones-iran-strikes-for-five-days",
+      "summary": "",
+      "published": "2026-03-23T11:23:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Polymarket traders bet on Iran ceasefire even as oil shock concerns persist",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/23/polymarket-traders-bet-on-iran-ceasefire-even-oil-shock-concerns-persist",
+      "summary": "",
+      "published": "2026-03-23T11:16:32+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin retreats to $68,000, leaving CME gap as traders eye $70,000 rebound",
+      "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-retreats-to-usd68-000-leaving-cme-gap-as-traders-eye-usd70-000-rebound",
+      "summary": "",
+      "published": "2026-03-23T10:49:10+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin clings to monthly gains, historic losing streak still in play",
+      "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-clings-to-monthly-gains-historic-losing-streak-still-in-play",
+      "summary": "",
+      "published": "2026-03-23T10:46:59+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin's momentum indicator is flashing a signal that should worry bulls",
+      "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-s-momentum-indicator-is-flashing-a-signal-that-should-worry-bulls",
+      "summary": "",
+      "published": "2026-03-23T10:10:43+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Fed's Miran speaks, Bitgo earnings, Casper hard fork: Crypto Week Ahead",
+      "url": "https://www.coindesk.com/markets/2026/03/23/fed-s-miran-speaks-bitgo-earnings-casper-hard-fork-crypto-week-ahead",
+      "summary": "",
+      "published": "2026-03-23T09:07:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
