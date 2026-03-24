@@ -1,6 +1,6 @@
 {
   "_description": "科技新聞來源設定。RSS feeds, GitHub repos, Reddit subs, Web Search。",
-  "_updated": "2026-03-03",
+  "_updated": "2026-03-24",
   "sources": [
     {
       "id": "simonwillison-rss",
@@ -104,11 +104,23 @@
       ]
     },
     {
+      "id": "anthropic-rss",
+      "type": "rss",
+      "name": "Anthropic Blog",
+      "url": "https://www.anthropic.com/rss.xml",
+      "priority": true,
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ]
+    },
+    {
       "id": "googleai-rss",
       "type": "rss",
       "name": "Google AI Blog",
       "url": "https://blog.google/technology/ai/rss/",
-      "priority": false,
+      "priority": true,
       "topics": [
         "llm",
         "ai-agent",
@@ -210,9 +222,19 @@
       "type": "rss",
       "name": "Krebs on Security",
       "url": "https://krebsonsecurity.com/feed/",
+      "priority": true,
+      "topics": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "securityweek-rss",
+      "type": "rss",
+      "name": "SecurityWeek",
+      "url": "https://feeds.feedburner.com/eset/blog",
       "priority": false,
       "topics": [
-        "frontier-tech"
+        "cybersecurity"
       ]
     },
     {
