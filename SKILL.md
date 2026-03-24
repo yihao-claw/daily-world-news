@@ -19,6 +19,19 @@ Two-pillar daily news system: **時事新聞** (world affairs) + **科技新聞*
 
 ---
 
+## 🔍 Search Fallback
+
+If `web_search` is unavailable or returns errors (quota exhausted, rate limited):
+
+```bash
+python3 ~/.openclaw/workspace/skills/smart-search/scripts/smart_search.py \
+  --query "your query" --type news --freshness day --limit 10 --json
+```
+
+Fallback chain: Brave API → SearXNG (local) → DuckDuckGo. Use `--type news` for current events, `--type text` for general search.
+
+---
+
 ## PHASE 0 — Pre-flight
 
 1. `TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)`
@@ -67,7 +80,7 @@ Review the X results for:
 ### Step 1.3 — Web Search Supplement (LLM-DRIVEN)
 
 The script output (`raw_tech.json`) includes `web_search_queries` for topics underrepresented in RSS/Reddit.
-Run web_search for each query with `freshness: "day"` to find breaking news missed by feeds.
+Run web_search for each query with `freshness: "day"` to find breaking news missed by feeds.（若 web_search 失敗，改用 smart_search.py —— 見上方 Search Fallback）
 Focus on topics with fewer articles in the script output.
 
 **Topics:** 🧠 LLM (max 6) | 🤖 AI Agent (max 5) | 💰 Crypto (max 5) | 🔬 Frontier Tech (max 6) | 🚀 Space & Science (max 3) | 📱 Consumer Tech & Hardware (max 3) | 🛡️ Cybersecurity (max 3) | 🧬 Biotech & Health Tech (max 2)
@@ -113,7 +126,7 @@ Using the script's structured data + web search + X search results:
 ### Step 2.3 — Gather World News
 - Run X search for breaking world news: `python3 /home/node/.openclaw/workspace/projects/x-monitor/x-search.py "breaking news min_faves:500 lang:en" --count 10 --mode top -o /tmp/x-world-news.json`
 - Review X results for breaking stories that may not yet appear in web search
-- Run 15-25 web_search queries across all 9 regions
+- Run 15-25 web_search queries across all 9 regions（若 web_search 失敗，改用 smart_search.py —— 見上方 Search Fallback）
 - For major international events → Format A (multi-country perspectives from different media)
 - For regional news → Format B (standard)
 - Curate 15-20 stories, 3-5 using Format A
@@ -134,7 +147,7 @@ Using the script's structured data + web search + X search results:
 - 若暫無官方數據，寫「數據待核實」，不得杜撰數字
 
 ### Step 2.4 — Verify Sources (MANDATORY — zero exceptions)
-- Review EVERY story one by one. Missing 📎 link → run web_search to find a source URL and add it
+- Review EVERY story one by one. Missing 📎 link → run web_search to find a source URL and add it（若 web_search 失敗，改用 smart_search.py —— 見上方 Search Fallback）
 - Every story MUST end up with at least one real URL — no exceptions
 - **Do NOT proceed to Step 2.5 until every story has at least one real URL**
 - NOTE: If you found the news, you found a source. Track URLs during Step 2.3 gathering, not after the fact.

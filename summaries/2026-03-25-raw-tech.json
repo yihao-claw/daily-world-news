@@ -1,0 +1,831 @@
+{
+  "generated_at": "2026-03-24T19:01:36.977665+00:00",
+  "today_jst": "2026-03-25",
+  "stats": {
+    "rss_fetched": 25,
+    "rss_errors": 16,
+    "github_fetched": 7,
+    "reddit_fetched": 8
+  },
+  "total_articles": 346,
+  "topic_distribution": {
+    "ai-agent": 5,
+    "llm": 53,
+    "crypto": 109,
+    "frontier-tech": 178,
+    "cybersecurity": 1
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.22",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.22",
+        "summary": "Changes since langchain-core==1.2.21\nrelease(core): 1.2.22 (#36201)\nfix(core): validate paths in prompt.save and load_prompt, deprecate methods (#36200)",
+        "published": "2026-03-24T18:49:00+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: v2026.3.23-2",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-2",
+        "summary": "v2026.3.23-2",
+        "published": "2026-03-24T03:06:46+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.22",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22",
+        "summary": "2026.3.22\nBreaking\n\nPlugins/install: bare openclaw plugins install &lt;package&gt; now prefers ClawHub before npm for npm-safe names, and only falls back to npm when ClawHub does not have that package or version. Docs: https://docs.openclaw.ai/tools/clawhub\nBrowser/Chrome MCP: remove the legacy Chro",
+        "published": "2026-03-23T23:28:35+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.11.1",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.11.1",
+        "summary": "What's Changed\nFeatures\n\nAdd flow_structure() serializer for Flow class introspection.\n\nBug Fixes\n\nFix security vulnerabilities by bumping pypdf, tinytag, and langchain-core.\nPreserve full LLM config across HITL resume for non-OpenAI providers.\nPrevent path traversal in FileWriterTool.\nFix lock_stor",
+        "published": "2026-03-23T23:33:57+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.2",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.2",
+        "summary": "This patch release fixes several critical regressions and stability issues introduced in v1.13.1, including:\n\na severe regression in prompt message transformation that caused multiple LLM-plugin invocation failures across\nLLM-related nodes, including LLM and Question Classifier.\nKnowledge Retrieval ",
+        "published": "2026-03-18T14:25:56+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+        "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+        "published": "2026-03-21T21:58:06+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+        "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+        "published": "2026-03-18T20:20:10+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
+        "url": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
+        "summary": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer\nThe LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a litellm_init.pth file, which means installing the package is enough to trigger it even without running import litellm.\n(1.82.7 had the exploit as well but it was in the proxy/proxy_server.py file so the package had to be imported for it to take effect.)\nThis issue has a very detailed description of what ",
+        "published": "2026-03-24T15:07:31+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Streaming experts",
+        "url": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+        "summary": "I wrote about Dan Woods' experiments with streaming experts the other day, the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model by instead streaming the necessary expert weights from SSD for each token that you process.\nFive days ago Dan was running Qwen3.5-397B-A17B in 48GB of RAM. Today @seikixtc reported running the colossal Kimi K2.5 - a 1 trillion parameter model with 32B active weights at any one time, in 96GB of RAM on a",
+        "published": "2026-03-24T05:09:03+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Quoting Neurotica",
+        "url": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+        "summary": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time\n&mdash; Neurotica, @schwarzgerat.bsky.social\n\n    Tags: ai-ethics, slop, generative-ai, ai, llms",
+        "published": "2026-03-23T23:31:45+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "datasette-files 0.1a2",
+        "url": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+        "summary": "Release: datasette-files 0.1a2\n    The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full:\n\n\nColumns are now configured using the new column_types system from Datasette 1.0a26. #8\nNew file_actions plugin hook, plus ability to import an uploaded CSV/TSV file to a table. #10\nUI for uploading multiple files at once via the new documented JSON upload API. #11\nThumbnails are now gene",
+        "published": "2026-03-23T23:06:38+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "The Daily: Balancer Labs to wind down, Bernstein calls bitcoin bottom with $150K target for 2026, and more",
+        "url": "https://www.theblock.co/post/394940/the-daily-balancer-labs-to-wind-down-bernstein-calls-bitcoin-bottom-with-150k-target-for-2026-and-more?utm_source=rss&utm_medium=rss",
+        "summary": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
+        "published": "2026-03-24T18:14:04+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Ethereum block builder Eureka Labs raises $6.7 million, introduces ‘programmable blocks’",
+        "url": "https://www.theblock.co/post/394923/ethereum-block-builder-eureka-labs-funding-programmable-blocks?utm_source=rss&utm_medium=rss",
+        "summary": "Ethereum block builder Eureka Labs is introducing \"programmable blocks,\" which add logic during block construction.",
+        "published": "2026-03-24T17:40:03+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Circle falls 20% as stablecoin reward limits loom, Tether adds Big Four auditor and wallets frozen",
+        "url": "https://www.theblock.co/post/394918/circle-falls-20-stablecoin-reward-limits-tether-big-four-auditor-wallets-frozen?utm_source=rss&utm_medium=rss",
+        "summary": "The USDC stablecoin issuer faced headwinds on Tuesday amid developing stablecon legislation that could dent future revenue.",
+        "published": "2026-03-24T17:29:19+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Ledger discloses $50 million Q4 secondary sale as IPO plans remain open",
+        "url": "https://www.theblock.co/post/394919/ledger-discloses-50-million-q4-secondary-sale-ipo-plans-open?utm_source=rss&utm_medium=rss",
+        "summary": "The transaction comes years after Ledger’s last primary raise, which valued the company at $1.5 billion in 2023.",
+        "published": "2026-03-24T17:13:28+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Hut 8 leans into modular ‘LEGO block’ model to switch between AI and bitcoin mining",
+        "url": "https://www.theblock.co/post/394897/hut-8-modular-lego-block-model-switch-between-ai-bitcoin-mining?utm_source=rss&utm_medium=rss",
+        "summary": "Hut 8 is trying to position itself less as a miner and more as an energy infrastructure player, with power allocation driving returns.",
+        "published": "2026-03-24T15:10:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Atomic Display Switching: Solving",
+        "url": "https://github.com/piot5/displayflow_cli",
+        "summary": "Article URL: https://github.com/piot5/displayflow_cli\nComments URL: https://news.ycombinator.com/item?id=47507194\nPoints: 4\n# Comments: 0",
+        "published": "2026-03-24T18:37:39+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains",
+        "url": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
+        "summary": "Article URL: https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/\nComments URL: https://news.ycombinator.com/item?id=47507150\nPoints: 16\n# Comments: 1",
+        "published": "2026-03-24T18:34:52+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "ARM AGI CPU: Specs and SKUs",
+        "url": "https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/",
+        "summary": "Article URL: https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/\nComments URL: https://news.ycombinator.com/item?id=47506641\nPoints: 54\n# Comments: 11",
+        "published": "2026-03-24T17:59:16+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Lago (YC S21) Is Hiring",
+        "url": "https://getlago.notion.site/Lago-Product-Engineer-AI-Agents-for-Growth-327ef63110d280cdb030ccf429d3e4d7?source=copy_link",
+        "summary": "Article URL: https://getlago.notion.site/Lago-Product-Engineer-AI-Agents-for-Growth-327ef63110d280cdb030ccf429d3e4d7?source=copy_link\nComments URL: https://news.ycombinator.com/item?id=47506490\nPoints: 0\n# Comments: 0",
+        "published": "2026-03-24T17:47:23+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Country that put backdoors in Cisco routers to spy on world bans foreign routers",
+        "url": "https://www.theregister.com/2026/03/24/fcc_foreign_routers/",
+        "summary": "Article URL: https://www.theregister.com/2026/03/24/fcc_foreign_routers/\nComments URL: https://news.ycombinator.com/item?id=47506279\nPoints: 71\n# Comments: 28",
+        "published": "2026-03-24T17:32:31+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "The AI Industry Is Lying to You",
+        "url": "https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/",
+        "summary": "Article URL: https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/\nComments URL: https://news.ycombinator.com/item?id=47506259\nPoints: 76\n# Comments: 26",
+        "published": "2026-03-24T17:30:55+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "cybersecurity": [
+      {
+        "source_id": "krebs-rss",
+        "source_name": "Krebs on Security",
+        "source_type": "rss",
+        "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+        "url": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+        "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
+        "published": "2026-03-23T15:43:04+00:00",
+        "topics": [
+          "cybersecurity"
+        ],
+        "priority": true,
+        "quality_score": 8
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.22",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.22",
+      "summary": "Changes since langchain-core==1.2.21\nrelease(core): 1.2.22 (#36201)\nfix(core): validate paths in prompt.save and load_prompt, deprecate methods (#36200)",
+      "published": "2026-03-24T18:49:00+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: v2026.3.23-2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-2",
+      "summary": "v2026.3.23-2",
+      "published": "2026-03-24T03:06:46+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.22",
+      "summary": "2026.3.22\nBreaking\n\nPlugins/install: bare openclaw plugins install &lt;package&gt; now prefers ClawHub before npm for npm-safe names, and only falls back to npm when ClawHub does not have that package or version. Docs: https://docs.openclaw.ai/tools/clawhub\nBrowser/Chrome MCP: remove the legacy Chro",
+      "published": "2026-03-23T23:28:35+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2",
+      "summary": "What's Changed\n\nAdd extra check to ensure npm and git are installed before installing OpenClaw\nClaude Code will now be faster when run locally, due to preventing cache breakages\nFix to correctly support ollama launch openclaw --model &lt;model&gt;\nRegister Ollama's websearch package correctly for Op",
+      "published": "2026-03-21T21:58:06+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+      "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+      "published": "2026-03-18T20:20:10+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
+      "url": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
+      "summary": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer\nThe LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a litellm_init.pth file, which means installing the package is enough to trigger it even without running import litellm.\n(1.82.7 had the exploit as well but it was in the proxy/proxy_server.py file so the package had to be imported for it to take effect.)\nThis issue has a very detailed description of what ",
+      "published": "2026-03-24T15:07:31+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Streaming experts",
+      "url": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+      "summary": "I wrote about Dan Woods' experiments with streaming experts the other day, the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model by instead streaming the necessary expert weights from SSD for each token that you process.\nFive days ago Dan was running Qwen3.5-397B-A17B in 48GB of RAM. Today @seikixtc reported running the colossal Kimi K2.5 - a 1 trillion parameter model with 32B active weights at any one time, in 96GB of RAM on a",
+      "published": "2026-03-24T05:09:03+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Neurotica",
+      "url": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+      "summary": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time\n&mdash; Neurotica, @schwarzgerat.bsky.social\n\n    Tags: ai-ethics, slop, generative-ai, ai, llms",
+      "published": "2026-03-23T23:31:45+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-files 0.1a2",
+      "url": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+      "summary": "Release: datasette-files 0.1a2\n    The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full:\n\n\nColumns are now configured using the new column_types system from Datasette 1.0a26. #8\nNew file_actions plugin hook, plus ability to import an uploaded CSV/TSV file to a table. #10\nUI for uploading multiple files at once via the new documented JSON upload API. #11\nThumbnails are now gene",
+      "published": "2026-03-23T23:06:38+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "summary": "",
+      "published": "2026-03-24T02:01:52+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "openai-rss",
+      "source_name": "OpenAI Blog",
+      "source_type": "rss",
+      "title": "Helping developers build safer AI experiences for teens",
+      "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "published": "2026-03-24T11:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "openai-rss",
+      "source_name": "OpenAI Blog",
+      "source_type": "rss",
+      "title": "Update on the OpenAI Foundation",
+      "url": "https://openai.com/index/update-on-the-openai-foundation",
+      "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+      "published": "2026-03-24T09:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "openai-rss",
+      "source_name": "OpenAI Blog",
+      "source_type": "rss",
+      "title": "Powering product discovery in ChatGPT",
+      "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "published": "2026-03-24T09:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "The Daily: Balancer Labs to wind down, Bernstein calls bitcoin bottom with $150K target for 2026, and more",
+      "url": "https://www.theblock.co/post/394940/the-daily-balancer-labs-to-wind-down-bernstein-calls-bitcoin-bottom-with-150k-target-for-2026-and-more?utm_source=rss&utm_medium=rss",
+      "summary": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
+      "published": "2026-03-24T18:14:04+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Ethereum block builder Eureka Labs raises $6.7 million, introduces ‘programmable blocks’",
+      "url": "https://www.theblock.co/post/394923/ethereum-block-builder-eureka-labs-funding-programmable-blocks?utm_source=rss&utm_medium=rss",
+      "summary": "Ethereum block builder Eureka Labs is introducing \"programmable blocks,\" which add logic during block construction.",
+      "published": "2026-03-24T17:40:03+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Circle falls 20% as stablecoin reward limits loom, Tether adds Big Four auditor and wallets frozen",
+      "url": "https://www.theblock.co/post/394918/circle-falls-20-stablecoin-reward-limits-tether-big-four-auditor-wallets-frozen?utm_source=rss&utm_medium=rss",
+      "summary": "The USDC stablecoin issuer faced headwinds on Tuesday amid developing stablecon legislation that could dent future revenue.",
+      "published": "2026-03-24T17:29:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Ledger discloses $50 million Q4 secondary sale as IPO plans remain open",
+      "url": "https://www.theblock.co/post/394919/ledger-discloses-50-million-q4-secondary-sale-ipo-plans-open?utm_source=rss&utm_medium=rss",
+      "summary": "The transaction comes years after Ledger’s last primary raise, which valued the company at $1.5 billion in 2023.",
+      "published": "2026-03-24T17:13:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Hut 8 leans into modular ‘LEGO block’ model to switch between AI and bitcoin mining",
+      "url": "https://www.theblock.co/post/394897/hut-8-modular-lego-block-model-switch-between-ai-bitcoin-mining?utm_source=rss&utm_medium=rss",
+      "summary": "Hut 8 is trying to position itself less as a miner and more as an energy infrastructure player, with power allocation driving returns.",
+      "published": "2026-03-24T15:10:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "CFTC forms new innovation task force to shape crypto, artificial intelligence and prediction markets",
+      "url": "https://www.theblock.co/post/394910/cftc-innovation-task-force-crypto-artificial-intelligence-prediction-markets?utm_source=rss&utm_medium=rss",
+      "summary": "The CFTC launched a new task force focused on cryptocurrencies, artificial intelligence, and the rapidly emerging area of prediction markets.",
+      "published": "2026-03-24T15:03:18+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Silo V3 launches new liquidation mechanism opening door to new forms of crypto collateral",
+      "url": "https://www.theblock.co/post/394810/silo-v3-launches-new-liquidation-mechanism-opening-door-to-new-forms-of-crypto-collateral?utm_source=rss&utm_medium=rss",
+      "summary": "Silo V3, unveiled Tuesday, adds a protocol-level insolvency protection mechanism to reduce the dependency on DEX liquidity.",
+      "published": "2026-03-24T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "TD Cowen says prediction market bills unlikely to pass this year, flags 2028 election as ‘real threat’",
+      "url": "https://www.theblock.co/post/394896/td-cowen-prediction-market-bills-2028-election-real-threat?utm_source=rss&utm_medium=rss",
+      "summary": "TD Cowen said policy risk remains high for prediction markets, flagging the 2028 election as the \"real threat\" as bipartisan concerns grow.",
+      "published": "2026-03-24T14:48:15+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Longevity pharma and RAIN treasury Enlivex secures $21 million debt financing",
+      "url": "https://www.theblock.co/post/394893/longevity-pharma-and-rain-treasury-enlivex-secures-21-million-debt-financing?utm_source=rss&utm_medium=rss",
+      "summary": "The company struck the financing deal with New York-based The Lind Partners, an institutional fund manager.",
+      "published": "2026-03-24T14:37:55+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bernstein says bitcoin looks bottomed, sees 226% upside for Strategy",
+      "url": "https://www.theblock.co/post/394878/bernstein-says-bitcoin-looks-bottomed-sees-226-upside-for-strategy?utm_source=rss&utm_medium=rss",
+      "summary": "Bernstein said Strategy could see 226% upside if bitcoin has bottomed, with STRC central to its capital model.",
+      "published": "2026-03-24T13:54:41+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Tether hires Big Four auditor for first full reserves audit",
+      "url": "https://www.theblock.co/post/394883/tether-hires-big-four-auditor-for-first-full-reserves-audit?utm_source=rss&utm_medium=rss",
+      "summary": "Tether has hired a Big Four accounting firm for its first full USDT stablecoin audit after years of scrutiny over its reserves.",
+      "published": "2026-03-24T13:30:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Mastercard, Western Union tap Solana Foundation’s new enterprise developer toolbox",
+      "url": "https://www.theblock.co/post/394756/mastercard-western-union-tap-solana-foundations-new-enterprise-developer-toolbox?utm_source=rss&utm_medium=rss",
+      "summary": "The platform offers three API modules to help issue RWAs, support payments, and enable onchain swaps supported by 20 launch partners.",
+      "published": "2026-03-24T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "NYSE taps Securitize to develop 24/7 tokenized securities platform",
+      "url": "https://www.theblock.co/post/394869/nyse-taps-securitize-to-develop-24-7-tokenized-securities-platform?utm_source=rss&utm_medium=rss",
+      "summary": "The NYSE, part of Intercontinental Exchange, has partnered with Securitize to develop its 24/7 tokenized securities platform.",
+      "published": "2026-03-24T12:26:23+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin sees rare two-block reorg as Foundry overtakes AntPool and ViaBTC in mining race",
+      "url": "https://www.theblock.co/post/394861/bitcoin-sees-rare-two-block-reorg-as-foundry-overtakes-antpool-and-viabtc-in-mining-race?utm_source=rss&utm_medium=rss",
+      "summary": "Despite its relative rarity, the event reflects normal network behavior, as nodes adopt the chain with the most cumulative proof of work.",
+      "published": "2026-03-24T12:21:16+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin hovers below key ‘air gap’ as geopolitical risks and Fed outlook cloud direction",
+      "url": "https://www.theblock.co/post/394860/bitcoin-hovers-below-key-air-gap-as-geopolitical-risks-and-fed-outlook-cloud-direction?utm_source=rss&utm_medium=rss",
+      "summary": "Analysts flag a resistance zone above $72,000 as bitcoin holds key support amid geopolitical tensions and macro headwinds.",
+      "published": "2026-03-24T12:08:22+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "BitGo offers OTC prediction market access to institutions via Susquehanna Crypto partnership",
+      "url": "https://www.theblock.co/post/394803/bitgo-offers-otc-prediction-market-access-institutions?utm_source=rss&utm_medium=rss",
+      "summary": "BitGo's institutional clients will be able to access prediction markets via the custodian's platform and post cash or crypto as collateral.",
+      "published": "2026-03-24T12:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Zama and T-REX Network launch privacy layer for tokenized assets targeting Wall Street institutions",
+      "url": "https://www.theblock.co/post/394832/zama-and-t-rex-network-launch-privacy-layer-for-tokenized-assets-targeting-wall-street-institutions?utm_source=rss&utm_medium=rss",
+      "summary": "Zama and T-REX Network introduced a confidentiality layer for tokenized real-world assets, aiming to enable broader institutional adoption.",
+      "published": "2026-03-24T11:05:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
