@@ -1,0 +1,823 @@
+{
+  "generated_at": "2026-03-25T19:00:34.983221+00:00",
+  "today_jst": "2026-03-26",
+  "stats": {
+    "rss_fetched": 28,
+    "rss_errors": 13,
+    "github_fetched": 6,
+    "reddit_fetched": 9
+  },
+  "total_articles": 363,
+  "topic_distribution": {
+    "llm": 65,
+    "ai-agent": 6,
+    "crypto": 108,
+    "frontier-tech": 183,
+    "cybersecurity": 1
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.3",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc1",
+        "summary": "What's Changed\n\ndocs: update claude code and openclaw for web search and non-interactive mode by @ParthSareen in #14922\ncmd/launch: skip redundant config writes when model unchanged by @hoyyeva in #14941\nmlxrunner: share KV cache across conversations with common prefixes by @jessegross in #14887\napp",
+        "published": "2026-03-25T03:00:57+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.3-rc0: mlx: add mxfp4/mxfp8/nvfp4 importing (#15015)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc0",
+        "summary": "This change allows importing bf16 and converting to mxfp4/mxfp8/nvfp4\nand also importing fp8 and converting directly to mxfp8.",
+        "published": "2026-03-24T20:45:44+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+        "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+        "published": "2026-03-18T20:20:10+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "LiteLLM Hack: Were You One of the 47,000?",
+        "url": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+        "summary": "LiteLLM Hack: Were You One of the 47,000?\nDaniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they were live on PyPI.\nThey also identified 2,337 packages that depended on LiteLLM - 88% of which did not pin versions in a way that would have avoided the exploited version.\n\n    Via @hnykda\n\n\n    Tags: packaging, pypi, python, security, supply-chain",
+        "published": "2026-03-25T17:21:04+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Auto mode for Claude Code",
+        "url": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
+        "summary": "Auto mode for Claude Code\nReally interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions:\n\nToday, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions before they run.\n\nThose safeguards appear to be implemented using Claude Sonnet 4.6, as described in the documentation:\n\nBefore each action runs, a separate classifier model reviews the conversation ",
+        "published": "2026-03-24T23:57:33+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Package Managers Need to Cool Down",
+        "url": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
+        "summary": "Package Managers Need to Cool Down\nToday's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns, the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in some way.\nThis recent piece (March 4th) piece by Andrew Nesbitt reviews the current state of dependency cooldown mechanisms across different packaging tools. It's surprisingly well supported! There's be",
+        "published": "2026-03-24T21:11:38+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.0",
+        "summary": "Changes since langchain-openrouter==0.1.0\nrelease(openrouter): 0.2.0 (#36227)\nfeat(openrouter): add app_categories field for marketplace attribution (#36205)\nchore(openrouter): update URL/title (#36204)\nchore(model-profiles): refresh model profile data (#36195)\nchore(partners): bump langchain-core m",
+        "published": "2026-03-25T15:16:49+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.24",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24",
+        "summary": "Breaking\nChanges\n\nGateway/OpenAI compatibility: add /v1/models and /v1/embeddings, and forward explicit model overrides through /v1/chat/completions and /v1/responses for broader client and RAG compatibility. Thanks @vincentkoc.\nAgents/tools: make /tools show the tools the current agent can actually",
+        "published": "2026-03-25T17:06:39+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+        "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+        "published": "2026-03-19T17:16:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: v2026.3.23-2",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-2",
+        "summary": "v2026.3.23-2",
+        "published": "2026-03-24T03:06:46+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.12.0a2",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.12.0a2",
+        "summary": "What's Changed\nFeatures\n\nAdd Qdrant Edge storage backend for memory system\n\nDocumentation\n\nUpdate changelog and version for v1.12.0a1\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-25T15:55:09+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "UK’s Starmer backs pause on crypto political donations, citing ‘illicit finance’ risks",
+        "url": "https://www.theblock.co/post/395144/uk-starmer-pause-crypto-political-donations-illicit-finance-risks?utm_source=rss&utm_medium=rss",
+        "summary": "The proposal would force UK political parties to unwind any crypto donations received once the rules take effect.",
+        "published": "2026-03-25T18:46:44+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Franklin Templeton taps Ondo Finance to tokenize five equities and gold ETFs",
+        "url": "https://www.theblock.co/post/395150/franklin-templeton-taps-ondo-finance-to-tokenize-five-equities-and-gold-etfs?utm_source=rss&utm_medium=rss",
+        "summary": "The new onchain products are geared for a crypto-native audience who prefer to access their investments through a digital wallet.",
+        "published": "2026-03-25T18:36:08+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "The Daily: Circle selloff questioned as analysts defend outlook, Bhutan offloads $37M in BTC, Bitmine adds $145M in ETH, and more",
+        "url": "https://www.theblock.co/post/395148/the-daily-circle-selloff-questioned-as-analysts-defend-outlook-bhutan-offloads-37m-in-btc-bitmine-adds-145m-in-eth-and-more?utm_source=rss&utm_medium=rss",
+        "summary": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
+        "published": "2026-03-25T18:31:50+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Binance outlines market maker, token launch ‘red flags’ in updated trading rules",
+        "url": "https://www.theblock.co/post/395111/binance-points-market-maker-token-launch-red-flags-updated-trading-rules?utm_source=rss&utm_medium=rss",
+        "summary": "The update zeroes in on how market maker setups are structured, signaling that deal terms and trading behavior are now part of Binance’s scrutiny.",
+        "published": "2026-03-25T17:06:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "‘Big boy’ Morgan Stanley’s Bitcoin ETF launch likely ‘imminent’ says analyst",
+        "url": "https://www.theblock.co/post/395130/big-boy-morgan-stanleys-bitcoin-etf-launch-likely-imminent-analyst?utm_source=rss&utm_medium=rss",
+        "summary": "Eric Balchunas noted that the NYSE officially announced the listing of Morgan Stanley's spot Bitcoin ETF, a sign its launch is likely \"imminent.\"",
+        "published": "2026-03-25T17:05:42+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Meta and Google found liable in social media addiction trial",
+        "url": "https://www.bbc.co.uk/news/articles/c747x7gz249o",
+        "summary": "Article URL: https://www.bbc.co.uk/news/articles/c747x7gz249o\nComments URL: https://news.ycombinator.com/item?id=47520717\nPoints: 45\n# Comments: 8",
+        "published": "2026-03-25T17:43:17+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "UK total wind generation record beaten today",
+        "url": "https://renewables-map.robinhawkes.com/records",
+        "summary": "Article URL: https://renewables-map.robinhawkes.com/records\nComments URL: https://news.ycombinator.com/item?id=47519804\nPoints: 4\n# Comments: 1",
+        "published": "2026-03-25T16:43:21+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Tracy Kidder, Author of 'The Soul of a New Machine,' Dies at 80",
+        "url": "https://www.nytimes.com/2026/03/25/books/tracy-kidder-dead.html",
+        "summary": "Article URL: https://www.nytimes.com/2026/03/25/books/tracy-kidder-dead.html\nComments URL: https://news.ycombinator.com/item?id=47519802\nPoints: 54\n# Comments: 18",
+        "published": "2026-03-25T16:43:08+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Jury says Meta knowingly harmed children for profit, awarding landmark verdict",
+        "url": "https://www.latimes.com/business/story/2026-03-25/jury-says-meta-knowingly-harmed-children-for-profit-awarding-landmark-verdict",
+        "summary": "Article URL: https://www.latimes.com/business/story/2026-03-25/jury-says-meta-knowingly-harmed-children-for-profit-awarding-landmark-verdict\nComments URL: https://news.ycombinator.com/item?id=47519625\nPoints: 242\n# Comments: 45",
+        "published": "2026-03-25T16:31:15+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote",
+        "url": "https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a",
+        "summary": "Article URL: https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a\nComments URL: https://news.ycombinator.com/item?id=47519519\nPoints: 362\n# Comments: 161",
+        "published": "2026-03-25T16:24:15+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Quantization from the Ground Up",
+        "url": "https://ngrok.com/blog/quantization",
+        "summary": "Article URL: https://ngrok.com/blog/quantization\nComments URL: https://news.ycombinator.com/item?id=47519295\nPoints: 56\n# Comments: 12",
+        "published": "2026-03-25T16:06:34+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "cybersecurity": [
+      {
+        "source_id": "securityweek-rss",
+        "source_name": "SecurityWeek",
+        "source_type": "rss",
+        "title": "Cloud workload security: Mind the gaps",
+        "url": "https://www.welivesecurity.com/en/business-security/cloud-workload-security-mind-gaps/",
+        "summary": "As IT infrastructure expands, visibility and control often lag behind – until an incident forces a reckoning",
+        "published": "2026-03-24T10:00:00+00:00",
+        "topics": [
+          "cybersecurity"
+        ],
+        "priority": false,
+        "quality_score": 5
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc1",
+      "summary": "What's Changed\n\ndocs: update claude code and openclaw for web search and non-interactive mode by @ParthSareen in #14922\ncmd/launch: skip redundant config writes when model unchanged by @hoyyeva in #14941\nmlxrunner: share KV cache across conversations with common prefixes by @jessegross in #14887\napp",
+      "published": "2026-03-25T03:00:57+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.3-rc0: mlx: add mxfp4/mxfp8/nvfp4 importing (#15015)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.3-rc0",
+      "summary": "This change allows importing bf16 and converting to mxfp4/mxfp8/nvfp4\nand also importing fp8 and converting directly to mxfp8.",
+      "published": "2026-03-24T20:45:44+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.0",
+      "summary": "Changes since langchain-openrouter==0.1.0\nrelease(openrouter): 0.2.0 (#36227)\nfeat(openrouter): add app_categories field for marketplace attribution (#36205)\nchore(openrouter): update URL/title (#36204)\nchore(model-profiles): refresh model profile data (#36195)\nchore(partners): bump langchain-core m",
+      "published": "2026-03-25T15:16:49+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.24",
+      "summary": "Breaking\nChanges\n\nGateway/OpenAI compatibility: add /v1/models and /v1/embeddings, and forward explicit model overrides through /v1/chat/completions and /v1/responses for broader client and RAG compatibility. Thanks @vincentkoc.\nAgents/tools: make /tools show the tools the current agent can actually",
+      "published": "2026-03-25T17:06:39+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.18.2-rc1: launch: fix openclaw not picking up newly selected model (#14943)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.18.2-rc1",
+      "summary": "Sessions with a stale model field were not updated when the primary\nchanged, so the old model continued to be used.",
+      "published": "2026-03-18T20:20:10+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.13",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.13",
+      "summary": "Changes since langchain==1.2.12\nrelease(langchain): 1.2.13 (#36111)\nci: suppress pytest streaming output in CI (#36092)\nfeat: Add LangSmith integration metadata to create_agent and init_chat_model (#35810)\nci: avoid unnecessary dep installs in lint targets (#36046)\nchore: bump pyasn1 from 0.6.2 to 0",
+      "published": "2026-03-19T17:16:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: v2026.3.23-2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.23-2",
+      "summary": "v2026.3.23-2",
+      "published": "2026-03-24T03:06:46+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "LiteLLM Hack: Were You One of the 47,000?",
+      "url": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+      "summary": "LiteLLM Hack: Were You One of the 47,000?\nDaniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they were live on PyPI.\nThey also identified 2,337 packages that depended on LiteLLM - 88% of which did not pin versions in a way that would have avoided the exploited version.\n\n    Via @hnykda\n\n\n    Tags: packaging, pypi, python, security, supply-chain",
+      "published": "2026-03-25T17:21:04+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Auto mode for Claude Code",
+      "url": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
+      "summary": "Auto mode for Claude Code\nReally interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions:\n\nToday, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions before they run.\n\nThose safeguards appear to be implemented using Claude Sonnet 4.6, as described in the documentation:\n\nBefore each action runs, a separate classifier model reviews the conversation ",
+      "published": "2026-03-24T23:57:33+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Package Managers Need to Cool Down",
+      "url": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
+      "summary": "Package Managers Need to Cool Down\nToday's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns, the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in some way.\nThis recent piece (March 4th) piece by Andrew Nesbitt reviews the current state of dependency cooldown mechanisms across different packaging tools. It's surprisingly well supported! There's be",
+      "published": "2026-03-24T21:11:38+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Christopher Mims",
+      "url": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
+      "summary": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape\n&mdash; Christopher Mims, Technology columnist at The Wall Street Journal\n\n    Tags: ai, security",
+      "published": "2026-03-24T20:35:52+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "War and AI, the death of Sora, and 3 ways you can catch me live today",
+      "url": "https://garymarcus.substack.com/p/war-and-ai-the-death-of-sora-and",
+      "summary": "With apologies for the short notice, a few quick announcements:",
+      "published": "2026-03-25T13:36:40+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "UK’s Starmer backs pause on crypto political donations, citing ‘illicit finance’ risks",
+      "url": "https://www.theblock.co/post/395144/uk-starmer-pause-crypto-political-donations-illicit-finance-risks?utm_source=rss&utm_medium=rss",
+      "summary": "The proposal would force UK political parties to unwind any crypto donations received once the rules take effect.",
+      "published": "2026-03-25T18:46:44+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Franklin Templeton taps Ondo Finance to tokenize five equities and gold ETFs",
+      "url": "https://www.theblock.co/post/395150/franklin-templeton-taps-ondo-finance-to-tokenize-five-equities-and-gold-etfs?utm_source=rss&utm_medium=rss",
+      "summary": "The new onchain products are geared for a crypto-native audience who prefer to access their investments through a digital wallet.",
+      "published": "2026-03-25T18:36:08+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "The Daily: Circle selloff questioned as analysts defend outlook, Bhutan offloads $37M in BTC, Bitmine adds $145M in ETH, and more",
+      "url": "https://www.theblock.co/post/395148/the-daily-circle-selloff-questioned-as-analysts-defend-outlook-bhutan-offloads-37m-in-btc-bitmine-adds-145m-in-eth-and-more?utm_source=rss&utm_medium=rss",
+      "summary": "The following article is adapted from The Block’s newsletter, The Daily, which comes out on weekday afternoons.",
+      "published": "2026-03-25T18:31:50+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Binance outlines market maker, token launch ‘red flags’ in updated trading rules",
+      "url": "https://www.theblock.co/post/395111/binance-points-market-maker-token-launch-red-flags-updated-trading-rules?utm_source=rss&utm_medium=rss",
+      "summary": "The update zeroes in on how market maker setups are structured, signaling that deal terms and trading behavior are now part of Binance’s scrutiny.",
+      "published": "2026-03-25T17:06:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "‘Big boy’ Morgan Stanley’s Bitcoin ETF launch likely ‘imminent’ says analyst",
+      "url": "https://www.theblock.co/post/395130/big-boy-morgan-stanleys-bitcoin-etf-launch-likely-imminent-analyst?utm_source=rss&utm_medium=rss",
+      "summary": "Eric Balchunas noted that the NYSE officially announced the listing of Morgan Stanley's spot Bitcoin ETF, a sign its launch is likely \"imminent.\"",
+      "published": "2026-03-25T17:05:42+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Startale Group closes $63 million Series A with investments from SBI Group and Sony Innovation Fund",
+      "url": "https://www.theblock.co/post/395025/startale-group-63-million-series-a?utm_source=rss&utm_medium=rss",
+      "summary": "The company said it will use the capital to scale Layer 1 network Strium to power institutional tokenized securities and RWA trading.",
+      "published": "2026-03-25T17:01:03+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Stablecoin startup Payy, focused on private transactions, raises $6 million in seed funding",
+      "url": "https://www.theblock.co/post/395106/stablecoin-startup-payy-funding-private-transactions?utm_source=rss&utm_medium=rss",
+      "summary": "Payy's round was led by FirstMark Capital, an early backer of Airbnb, Shopify and Pinterest, and included Robot Ventures and DBA Crypto.",
+      "published": "2026-03-25T16:00:04+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Visa takes on Canton Super Validator role, marking major step in engaging with blockchain governance",
+      "url": "https://www.theblock.co/post/395109/visa-canton-super-validator-major-step-engaging-blockchain-governance?utm_source=rss&utm_medium=rss",
+      "summary": "The firm’s application was approved on March 23, three days after it was submitted, appointing Visa the highest Super Validator weight.",
+      "published": "2026-03-25T16:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitwise sees Circle worth $75 billion by 2030 as analysts defend stock after selloff",
+      "url": "https://www.theblock.co/post/395086/bitwise-circle-worth-75-billion-2030-analysts-defend-stock-selloff?utm_source=rss&utm_medium=rss",
+      "summary": "Circle shares fell about 20% on Tuesday amid reports that draft provisions in the CLARITY Act could limit rewards.",
+      "published": "2026-03-25T15:26:39+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Cipher Digital adds third AI lease, lines up $200 million credit facility as CIFR shares rise 10%",
+      "url": "https://www.theblock.co/post/395094/cipher-third-ai-lease-200-million-credit-facility-cifr-shares-rise-10?utm_source=rss&utm_medium=rss",
+      "summary": "Cipher is increasingly leaning on debt-backed, flexible financing rather than equity issuance as it scales out its AI infrastructure.",
+      "published": "2026-03-25T14:31:47+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Tom Lee’s Bitmine debuts MAVAN Ethereum staking platform, plans to shift its ETH activity",
+      "url": "https://www.theblock.co/post/395080/tom-lees-bitmine-debuts-mavan-ethereum-staking-platform-plans-to-shift-its-eth-activity?utm_source=rss&utm_medium=rss",
+      "summary": "Bitmine officially launched the MAVAN Ethereum staking platform, targeting roughly $300 million in annual rewards.",
+      "published": "2026-03-25T14:13:30+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Coinbase pushes order book, perps and futures data onchain with Chainlink’s DataLink bridge",
+      "url": "https://www.theblock.co/post/395085/coinbase-pushes-order-book-perps-and-futures-data-onchain-with-chainlinks-datalink-bridge?utm_source=rss&utm_medium=rss",
+      "summary": "Onchain protocols and apps will now be able to stream Coinbase's order book and derivatives trading data directly.",
+      "published": "2026-03-25T14:02:16+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin consolidation points to potential market bottom as selling pressure wanes, K33 says",
+      "url": "https://www.theblock.co/post/395071/bitcoin-consolidation-points-to-potential-market-bottom-as-selling-pressure-wanes-k33-says?utm_source=rss&utm_medium=rss",
+      "summary": "Head of Research Vetle Lunde said subdued derivatives activity and limited inflows point to a cautious market, but one forming a bottom.",
+      "published": "2026-03-25T13:34:39+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "‘Our interpretation is not an endpoint’: The SEC just clarified its crypto rules, but will they stick?",
+      "url": "https://www.theblock.co/post/395073/interpretation-not-endpoint-sec-just-clarified-crypto-rules-but-will-they-stick?utm_source=rss&utm_medium=rss",
+      "summary": "The SEC and CFTC have issued crypto interpretive guidance, but the big question now is whether that clarity has staying power.",
+      "published": "2026-03-25T13:26:16+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Beyond dollarization? Visa and Dune report finds non-USD stablecoins increasingly being used as money",
+      "url": "https://www.theblock.co/post/395038/beyond-dollarization-visa-and-dune-report-finds-non-usd-stablecoins-increasingly-being-used-as-money?utm_source=rss&utm_medium=rss",
+      "summary": "The supply of non-USD stablecoins hit $1.1 billion in February, while aggregated transfer volume surged over 1,600%.",
+      "published": "2026-03-25T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitget Wallet debuts stablecoin payments infrastructure integrating with Ripple, Mastercard, Tether, and others",
+      "url": "https://www.theblock.co/post/395056/bitget-wallet-debuts-stablecoin-payments-infrastructure-integrating-with-ripple-mastercard-tether-and-others?utm_source=rss&utm_medium=rss",
+      "summary": "Bitget Wallet launched the Onchain Payments Matrix, connecting Ripple, Mastercard, and Tether within a global stablecoin payments network.",
+      "published": "2026-03-25T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Circle selloff may miss the mark as Clarity Act targets distributors, not issuers: Bernstein",
+      "url": "https://www.theblock.co/post/395062/circle-selloff-may-miss-the-mark-as-clarity-act-targets-distributors-not-issuers-bernstein?utm_source=rss&utm_medium=rss",
+      "summary": "Circle’s sharp stock drop may be overdone, Bernstein says, arguing investors are misinterpreting stablecoin yield restrictions.",
+      "published": "2026-03-25T12:01:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Kraken first to roll out access to STS Digital’s new crypto option structured products",
+      "url": "https://www.theblock.co/post/395012/kraken-sts-crypto-option-structured-products?utm_source=rss&utm_medium=rss",
+      "summary": "Kraken is set to be the first platform to integrate STS’s structured products, according to an announcement on Wednesday.",
+      "published": "2026-03-25T11:05:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

@@ -196,7 +196,21 @@ python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODA
 - Verify mp3 exists after running
 - **If TTS fails (503 or other error):** wait 30 seconds, then retry up to 2 more times. Edge TTS 503 is usually transient.
 
-### Step 3.4 — Send Audio to Telegram
+### Step 3.4 — Upload to R2
+```bash
+cd /home/node/.openclaw/workspace/projects/daily-world-news && \
+bash scripts/upload-r2.sh summaries/${TODAY}.mp3 podcasts/${TODAY}.mp3
+```
+- Verify upload succeeded (exit code 0)
+- If upload fails, retry once. Non-blocking — continue to Telegram even if R2 fails.
+
+### Step 3.5 — Update RSS Feed
+```bash
+cd /home/node/.openclaw/workspace/projects/daily-world-news && \
+python3 scripts/generate-rss.py
+```
+
+### Step 3.6 — Send Audio to Telegram
 - Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
 - asVoice=true, filePath=summaries/${TODAY}.mp3, message="🎙️ 每日新聞 Podcast"
 

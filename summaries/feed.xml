@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>AI 每日新聞</title>
+    <description>每日精選國際時事與科技趨勢，AI 自動蒐集、整理、播報。涵蓋地緣政治、科技產業、加密貨幣等多元視角，讓你用 15 分鐘掌握世界動態。</description>
+    <language>zh-tw</language>
+    <itunes:author>AI 每日新聞</itunes:author>
+    <itunes:category text="News">
+      <itunes:category text="Daily News"/>
+    </itunes:category>
+    <itunes:image href="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/cover.jpg"/>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/feed.xml</link>
+    <item>
+      <title>伊朗拒絕美國 15 點停火方案｜俄羅斯對烏克蘭發動史上最大規模白天無人機攻擊｜美中角力：美最高法院推翻 IEEPA 關稅</title>
+      <description>大家好，今天是 2026 年 3 月 26 號，星期四。
+
+今天的新聞量很大，而且幾乎每一條都跟同一場戰爭有關——那就是已經打到第二十六天的美伊戰爭。這場衝突不只是中東的事，它正在牽動全球每一個角落：油價、股市、非洲的航空公司、日本的能源政策、台灣的國防信心，全都被這場戰爭的漣漪波及。
+
+今天時事這邊，我們要聊的幾個重點是：美國提出停火方案，但伊朗直接拒絕了；俄羅斯趁機對烏克蘭發動了史上最大規模的白天無人機攻擊；日本的薪資談判出了結果；還有台灣怎麼看這場戰爭對台海局勢的影響。
+
+科技圈這邊也不平靜——有一個震驚開源 AI 社群的供應鏈攻擊，一個里程碑式的法院判決剛剛下來，還有機器人 AI 這個</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-26.mp3" length="6756861" type="audio/mpeg"/>
+      <pubDate>Wed, 25 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-26.mp3</guid>
+      <itunes:duration>7:02</itunes:duration>
+      <itunes:episode>20260326</itunes:episode>
+    </item>
+
+    <item>
+      <title>美伊戰爭進入第 20 天：外交斡旋曙光乍現｜俄羅斯對烏克蘭發動大規模空襲｜日本首相高市早苗訪白宮：強化美日同盟</title>
+      <description>大家好，歡迎收聽今天的每日新聞摘要，今天是二零二六年三月二十五日，星期三。
+
+今天要跟你聊的內容很豐富。國際局勢這邊，美伊戰爭進入了第二十天，局勢有一點微妙的變化——川普說伊朗「說的有道理」，但伊朗自己卻說根本沒有談判這回事，所以我們到底距離停火有多遠？這個問題今天要好好聊一聊。俄羅斯那邊也沒有安靜，對烏克蘭又發動了大規模空襲。亞洲方面，日本首相高市早苗剛從白宮回來，她跟川普的這次會面非常值得關注。台灣也有一個很有意思的政治動向。
+
+科技圈這邊，最大的消息是 AI 模型排行榜出現了一個幾乎平局的局面——OpenAI 的 GPT-5.4 跟 Google 的 Gemini 3.1 Pro 只差了</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-25.mp3" length="7768173" type="audio/mpeg"/>
+      <pubDate>Tue, 24 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-25.mp3</guid>
+      <itunes:duration>8:05</itunes:duration>
+      <itunes:episode>20260325</itunes:episode>
+    </item>
+
+    <item>
+      <title>美-以-伊戰爭第 24 天：川普喊暫停 5 天、宣稱伊朗…｜烏克蘭和平談判：澤倫斯基代表團佛羅里達行無功而返｜台灣接收首批美製 MQ-9 SkyGuardian 無人機</title>
+      <description>早安，今天是 2026 年 3 月 24 號，星期二。
+
+開門第一件事，我要先說，昨晚到今天這個時間點，世界上有一個消息讓所有人的心跳都快了一拍——那就是伊朗戰局出現了一個讓人看不懂的轉折。川普突然說「伊朗想談判了」，然後比特幣衝破七萬一千美元，股市也大漲。但你等一下就會明白，這事沒有那麼簡單。
+
+今天的時事方面，我們要聊的主要是三件大事：第一是美伊戰爭第二十四天，川普的「暫停攻擊」信號和以色列的「我行我素」之間到底發生了什麼；第二是烏克蘭代表團跑到佛羅里達談判，回來的結果是什麼；第三是台灣接收了一批非常重要的美國無人機，這件事在兩岸局勢緊張的當下時機非常敏感。
+
+科技方面，今天也有幾件挺有意</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-24.mp3" length="6443085" type="audio/mpeg"/>
+      <pubDate>Mon, 23 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-24.mp3</guid>
+      <itunes:duration>6:42</itunes:duration>
+      <itunes:episode>20260324</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊-美-以戰爭第 23 天：以色列轟炸阿拉德市｜烏克蘭和平談判在邁阿密繼續：澤倫斯基派代表赴美｜全球央行按兵不動：美聯儲、ECB、BOJ 全面維持利率</title>
+      <description>早安，我是 April，今天是 2026 年 3 月 23 日，星期一，早上好。
+
+先說說今天的大綱。國際局勢方面，我們要聊三件事：第一，美-以-伊朗戰爭打到第 23 天了，昨天以色列在被伊朗飛彈打中阿拉德之後展開報復，伊朗無人機攻擊 UAE 周邊的船隻，22 個國家同時發聯合聲明，但誰都沒有跟著打仗的意思。第二，烏克蘭的和平談判繼續——在邁阿密，在談判桌上；同一時間在烏克蘭，砲擊繼續，還是四個人死了。第三，全球央行在油價暴漲的情況下，三個主要央行同時選擇維持利率不變，這背後有個很微妙的邏輯。科技圈方面，Anthropic 更新了 Claude 的安全政策，允許提供「公開可得」的武器資訊，引發</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-23.mp3" length="8862285" type="audio/mpeg"/>
+      <pubDate>Sun, 22 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-23.mp3</guid>
+      <itunes:duration>9:13</itunes:duration>
+      <itunes:episode>20260323</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊朗-美以戰爭第 22 天：川普說「考慮收兵」但拒絕停火｜歐洲拒絕川普霍姆茲派艦要求｜台灣：中國公眾輿論對台強硬度創新高</title>
+      <description>早安，今天是三月二十二號，星期日。
+
+今天有很多大事要跟你聊。國際局勢方面，伊朗戰爭進入第二十二天，川普說「考慮收兵」但同時又在增兵，這個矛盾讓整個世界都看得一頭霧水；烏克蘭的和談也因為中東的混亂陷入暫停，普亭可能趁這個機會發動新一輪攻勢。另外，台灣和中國之間也有一些很有意思的新發展值得我們深聊。
+
+科技圈這邊呢，NVIDIA 在 GTC 大會上宣布的消息相當震撼——黃仁勳說他預期公司在未來幾年能從 AI 晶片拿下一兆美元的訂單；同時，AI Agent 這個題目已經從討論走進了現實，Meta、OKX、NVIDIA 各自有重大進展，但也伴隨著安全警告。
+
+好，我們一個一個來聊。先從中東開始。
+
+</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-22.mp3" length="6526461" type="audio/mpeg"/>
+      <pubDate>Sat, 21 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-22.mp3</guid>
+      <itunes:duration>6:47</itunes:duration>
+      <itunes:episode>20260322</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊朗-以色列戰爭第 21 天：以色列在川普壓力下暫停攻擊…｜全球穆斯林在戰火陰影下慶祝開齋節（Eid al-Fitr）｜澤倫斯基赴美和談：烏克蘭僅派政治代表團</title>
+      <description>早安，今天是二零二六年三月二十一日，週六。
+
+先跟大家說一聲——今天是開齋節，Eid al-Fitr，伊斯蘭齋戒月的最後一天，世界各地幾十億穆斯林正在慶祝節日。但這個本應充滿歡樂的節日，今年卻蒙上了厚厚的戰爭陰影。我們等一下會聊到。
+
+今天的時事有幾件大事：第一，伊朗和以色列的戰爭進入第二十一天，而且出現了一個很微妙的轉折——以色列暫停攻擊伊朗的能源設施，是因為川普在旁邊直接說「你別那樣做」。第二，烏克蘭和平談判今天在美國舉行，但俄羅斯根本不去，烏克蘭也只派了政治代表，感覺談個寂寞。第三，台灣這邊，美國最新的情報評估說，其實中國在二零二七年之前不太可能武力犯台——但這個說法，有人覺得是在放鬆警</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-21.mp3" length="8045373" type="audio/mpeg"/>
+      <pubDate>Fri, 20 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-21.mp3</guid>
+      <itunes:duration>8:22</itunes:duration>
+      <itunes:episode>20260321</itunes:episode>
+    </item>
+
+    <item>
+      <title>2026-03-20 每日新聞</title>
+      <description>嗨，歡迎收聽今天的每日新聞。今天是 2026 年 3 月 20 日，星期五。
+
+今天有非常多大事要跟你聊——中東局勢繼續升溫，以色列打了一個讓全球能源市場都跟著抖一下的目標；台灣也在這個時機點面對中國拋出的統戰新牌；美國聯準會開完會了，結論是繼續按兵不動。科技這邊也不平靜，OpenAI 宣布收購了一家幾乎所有 Python 開發者都在用的工具公司，小米突然端出一個號稱一兆參數的大型語言模型，Nvidia 的年度大會也剛剛落幕，Jensen Huang 說訂單突破一兆美元。內容很多，我們直接開始。
+
+先說中東。
+
+今天是美國和以色列對伊朗軍事行動的第二十天。如果你一直有在追這條線，你大概知道這二</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-20.mp3" length="5404845" type="audio/mpeg"/>
+      <pubDate>Thu, 19 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-20.mp3</guid>
+      <itunes:duration>5:37</itunes:duration>
+      <itunes:episode>20260320</itunes:episode>
+    </item>
+
+    <item>
+      <title>以伊戰爭第19天：以色列兩天內暗殺伊朗三名高層安全官員｜日本首相高市早苗赴華盛頓與 Trump 會面：荷莫茲海峽…｜美聯儲維持利率 3.5%-3.75%</title>
+      <description>早安，今天是 2026 年 3 月 19 日，星期四。
+
+開門見山跟你說——今天的新聞不輕鬆。我們有一場戰爭正在快速升級，有一個全球能源動脈快要斷掉，有全球幾十億人的荷包正在被油價硬生生掏空，然後美聯儲昨天開完會，說了一些讓股市不太高興的話。
+
+時事方面，最大的焦點當然還是以色列和伊朗的戰爭。今天是第 19 天，我要告訴你一件聽起來很難想像的事：以色列在兩天之內，暗殺了伊朗三名最高層的安全官員。這不是輕描淡寫的「擊殺」，這是在德黑蘭心臟地帶的精準清除行動。等一下我們詳細來聊。
+
+與此同時，日本首相高市早苗今天要去白宮見 Trump，而這趟拜訪被媒體形容是「高空走鋼絲」，因為 Trump 要日本</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-19.mp3" length="6705309" type="audio/mpeg"/>
+      <pubDate>Wed, 18 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-19.mp3</guid>
+      <itunes:duration>6:59</itunes:duration>
+      <itunes:episode>20260319</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊朗戰爭第18天：Trump 組建荷莫茲海峽護航聯盟受挫｜Trump 宣布延後 Trump-Xi 峰會「一個月左右」｜FOMC 利率決策登場：Fed 預計在伊朗戰爭帶來通膨壓…</title>
+      <description>早安，今天是2026年3月18日，星期三。
+
+今天要跟你聊的事情不少，而且幾件大事之間的關聯性非常緊密，等你聽完應該會有一個很完整的大局感。
+
+時事方面，最重要的絕對是荷莫茲海峽的局勢——伊朗戰爭進入第18天，Trump想組一個護航聯盟卻遭到盟友冷臉相迎，結果今天油價又反彈了。與此同時，他宣布要把原本這個月底要去北京見習近平的峰會推遲大概一個月，這個決定丟下去之後，中美關係的氣氛馬上又變了。歐洲那邊，烏克蘭和談依然沒有進展，Putin繼續說「我沒有要停火」，英國和法國則是在悄悄地推進他們的「有志聯盟」部署計畫。以色列同一時間在黎巴嫩擴大地面行動，中東整個局勢都很緊。
+
+科技方面，最大的事是Nv</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-18.mp3" length="7143357" type="audio/mpeg"/>
+      <pubDate>Tue, 17 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-18.mp3</guid>
+      <itunes:duration>7:26</itunes:duration>
+      <itunes:episode>20260318</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊朗戰爭第17天：Trump 向 NATO 盟友下最後通牒｜中美巴黎貿易談判：Bessent 與中方代表達成「初步共識」｜烏克蘭和談陷僵局：美國要求推遲三方談判</title>
+      <description>早安，今天是三月十七號，星期二。我是 Bird，歡迎收聽今天的國際新聞與科技快報。
+
+今天要聊的事情很多，國際局勢方面：伊朗戰爭進入第十七天，荷莫茲海峽的封鎖讓全球能源市場持續緊繃，而 Trump 對 NATO 的最後通牒讓盟友關係又出現裂痕。中美兩國的談判代表在巴黎坐下來談了，為月底的習拜——對，是習普峰會，不對，是 Trump-Xi 峰會鋪路。烏克蘭的和談呢，又卡住了。科技圈這邊，今天最大的事是 NVIDIA 的 GTC 開幕，Jensen Huang 今天要發表他說的「讓全世界驚訝的晶片」；還有前 Meta 首席 AI 科學家 Yann LeCun 拿到了一筆史上最大的種子輪融資，要顛覆</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-17.mp3" length="5759136" type="audio/mpeg"/>
+      <pubDate>Mon, 16 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-17.mp3</guid>
+      <itunes:duration>5:59</itunes:duration>
+      <itunes:episode>20260317</itunes:episode>
+    </item>
+
+    <item>
+      <title>美伊戰爭第17天：油價逼近歷史高點 $147｜美中財金高層巴黎會談今日開幕｜台灣宣布 $400 億美元特別國防預算</title>
+      <description>大家好，今天是 2026 年 3 月 16 號，星期一。
+
+今天是一個相當繁忙的一天，不管是國際局勢還是科技圈，都有很多值得好好聊的事。
+
+先跟你預告一下今天的重點。時事方面，我們要聊的是：美伊戰爭已經打到第 17 天了，油價正在逼近歷史最高點，全球能源市場陷入嚴重的不確定性；另外，美中兩國的財金高層今天在巴黎展開貿易談判，這是月底川習峰會的前哨戰；還有北韓在美韓軍演期間發射了超過 10 枚彈道飛彈，但特朗普同一天卻在喊話「歡迎對話」，信號非常混亂。
+
+科技圈這邊，Nvidia 的 GTC 2026 大會今天正式開幕了，Jensen Huang 說他要揭曉一個「讓世界驚訝」的晶片，大家都在屏息</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-16.mp3" length="8443245" type="audio/mpeg"/>
+      <pubDate>Sun, 15 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-16.mp3</guid>
+      <itunes:duration>8:47</itunes:duration>
+      <itunes:episode>20260316</itunes:episode>
+    </item>
+
+    <item>
+      <title>荷莫茲危機第15天：特朗普轟炸哈爾克島後呼籲中日法韓英組…｜美中財金高層今日巴黎會面｜北韓美韓演習期間發射逾10枚彈道導彈</title>
+      <description>早安，今天是 3 月 15 號，禮拜天。先說一下，今天是個很特別的日子——荷莫茲海峽危機已經進入第 15 天，北韓今天早上剛發射了超過十枚彈道導彈，而美中兩國的財政部長正在巴黎坐下來談判。國際上的事情很多，我們一個一個來聊。科技圈呢，Apple 今天在全球正式開賣了搭載 M5 Pro 和 M5 Max 的 MacBook Pro，Google DeepMind 也推出了一個叫做 Aletheia 的 AI 研究代理人，而 Gary Marcus 又來潑了一桶冷水說 Scaling 是不夠的。我們今天的節目先從中東開始，因為荷莫茲的局勢真的牽動著全世界。
+
+---
+
+先來聊最重大的那件事：荷莫茲</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-15.mp3" length="8005053" type="audio/mpeg"/>
+      <pubDate>Sat, 14 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-15.mp3</guid>
+      <itunes:duration>8:20</itunes:duration>
+      <itunes:episode>20260315</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊朗新最高領袖 Mojtaba Khamenei 正式發…｜美國對 16 經濟體啟動 Section 301 貿易調查｜油價衝擊、通膨擔憂重燃</title>
+      <description>早安，今天是 2026 年 3 月 14 號，星期六。今天有很多大事要跟你聊——中東局勢持續緊繃，伊朗新的最高領袖終於開口說話了，而且說的話讓整個中東都捏一把冷汗。美中貿易戰又升了一個級，川普這次一口氣對 16 個國家開砲。油價還在高位震盪，美股連跌三週，大家都在問：衰退要來了嗎？科技方面，Perplexity 做了一個讓人眼睛一亮的東西——把你家閒置的 Mac 變成一個 24 小時運作的 AI 代理人。還有摩根士丹利警告說，AI 的重大突破就要在今年上半年發生，但大多數人根本沒準備好。好，我們一個一個來聊。
+
+先從最燙的中東開始說。
+
+上個月 2 月 28 號，伊朗最高領袖哈梅內伊在一次疑似</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-14.mp3" length="5701485" type="audio/mpeg"/>
+      <pubDate>Fri, 13 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-14.mp3</guid>
+      <itunes:duration>5:56</itunes:duration>
+      <itunes:episode>20260314</itunes:episode>
+    </item>
+
+    <item>
+      <title>2026-03-13 每日新聞</title>
+      <description>早安，今天是三月十三號，星期五。
+
+今天的國際新聞幾乎全部被一件事主導——伊朗戰爭進入第十三天，而且事態正在朝著一個非常令人擔憂的方向發展。伊朗的新最高領袖今天首度公開講話了，他說了什麼？荷莫茲海峽要繼續封鎖。布倫特原油隔夜一度衝破了一百美元一桶。全球能源供應鏈正在承受巨大壓力，從印度到韓國，亞洲國家都在想辦法應對。
+
+同時呢，烏克蘭傳來了一個好消息——他們自2023年以來第一次收復了領土，而且規模不小。美國這邊，Trump政府又丟出了一顆震撼彈，對十六個經濟體同時發動貿易調查。
+
+科技方面，今天有一篇非常值得討論的報導——Guardian獨家揭露AI Agent在實驗室裡出現了「流氓行為」，</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-13.mp3" length="5457261" type="audio/mpeg"/>
+      <pubDate>Thu, 12 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-13.mp3</guid>
+      <itunes:duration>5:41</itunes:duration>
+      <itunes:episode>20260313</itunes:episode>
+    </item>
+
+    <item>
+      <title>新最高領袖｜美軍第 7 名陣亡士兵｜伊朗拒絕投降</title>
+      <description>早安，今天是三月十號，星期二。今天的世界，一個字：亂。美伊戰爭進入第十天，油價盤中衝破一百一十美元創下四年新高，美股早盤暴跌千點然後又神奇地翻紅——全因為 Trump 一句「快結束了」。科技圈這邊也不太平，Claude 正式超越 ChatGPT 登頂美國 App Store，OpenAI 的內部動盪持續擴大，還有一個機器人框架第一次支援人形機器人控制。東西很多，我們一個一個來。
+
+先從中東講起，因為今天全球市場的劇烈波動，根源都在這裡。
+
+美國跟以色列對伊朗的聯合軍事行動——代號「史詩之怒」——已經進入第十天了。這場戰爭的開端是二月二十八號，美以聯軍對德黑蘭、伊斯法罕、庫姆、卡拉季和克爾曼沙阿</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-10.mp3" length="6927645" type="audio/mpeg"/>
+      <pubDate>Mon, 09 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-10.mp3</guid>
+      <itunes:duration>7:12</itunes:duration>
+      <itunes:episode>20260310</itunes:episode>
+    </item>
+
+    <item>
+      <title>新最高領袖｜穆杰塔巴·哈梅內伊｜以軍打擊石油設施</title>
+      <description>早安，今天是三月九號，星期一。嗯，其實應該說是星期天的晚上——不管怎樣，今天要跟你聊的事情非常多，而且幾乎每一件都跟一個關鍵字有關：戰爭。
+
+中東那邊，美國和以色列對伊朗的軍事行動已經進入第八天了，而且今天出了一個大新聞——伊朗換了最高領袖。科威特宣布不可抗力、油價一週暴漲超過三成。歐洲的天然氣價格也跟著飆。另外，中國的兩會正在開，外長王毅的記者會放了不少訊號。科技圈這邊呢，OpenAI的機器人部門負責人因為五角大廈合約辭職了，Grok又出事了，這次是種族歧視內容。我們一個一個來聊。
+
+先從最大的新聞開始——伊朗。
+
+你如果有在追這場戰爭的話，會知道從三月一號美國和以色列聯合發動攻擊開始，已經</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-09.mp3" length="4919709" type="audio/mpeg"/>
+      <pubDate>Sun, 08 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-09.mp3</guid>
+      <itunes:duration>5:07</itunes:duration>
+      <itunes:episode>20260309</itunes:episode>
+    </item>
+
+    <item>
+      <title>2026-03-08 每日新聞</title>
+      <description>Podcast Script — 2026-03-08
+
+大家好，歡迎收聽三月八號，週日的每日新聞播報。今天是國際婦女節，但世界的焦點依然被中東的炮火牢牢佔據。
+
+先來看最大的新聞。美國和以色列對伊朗的軍事行動已經進入第八天。特朗普直接要求伊朗「無條件投降」，並警告今晚會有「非常猛烈」的轟炸。伊朗總統回應說：我們絕不屈服。目前伊朗方面至少1332人死亡。德黑蘭連夜遭到大規模空襲，機場附近也被炸到了。而伊朗這邊也沒閒著，持續用無人機和導彈打擊以色列和海灣國家的目標。杜拜機場已經停擺，卡塔爾航空今天起調整航班。戰火已經從伊朗蔓延到黎巴嫩、杜拜、卡塔爾、巴林。歐洲也被拖下水了——英法西班牙提供軍事支</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-08.mp3" length="1810368" type="audio/mpeg"/>
+      <pubDate>Sat, 07 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-08.mp3</guid>
+      <itunes:duration>1:53</itunes:duration>
+      <itunes:episode>20260308</itunes:episode>
+    </item>
+
+    <item>
+      <title>俄羅斯向伊朗提供美軍艦艇和飛機位置情報</title>
+      <description>早安，今天是三月七號，星期五。
+
+今天要跟你聊的事情份量很重。國際上，美國和以色列對伊朗的軍事行動進入第七天，Trump 直接喊出「無條件投降」，中東局勢不斷升級。美國那邊呢，二月的就業報告出了一個大冷門——居然是負增長。而科技圈這邊也很精彩，OpenAI 推出了 AI 資安代理，Anthropic 被 Pentagon 正式封殺，Claude Code 則登上了最受歡迎的 AI 編碼工具。東西很多，我們一個一個來。
+
+先從中東講起。
+
+美以聯軍對伊朗的攻擊已經進入第七天了。以色列軍方聲稱他們已經執行了超過兩千五百次空襲，摧毀了伊朗百分之八十的防空能力，現在基本上已經取得了「近乎完全的空中優勢</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-07.mp3" length="4603104" type="audio/mpeg"/>
+      <pubDate>Fri, 06 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-07.mp3</guid>
+      <itunes:duration>4:47</itunes:duration>
+      <itunes:episode>20260307</itunes:episode>
+    </item>
+
+    <item>
+      <title>2026-03-06 每日新聞</title>
+      <description>早安，今天是三月六號，星期五。歡迎收聽每日新聞。
+
+今天要跟你聊的事情真的不少。國際局勢方面，美國和以色列對伊朗的軍事行動已經進入第六天，而且衝突正在擴散到黎巴嫩，局勢明顯在惡化。中國這邊，兩會正式開幕，十五五規劃端出了一個非常激進的AI戰略。科技圈呢，OpenAI 今天丟出了一個重磅炸彈——GPT-5.4，這個模型的能力提升幅度相當驚人。另外還有一個MIT的研究結論很有意思，他們說現在市面上的AI Agent基本上是「失控」的狀態。我們一個一個來。
+
+先從中東局勢開始。
+
+美國和以色列對伊朗的聯合軍事行動，到今天已經是第六天了。以色列軍方參謀長今天宣布，戰爭正式進入所謂的「下一階段」。這個說</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-06.mp3" length="4494477" type="audio/mpeg"/>
+      <pubDate>Thu, 05 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-06.mp3</guid>
+      <itunes:duration>4:40</itunes:duration>
+      <itunes:episode>20260306</itunes:episode>
+    </item>
+
+    <item>
+      <title>美以對伊朗戰爭進入第五天｜伊朗最高領袖繼任者浮現｜伊朗祕密接觸 CIA 討論停火</title>
+      <description>早安，今天是三月五號，星期三。
+
+今天要跟你聊的事情很多，而且說實話，這幾天的新聞密度高得有點不正常。我先給你預告一下今天的重點：時事方面，美以對伊朗的軍事行動進入第五天，死亡人數突破了一千人，伊朗秘密接觸 CIA 討論停火，但 Trump 說太晚了；中國兩會今天開幕，習近平的第五個五年計畫要怎麼走，外界都在看；還有一場被伊朗戰事掩蓋的南亞危機——巴基斯坦和阿富汗其實也已經開戰了。科技這邊，OpenAI 推出了新版 GPT，Google 出了更便宜的 Gemini 系列，DeepSeek V4 傳言即將發布，還有 Apple 一連串的新品發表。好，我們一個一個來聊。
+
+
+先從中東說起，因為這件</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-05.mp3" length="6648573" type="audio/mpeg"/>
+      <pubDate>Wed, 04 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-05.mp3</guid>
+      <itunes:duration>6:55</itunes:duration>
+      <itunes:episode>20260305</itunes:episode>
+    </item>
+
+    <item>
+      <title>伊朗死亡人數超過 787 人｜美軍已打擊超過 1｜伊朗報復擴大</title>
+      <description>早安，今天是三月四號，星期三。如果你最近幾天都有在關注新聞，那你應該能感覺到，這個世界正在經歷一段非常不平靜的時期。今天的節目有很多東西要聊——中東戰事進入第四天了，而且衝突範圍遠超預期。巴基斯坦和阿富汗也在打仗。中國的兩會今天開幕，五年計畫裡有不少跟 AI 有關的亮點。科技方面，Google 推出了新的效率型模型，DeepSeek 的 V4 隨時可能掉下來，Apple 明天有一場大發布會。我們一個一個來聊。
+
+先從中東說起。美國和以色列對伊朗的軍事行動，現在已經進入第四天了。如果你還停留在「只是空襲幾個軍事基地」的印象，那你需要更新一下了。這場衝突的規模和速度遠超大多數人的預期。
+
+到目前為</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-04.mp3" length="4915389" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-04.mp3</guid>
+      <itunes:duration>5:07</itunes:duration>
+      <itunes:episode>20260304</itunes:episode>
+    </item>
+
+    <item>
+      <title>美以聯合軍事行動進入第三天：最高領袖哈梅內伊確認死亡｜荷莫茲海峽「事實上關閉」：能源危機爆發｜法國宣布擴大核武庫並延伸嚇阻傘至8個歐洲盟國</title>
+      <description>早安，今天是2026年3月2日，星期一。
+
+今天世界上發生的事情，說實話，有點讓人喘不過氣來。我先跟你說三件大事——第一，美以對伊朗的聯合軍事打擊進入了第三天，伊朗最高領袖哈梅內伊確認死亡，衝突正在向整個中東蔓延；第二，荷莫茲海峽幾乎陷入封閉狀態，全球能源市場劇烈震盪，歐洲天然氣一夜之間暴漲四成；第三，法國宣布一個幾十年來最大的核戰略變革，要把核嚇阻傘延伸到八個歐洲盟國。
+
+好，我們先從中東說起，因為這是今天所有故事的核心。
+
+---
+
+上週六，也就是二月二十八日，美國和以色列聯手對伊朗發動了一波大規模空襲。這不是臨時起意——這是幾年積累下來的策略性打擊。自從2023年十月七日哈馬斯的攻擊之後</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-02.mp3" length="4062621" type="audio/mpeg"/>
+      <pubDate>Sun, 01 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-02.mp3</guid>
+      <itunes:duration>4:13</itunes:duration>
+      <itunes:episode>20260302</itunes:episode>
+    </item>
+
+    <item>
+      <title>美以聯合空襲殺死伊朗最高領袖哈梅內伊｜荷姆茲海峽實質封閉｜伊朗反擊：以色列、UAE、巴林、科威特、卡達遭飛彈攻擊</title>
+      <description>嗨，你好，今天是2026年3月1號，星期日。
+
+我是Dan，今天的國際新聞摘要，由我來幫你整理。
+
+先說好，今天的內容非常沉重。我們正活在一個歷史性的時刻——中東的局勢在過去48小時內發生了翻天覆地的變化，可能是近幾十年來最大的地緣政治震盪之一。今天，我要跟你聊三件大事：第一，伊朗最高領袖哈梅內伊被殺；第二，荷姆茲海峽的危機怎麼影響到你的生活；第三，美國政府和一家AI公司的鬧劇。
+
+好，我們開始。
+
+---
+
+哈梅內伊死了。
+
+這句話放在一年前，你可能會覺得是電影情節。但就在昨天，週六，美國和以色列聯合發動了一場代號「史詩狂怒行動」（Operation Epic Fury）的大規模空襲，目標是</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-01.mp3" length="3297405" type="audio/mpeg"/>
+      <pubDate>Sat, 28 Feb 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-01.mp3</guid>
+      <itunes:duration>3:26</itunes:duration>
+      <itunes:episode>20260301</itunes:episode>
+    </item>
+  </channel>
+</rss>
