@@ -13,7 +13,28 @@
     </itunes:category>
     <itunes:image href="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/cover.jpg"/>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>AI 每日新聞</itunes:name>
+      <itunes:email>zero5011@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:type>episodic</itunes:type>
     <link>https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/feed.xml</link>
+    <item>
+      <title>美伊戰爭第30天：以色列宣布擴大黎巴嫩入侵｜烏俄局勢：澤倫斯基與沙烏地、卡達完成安全協議｜市場危機加深：S&amp;P 500 自開戰以來跌7.3%</title>
+      <description>早安，今天是2026年3月30號，星期一。
+
+歡迎收聽每日世界新聞和科技動態。我是你的信鴿 April，每天把世界各地最新鮮的消息帶到你面前。
+
+今天的內容還蠻密的，我們先預告一下——時事部分，最重要的就是中東戰爭進入第30天，局勢全面升級，而且我等一下要跟你分析一個很有意思的觀察：為什麼戰爭打了一個月，美國和歐洲的立場卻越來越明顯地分裂開來？另外，烏克蘭有新進展，澤倫斯基在波灣國家完成了一系列安全協議，美方也向俄羅斯提出了一份20點的和平方案。再來是台灣的國防預算爭議，美方這次說的話非常直接。
+
+科技圈這邊，Google 發布了一個叫 TurboQuant 的技術，業界把它叫做「現實版 Pi</description>
+      <enclosure url="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-30.mp3" length="6150333" type="audio/mpeg"/>
+      <pubDate>Sun, 29 Mar 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/podcasts/2026-03-30.mp3</guid>
+      <itunes:duration>6:24</itunes:duration>
+      <itunes:episode>20260330</itunes:episode>
+    </item>
+
     <item>
       <title>美伊戰爭第29天：伊朗空襲沙烏地阿美空軍基地致15名美軍受傷｜歐盟委員會遭駭客攻擊：350GB資料外洩｜烏克蘭澤倫斯基波灣之旅：與阿聯酋、卡達簽署防空協議</title>
       <description>大家好，今天是二零二六年三月二十九號，星期日。我是 April，歡迎收聽今天的每日新聞整理。
