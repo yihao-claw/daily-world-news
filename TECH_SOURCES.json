@@ -1,6 +1,6 @@
 {
   "_description": "科技新聞來源設定。RSS feeds, GitHub repos, Reddit subs, Web Search。",
-  "_updated": "2026-03-24",
+  "_updated": "2026-03-30",
   "sources": [
     {
       "id": "simonwillison-rss",
@@ -102,20 +102,6 @@
         "llm",
         "frontier-tech"
       ]
-    },
-    {
-      "id": "anthropic-rss",
-      "type": "rss",
-      "name": "Anthropic Blog",
-      "url": "https://www.anthropic.com/rss.xml",
-      "priority": true,
-      "topics": [
-        "llm",
-        "ai-agent",
-        "frontier-tech"
-      ],
-      "disabled": true,
-      "disable_reason": "404 as of 2026-03-28, Anthropic removed public RSS"
     },
     {
       "id": "googleai-rss",
@@ -421,16 +407,6 @@
       ]
     },
     {
-      "id": "messari-rss",
-      "type": "rss",
-      "name": "Messari",
-      "url": "https://messari.io/rss",
-      "priority": false,
-      "topics": [
-        "crypto"
-      ]
-    },
-    {
       "id": "defiant-rss",
       "type": "rss",
       "name": "The Defiant",
@@ -439,6 +415,13 @@
       "topics": [
         "crypto"
       ]
+    },
+    {
+      "name": "The Decoder (AI News)",
+      "url": "https://the-decoder.com/feed/",
+      "category": "ai",
+      "priority": true,
+      "notes": "High-quality AI news, strong on Anthropic/OpenAI/Google coverage"
     }
   ],
   "github_repos": [
