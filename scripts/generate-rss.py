@@ -17,9 +17,10 @@ PODCAST_TITLE = "AI 每日新聞"
 PODCAST_DESC = "每日精選國際時事與科技趨勢，AI 自動蒐集、整理、播報。涵蓋地緣政治、科技產業、加密貨幣等多元視角，讓你用 15 分鐘掌握世界動態。"
 PODCAST_AUTHOR = "AI 每日新聞"
 PODCAST_LANG = "zh-tw"
-PODCAST_IMAGE = f"{R2_BASE_URL}/cover.jpg"
+PODCAST_IMAGE = f"{R2_BASE_URL}/cover.jpg?v=3"
 PODCAST_CATEGORY = "News"
 PODCAST_SUBCATEGORY = "Daily News"
+PODCAST_EMAIL = "zero5011@gmail.com"
 
 RSS_HEADER = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -36,6 +37,11 @@ RSS_HEADER = f"""<?xml version="1.0" encoding="UTF-8"?>
     </itunes:category>
     <itunes:image href="{PODCAST_IMAGE}"/>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>{PODCAST_AUTHOR}</itunes:name>
+      <itunes:email>{PODCAST_EMAIL}</itunes:email>
+    </itunes:owner>
+    <itunes:type>episodic</itunes:type>
     <link>{R2_BASE_URL}/feed.xml</link>
 """
 

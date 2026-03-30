@@ -11,7 +11,7 @@
     <itunes:category text="News">
       <itunes:category text="Daily News"/>
     </itunes:category>
-    <itunes:image href="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/cover.jpg"/>
+    <itunes:image href="https://pub-1bc6fb66c5ba4be1b405c18499c18bb0.r2.dev/cover.jpg?v=3"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
       <itunes:name>AI 每日新聞</itunes:name>
