@@ -36,6 +36,12 @@ Fallback chain: Brave API → SearXNG (local) → DuckDuckGo. Use `--type news` 
 
 1. `TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)`
 2. If `summaries/${TODAY}.md` AND `summaries/${TODAY}-tech.md` both exist and were delivered → STOP
+3. **Fetch market data** (deterministic, runs early so data is ready):
+```bash
+cd /home/node/.openclaw/workspace/projects/daily-world-news && \
+python3 scripts/fetch_market.py -o summaries/${TODAY}-market.json
+```
+This JSON provides **exact numbers** for the market snapshot section. Do NOT write vague market data — use these numbers.
 
 ## PHASE 1 — 科技新聞 (Tech Digest)
 
@@ -89,8 +95,16 @@ Focus on topics with fewer articles in the script output.
 
 ### Step 1.4 — Write Tech Summary (LLM-DRIVEN)
 
+#### 🔄 Dedup Gate (MANDATORY)
+Before writing, read the past **3 days** of tech summaries (`summaries/${D}-tech.md` for D = yesterday, day before, day before that). Build a mental list of already-reported stories. For each candidate story, apply the **New Development Test**:
+- ✅ **New fact, number, release, or reaction** since last report → include normally
+- ⚠️ **Same topic, minor update** (e.g. price moved 1%) → compress to ONE sentence max, or merge into another story
+- ❌ **No new development vs. previous report** → DROP entirely. Do not repeat.
+
+If a topic was covered 3 days in a row with no meaningful change, it MUST be dropped regardless.
+
 Using the script's structured data + web search + X search results:
-1. **Select** the most newsworthy stories (top scored + editorially significant)
+1. **Select** the most newsworthy stories (top scored + editorially significant), **filtered through the dedup gate above**
 2. **Summarize** each in 2-3 sentences (this is where LLM judgment matters)
 3. **Write trend analysis** connecting the dots
 
@@ -100,6 +114,16 @@ Using the script's structured data + web search + X search results:
 - 每個重大 LLM/AI Agent 進展需加一句「批評或風險視角」（例：效能提升的代價、安全疑慮、競爭威脅）
 - 加密貨幣報導需同時提及看多和看空觀點，附具體數字佐證（鏈上數據、交易量、持倉分布）
 - Save to `summaries/${TODAY}-tech.md`
+
+### Step 1.45 — Fact Verification Pass (Tech)
+
+Same rules as Step 2.55 but for tech summary. Specifically watch for:
+- **Version numbers** — is it really v4.0 or v3.5? Check the GitHub release / official announcement.
+- **Model benchmarks** — don't hallucinate scores. If you cite a benchmark, `web_fetch` the source to confirm.
+- **Funding amounts / valuations** — verify the exact number and round (Series A vs B, etc.)
+- **Release dates** — "just released" vs "announced" vs "coming soon" — get the status right.
+
+Fix errors in-place in `summaries/${TODAY}-tech.md` before proceeding.
 
 ### Step 1.5 — Send Tech Summary to Telegram
 - Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
@@ -119,9 +143,15 @@ Using the script's structured data + web search + X search results:
 - Read [FORMAT.md](FORMAT.md) for output format (STRICT)
 - Read [SOURCES.md](SOURCES.md) for approved media sources
 
-### Step 2.2 — Read Yesterday's World Summary
-- Read yesterday's summary to avoid duplicates
-- Only carry forward stories with significant new developments
+### Step 2.2 — Read Recent Summaries & Build Dedup List
+- Read the past **3 days** of world summaries (`summaries/${D}.md` for D = yesterday, 2 days ago, 3 days ago)
+- Build an **「已報導主題清單」** — a list of every major story covered, with its key facts/numbers
+- For each story you gather in Step 2.3, apply the **New Development Test**:
+  - ✅ **Significant new development** (new event, new data, new reaction, status change) → include as full story
+  - ⚠️ **Minor update on ongoing story** → compress to 1-2 sentences, clearly labeled as update: `🔄 [Topic] 最新：[what changed]`
+  - ❌ **No new facts vs. previous 3 days** → DROP. Do not include at all.
+- A story covered 3+ consecutive days with no substantive change MUST be dropped
+- Prioritize **genuinely new stories** over continuing sagas with no movement
 
 ### Step 2.3 — Gather World News
 - Run X search for breaking world news: `python3 /home/node/.openclaw/workspace/projects/x-monitor/x-search.py "breaking news min_faves:500 lang:en" --count 10 --mode top -o /tmp/x-world-news.json`
@@ -154,7 +184,22 @@ Using the script's structured data + web search + X search results:
 
 ### Step 2.5 — Write World Summary
 - Format per [FORMAT.md](FORMAT.md)
+- **市場快照段落**：讀取 `summaries/${TODAY}-market.json`，使用其中的 **確切數字**（price, change_pct）。禁止寫「待確認」或模糊描述。如果 JSON 中缺少某項數據，用 web_search 補充或直接省略該項，不要留佔位符。
 - Save to `summaries/${TODAY}.md`
+
+### Step 2.55 — Fact Verification Pass (MANDATORY — zero exceptions)
+
+Re-read the summary you just wrote. For **every story**, verify:
+
+1. **人名 & 職稱** — web_search confirm the person's actual title. Common errors: wrong party leader, outdated title, misspelled name.
+2. **具體數字** — GDP%, casualties, dollar amounts, percentages must match the cited source. Use `web_fetch` on the 📎 URL to spot-check the original text. If the number doesn't appear in the source → fix or mark 「數據待核實」.
+3. **事件日期 & 時序** — "yesterday", "last week" etc. must be correct relative to $TODAY. Cross-check with source.
+4. **因果關係** — Don't imply causation the source didn't claim. "A happened, then B happened" ≠ "A caused B".
+5. **引述歸屬** — Quotes must be attributed to the correct person/outlet. Don't mix up who said what.
+
+**Process:** Go through each story sequentially. For any doubt, run a quick web_search to cross-reference. Fix errors in-place in `summaries/${TODAY}.md`. This step typically takes 2-5 minutes — do NOT skip it to save time.
+
+**If you find an error:** Fix it immediately in the .md file. Log it mentally for the podcast script (Step 3.2) so the same error doesn't propagate.
 
 ### Step 2.6 — Send World Summary to Telegram
 - Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
@@ -186,7 +231,21 @@ Using the script's structured data + web search + X search results:
   5. **市場快報** (~1 min) — 股市 + 加密貨幣重點數字
   6. **結尾** (~30 sec) — 簡短收尾
 - Maintain depth and multi-country perspectives (praised — keep it up!)
+- **🔄 Continuity Rule for Ongoing Stories:**
+  - For stories that appeared in the previous podcast, do NOT re-explain the full background
+  - Instead: "昨天我們聊過 [topic]，今天有新進展——" then go straight to what's new
+  - Only provide brief context (1 sentence max) for listeners who might have missed yesterday
+  - If a story has NO new development since yesterday → do not include it in the podcast at all
+- **✅ Fact-Check the Script:** After writing, do one final read-through comparing every fact/number in the podcast script against the verified summaries from Step 2.55 and 1.45. Oral rewriting often introduces subtle errors (rounding numbers wrong, swapping names, etc.)
 - Save to `summaries/${TODAY}-podcast.md`
+
+### Step 3.25 — Pre-Audio Validation Gate (MANDATORY)
+Run validation **before** generating audio to catch issues early:
+```bash
+cd /home/node/.openclaw/workspace/projects/daily-world-news && python3 scripts/validate.py ${TODAY}
+```
+- If **errors** → fix them before proceeding to audio. Going back now is cheap; re-generating audio is expensive.
+- If **warnings** → review and fix what you can, then proceed.
 
 ### Step 3.3 — Generate Audio
 ```bash
@@ -196,41 +255,69 @@ python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODA
 - Verify mp3 exists after running
 - **If TTS fails (503 or other error):** wait 30 seconds, then retry up to 2 more times. Edge TTS 503 is usually transient.
 
-### Step 3.4 — Upload to R2
+### Step 3.4 — Send Audio to Telegram (Review Copy)
+- Use message tool: action=send, channel=telegram:bird, target=-1003767828002, threadId=36
+- asVoice=true, filePath=summaries/${TODAY}.mp3, message="🎙️ 每日新聞 Podcast — 待審核"
+- **⚠️ 此時 NOT yet public.** 這只是 Telegram 內部版本供 Yihao 審聽。
+- 發完後附一則文字訊息：「✅ Podcast 已就緒，請審聽。確認 OK 請回覆 👍，有問題請回覆修改意見。」
+
+### Step 3.5 — ⏸️ STOP HERE — 等待人工審核
+**Cron job 在此結束。** 不要自動上傳到 R2 或更新 RSS。
+
+Podcast 發布到 Spotify/Apple Podcast 的流程由 **PHASE 5** 處理，需要 Yihao 的明確批准。
+
+---
+
+## PHASE 5 — Publish to Podcast Platforms（人工觸發）
+
+> ⚠️ **此 Phase 不在 cron 自動執行範圍內。**
+> 觸發條件：Yihao 在 Telegram 對 podcast 訊息回覆 👍 emoji 或明確文字批准。
+> Dan（main agent）收到批准後執行以下步驟。
+
+### Step 5.1 — Upload to R2
 ```bash
 cd /home/node/.openclaw/workspace/projects/daily-world-news && \
+TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d) && \
 bash scripts/upload-r2.sh summaries/${TODAY}.mp3 podcasts/${TODAY}.mp3
 ```
 - Verify upload succeeded (exit code 0)
-- If upload fails, retry once. Non-blocking — continue to Telegram even if R2 fails.
+- If upload fails, retry once.
 
-### Step 3.5 — Update RSS Feed
+### Step 5.2 — Update RSS Feed
 ```bash
 cd /home/node/.openclaw/workspace/projects/daily-world-news && \
 python3 scripts/generate-rss.py
 ```
 
-### Step 3.6 — Send Audio to Telegram
-- Use message tool: action=send, channel=telegram, target=${TELEGRAM_CHAT_ID}, threadId=${TELEGRAM_THREAD_ID}
-- asVoice=true, filePath=summaries/${TODAY}.mp3, message="🎙️ 每日新聞 Podcast"
+### Step 5.3 — Upload RSS to R2
+```bash
+cd /home/node/.openclaw/workspace/projects/daily-world-news && \
+bash scripts/upload-r2.sh summaries/feed.xml feed.xml
+```
+
+### Step 5.4 — Confirm Publication
+- Reply to Yihao: 「✅ 已發布到 Spotify/Apple Podcast（R2 + RSS 更新完成）」
+- Git push if not already done
 
 ---
 
-## PHASE 4 — Validate & Wrap Up
+## PHASE 4 — Validate & Git Push
 
-### Step 4.1 — Run Validation
+### Step 4.1 — Run Final Validation
 ```bash
 cd /home/node/.openclaw/workspace/projects/daily-world-news && python3 scripts/validate.py ${TODAY}
 ```
 - If validation **FAILS** (exit code 1): FIX the issues before proceeding. Re-run the failed phase.
-- If validation passes with warnings: proceed but note the warnings in your summary.
+- If validation passes with warnings: note in your summary.
 
 ### Step 4.2 — Git Push
 ```bash
-cd /home/node/.openclaw/workspace/openclaw-projects && git add -A && git commit -m "📰 每日新聞摘要 ${TODAY}" && git push origin main
+cd /home/node/.openclaw/workspace/openclaw-projects && git add -A && git commit -m "📰 每日新聞摘要 ${TODAY}" && git push
 ```
 - **⚠️ MUST verify push succeeded** — run `git log --oneline -1` and confirm the commit hash matches
 - If push fails, retry once. If still fails, report the error.
+
+**Cron job ends here.** PHASE 5 (R2 upload + RSS) only runs after Yihao approves.
 
 ---
 

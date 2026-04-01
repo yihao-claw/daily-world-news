@@ -1,0 +1,812 @@
+{
+  "generated_at": "2026-03-30T19:01:11.008410+00:00",
+  "today_jst": "2026-03-31",
+  "stats": {
+    "rss_fetched": 23,
+    "rss_errors": 16,
+    "github_fetched": 11,
+    "reddit_fetched": 9
+  },
+  "total_articles": 291,
+  "topic_distribution": {
+    "llm": 48,
+    "ai-agent": 6,
+    "crypto": 86,
+    "frontier-tech": 151
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.19.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+        "summary": "What's Changed\n\nOllama's app will now no longer incorrectly show \"model is out of date\"\nollama launch pi now includes web search plugin that uses Ollama's web search\nImproved KV cache hit rate when using the Anthropic-compatible API\nFixed tool call parsing issue with Qwen3.5 where tool calls would b",
+        "published": "2026-03-30T03:51:14+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+        "summary": "On windows we can get multiple include dirs, so find where the headers are then\ncopy from that location.",
+        "published": "2026-03-27T14:57:07+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "transformers",
+        "source_name": "huggingface/transformers",
+        "source_type": "github",
+        "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+        "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+        "published": "2026-03-27T00:33:02+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+        "url": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything",
+        "summary": "Trip Venturella released Mr. Chatterbox, a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it:\n\nMr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts published between 1837 and 1899, drawn from a dataset made available by the British Library. The model has absolutely no training inputs from after 1899 — the vocabulary and ideas are formed exclusively from nineteenth-centur",
+        "published": "2026-03-30T14:28:34+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "llm-mrchatterbox 0.1",
+        "url": "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything",
+        "summary": "Release: llm-mrchatterbox 0.1\n    See Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer.\n    \n        Tags: llm",
+        "published": "2026-03-30T02:20:46+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Pretext",
+        "url": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+        "summary": "Pretext\nExciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library.\nPretext solves the problem of calculating the height of a paragraph of line-wrapped text without touching the DOM. The usual way of doing this is to render the text and measure its dimensions, but this is extremely expensive. Pretext uses an array of clever tricks to make this much, much faster, which enables all sorts of new text rendering effect",
+        "published": "2026-03-29T20:08:45+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+        "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+        "published": "2026-03-30T00:54:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-exa==1.1.0",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.1.0",
+        "summary": "Changes since langchain-exa==1.0.0\nrelease(exa): 1.1.0 (#36278)\nfeat(exa): update default search type from neural to auto (#36125)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/exa (#36255)\nchore(partners): bump langchain-core min to 1.2.21 (#36183)\nci: suppress pytest streaming outpu",
+        "published": "2026-03-26T17:00:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.28",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.28",
+        "summary": "Breaking\n\nProviders/Qwen: remove the deprecated qwen-portal-auth OAuth integration for portal.qwen.ai; migrate to Model Studio with openclaw onboard --auth-choice modelstudio-api-key. (#52709) Thanks @pomelo-nwu.\nConfig/Doctor: drop automatic config migrations older than two months; very old legacy ",
+        "published": "2026-03-29T02:10:50+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.3",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.3",
+        "summary": "🚀 What's New in v1.13.3?\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\n🎬 New Features\n\nWorkflow Configuration: Added variable-reference support for model parame",
+        "published": "2026-03-30T09:13:23+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.19",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.19",
+        "summary": "Release Notes\n[2026-03-25]\nllama-index-agent-agentmesh [0.2.0]\n\nchore(deps): bump the uv group across 49 directories with 1 update (#21083)\n\nllama-index-callbacks-argilla [0.5.0]\n\nchore(deps): bump the uv group across 3 directories with 1 update (#21069)\n\nllama-index-core [0.14.19]\n\nfix: pass delete",
+        "published": "2026-03-25T20:59:15+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "go-ethereum",
+        "source_name": "ethereum/go-ethereum",
+        "source_type": "github",
+        "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+        "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+        "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+        "published": "2026-03-30T11:27:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc2: Bitcoin Core 31.0 release candidate 2",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc2",
+        "summary": "Tree-SHA512: bb68f5b6e569781805c741d63a6ad6f955c1964d9186defa892936160e8444900f1e4175a1ef4fff268b655d664ddf0b914795ef554ea60cb23a054b080b4805",
+        "published": "2026-03-25T21:44:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Jack Dorsey’s Square auto-enables bitcoin payments for millions of U.S. businesses",
+        "url": "https://www.coindesk.com/business/2026/03/30/jack-dorsey-s-square-auto-enables-bitcoin-payments-for-millions-of-u-s-businesses",
+        "summary": "",
+        "published": "2026-03-30T18:15:28+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Trump-backed American Bitcoin hits 7,000 BTC as holdings expand rapidly",
+        "url": "https://www.coindesk.com/markets/2026/03/30/trump-backed-american-bitcoin-hits-7-000-btc-as-holdings-expand-rapidly",
+        "summary": "",
+        "published": "2026-03-30T17:07:25+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin hashrate posts first-quarter drop for first time in 6 years as miners pivot to AI",
+        "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-hashrate-posts-first-quarter-drop-for-first-time-in-6-years-as-miners-pivot-to-ai",
+        "summary": "",
+        "published": "2026-03-30T15:04:14+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "氪星晚报｜全国首个万卡级全栈自主可控智算集群点亮；泡泡玛特乐园门票将涨价；蚂蚁集团安全团队发现OpenClaw多个高危漏洞并协助快速修复",
+        "url": "https://36kr.com/p/3745267391103239?f=rss",
+        "summary": "大公司：\n  全国首个万卡级全栈自主可控智算集群点亮\n  深圳人工智能高质量发展迎来新突破：3月26日，深圳市投建的11000P 智能算力集群正式点亮，加上去年先期点亮的3000P，目前该集群已全面建成14000P智能算力。这是全国首个使用全国产先进芯片构建的万卡级全栈自主可控智算集群。\n  特斯拉：TERAFAB项目正式发布，预计将实现每年超1太瓦算力产出\n  36氪获悉，据TeslaAI微博消息，TERAFAB项目正式发布，预计将实现每年超过1太瓦（1TW）的算力产出。马斯克预测，未来人形机器人行业的潜在年产量或将达到10亿至100亿台。随着机器人进入更大规模应用阶段，对高性能芯片的需求将进一步提升。TERAFAB将为特斯拉人形机器人生产芯片。\n  泡泡玛特乐园门票将涨价\n  36氪获悉，3月30日，泡泡玛特城市乐园发布调价公告称，将于2026年4月30日迎来部分新区域的开放，到时将启用新的门票方案，并于4月16日起开售。该乐园预计7月30日将实现全面开放，并整体上调门票价格。\n  蚂蚁集团安全团队发现OpenClaw多个高危漏洞并协助快速修复\n  36氪获悉，3月30日，据Git",
+        "published": "2026-03-30T10:05:42+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "蚂蚁终圆券商梦",
+        "url": "https://36kr.com/p/3745148560195846?f=rss",
+        "summary": "作者&nbsp;|&nbsp;王晗玉\n  编辑&nbsp;|&nbsp;张帆\n  本月30日，蚂蚁集团将通过旗下上海云进信息技术有限公司，正式完成对香港老牌券商耀才证券的控股权收购。\n  这场历时近一年的交易，不仅为蚂蚁集团补上了证券业务这最后一块拼图，更让资本市场再掀关于“互联网+券商”模式能否在香港重演业绩与股价齐飞的讨论。\n  此前在3月16日，耀才证券发布公告称，蚂蚁集团发起的要约收购已通过中国有关部门及香港证监会审批，所有成交条件均已达成，预计将于3月30日正式完成交割。\n  根据协议，蚂蚁以每股3.28港元的价格，收购耀才证券50.55%股份，总对价约28.14亿港元。\n  消息落地，市场反应立竿见影。3月17日复牌后，耀才证券股价盘中一度暴涨超80%，截至收盘当日涨幅仍近47%，报收13.60港元/股。\n  这一价格不仅远超蚂蚁集团的收购成本，更让耀才证券的市值一度突破230亿港元，较公告披露前实现了数倍增长。\n  实际上，回顾历史，蚂蚁集团谋求券商牌照之路并非一帆风顺，无论是入股德邦证券，还是申请云峰证券，最终均未能落地。如今转战香港终圆券商梦，蚂蚁能否借助耀才证券，复",
+        "published": "2026-03-30T08:02:40+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "对话原力灵机唐文斌：我不喜欢讲我不信的话，也无法成为我不想成为的人",
+        "url": "https://36kr.com/p/3745064614494211?f=rss",
+        "summary": "文｜富充\n  编辑｜苏建勋\n  创业满一年，唐文斌的身上依旧保留着旷视时期的印记，在和我们的对话中，他时常说到“本质”这个词——那是旷视内部的一个“流行词”。\n  清华“姚班”毕业之后，唐文斌和同学印奇、杨沐在2011年创办了旷视科技。在这家AI 1.0标志性企业中，人们喜欢追问“本质”。\n  创业旷视的14年里，唐文斌经历了AI 1.0浪潮的完整起伏。从高歌猛进的业务扩展，到屡次与上市失之交臂，这些经历也打磨着他对“本质”的理解。\n  关于对旷视最重要的反思，唐文斌认为是摊子不要铺得太大，而是应该先集中全力，把一个最有优势的业务做透。\n  近来履新阶跃星辰董事长的印奇，在不久前的采访中也有过类似表达——商业模式本质上是做排除法。看过了热闹，大家更清楚一个道理：与其做很多事，不如想清楚什么不做。\n  2025年3月，唐文斌创办具身智能公司原力灵机。二次创业中，唐文斌更会做减法了。\n  过去一年中，原力灵机没有跟业界一起卷订单规模，也没有急着推出一个“软硬全栈”的故事提升估值。\n  原力灵机的第一年，把主要精力放在模型开发，以及数据、框架、评测等AI基础设施工作上。因为在唐文斌看来，这些",
+        "published": "2026-03-30T06:40:27+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "这次，我们不再需要海外对标",
+        "url": "https://36kr.com/p/3744821877342217?f=rss",
+        "summary": "《求是》杂志3月新近刊发了习近平总书记重要文章《推动海洋经济高质量发展》。总书记从党的十八大以来每次到沿海地区考察，都强调大力发展海洋经济、建设海洋强国。\n  文章提出，推进中国式现代化，必须高效开发利用海洋，推动海洋经济高质量发展，走出一条具有中国特色的向海图强之路。大的思路上，要更加注重创新驱动，尽快突破关键核心技术，推动海洋科技实现高水平自立自强。&nbsp;\n  近日，世航重磅斩获航海领域最高荣誉 2025年度中国航海学会科学技术进步一等奖，再次引起了全社会的关注。&nbsp;\n  中国航海学会科学技术奖是经国务院《国家科学技术奖励条例》、科学技术部《社会力量设立科学技术奖管理办法》授权，并由国家科学技术奖励办公室以“国科奖字第05号”公告批准设立的科技奖励，该奖项是衡量航海领域科技进步与产业贡献的权威标尺。&nbsp;\n  值得关注的是，在本年度一等奖名单中，世航作为唯一的民营企业牵头单位，凭借全栈自研的硬核实力强势突围，这一成就，不仅是行业对世航在极端海洋环境机器人领域的技术引领地位与创新突破价值的权威认可，更标志着世航海洋具身机器人正加速崛起为驱动海洋强国战略的中坚力量。",
+        "published": "2026-03-30T02:31:17+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪专访 | 秘密递表后认购超5000倍，华沿机器人CEO说想再低调一点",
+        "url": "https://36kr.com/p/3744805881724928?f=rss",
+        "summary": "作者丨欧雪\n  编辑丨袁斯来\n  华沿机器人CEO王光能在生活里，是个有些无趣的人。他不抽烟、不喝酒、不打麻将，最近才刚学会掼蛋。他有房子在南山区，但平时吃在公司食堂，住在公司旁的城中村。\n  看上去，王光能不是个有进攻性的人，说话语速有些慢，声音不高，保留着难得的真实。更重要的是，王光能虽然技术出身，但没有很多天才身上有些刺人的锋芒，自信但不自负。\n  和王光能一样，华沿机器人在很多时候并不为外界熟悉。他们不太会讲动人的案例，在具身智能估值动辄百亿的当下，显得过于朴素。\n  去年5月，华沿机器人在港交所秘密递表，通过聆讯后以17港元发行价、90亿港元市值登陆港股。此次上市绿鞋前融资规模为2.01亿美元，绿鞋后融资规模为2.32亿美元（假设绿鞋全部行使）。公司获得高瓴、广发基金、摩根士丹利等多家头部机构近亿美元的基石投资，并引入众多海内外主权及长线基金和产业投资人，它公开发售部分录得超过5000倍超额认购，成为今年港股机器人IPO中最受追捧的标的。\n  3月30日，华沿机器人(1021.HK)正式在港股敲钟上市。截止发稿时，华沿报18.4港元，较发行价上涨8.24%，市值97.79亿港",
+        "published": "2026-03-30T02:14:29+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "斗鱼财务数据回正，多元收入结构+内容创新激发平台活力",
+        "url": "https://36kr.com/p/3742459865497859?f=rss",
+        "summary": "在游戏直播竞争激烈，平台深度转型的当下，斗鱼正在变得高效、稳健、有韧性。\n  3月25日，斗鱼发布2025年第四季度及全年财报。数据显示，第四季度收入9.19亿元，其中调整后净利润为1262万元，同比实现大幅改善的同时，斗鱼已经连续两个季度实现同比扭亏为盈。2025年全年，斗鱼总收入为38.19亿元，毛利润为4.9亿元，同比增长51.2%，毛利率为12.8%，调整后净利润为4016万元。\n  \n  斗鱼\n  当游戏直播行业走过跑马圈地的激进扩张时代后，作为行业老兵，斗鱼找到了在当下生存增长的关键钥匙。完善内容布局，发展创新业务，经营趋向效率，以更长期主义的健康姿态面对挑战。\n  斗鱼CEO任思敏表示，“业务多元化和运营效率显著提升，创新、广告及其他收入全年同比增长37%，竞争韧性进一步加强，财务可持续性明显提高，这为长期发展夯实了基础。展望未来，斗鱼将始终以用户兴趣为重心，提升内容与服务质量，持续创新，不断提高公司的长期价值创造能力。”\n  01 收入结构优化，经营效率提升\n  从市场趋势来看，游戏直播行业已然告别了野蛮增长的黄金时代。当抖音、快手等短视频平台凭借巨大的流量池和算法优势",
+        "published": "2026-03-30T02:00:00+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.19.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+      "summary": "What's Changed\n\nOllama's app will now no longer incorrectly show \"model is out of date\"\nollama launch pi now includes web search plugin that uses Ollama's web search\nImproved KV cache hit rate when using the Anthropic-compatible API\nFixed tool call parsing issue with Qwen3.5 where tool calls would b",
+      "published": "2026-03-30T03:51:14+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+      "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+      "published": "2026-03-30T00:54:07+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "go-ethereum",
+      "source_name": "ethereum/go-ethereum",
+      "source_type": "github",
+      "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+      "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+      "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+      "published": "2026-03-30T11:27:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+      "summary": "On windows we can get multiple include dirs, so find where the headers are then\ncopy from that location.",
+      "published": "2026-03-27T14:57:07+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-exa==1.1.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.1.0",
+      "summary": "Changes since langchain-exa==1.0.0\nrelease(exa): 1.1.0 (#36278)\nfeat(exa): update default search type from neural to auto (#36125)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/exa (#36255)\nchore(partners): bump langchain-core min to 1.2.21 (#36183)\nci: suppress pytest streaming outpu",
+      "published": "2026-03-26T17:00:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+      "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+      "published": "2026-03-27T00:33:02+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.28",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.28",
+      "summary": "Breaking\n\nProviders/Qwen: remove the deprecated qwen-portal-auth OAuth integration for portal.qwen.ai; migrate to Model Studio with openclaw onboard --auth-choice modelstudio-api-key. (#52709) Thanks @pomelo-nwu.\nConfig/Doctor: drop automatic config migrations older than two months; very old legacy ",
+      "published": "2026-03-29T02:10:50+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc2: Bitcoin Core 31.0 release candidate 2",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc2",
+      "summary": "Tree-SHA512: bb68f5b6e569781805c741d63a6ad6f955c1964d9186defa892936160e8444900f1e4175a1ef4fff268b655d664ddf0b914795ef554ea60cb23a054b080b4805",
+      "published": "2026-03-25T21:44:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+      "url": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything",
+      "summary": "Trip Venturella released Mr. Chatterbox, a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it:\n\nMr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts published between 1837 and 1899, drawn from a dataset made available by the British Library. The model has absolutely no training inputs from after 1899 — the vocabulary and ideas are formed exclusively from nineteenth-centur",
+      "published": "2026-03-30T14:28:34+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm-mrchatterbox 0.1",
+      "url": "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything",
+      "summary": "Release: llm-mrchatterbox 0.1\n    See Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer.\n    \n        Tags: llm",
+      "published": "2026-03-30T02:20:46+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Pretext",
+      "url": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+      "summary": "Pretext\nExciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library.\nPretext solves the problem of calculating the height of a paragraph of line-wrapped text without touching the DOM. The usual way of doing this is to render the text and measure its dimensions, but this is extremely expensive. Pretext uses an array of clever tricks to make this much, much faster, which enables all sorts of new text rendering effect",
+      "published": "2026-03-29T20:08:45+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Pretext — Under the Hood",
+      "url": "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything",
+      "summary": "Tool: Pretext — Under the Hood\n    See my notes on Pretext here.",
+      "published": "2026-03-29T19:59:28+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "“CEO said a thing!”",
+      "url": "https://garymarcus.substack.com/p/ceo-said-a-thing",
+      "summary": "A blistering guide to what lazy journalism too often looks like",
+      "published": "2026-03-30T18:53:15+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Jack Dorsey’s Square auto-enables bitcoin payments for millions of U.S. businesses",
+      "url": "https://www.coindesk.com/business/2026/03/30/jack-dorsey-s-square-auto-enables-bitcoin-payments-for-millions-of-u-s-businesses",
+      "summary": "",
+      "published": "2026-03-30T18:15:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Trump-backed American Bitcoin hits 7,000 BTC as holdings expand rapidly",
+      "url": "https://www.coindesk.com/markets/2026/03/30/trump-backed-american-bitcoin-hits-7-000-btc-as-holdings-expand-rapidly",
+      "summary": "",
+      "published": "2026-03-30T17:07:25+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin hashrate posts first-quarter drop for first time in 6 years as miners pivot to AI",
+      "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-hashrate-posts-first-quarter-drop-for-first-time-in-6-years-as-miners-pivot-to-ai",
+      "summary": "",
+      "published": "2026-03-30T15:04:14+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The SEC’s latest crypto guidance still leaves too much unsaid",
+      "url": "https://www.coindesk.com/opinion/2026/03/30/the-sec-s-latest-crypto-guidance-still-leaves-too-much-unsaid",
+      "summary": "",
+      "published": "2026-03-30T15:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitmine makes biggest ether purchase in 2026 while other digital asset treasuries pull back",
+      "url": "https://www.coindesk.com/business/2026/03/30/bitmine-makes-biggest-ether-purchase-in-2026-while-other-digital-asset-treasuries-pull-back",
+      "summary": "",
+      "published": "2026-03-30T14:38:56+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bernstein says the 60% crash in crypto stocks is a rare chance to buy the dip at a 'big' discount",
+      "url": "https://www.coindesk.com/business/2026/03/30/bernstein-says-the-60-crash-in-crypto-stocks-is-a-rare-chance-to-buy-the-dip-at-a-big-discount",
+      "summary": "",
+      "published": "2026-03-30T14:28:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Zcash upside hinges on repricing financial privacy in an AI-driven world, Grayscale says",
+      "url": "https://www.coindesk.com/tech/2026/03/30/zcash-upside-hinges-on-repricing-financial-privacy-in-an-ai-driven-world-grayscale-says",
+      "summary": "",
+      "published": "2026-03-30T14:18:22+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Nearly half of all circulating bitcoin is underwater as long-term holders sell at a loss",
+      "url": "https://www.coindesk.com/markets/2026/03/30/nearly-half-of-all-circulating-bitcoin-is-underwater-as-long-term-holders-sell-at-a-loss",
+      "summary": "",
+      "published": "2026-03-30T13:53:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Charles Hoskinson’s $200 million bet: Midnight goes live to tackle crypto’s biggest flaws",
+      "url": "https://www.coindesk.com/tech/2026/03/30/charles-hoskinson-s-usd200-million-bet-midnight-goes-live-to-tackle-crypto-s-biggest-flaws",
+      "summary": "",
+      "published": "2026-03-30T13:53:06+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Lido DAO proposes $20 million LDO buyback to boost price after 95% slide",
+      "url": "https://www.coindesk.com/markets/2026/03/30/lido-dao-proposes-usd20-million-ldo-buyback-to-boost-price-after-95-slide",
+      "summary": "",
+      "published": "2026-03-30T13:26:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Ethereum (ETH) price rises 4.2% over weekend",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/30/coindesk-20-performance-update-ethereum-eth-price-rises-4-2-over-weekend",
+      "summary": "",
+      "published": "2026-03-30T13:14:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Aave rolls out v4 on Ethereum, aiming to expand DeFi into real-world credit markets",
+      "url": "https://www.coindesk.com/tech/2026/03/30/aave-rolls-out-v4-on-ethereum-aiming-to-expand-defi-into-real-world-credit-markets",
+      "summary": "",
+      "published": "2026-03-30T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Rate hike bets are building for the Fed – and now the Bank of Japan too",
+      "url": "https://www.coindesk.com/markets/2026/03/30/rate-hike-bets-are-building-for-the-fed-and-now-the-bank-of-japan-too",
+      "summary": "",
+      "published": "2026-03-30T12:29:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin rises as Trump says U.S. in talks with 'new regime' in Iran, threatens oil infrastructure if deal fails",
+      "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-jumps-as-trump-says-u-s-in-talks-with-new-regime-in-iran-threatens-oil-infrastructure-if-deal-fails",
+      "summary": "",
+      "published": "2026-03-30T11:46:05+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin, ether bounce is running low on fuel",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/30/bitcoin-ether-bounce-is-running-low-on-fuel",
+      "summary": "",
+      "published": "2026-03-30T11:15:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Midas raises $50 million to tackle pain point for tokenized asset investors",
+      "url": "https://www.coindesk.com/business/2026/03/30/midas-raises-usd50-million-to-tackle-pain-point-for-tokenized-asset-investors",
+      "summary": "",
+      "published": "2026-03-30T11:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Coinbase survey finds over half of investors don’t understand crypto tax",
+      "url": "https://www.coindesk.com/policy/2026/03/30/coinbase-survey-finds-over-half-of-customers-don-t-understand-crypto-tax",
+      "summary": "",
+      "published": "2026-03-30T10:30:23+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

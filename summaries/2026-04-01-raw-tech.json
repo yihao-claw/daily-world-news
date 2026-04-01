@@ -1,0 +1,809 @@
+{
+  "generated_at": "2026-03-31T22:19:20.316561+00:00",
+  "today_jst": "2026-04-01",
+  "stats": {
+    "rss_fetched": 26,
+    "rss_errors": 13,
+    "github_fetched": 13,
+    "reddit_fetched": 9
+  },
+  "total_articles": 340,
+  "topic_distribution": {
+    "llm": 60,
+    "ai-agent": 6,
+    "crypto": 101,
+    "frontier-tech": 173
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.19.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+        "summary": "Ollama is now powered by MLX on Apple Silicon in preview\nOllama on Apple silicon is now built on top of Apple’s machine learning framework, MLX, to take advantage of its unified memory architecture.\n\n  \n    \n    \n\n    mlx-coding-agent.mov\n    \n  \n\n  \n\n  \n\n\nRead more: https://ollama.com/blog/mlx\nWhat",
+        "published": "2026-03-31T04:57:08+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1774984240: Add a ds hopper stamp out (#178816)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774984240",
+        "summary": "Pull Request resolved: #178816\nApproved by: https://github.com/anijain2305",
+        "published": "2026-03-31T13:53:42+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+        "summary": "On windows we can get multiple include dirs, so find where the headers are then\ncopy from that location.",
+        "published": "2026-03-27T14:57:07+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "transformers",
+        "source_name": "huggingface/transformers",
+        "source_type": "github",
+        "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+        "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+        "published": "2026-03-27T00:33:02+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "datasette-llm 0.1a4",
+        "url": "https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything",
+        "summary": "Release: datasette-llm 0.1a4\n    \n\nAbility to configure different API keys for models based on their purpose - for example, set it up so enrichments always use gpt-5.4-mini with an API key dedicated to that purpose. #4\n\n\nI released llm-echo 0.3 to provide an API key testing utility I needed for the tests for this new feature.\n    \n        Tags: llm, datasette",
+        "published": "2026-03-31T21:17:23+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "llm-all-models-async 0.1",
+        "url": "https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything",
+        "summary": "Release: llm-all-models-async 0.1\n    LLM plugins can define new models in both sync and async varieties. The async variants are most common for API-backed models - sync variants tend to be things that run the model directly within the plugin.\nMy llm-mrchatterbox plugin is sync only. I wanted to try it out with various Datasette LLM features (specifically datasette-enrichments-llm) but Datasette can only use async models.\nSo... I had Claude spin up this plugin that turns sync models into async m",
+        "published": "2026-03-31T20:52:02+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.14",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.14",
+        "summary": "Changes since langchain==1.2.13\nrelease(langchain): 1.2.14 (#36396)\nchore: pygments&gt;=2.20.0 across all packages (CVE-2026-4539) (#36385)\ntest(langchain): cover runtime recursion limit override in create_agent (#36376)\nperf(langchain): reduce init speed by 15% (#36375)\nfix(langchain): update recur",
+        "published": "2026-03-31T13:50:55+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.31",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31",
+        "summary": "Breaking\n\nNodes/exec: remove the duplicated nodes.run shell wrapper from the CLI and agent nodes tool so node shell execution always goes through exec host=node, keeping node-specific capabilities on nodes invoke and the dedicated media/location/notify actions.\nPlugin SDK: deprecate the legacy provi",
+        "published": "2026-03-31T21:47:24+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+        "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+        "published": "2026-03-30T00:54:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.13.0a4",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.13.0a4",
+        "summary": "What's Changed\nDocumentation\n\nUpdate changelog and version for v1.13.0a3\n\nContributors\n@greysonlalonde",
+        "published": "2026-03-31T21:08:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.3",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.3",
+        "summary": "🚀 What's New in v1.13.3?\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\n🎬 New Features\n\nWorkflow Configuration: Added variable-reference support for model parame",
+        "published": "2026-03-30T09:13:23+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "go-ethereum",
+        "source_name": "ethereum/go-ethereum",
+        "source_type": "github",
+        "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+        "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+        "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+        "published": "2026-03-30T11:27:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc2: Bitcoin Core 31.0 release candidate 2",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc2",
+        "summary": "Tree-SHA512: bb68f5b6e569781805c741d63a6ad6f955c1964d9186defa892936160e8444900f1e4175a1ef4fff268b655d664ddf0b914795ef554ea60cb23a054b080b4805",
+        "published": "2026-03-25T21:44:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "What's next after bitcoin's historic underperformance stretch against stocks",
+        "url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-held-firm-in-march-but-remains-in-historic-underperformance-stretch",
+        "summary": "",
+        "published": "2026-03-31T20:14:18+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
+        "url": "https://www.coindesk.com/policy/2026/03/30/clarity-act-not-a-gatekeeper-for-crypto-innovation-wisdomtree-exec-says",
+        "summary": "",
+        "published": "2026-03-31T19:06:05+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "The post-quantum transition can’t be postponed any longer",
+        "url": "https://www.coindesk.com/opinion/2026/03/31/the-post-quantum-transition-can-t-be-postponed-any-longer",
+        "summary": "",
+        "published": "2026-03-31T18:05:00+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Ordinary Lab Gloves May Have Skewed Microplastic Data",
+        "url": "https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386",
+        "summary": "Article URL: https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386\nComments URL: https://news.ycombinator.com/item?id=47593634\nPoints: 5\n# Comments: 0",
+        "published": "2026-03-31T21:22:48+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "A dot a day keeps the clutter away",
+        "url": "https://scottlawsonbc.com/post/dot-system",
+        "summary": "Article URL: https://scottlawsonbc.com/post/dot-system\nComments URL: https://news.ycombinator.com/item?id=47593556\nPoints: 3\n# Comments: 0",
+        "published": "2026-03-31T21:15:01+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "OpenAI raises $122B to accelerate the next phase of AI",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+        "summary": "Article URL: https://openai.com/index/accelerating-the-next-phase-ai/\nComments URL: https://news.ycombinator.com/item?id=47593432\nPoints: 21\n# Comments: 3",
+        "published": "2026-03-31T21:02:07+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Ministack (Replacement for LocalStack)",
+        "url": "https://ministack.org/",
+        "summary": "Article URL: https://ministack.org/\nComments URL: https://news.ycombinator.com/item?id=47593285\nPoints: 36\n# Comments: 4",
+        "published": "2026-03-31T20:48:15+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "OpenAI closes funding round at an $852B valuation",
+        "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+        "summary": "https://openai.com/index/accelerating-the-next-phase-ai\n\nComments URL: https://news.ycombinator.com/item?id=47592755\nPoints: 181\n# Comments: 162",
+        "published": "2026-03-31T20:07:30+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Super Micro Computer Investors Look for Exits",
+        "url": "https://catenaa.com/markets/equities/super-micro-computer-investors-look-for-exits/",
+        "summary": "Article URL: https://catenaa.com/markets/equities/super-micro-computer-investors-look-for-exits/\nComments URL: https://news.ycombinator.com/item?id=47592626\nPoints: 11\n# Comments: 4",
+        "published": "2026-03-31T19:57:54+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.19.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+      "summary": "Ollama is now powered by MLX on Apple Silicon in preview\nOllama on Apple silicon is now built on top of Apple’s machine learning framework, MLX, to take advantage of its unified memory architecture.\n\n  \n    \n    \n\n    mlx-coding-agent.mov\n    \n  \n\n  \n\n  \n\n\nRead more: https://ollama.com/blog/mlx\nWhat",
+      "published": "2026-03-31T04:57:08+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.14",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.14",
+      "summary": "Changes since langchain==1.2.13\nrelease(langchain): 1.2.14 (#36396)\nchore: pygments&gt;=2.20.0 across all packages (CVE-2026-4539) (#36385)\ntest(langchain): cover runtime recursion limit override in create_agent (#36376)\nperf(langchain): reduce init speed by 15% (#36375)\nfix(langchain): update recur",
+      "published": "2026-03-31T13:50:55+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1774984240: Add a ds hopper stamp out (#178816)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1774984240",
+      "summary": "Pull Request resolved: #178816\nApproved by: https://github.com/anijain2305",
+      "published": "2026-03-31T13:53:42+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.3.31",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.31",
+      "summary": "Breaking\n\nNodes/exec: remove the duplicated nodes.run shell wrapper from the CLI and agent nodes tool so node shell execution always goes through exec host=node, keeping node-specific capabilities on nodes invoke and the dedicated media/location/notify actions.\nPlugin SDK: deprecate the legacy provi",
+      "published": "2026-03-31T21:47:24+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+      "summary": "On windows we can get multiple include dirs, so find where the headers are then\ncopy from that location.",
+      "published": "2026-03-27T14:57:07+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+      "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+      "published": "2026-03-30T00:54:07+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+      "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+      "published": "2026-03-27T00:33:02+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "go-ethereum",
+      "source_name": "ethereum/go-ethereum",
+      "source_type": "github",
+      "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+      "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+      "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+      "published": "2026-03-30T11:27:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc2: Bitcoin Core 31.0 release candidate 2",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc2",
+      "summary": "Tree-SHA512: bb68f5b6e569781805c741d63a6ad6f955c1964d9186defa892936160e8444900f1e4175a1ef4fff268b655d664ddf0b914795ef554ea60cb23a054b080b4805",
+      "published": "2026-03-25T21:44:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-llm 0.1a4",
+      "url": "https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything",
+      "summary": "Release: datasette-llm 0.1a4\n    \n\nAbility to configure different API keys for models based on their purpose - for example, set it up so enrichments always use gpt-5.4-mini with an API key dedicated to that purpose. #4\n\n\nI released llm-echo 0.3 to provide an API key testing utility I needed for the tests for this new feature.\n    \n        Tags: llm, datasette",
+      "published": "2026-03-31T21:17:23+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm-all-models-async 0.1",
+      "url": "https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything",
+      "summary": "Release: llm-all-models-async 0.1\n    LLM plugins can define new models in both sync and async varieties. The async variants are most common for API-backed models - sync variants tend to be things that run the model directly within the plugin.\nMy llm-mrchatterbox plugin is sync only. I wanted to try it out with various Datasette LLM features (specifically datasette-enrichments-llm) but Datasette can only use async models.\nSo... I had Claude spin up this plugin that turns sync models into async m",
+      "published": "2026-03-31T20:52:02+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm 0.30",
+      "url": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
+      "summary": "Release: llm 0.30\n    \n\nThe register_models() plugin hook now takes an optional model_aliases parameter listing all of the models, async models and aliases that have been registered so far by other plugins. A plugin with @hookimpl(trylast=True) can use this to take previously registered models into account. #1389\nAdded docstrings to public classes and methods and included those directly in the documentation.\n\n\n    \n        Tags: llm",
+      "published": "2026-03-31T20:35:51+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm-echo 0.4",
+      "url": "https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything",
+      "summary": "Release: llm-echo 0.4\n    \n\nPrompts now have the input_tokens and output_tokens fields populated on the response.\n\n\n    \n        Tags: llm",
+      "published": "2026-03-31T16:48:59+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-files 0.1a3",
+      "url": "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything",
+      "summary": "Release: datasette-files 0.1a3\n    I'm working on integrating datasette-files into other plugins, such as datasette-extract. This necessitated a new release of the base plugin.\n\n\nowners_can_edit and owners_can_delete configuration options, plus the files-edit and files-delete actions are now scoped to a new FileResource which is a child of FileSourceResource. #18\nThe file picker UI is now available as a &lt;datasette-file-picker&gt; Web Component. Thanks, Alex Garcia. #19\nNew from datasette_file",
+      "published": "2026-03-30T23:58:49+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "summary": "",
+      "published": "2026-03-31T15:10:41+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "url": "https://huggingface.co/blog/trl-v1",
+      "summary": "",
+      "published": "2026-03-31T00:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "What's next after bitcoin's historic underperformance stretch against stocks",
+      "url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-held-firm-in-march-but-remains-in-historic-underperformance-stretch",
+      "summary": "",
+      "published": "2026-03-31T20:14:18+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Clarity Act ‘not a gatekeeper’ for crypto innovation, WisdomTree exec says",
+      "url": "https://www.coindesk.com/policy/2026/03/30/clarity-act-not-a-gatekeeper-for-crypto-innovation-wisdomtree-exec-says",
+      "summary": "",
+      "published": "2026-03-31T19:06:05+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The post-quantum transition can’t be postponed any longer",
+      "url": "https://www.coindesk.com/opinion/2026/03/31/the-post-quantum-transition-can-t-be-postponed-any-longer",
+      "summary": "",
+      "published": "2026-03-31T18:05:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin, stocks rise, oil slides, after report of Iran's willingness to end conflict",
+      "url": "https://www.coindesk.com/markets/2026/03/31/bitcoin-stocks-rise-oil-slides-after-report-of-iran-s-willingness-to-end-conflict",
+      "summary": "",
+      "published": "2026-03-31T16:59:03+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Charles Hoskinson not a fan of CLARITY Act, warns of 'weaponization' by future lawmakers",
+      "url": "https://www.coindesk.com/policy/2026/03/31/charles-hoskinson-not-a-fan-of-u-s-clarity-act-warns-of-weaponization-by-future-lawmakers",
+      "summary": "",
+      "published": "2026-03-31T16:21:32+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Why 12 European banks are teaming up to save the euro from digital dollarization",
+      "url": "https://www.coindesk.com/business/2026/03/31/europe-faces-digital-dollarization-without-a-euro-stablecoin-of-its-own-warns-qivalis-ceo",
+      "summary": "",
+      "published": "2026-03-31T15:50:38+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "The time for clear financial privacy rules is now",
+      "url": "https://www.coindesk.com/opinion/2026/03/31/the-time-for-clear-financial-privacy-rules-is-now",
+      "summary": "",
+      "published": "2026-03-31T15:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Mercado Libre shuts down Mercado Coin, ending its loyalty-driven crypto experiment",
+      "url": "https://www.coindesk.com/business/2026/03/31/mercado-libre-shuts-down-mercado-coin-ending-its-loyalty-driven-crypto-experiment",
+      "summary": "",
+      "published": "2026-03-31T14:49:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitfarms targets zero bitcoin on the balance sheet as it pivots to AI",
+      "url": "https://www.coindesk.com/markets/2026/03/31/bitfarms-targets-zero-bitcoin-on-the-balance-sheet-as-it-pivots-to-ai",
+      "summary": "",
+      "published": "2026-03-31T14:41:16+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) gains 1.5% as index trades flat",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/03/31/coindesk-20-performance-update-bitcoin-cash-bch-gains-1-5-as-index-trades-flat",
+      "summary": "",
+      "published": "2026-03-31T13:10:22+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Chainalysis adds 'natural language' AI agents to its blockchain investigation platform",
+      "url": "https://www.coindesk.com/policy/2026/03/30/chainalysis-adds-natural-language-ai-agents-to-its-blockchain-investigation-platform",
+      "summary": "",
+      "published": "2026-03-31T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Coinbase’s Base to focus on tokenized markets, stablecoins, developers this year",
+      "url": "https://www.coindesk.com/tech/2026/03/31/coinbase-s-base-to-focus-on-tokenized-markets-stablecoins-developers-this-year",
+      "summary": "",
+      "published": "2026-03-31T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Downside risk remains as bitcoin nears record-tying six-month losing streak",
+      "url": "https://www.coindesk.com/markets/2026/03/31/downside-risk-remains-as-bitcoin-nears-record-tying-six-month-losing-streak",
+      "summary": "",
+      "published": "2026-03-31T12:58:34+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Google warns five quantum attack paths could put $100 billion on Ethereum at risk",
+      "url": "https://www.coindesk.com/tech/2026/03/31/google-warns-five-quantum-attack-paths-could-put-usd100-billion-on-ethereum-at-risk",
+      "summary": "",
+      "published": "2026-03-31T12:02:23+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

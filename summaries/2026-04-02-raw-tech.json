@@ -1,0 +1,835 @@
+{
+  "generated_at": "2026-04-01T19:06:58.992213+00:00",
+  "today_jst": "2026-04-02",
+  "stats": {
+    "rss_fetched": 26,
+    "rss_errors": 13,
+    "github_fetched": 13,
+    "reddit_fetched": 9
+  },
+  "total_articles": 360,
+  "topic_distribution": {
+    "llm": 70,
+    "ai-agent": 5,
+    "crypto": 99,
+    "frontier-tech": 185,
+    "cybersecurity": 1
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775063336",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775063336",
+        "summary": "[OSDC][1/n] Update pull test cases to support OSDC k8s migration (#17…",
+        "published": "2026-04-01T12:04:19+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775051807: Codegen backward epilogue subclass wrapping (#178675)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775051807",
+        "summary": "Replace the closure-based wrap_tensor_subclasses() call in\n_backward_epilogue_functional with a codegen'd wrap_fn. At compile\ntime, codegen_backward_subclass_wrap() generates straight-line Python\nsource using the existing _codegen_wrap_subclass helper, with all\nsubclass types, attr names, and symint",
+        "published": "2026-04-01T09:22:52+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775044984: Skip failing tests on xpu with complex dtype on windows (#165049)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775044984",
+        "summary": "Fixes intel/torch-xpu-ops#1195\nOn xpu we use std:: implemetation of trig kernels. Issue comes from differences in implementation of trigonometry functions on complex dtypes in compiler headers. Windows compiler implementation is not conformant with ISO 9899. For example, following code\n#include &lt;",
+        "published": "2026-04-01T07:24:31+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.19.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+        "summary": "Ollama is now powered by MLX on Apple Silicon in preview\nOllama on Apple silicon is now built on top of Apple’s machine learning framework, MLX, to take advantage of its unified memory architecture.\n\n  \n    \n    \n\n    mlx-coding-agent.mov\n    \n  \n\n  \n\n  \n\n\nRead more: https://ollama.com/blog/mlx\nWhat",
+        "published": "2026-03-31T04:57:08+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+        "summary": "On windows we can get multiple include dirs, so find where the headers are then\ncopy from that location.",
+        "published": "2026-03-27T14:57:07+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "transformers",
+        "source_name": "huggingface/transformers",
+        "source_type": "github",
+        "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+        "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+        "published": "2026-03-27T00:33:02+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.1",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1",
+        "summary": "2026.4.1\nChanges\n\nTasks/chat: add /tasks as a chat-native background task board for the current session, with recent task details and agent-local fallback counts when no linked tasks are visible. Related #54226. Thanks @vincentkoc.\nWeb search/SearXNG: add the bundled SearXNG provider plugin for web_",
+        "published": "2026-04-01T17:55:01+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.13.0a6",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.13.0a6",
+        "summary": "What's Changed\nDocumentation\n\nFix RBAC permission levels to match actual UI options (#5210)\nUpdate changelog and version for v1.13.0a5 (#5200)\n\nPerformance\n\nReduce framework overhead by implementing a lazy event bus and skipping tracing when disabled (#5187)\n\nContributors\n@alex-clawd, @joaomdmoura, ",
+        "published": "2026-04-01T17:26:23+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.19",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.19",
+        "summary": "Release Notes\n[2026-03-25]\nllama-index-agent-agentmesh [0.2.0]\n\nchore(deps): bump the uv group across 49 directories with 1 update (#21083)\n\nllama-index-callbacks-argilla [0.5.0]\n\nchore(deps): bump the uv group across 3 directories with 1 update (#21069)\n\nllama-index-core [0.14.19]\n\nfix: pass delete",
+        "published": "2026-03-25T20:59:15+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.14",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.14",
+        "summary": "Changes since langchain==1.2.13\nrelease(langchain): 1.2.14 (#36396)\nchore: pygments&gt;=2.20.0 across all packages (CVE-2026-4539) (#36385)\ntest(langchain): cover runtime recursion limit override in create_agent (#36376)\nperf(langchain): reduce init speed by 15% (#36375)\nfix(langchain): update recur",
+        "published": "2026-03-31T13:50:55+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "is_followup": true,
+        "quality_score": 6
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+        "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+        "published": "2026-03-30T00:54:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "is_followup": true,
+        "quality_score": 6
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "go-ethereum",
+        "source_name": "ethereum/go-ethereum",
+        "source_type": "github",
+        "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+        "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+        "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+        "published": "2026-03-30T11:27:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: v31.0rc2: Bitcoin Core 31.0 release candidate 2",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc2",
+        "summary": "Tree-SHA512: bb68f5b6e569781805c741d63a6ad6f955c1964d9186defa892936160e8444900f1e4175a1ef4fff268b655d664ddf0b914795ef554ea60cb23a054b080b4805",
+        "published": "2026-03-25T21:44:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "‘Not an April Fools joke’: Major Solana-based trading platform Drift exploited for at least $200 million",
+        "url": "https://www.theblock.co/post/396107/solana-trading-platform-drift-exploited-at-least-200-million?utm_source=rss&utm_medium=rss",
+        "summary": "The exploit, which started over two hours ago, seems to be targeting multiple Drift vaults, totaling at least $200 million.",
+        "published": "2026-04-01T18:35:29+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Paradigm mulls prediction market entry with trading terminal, market making desk: Fortune",
+        "url": "https://www.theblock.co/post/396099/paradigm-prediction-market-trading-terminal-market-making-desk-fortune?utm_source=rss&utm_medium=rss",
+        "summary": "Paradigm founder and Kalshi board member Matt Huang has previously said that prediction markets represent a trillion-dollar opportunity.",
+        "published": "2026-04-01T18:08:21+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Treasury issues GENIUS Act rule proposal, seeks comment on state oversight for smaller issuers",
+        "url": "https://www.theblock.co/post/396093/treasury-genius-act-rule-proposal-seeks-comment-oversight-smaller-issuers?utm_source=rss&utm_medium=rss",
+        "summary": "Members of the public will have 60 days to respond to the Treasury’s notice of proposed rulemaking in the Federal Register.",
+        "published": "2026-04-01T17:08:58+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "TurboQuant KV Compression and SSD Expert Streaming for M5 Pro and IOS",
+        "url": "https://github.com/SharpAI/SwiftLM",
+        "summary": "Article URL: https://github.com/SharpAI/SwiftLM\nComments URL: https://news.ycombinator.com/item?id=47604354\nPoints: 14\n# Comments: 0",
+        "published": "2026-04-01T18:06:00+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Ukrainian Drone Holds Position for 6 Weeks",
+        "url": "https://defenceleaders.com/news/ukrainian-combat-robot-holds-frontline-position-for-six-weeks-in-sign-of-growing-ugv-maturity/",
+        "summary": "Article URL: https://defenceleaders.com/news/ukrainian-combat-robot-holds-frontline-position-for-six-weeks-in-sign-of-growing-ugv-maturity/\nComments URL: https://news.ycombinator.com/item?id=47604245\nPoints: 28\n# Comments: 3",
+        "published": "2026-04-01T17:57:40+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "The AI Marketing BS Index",
+        "url": "https://bastian.rieck.me/blog/2026/bs/",
+        "summary": "Article URL: https://bastian.rieck.me/blog/2026/bs/\nComments URL: https://news.ycombinator.com/item?id=47604218\nPoints: 19\n# Comments: 0",
+        "published": "2026-04-01T17:55:12+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "AI for American-Produced Cement and Concrete",
+        "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+        "summary": "Article URL: https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/\nComments URL: https://news.ycombinator.com/item?id=47603737\nPoints: 56\n# Comments: 44",
+        "published": "2026-04-01T17:17:24+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "NASA Artemis II moon mission live launch broadcast",
+        "url": "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-launches-to-the-moon-official-broadcast/",
+        "summary": "Article URL: https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-launches-to-the-moon-official-broadcast/\nComments URL: https://news.ycombinator.com/item?id=47603657\nPoints: 129\n# Comments: 54",
+        "published": "2026-04-01T17:11:31+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "What Is Copilot Exactly?",
+        "url": "https://idiallo.com/blog/what-is-copilot-exactly",
+        "summary": "Article URL: https://idiallo.com/blog/what-is-copilot-exactly\nComments URL: https://news.ycombinator.com/item?id=47603231\nPoints: 61\n# Comments: 37",
+        "published": "2026-04-01T16:39:46+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "cybersecurity": [
+      {
+        "source_id": "securityweek-rss",
+        "source_name": "SecurityWeek",
+        "source_type": "rss",
+        "title": "This month in security with Tony Anscombe – March 2026 edition",
+        "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-march-2026/",
+        "summary": "The past four weeks have seen a slew of new cybersecurity wake-up calls that showed why every organization needs a well-thought-out cyber-resilience plan",
+        "published": "2026-03-31T08:27:18+00:00",
+        "topics": [
+          "cybersecurity"
+        ],
+        "priority": false,
+        "quality_score": 5
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775063336",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775063336",
+      "summary": "[OSDC][1/n] Update pull test cases to support OSDC k8s migration (#17…",
+      "published": "2026-04-01T12:04:19+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775051807: Codegen backward epilogue subclass wrapping (#178675)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775051807",
+      "summary": "Replace the closure-based wrap_tensor_subclasses() call in\n_backward_epilogue_functional with a codegen'd wrap_fn. At compile\ntime, codegen_backward_subclass_wrap() generates straight-line Python\nsource using the existing _codegen_wrap_subclass helper, with all\nsubclass types, attr names, and symint",
+      "published": "2026-04-01T09:22:52+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775044984: Skip failing tests on xpu with complex dtype on windows (#165049)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775044984",
+      "summary": "Fixes intel/torch-xpu-ops#1195\nOn xpu we use std:: implemetation of trig kernels. Issue comes from differences in implementation of trigonometry functions on complex dtypes in compiler headers. Windows compiler implementation is not conformant with ISO 9899. For example, following code\n#include &lt;",
+      "published": "2026-04-01T07:24:31+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.1",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.1",
+      "summary": "2026.4.1\nChanges\n\nTasks/chat: add /tasks as a chat-native background task board for the current session, with recent task details and agent-local fallback counts when no linked tasks are visible. Related #54226. Thanks @vincentkoc.\nWeb search/SearXNG: add the bundled SearXNG provider plugin for web_",
+      "published": "2026-04-01T17:55:01+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.19.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0",
+      "summary": "Ollama is now powered by MLX on Apple Silicon in preview\nOllama on Apple silicon is now built on top of Apple’s machine learning framework, MLX, to take advantage of its unified memory architecture.\n\n  \n    \n    \n\n    mlx-coding-agent.mov\n    \n  \n\n  \n\n  \n\n\nRead more: https://ollama.com/blog/mlx\nWhat",
+      "published": "2026-03-31T04:57:08+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.19.0-rc0: ci: harden cuda include path handling (#15093)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.19.0-rc0",
+      "summary": "On windows we can get multiple include dirs, so find where the headers are then\ncopy from that location.",
+      "published": "2026-03-27T14:57:07+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "go-ethereum",
+      "source_name": "ethereum/go-ethereum",
+      "source_type": "github",
+      "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+      "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+      "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+      "published": "2026-03-30T11:27:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: v31.0rc2: Bitcoin Core 31.0 release candidate 2",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.0rc2",
+      "summary": "Tree-SHA512: bb68f5b6e569781805c741d63a6ad6f955c1964d9186defa892936160e8444900f1e4175a1ef4fff268b655d664ddf0b914795ef554ea60cb23a054b080b4805",
+      "published": "2026-03-25T21:44:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+      "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+      "published": "2026-03-27T00:33:02+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-extract 0.3a0",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything",
+      "summary": "Release: datasette-extract 0.3a0\n    \nNow uses datasette-llm to manage model configuration, which means you can control which models are available for extraction tasks using the extract purpose and LLM model configuration. #38\n\n    \n        Tags: llm, datasette",
+      "published": "2026-04-01T03:32:16+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-enrichments-llm 0.2a0",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything",
+      "summary": "Release: datasette-enrichments-llm 0.2a0\n    \n\nThis plugin now uses datasette-llm to configure and manage models. This means it's possible to specify which models should be made available for enrichments, using the new enrichments purpose.\n\n\n    \n        Tags: llm, datasette",
+      "published": "2026-04-01T03:28:44+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-llm-usage 0.2a0",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything",
+      "summary": "Release: datasette-llm-usage 0.2a0\n    \n\nRemoved features relating to allowances and estimated pricing. These are now the domain of datasette-llm-accountant.\nNow depends on datasette-llm for model configuration. #3\nFull prompts and responses and tool calls can now be logged to the llm_usage_prompt_log table in the internal database if you set the new datasette-llm-usage.log_prompts plugin configuration setting.\nRedesigned the /-/llm-usage-simple-prompt page, which now requires the llm-usage-simp",
+      "published": "2026-04-01T03:24:03+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-llm 0.1a5",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything",
+      "summary": "Release: datasette-llm 0.1a5\n    \n\nThe llm_prompt_context() plugin hook wrapper mechanism now tracks prompts executed within a chain as well as one-off prompts, which means it can be used to track tool call loops. #5\n\n\n    \n        Tags: llm, datasette",
+      "published": "2026-04-01T03:11:01+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Soohoon Choi",
+      "url": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything",
+      "summary": "I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers ship reliable features fastest, which requires simple, maintainable code. Good code will prevail, not only because we want it to (though we do!), but because economic forces demand it. Markets will not reward slop in coding, in the long-term.\n&mdash; Soohoon Choi, Slop Is ",
+      "published": "2026-04-01T02:07:16+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm",
+      "url": "https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything",
+      "summary": "Supply Chain Attack on Axios Pulls Malicious Dependency from npm\nUseful writeup of today's supply chain attack against Axios, the HTTP client NPM package with 101 million weekly downloads. Versions 1.14.1 and 0.30.4 both included a new dependency called plain-crypto-js which was freshly published malware, stealing credentials and installing a remote access trojan (RAT).\nIt looks like the attack came from a leaked long-lived npm token. Axios have an open issue to adopt trusted publishing, which w",
+      "published": "2026-03-31T23:28:40+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm-all-models-async 0.1",
+      "url": "https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything",
+      "summary": "Release: llm-all-models-async 0.1\n    LLM plugins can define new models in both sync and async varieties. The async variants are most common for API-backed models - sync variants tend to be things that run the model directly within the plugin.\nMy llm-mrchatterbox plugin is sync only. I wanted to try it out with various Datasette LLM features (specifically datasette-enrichments-llm) but Datasette can only use async models.\nSo... I had Claude spin up this plugin that turns sync models into async m",
+      "published": "2026-03-31T20:52:02+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm 0.30",
+      "url": "https://simonwillison.net/2026/Mar/31/llm/#atom-everything",
+      "summary": "Release: llm 0.30\n    \n\nThe register_models() plugin hook now takes an optional model_aliases parameter listing all of the models, async models and aliases that have been registered so far by other plugins. A plugin with @hookimpl(trylast=True) can use this to take previously registered models into account. #1389\nAdded docstrings to public classes and methods and included those directly in the documentation.\n\n\n    \n        Tags: llm",
+      "published": "2026-03-31T20:35:51+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "In the Iran war, it looks like AI helped with operations, not strategy",
+      "url": "https://garymarcus.substack.com/p/in-the-iran-war-it-looks-like-ai",
+      "summary": "A hot take on how AI may have played out in the war so far",
+      "published": "2026-04-01T01:27:50+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Holo3: Breaking the Computer Use Frontier",
+      "url": "https://huggingface.co/blog/Hcompany/holo3",
+      "summary": "",
+      "published": "2026-04-01T16:36:15+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Falcon Perception",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
+      "summary": "",
+      "published": "2026-04-01T07:13:20+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "‘Not an April Fools joke’: Major Solana-based trading platform Drift exploited for at least $200 million",
+      "url": "https://www.theblock.co/post/396107/solana-trading-platform-drift-exploited-at-least-200-million?utm_source=rss&utm_medium=rss",
+      "summary": "The exploit, which started over two hours ago, seems to be targeting multiple Drift vaults, totaling at least $200 million.",
+      "published": "2026-04-01T18:35:29+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Paradigm mulls prediction market entry with trading terminal, market making desk: Fortune",
+      "url": "https://www.theblock.co/post/396099/paradigm-prediction-market-trading-terminal-market-making-desk-fortune?utm_source=rss&utm_medium=rss",
+      "summary": "Paradigm founder and Kalshi board member Matt Huang has previously said that prediction markets represent a trillion-dollar opportunity.",
+      "published": "2026-04-01T18:08:21+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Treasury issues GENIUS Act rule proposal, seeks comment on state oversight for smaller issuers",
+      "url": "https://www.theblock.co/post/396093/treasury-genius-act-rule-proposal-seeks-comment-oversight-smaller-issuers?utm_source=rss&utm_medium=rss",
+      "summary": "Members of the public will have 60 days to respond to the Treasury’s notice of proposed rulemaking in the Federal Register.",
+      "published": "2026-04-01T17:08:58+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Crypto super PAC names Tether exec chairman as stablecoin debate in D.C. intensifies",
+      "url": "https://www.theblock.co/post/396081/crypto-super-pac-names-tether-exec-chairman-as-stablecoin-debate-in-d-c-intensifies?utm_source=rss&utm_medium=rss",
+      "summary": "The debate over stablecoin rewards seems to be the final stumbling block to Congress passing the Clarity Act.",
+      "published": "2026-04-01T16:28:28+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Hong Kong misses March target for first stablecoin licenses",
+      "url": "https://www.theblock.co/post/396057/hong-kong-misses-march-target-first-stablecoin-licenses?utm_source=rss&utm_medium=rss",
+      "summary": "Hong Kong authorities are pushing applicants to refine application details before granting stablecoin license approvals.",
+      "published": "2026-04-01T16:10:43+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Stablecoin card issuing infrastructure platform Kulipa raises $6.2 million seed round",
+      "url": "https://www.theblock.co/post/396063/stablecoin-card-kulipa-seed-round?utm_source=rss&utm_medium=rss",
+      "summary": "Kulipa helps fintechs and wallets issue white-label stablecoin payment cards without managing card operations themselves.",
+      "published": "2026-04-01T16:00:06+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Zodia Markets CEO Usman Ahmad departs, co-founder Nick Philpott named interim CEO",
+      "url": "https://www.theblock.co/post/396062/zodia-markets-co-founder-ceo-usman-ahmad-departs?utm_source=rss&utm_medium=rss",
+      "summary": "Ahmad had led the firm since its founding in 2021, when it launched as a joint partnership between SC Ventures and OSL Group.",
+      "published": "2026-04-01T15:07:04+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin miner Cango secures financing as NYSE delisting looms amid low stock price",
+      "url": "https://www.theblock.co/post/396056/bitcoin-miner-cango-secures-financing-nyse-delisting-looms-low-stock-price?utm_source=rss&utm_medium=rss",
+      "summary": "NYSE-listed Cango raised a total of $75 million from a strategic investment and a convertible note financing deal.",
+      "published": "2026-04-01T14:43:26+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "OpenEden issues first tokenized access to BNY’s Global Short-Dated High-Yield Bond strategy",
+      "url": "https://www.theblock.co/post/395910/openeden-issues-first-tokenized-access-to-bnys-global-short-dated-high-yield-bond-strategy?utm_source=rss&utm_medium=rss",
+      "summary": "OpenEden launches HYBOND token offering onchain access to BNY Investments’ Global Short-Dated High-Yield Bond strategy.",
+      "published": "2026-04-01T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin traders show ‘aggressive caution’ heading into typically low-volume Easter period: K33",
+      "url": "https://www.theblock.co/post/396039/bitcoin-traders-show-aggressive-caution-heading-into-typically-low-volume-easter-period-k33?utm_source=rss&utm_medium=rss",
+      "summary": "Bitcoin defensive positioning is building into a potential Easter-driven slowdown, according to analysts at K33.",
+      "published": "2026-04-01T12:41:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
