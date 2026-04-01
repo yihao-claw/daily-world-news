@@ -109,7 +109,8 @@ def get_episode_description(date_str: str) -> str:
 
 
 def estimate_duration(file_size: int) -> str:
-    seconds = max(1, file_size // 16000)
+    # edge-tts outputs ~48kbps mp3 (6000 bytes/sec)
+    seconds = max(1, file_size // 6000)
     minutes, secs = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
     if hours:
