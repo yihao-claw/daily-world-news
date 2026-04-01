@@ -4,6 +4,13 @@ fetch_market.py — 抓取市場數據快照（股市、匯率、原油、黃金
 輸出 JSON，供 LLM 寫市場快照時引用確切數字。
 
 Usage: python3 fetch_market.py [--output market.json]
+
+⚠️ FALLBACK NOTE (2026-04-02):
+yfinance 經常被 Yahoo Finance rate limit 擋掉，導致亞股數據缺失。
+如果 yfinance 失敗，可用 web_fetch 抓 Trading Economics 作為備用：
+  - https://tradingeconomics.com/taiwan/stock-market (TAIEX)
+  - https://tradingeconomics.com/japan/stock-market (Nikkei 225)
+  這些頁面用靜態 HTML，web_fetch 可以直接抓到數據。
 """
 import argparse
 import json

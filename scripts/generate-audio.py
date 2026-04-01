@@ -22,8 +22,10 @@ def md_to_script(text: str) -> str:
     """將 markdown 轉成適合播報的純文字"""
     # 移除 markdown 連結，保留文字
     text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
-    # 移除 📎 來源行
-    text = re.sub(r'📎 來源：.*', '', text)
+    # 移除 📎 來源行（包含各種格式）
+    text = re.sub(r'📎.*', '', text)
+    # 移除獨立的 URL 行
+    text = re.sub(r'^\s*https?://\S+\s*$', '', text, flags=re.MULTILINE)
     # 移除 > 引言行
     text = re.sub(r'^>.*$', '', text, flags=re.MULTILINE)
     # 移除 --- 分隔線
