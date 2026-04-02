@@ -1,0 +1,816 @@
+{
+  "generated_at": "2026-04-02T19:05:46.490582+00:00",
+  "today_jst": "2026-04-03",
+  "stats": {
+    "rss_fetched": 28,
+    "rss_errors": 11,
+    "github_fetched": 10,
+    "reddit_fetched": 9
+  },
+  "total_articles": 364,
+  "topic_distribution": {
+    "llm": 68,
+    "ai-agent": 4,
+    "crypto": 106,
+    "frontier-tech": 185,
+    "cybersecurity": 1
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc1",
+        "summary": "Gemma 4\nEffective 2B (E2B)\nollama run gemma4:e2b\n\nEffective 4B (E4B)\nollama run gemma4:e4b\n\n26B (Mixture of Experts model with 4B active parameters)\nollama run gemma4:26b\n\n31B (Dense)\nollama run gemma4:31b\n\nWhat's Changed\n\ndocs: update pi docs by @ParthSareen in #15152\nmlx: respect tokenizer add_bos",
+        "published": "2026-04-02T18:25:32+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.0-rc0: Merge pull request #42 from ollama/jmorganca/gemma4-ggml-improvements",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc0",
+        "summary": "gemma4: fix MoE fused gate_up split and multiline tool-call arg parsing",
+        "published": "2026-04-02T14:16:06+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775154899",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775154899",
+        "summary": "Add reconstruct_fn to opaque type registration for make_fx tracing (#…",
+        "published": "2026-04-02T14:02:39+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "transformers",
+        "source_name": "huggingface/transformers",
+        "source_type": "github",
+        "title": "[GitHub] huggingface/transformers: Release v5.5.0",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+        "summary": "Release v5.5.0\n\nNew Model additions\nGemma4\nGemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of ",
+        "published": "2026-04-02T16:15:33+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "transformers",
+        "source_name": "huggingface/transformers",
+        "source_type": "github",
+        "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+        "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+        "published": "2026-03-27T00:33:02+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "simonwillison-rss",
+        "source_name": "Simon Willison",
+        "source_type": "rss",
+        "title": "Gemma 4: Byte for byte, the most capable open models",
+        "url": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
+        "summary": "Gemma 4: Byte for byte, the most capable open models\nFour new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts.\nGoogle emphasize \"unprecedented level of intelligence-per-parameter\", providing yet more evidence that creating small useful models is one of the hottest areas of research right now.\nThey actually label the two smaller models as E2B and E4B for \"Effective\" parameter size. The system card explains:\n\nThe small",
+        "published": "2026-04-02T18:28:54+00:00",
+        "topics": [
+          "llm",
+          "ai-agent",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.24",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.24",
+        "summary": "Changes since langchain-core==1.2.23\nrelease(core): 1.2.24 (#36434)\nfeat(core): impute placeholder filenames for OpenAI file inputs (#36433)\nchore: pygments&gt;=2.20.0 across all packages (CVE-2026-4539) (#36385)\nfix(core): add \"computer\" to _WellKnownOpenAITools (#36261)",
+        "published": "2026-04-01T20:01:05+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.2",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+        "summary": "Breaking\n\nPlugins/xAI: move x_search settings from the legacy core tools.web.x_search.* path to the plugin-owned plugins.entries.xai.config.xSearch.* path, standardize x_search auth on plugins.entries.xai.config.webSearch.apiKey / XAI_API_KEY, and migrate legacy config with openclaw doctor --fix. (#",
+        "published": "2026-04-02T18:59:28+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.13.0a7",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.13.0a7",
+        "summary": "What's Changed\nFeatures\n\nAdd A2UI extension with v0.8/v0.9 support, schemas, and docs\n\nBug Fixes\n\nFix multimodal vision prefixes by adding GPT-5 and o-series\n\nDocumentation\n\nUpdate changelog and version for v1.13.0a6\n\nContributors\n@alex-clawd, @greysonlalonde, @joaomdmoura",
+        "published": "2026-04-02T14:21:30+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.3",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.3",
+        "summary": "🚀 What's New in v1.13.3?\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\n🎬 New Features\n\nWorkflow Configuration: Added variable-reference support for model parame",
+        "published": "2026-03-30T09:13:23+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "go-ethereum",
+        "source_name": "ethereum/go-ethereum",
+        "source_type": "github",
+        "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+        "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+        "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+        "published": "2026-03-30T11:27:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Circle unveils plans for wrapped bitcoin token cirBTC",
+        "url": "https://www.theblock.co/post/396275/circle-plans-wrapped-bitcoin-token-cirbtc?utm_source=rss&utm_medium=rss",
+        "summary": "Circle's bitcoin payments app Circle Pay was sunsetted in 2019 as the firm pivoted to focus solely on stablecoins.",
+        "published": "2026-04-02T17:56:31+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "‘Alive and well:’ Solana memecoin honoring 193-year-old tortoise Jonathan rallies following April Fools’ prank",
+        "url": "https://www.theblock.co/post/396264/alive-well-solana-memecoin-193-year-old-tortoise-jonathan-rallies-april-fools-prank?utm_source=rss&utm_medium=rss",
+        "summary": "The JONATHAN token, launched eight months ago, hit a high of approximately $0.00038 on April Fools' Day, in a single 1,400% candle.",
+        "published": "2026-04-02T17:21:45+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "Hyperliquid gains ground on centralized exchanges as perps market share nears 6%",
+        "url": "https://www.theblock.co/post/395728/hyperliquid-gains-centralized-exchanges-perps-market-share-nears-6?utm_source=rss&utm_medium=rss",
+        "summary": "The platform's share of total perp futures volume has climbed to just under 6% in March with monthly volumes approaching $200 billion.",
+        "published": "2026-04-02T16:56:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "theblock-rss",
+        "source_name": "The Block",
+        "source_type": "rss",
+        "title": "CFTC sues Illinois, Arizona and Connecticut in escalating fight for jurisdiction over prediction markets",
+        "url": "https://www.theblock.co/post/396258/cftc-sues-illinois-gov-pritzker-escalating-fight-jurisdiction-prediction-markets?utm_source=rss&utm_medium=rss",
+        "summary": "The CFTC is suing Illinois Governor JB Pritzker and the state, escalating its effort to assert its oversight over prediction markets.",
+        "published": "2026-04-02T16:37:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪晚报｜AI大模型产品“奇趣”完成千万级融资；阶跃星辰上线Step 3.5 Flash 2603模型；沃尔沃汽车第一季度全球销量同比下降11%",
+        "url": "https://36kr.com/p/3749518049739271?f=rss",
+        "summary": "大公司：\n  滴滴租车推出“无车必赔”机制，无车率下降15%\n  为提升履约确定性，滴滴租车推出“无车必赔”机制：因商家原因导致无法用车，平台将协调升级车型，或全额退款并赔付三倍日租金。规则实施后，无车率同期下降15%，平台共赔付预约无车订单三百余次。针对车损纠纷和线下乱收费情况，平台提供免费第三方定损及先行赔付，费用全程线上公示，统一收款，严禁线下加价，违规收费先行赔付，线下乱收费投诉量下降50%。目前超95%的订单实现“无投诉、无纠纷”。\n  韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出\n  36氪获悉，韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出。\n  沃尔沃汽车第一季度全球销量同比下降11%\n  沃尔沃汽车4月2日公布，2026年第一季度全球销量为153,316辆，同比下降11%。纯电动汽车占所有汽车销量的23.7%，插电式混合动力汽车占23.6%，本季度电动汽车销量占所有汽车销量的47.3%。（界面）\n  零克云正上线“云端龙虾”OpenClaw服务\n  36氪获悉，零克云正式上线“云端龙虾”OpenClaw服务，云端一键部署，内置多模型组合，",
+        "published": "2026-04-02T10:10:59+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "轻舟、元戎秘交上市资料，和Momenta冲刺港股IPO | 36氪独家",
+        "url": "https://36kr.com/p/3748118174335747?f=rss",
+        "summary": "图源视觉中国\n  文｜肖漫\n  编辑｜李勤、杨轩\n  36氪汽车独家获悉，轻舟智航、元戎启行已向香港交易所秘密递交上市材料，计划于今年年内在港交所挂牌。\n  一位投资行业人士告诉我们，元戎启行在2025年年底就已提交上市资料，比Momenta递表的时间还早两个月。\n  港股IPO从递表到挂牌需经历递表审核、聆讯、路演与招股等关键阶段，顺利情况下全周期约6-9个月。也就是说，包含轻舟智航、元戎启行和Momenta在内的这批自动驾驶算法公司极有可能在今年下半年迎来IPO爆发潮。\n  36氪从多位从多位投资行业人士处获悉，Momenta IPO估值预期突破千亿元；轻舟智航最新估值在15亿-20亿美元区间，预期IPO估值尚且未知。\n  “大家都想抢在FSD进中国之前上市。”一位业内人士说道。更直白的说法是，如果再晚一步，这些公司可能连“被定价”的机会都没了。\n  智驾供应商抢滩上市，窗口期不等人\n  经历 2019 年的寒冬、2021 年的疯狂、2024 年的量产拉锯战后，智驾赛道的竞争格局已经十分明确，依旧留在牌桌上的玩家都手握多家车企的量产订单。\n  Momenta 深度绑定上汽、奔驰、宝",
+        "published": "2026-04-02T08:10:46+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "泡泡玛特无需下一个LABUBU",
+        "url": "https://36kr.com/p/3749340971188992?f=rss",
+        "summary": "3月25日，泡泡玛特交出了2025年的答卷。过去一年，泡泡玛特的收入为人民币371.2亿元，同比增长185%，净利润为130.1亿元，同比增长293%。\n  围绕泡泡玛特的讨论再次沸腾起来，只是相较于去年中报发布之际的欢欣鼓舞，此次与泡泡玛特亮眼财报成绩一并而至的，是资本市场的负面情绪。\n  对此泡泡玛特没有坐以待毙，连续选择四个交易日斥资12亿港元大手笔回购，以此向市场传递公司长期向好的信心。\n  股价过山车的背后仍是那些老生常谈的问题，泡泡玛特是否能维持住2025年的高速增长，以及其是否在依赖单一IP LABUBU。\n  从IP的角度来看，过去一年LABUBU及其所在的THE MONSTERS系列收入超百亿元，占比公司总收入的约38%；包括SKULLPANDA、CRYBABY、MOLLY等在内的6个IP收入超20亿元、17个IP收入超1亿元，加在一起已经与LABUBU相当。\n  新IP中，还有2024年年中推出的星星人，以16倍的增长成为了泡泡玛特IP矩阵的中坚力量。\n  \n  这背后体现的是泡泡玛特作为一家IP公司的运营能力。\n  回到此次的股价波动上，有潮玩行业的资深从业者表示",
+        "published": "2026-04-02T07:07:45+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "获韶音投资，一家AI公司做了“硬件版OpenClaw” | 36氪独家",
+        "url": "https://36kr.com/p/3749149674439169?f=rss",
+        "summary": "文｜邓咏仪\n  编辑｜苏建勋\n  当OpenClaw风暴席卷全球之时，无界方舟创始人曾晓东的反应不是兴奋，而是一种“终于被看见”的感觉。\n  “OpenClaw本质上是一个Agent框架，底层是一个会写代码的Agent，放在云端服务器或者电脑上。”他对《智能涌现》说，“我们的AIOS本质上也是一个Agent框架，但它是放在硬件端侧的OpenClaw——机器人、耳机、眼镜，都可以在这套OS上运行。”\n  无界方舟从2024年成立起，就在做这件事。曾晓东给这套范式起了个名字：Vibe Hardware——用自然语言做硬件开发，AI就能自己写程序、调驱动、完成整个应用研发与部署。\n  目前，无界方舟已经建立起了从硬件产品到OS的产品体系，包括AIOS“EVA”，以及包括AI教育机器人“奇多多AI学伴机”在内的硬件和产品生态。\n  近期，无界方舟也完成连续两轮Pre-A轮融资。投资方包括全球知名穿戴式设备品牌韶音、国瑞源基金、恒松资本、上海天使会，易凯资本担任独家财务顾问。\n  过去一年内，无界方舟已经快速完成4轮融资，累计融资金额数亿元。\n  \n  △无界方舟创始人曾晓东\n  无界方舟创始人",
+        "published": "2026-04-02T04:25:33+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "36氪首发 | 00后交大博士做仿生飞行机器人，获启高、奇绩创坛、交大母基金等投资",
+        "url": "https://36kr.com/p/3748270618919424?f=rss",
+        "summary": "作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，仿生扑翼飞行机器人公司——深圳鹰瞰智翼科技有限公司（下称“鹰瞰智翼”）近期已完成千万元级别天使轮融资，由启高资本领投，奇绩创坛及上海交大母基金跟投。资金将主要用于产品量产、下一代具身智能飞行机器人研发，以及全球首个机器人流体仿真引擎搭建。\n  鹰瞰智翼2025年3月成立于深圳，是全球第一家专注于具身智能扑翼机器人的公司。创始人陈昊是上海交通大学直博生，博士期间发表四篇顶刊论文。团队核心成员均为上海交大本硕博，来自机器人、控制与机械等相关背景，全员均为00后。\n  目前，鹰瞰智翼已形成两条产品线：\n  一是消费级产品“丹丹（Dante）”：面向全球极客群体，支持二次开发，具备特技飞行能力，是市面上操纵性与灵活性最强的扑翼机之一。该产品已完成功能样机开发，累计飞行超3000小时，预计今年Q2上线Kickstarter众筹。\n  \n  消费级产品“丹丹（Dante）”（图源/企业）\n  二是产业级产品：面向科研及专业场景，具备全流程自主飞行能力，同时兼具低噪音与仿生特性，在复杂环境中具备更强的隐蔽性与环境适应能力。\n  \n  具身智能扑翼机器人（图",
+        "published": "2026-04-02T01:10:00+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "抖音生活服务组织架构大调整，中小商家更重要了｜独家",
+        "url": "https://36kr.com/p/3748296456143362?f=rss",
+        "summary": "文｜李小霞\n  编辑｜乔芊 杨轩\n  36氪独家获悉，近期抖音生活服务完成了浦燕子接任后的第二次大的组织架构调整。\n  此次调整根据商户规模重新分为线上部门和线下部门。\n  月GMV5万以上的客户被放到线上部门，分为KA（月GMV10万以上）、自助（月GMV在5-10万）、酒旅三个版块。其中前二者又分别按行业细分为餐饮、到店综合。\n  月GMV5万以下的客户被放到线下部门。线下则按照区域划分为北区、南区、东区。相比此前的区域划分，砍掉了上海大区、中区，增加了东区，中区相关商户被分流到北区、东区。\n  \n  (36氪制图)\n  具体人员任命如下：\n  王雪芹，负责酒旅和KA餐饮，此前为抖音生活服务NKA业务负责人；吴嘉伟负责酒旅，向王雪芹汇报。常青负责KA综合，其来自字节商业化中销-直客部门。\n  旭恺，负责自助业务（含自助餐饮、自助到店综合），向抖音生活服务自助客户与用户增长负责人焦颖颖汇报。\n  南部大区负责人郝霞，此前为中部大区负责人；北部大区负责人石文夫，此前为抖音生活服务区域服务商负责人；东部大区负责人为陈鸣，此前为上海大区负责人。\n  涂晴同时担任内容与营销负责人、直营服务商",
+        "published": "2026-04-02T01:00:00+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "cybersecurity": [
+      {
+        "source_id": "securityweek-rss",
+        "source_name": "SecurityWeek",
+        "source_type": "rss",
+        "title": "Digital assets after death: Managing risks to your loved one’s digital estate",
+        "url": "https://www.welivesecurity.com/en/cybersecurity/digital-assets-death-managing-risks-your-loved-ones-digital-estate/",
+        "summary": "Fraudsters often target the accounts of the deceased or their grieving relatives. Here’s how to keep the scammers at bay.",
+        "published": "2026-04-01T09:00:00+00:00",
+        "topics": [
+          "cybersecurity"
+        ],
+        "priority": false,
+        "quality_score": 5
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc1",
+      "summary": "Gemma 4\nEffective 2B (E2B)\nollama run gemma4:e2b\n\nEffective 4B (E4B)\nollama run gemma4:e4b\n\n26B (Mixture of Experts model with 4B active parameters)\nollama run gemma4:26b\n\n31B (Dense)\nollama run gemma4:31b\n\nWhat's Changed\n\ndocs: update pi docs by @ParthSareen in #15152\nmlx: respect tokenizer add_bos",
+      "published": "2026-04-02T18:25:32+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.0-rc0: Merge pull request #42 from ollama/jmorganca/gemma4-ggml-improvements",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc0",
+      "summary": "gemma4: fix MoE fused gate_up split and multiline tool-call arg parsing",
+      "published": "2026-04-02T14:16:06+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.24",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.24",
+      "summary": "Changes since langchain-core==1.2.23\nrelease(core): 1.2.24 (#36434)\nfeat(core): impute placeholder filenames for OpenAI file inputs (#36433)\nchore: pygments&gt;=2.20.0 across all packages (CVE-2026-4539) (#36385)\nfix(core): add \"computer\" to _WellKnownOpenAITools (#36261)",
+      "published": "2026-04-01T20:01:05+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775154899",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775154899",
+      "summary": "Add reconstruct_fn to opaque type registration for make_fx tracing (#…",
+      "published": "2026-04-02T14:02:39+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.5.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+      "summary": "Release v5.5.0\n\nNew Model additions\nGemma4\nGemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of ",
+      "published": "2026-04-02T16:15:33+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "summary": "Breaking\n\nPlugins/xAI: move x_search settings from the legacy core tools.web.x_search.* path to the plugin-owned plugins.entries.xai.config.xSearch.* path, standardize x_search auth on plugins.entries.xai.config.webSearch.apiKey / XAI_API_KEY, and migrate legacy config with openclaw doctor --fix. (#",
+      "published": "2026-04-02T18:59:28+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "go-ethereum",
+      "source_name": "ethereum/go-ethereum",
+      "source_type": "github",
+      "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+      "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+      "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+      "published": "2026-03-30T11:27:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+      "summary": "New Model additions\nVidEoMT\n\nVideo Encoder-only Mask Transformer (VidEoMT) is a lightweight encoder-only model for online video segmentation built on a plain Vision Transformer (ViT). It eliminates the need for dedicated tracking modules by introducing a lightweight query propagation mechanism that ",
+      "published": "2026-03-27T00:33:02+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything",
+      "summary": "Gemma 4: Byte for byte, the most capable open models\nFour new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Experts.\nGoogle emphasize \"unprecedented level of intelligence-per-parameter\", providing yet more evidence that creating small useful models is one of the hottest areas of research right now.\nThey actually label the two smaller models as E2B and E4B for \"Effective\" parameter size. The system card explains:\n\nThe small",
+      "published": "2026-04-02T18:28:54+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "llm-gemini 0.30",
+      "url": "https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything",
+      "summary": "Release: llm-gemini 0.30\n    New models gemini-3.1-flash-lite-preview, gemma-4-26b-a4b-it and gemma-4-31b-it. See my notes on Gemma 4.\n    \n        Tags: gemini, llm, gemma",
+      "published": "2026-04-02T18:25:08+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "March 2026 sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything",
+      "summary": "I just sent the March edition of my sponsors-only monthly newsletter. If you are a sponsor (or if you start a sponsorship now) you can access it here. In this month's newsletter:\n\nMore agentic engineering patterns\nStreaming experts with MoE models on a Mac\nModel releases in March\nVibe porting\nSupply chain attacks against PyPI and NPM\nStuff I shipped\nWhat I'm using, March 2026 edition\nAnd a couple of museums\n\nHere's a copy of the February newsletter as a preview of what you'll get. Pay $10/month ",
+      "published": "2026-04-02T05:15:04+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-llm 0.1a6",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
+      "summary": "Release: datasette-llm 0.1a6\n    \n\nThe same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed models list. #6\nImproved documentation for Python API usage.\n\n\n    \n        Tags: llm, datasette",
+      "published": "2026-04-01T23:01:37+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-enrichments-llm 0.2a1",
+      "url": "https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything",
+      "summary": "Release: datasette-enrichments-llm 0.2a1\n    \n\nThe actor who triggers an enrichment is now passed to the llm.mode(... actor=actor) method. #3\n\n\n    \n        Tags: enrichments, llm, datasette",
+      "published": "2026-04-01T22:00:34+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "On employment, don’t panic – yet.",
+      "url": "https://garymarcus.substack.com/p/on-employment-dont-panic-yet",
+      "summary": "Things will get wild, but probably not immediately",
+      "published": "2026-04-01T19:13:08+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "huggingface-rss",
+      "source_name": "Hugging Face Blog",
+      "source_type": "rss",
+      "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+      "url": "https://huggingface.co/blog/gemma4",
+      "summary": "",
+      "published": "2026-04-02T00:00:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Circle unveils plans for wrapped bitcoin token cirBTC",
+      "url": "https://www.theblock.co/post/396275/circle-plans-wrapped-bitcoin-token-cirbtc?utm_source=rss&utm_medium=rss",
+      "summary": "Circle's bitcoin payments app Circle Pay was sunsetted in 2019 as the firm pivoted to focus solely on stablecoins.",
+      "published": "2026-04-02T17:56:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "‘Alive and well:’ Solana memecoin honoring 193-year-old tortoise Jonathan rallies following April Fools’ prank",
+      "url": "https://www.theblock.co/post/396264/alive-well-solana-memecoin-193-year-old-tortoise-jonathan-rallies-april-fools-prank?utm_source=rss&utm_medium=rss",
+      "summary": "The JONATHAN token, launched eight months ago, hit a high of approximately $0.00038 on April Fools' Day, in a single 1,400% candle.",
+      "published": "2026-04-02T17:21:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Hyperliquid gains ground on centralized exchanges as perps market share nears 6%",
+      "url": "https://www.theblock.co/post/395728/hyperliquid-gains-centralized-exchanges-perps-market-share-nears-6?utm_source=rss&utm_medium=rss",
+      "summary": "The platform's share of total perp futures volume has climbed to just under 6% in March with monthly volumes approaching $200 billion.",
+      "published": "2026-04-02T16:56:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "CFTC sues Illinois, Arizona and Connecticut in escalating fight for jurisdiction over prediction markets",
+      "url": "https://www.theblock.co/post/396258/cftc-sues-illinois-gov-pritzker-escalating-fight-jurisdiction-prediction-markets?utm_source=rss&utm_medium=rss",
+      "summary": "The CFTC is suing Illinois Governor JB Pritzker and the state, escalating its effort to assert its oversight over prediction markets.",
+      "published": "2026-04-02T16:37:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Coinbase receives conditional approval for national trust charter from OCC",
+      "url": "https://www.theblock.co/post/396244/coinbase-receives-conditional-approval-national-trust-charter-occ?utm_source=rss&utm_medium=rss",
+      "summary": "\"This charter is about bringing federal regulatory uniformity to the custody and market infrastructure business,\" Coinbase said.",
+      "published": "2026-04-02T16:03:06+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Kroll gives Ripple Prime ‘medium quality’ rating citing strong backing, concentration risks",
+      "url": "https://www.theblock.co/post/396233/kroll-ripple-prime-medium-quality-rating-strong-backing-concentration-risks?utm_source=rss&utm_medium=rss",
+      "summary": "The rating, which is its lowest investment-grade tier, leans heavily on Ripple’s balance sheet of $57 billion in cash and XRP holdings.",
+      "published": "2026-04-02T15:47:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "As World Cup nears, CZ–backed YZi Labs increases investment in prediction market startup Predict.fun",
+      "url": "https://www.theblock.co/post/396231/world-cup-nears-cz-backed-yzi-labs-increases-investment-in-prediction-market-startup?utm_source=rss&utm_medium=rss",
+      "summary": "The Binance co-founder recently said the upcoming World Cup should boost activity on prediction markets, which let user wager on sports.",
+      "published": "2026-04-02T15:42:23+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Telegram Wallet integrates Lighter to roll out in-app perpetual futures trading to 150M+ users",
+      "url": "https://www.theblock.co/post/396228/telegram-wallet-integrates-lighter-to-roll-out-in-app-perpetual-futures-trading-to-150m-users?utm_source=rss&utm_medium=rss",
+      "summary": "Telegram has rolled out perpetual futures trading directly into its app to its wallet users through a partnership with Lighter.",
+      "published": "2026-04-02T14:47:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "CryptoQuant says bitcoin demand remains in ‘deep contraction,’ but price could bounce to $71,500–$81,200",
+      "url": "https://www.theblock.co/post/396215/cryptoquant-bitcoin-price-outlook?utm_source=rss&utm_medium=rss",
+      "summary": "If macro risks ease, particularly the U.S.-Iran conflict, bitcoin could bounce toward $71,500–$81,200 in the short term, CryptoQuant said.",
+      "published": "2026-04-02T14:24:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Pump.fun leads $1 million pre-seed funding round into livestream prediction markets startup Pumpcade",
+      "url": "https://www.theblock.co/post/396213/pump-fun-pre-seed-funding-round-livestream-prediction-markets-pumpcade?utm_source=rss&utm_medium=rss",
+      "summary": "Pumpcade's prediction markets are embedded into livestreams, supporting markets that can resolve in a matter of minutes or seconds.",
+      "published": "2026-04-02T14:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Polymarket taps Pyth Network to resolve new US equity and commodity markets",
+      "url": "https://www.theblock.co/post/396200/polymarket-taps-pyth-network-to-resolve-new-us-equity-and-commodity-markets?utm_source=rss&utm_medium=rss",
+      "summary": "Polymarket has integrated Pyth Network to resolve daily markets on gold, crude, and more than a dozen U.S. equities.",
+      "published": "2026-04-02T14:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Tech, crypto giants to help steward Coinbase’s neutral x402 payments protocol under Linux Foundation",
+      "url": "https://www.theblock.co/post/396155/tech-crypto-giants-to-help-steward-coinbases-neutral-x402-payments-protocol-under-linux-foundation?utm_source=rss&utm_medium=rss",
+      "summary": "The x402 Foundation is moving the x402 protocol incubated by Coinbase under neutral, open-source governance at the Linux Foundation.",
+      "published": "2026-04-02T13:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Bitcoin falls below $66K as crowded shorts hint at upside risk ahead of Easter holiday: analysts",
+      "url": "https://www.theblock.co/post/396204/bitcoin-falls-below-66k-as-crowded-shorts-hint-at-upside-risk-ahead-of-easter-holiday-analysts?utm_source=rss&utm_medium=rss",
+      "summary": "Bitcoin remains stuck below $70K as weak conviction and macro uncertainty weigh on markets, with analysts flagging a potential short squeeze.",
+      "published": "2026-04-02T12:22:53+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "SoFi launches ‘Big Business Banking’ combining fiat and crypto on a single regulated platform",
+      "url": "https://www.theblock.co/post/396195/sofi-launches-big-business-banking-combining-fiat-and-crypto-on-a-single-regulated-platform?utm_source=rss&utm_medium=rss",
+      "summary": "SoFi has launched a new enterprise banking platform with 24/7 payment support, combining fiat and crypto services.",
+      "published": "2026-04-02T12:00:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "BitGo launches stablecoin minting and redemption for institutions",
+      "url": "https://www.theblock.co/post/396152/bitgo-stablecoin-minting-redemption-institutions?utm_source=rss&utm_medium=rss",
+      "summary": "The company is hoping to service 'market makers, liquidity providers, banks, exchanges, asset managers, and fintechs.'",
+      "published": "2026-04-02T11:05:03+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
