@@ -136,10 +136,11 @@ def build_item(date_str: str, mp3_file: Path) -> str:
         return ""
 
     date = datetime.date.fromisoformat(date_str)
-    # 台灣時間 (UTC+8) 中午 12 點 — 確保 GMT 日期不會跑到前一天
+    # 使用集數日期的 GMT 07:00 (= 台灣 15:00)
+    # 確保日期正確且不會是未來時間
     pub_date = formatdate(
-        datetime.datetime.combine(date, datetime.time(12, 0),
-                                   tzinfo=datetime.timezone(datetime.timedelta(hours=8))).timestamp(),
+        datetime.datetime.combine(date, datetime.time(7, 0),
+                                   tzinfo=datetime.timezone.utc).timestamp(),
         usegmt=True
     )
 
