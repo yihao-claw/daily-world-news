@@ -136,9 +136,9 @@ def build_item(date_str: str, mp3_file: Path) -> str:
         return ""
 
     date = datetime.date.fromisoformat(date_str)
-    # 台灣時間 (UTC+8) 早上 7 點發布
+    # 台灣時間 (UTC+8) 中午 12 點 — 確保 GMT 日期不會跑到前一天
     pub_date = formatdate(
-        datetime.datetime.combine(date, datetime.time(7, 0),
+        datetime.datetime.combine(date, datetime.time(12, 0),
                                    tzinfo=datetime.timezone(datetime.timedelta(hours=8))).timestamp(),
         usegmt=True
     )
