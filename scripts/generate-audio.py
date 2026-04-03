@@ -16,10 +16,17 @@ import shutil
 VOICE = os.environ.get("VOICE", "zh-TW-HsiaoChenNeural")
 RATE = os.environ.get("RATE", "+10%")
 CHUNK_SIZE = 2000
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TRANSITION_SFX = os.path.join(SCRIPT_DIR, "..", "assets", "transition.mp3")
+
+# Sentinel inserted where [🎵 ...] markers appear
+SFX_SENTINEL = "___SFX_TRANSITION___"
 
 
 def md_to_script(text: str) -> str:
     """將 markdown 轉成適合播報的純文字"""
+    # 將 [🎵 ...] 標記替換為哨兵（稍後用音效替代）
+    text = re.sub(r'\[🎵[^\]]*\]', SFX_SENTINEL, text)
     # 移除 markdown 連結，保留文字
     text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
     # 移除 📎 來源行（包含各種格式）
@@ -83,18 +90,31 @@ def main():
     script = md_to_script(md_text)
     print(f"📝 播報稿: {len(script)} 字")
 
-    chunks = split_chunks(script)
-    print(f"📦 分成 {len(chunks)} 段")
+    # Split script on SFX sentinels to interleave TTS with transition audio
+    segments = script.split(SFX_SENTINEL)
+    has_sfx = os.path.isfile(TRANSITION_SFX) and len(segments) > 1
+    if has_sfx:
+        print(f"🎵 過場音效: {TRANSITION_SFX} ({len(segments)-1} 處)")
 
     tmpdir = tempfile.mkdtemp()
     try:
-        # 逐段生成
         mp3_files = []
-        for i, chunk in enumerate(chunks):
-            mp3_path = os.path.join(tmpdir, f"chunk_{i:03d}.mp3")
-            print(f"🔊 生成第 {i + 1}/{len(chunks)} 段...")
-            asyncio.run(generate_tts(chunk, mp3_path))
-            mp3_files.append(mp3_path)
+        tts_idx = 0
+        for seg_i, segment in enumerate(segments):
+            segment = segment.strip()
+            if segment:
+                seg_chunks = split_chunks(segment)
+                for chunk in seg_chunks:
+                    mp3_path = os.path.join(tmpdir, f"chunk_{tts_idx:03d}.mp3")
+                    tts_idx += 1
+                    print(f"🔊 生成第 {tts_idx} 段...")
+                    asyncio.run(generate_tts(chunk, mp3_path))
+                    mp3_files.append(mp3_path)
+            # Insert transition SFX between segments (not after last)
+            if has_sfx and seg_i < len(segments) - 1:
+                mp3_files.append(TRANSITION_SFX)
+
+        print(f"📦 共 {len(mp3_files)} 段（含音效）")
 
         # 合併
         if len(mp3_files) == 1:

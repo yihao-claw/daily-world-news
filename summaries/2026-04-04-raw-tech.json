@@ -1,0 +1,804 @@
+{
+  "generated_at": "2026-04-03T19:09:42.339193+00:00",
+  "today_jst": "2026-04-04",
+  "stats": {
+    "rss_fetched": 28,
+    "rss_errors": 11,
+    "github_fetched": 10,
+    "reddit_fetched": 8
+  },
+  "total_articles": 359,
+  "topic_distribution": {
+    "llm": 62,
+    "ai-agent": 5,
+    "crypto": 101,
+    "frontier-tech": 191
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.0",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0",
+        "summary": "Gemma 4\nEffective 2B (E2B)\nollama run gemma4:e2b\n\nEffective 4B (E4B)\nollama run gemma4:e4b\n\n26B (Mixture of Experts model with 4B active parameters)\nollama run gemma4:26b\n\n31B (Dense)\nollama run gemma4:31b\n\nWhat's Changed\n\ndocs: update pi docs by @ParthSareen in #15152\nmlx: respect tokenizer add_bos",
+        "published": "2026-04-02T21:19:31+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775228618: [DTensor] redistribute from/to _StridedShard through Replicate (#179059)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775228618",
+        "summary": "why care about redistributing from/to _StridedShard.\nAs I was fixing _StridedShard.full_tensor(), I found cartesian_prod goes through _view_ops.py to generate _StridedShard, becuase of decomposation to meshgrid → flatten → stack. It triggers _StridedShard-to-Shard redistribution and ended up with Ru",
+        "published": "2026-04-03T10:56:33+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775219460: Add reuse_hash_fn escape hatch for nested_compile_region (#178239)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775219460",
+        "summary": "Add a user-provided reuse_hash_fn parameter to nested_compile_region\nthat bypasses the automatic fingerprint/guard machinery for subgraph\nreuse. Dynamo traces the hash function (with guard installation\nsuppressed via skip_guard_install) to get a constant integer key used\nfor O(1) cache lookup. Graph",
+        "published": "2026-04-03T07:29:59+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775217501",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775217501",
+        "summary": "fix(dynamo): Support BaseException str/repr/args interface during tra…",
+        "published": "2026-04-03T07:28:02+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.0-rc1: convert: support new Gemma4 audio_tower tensor naming (#15221)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc1",
+        "summary": "Co-authored-by: jmorganca jmorganca@gmail.com",
+        "published": "2026-04-02T16:30:05+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.0-rc0: Merge pull request #42 from ollama/jmorganca/gemma4-ggml-improvements",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc0",
+        "summary": "gemma4: fix MoE fused gate_up split and multiline tool-call arg parsing",
+        "published": "2026-04-02T14:16:06+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain==1.2.15",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.15",
+        "summary": "Changes since langchain==1.2.14\nrelease: langchain v1.2.15 (#36496)\nchore: bump aiohttp from 3.13.3 to 3.13.4 in /libs/langchain_v1 (#36438)",
+        "published": "2026-04-03T14:26:22+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+        "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+        "published": "2026-03-30T00:54:07+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.2",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+        "summary": "Breaking\n\nPlugins/xAI: move x_search settings from the legacy core tools.web.x_search.* path to the plugin-owned plugins.entries.xai.config.xSearch.* path, standardize x_search auth on plugins.entries.xai.config.webSearch.apiKey / XAI_API_KEY, and migrate legacy config with openclaw doctor --fix. (#",
+        "published": "2026-04-02T18:59:28+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.13.0",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.13.0",
+        "summary": "What's Changed\nFeatures\n\nAdd RuntimeState RootModel for unified state serialization\nEnhance event listener with new telemetry spans for skill and memory events\nAdd A2UI extension with v0.8/v0.9 support, schemas, and docs\nEmit token usage data in LLMCallCompletedEvent\nAuto-update deployment test repo",
+        "published": "2026-04-02T23:16:30+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "dify",
+        "source_name": "langgenius/dify",
+        "source_type": "github",
+        "title": "[GitHub] langgenius/dify: v1.13.3",
+        "url": "https://github.com/langgenius/dify/releases/tag/1.13.3",
+        "summary": "🚀 What's New in v1.13.3?\nOur latest patch release, v1.13.3, focuses on stability and correctness across workflow execution, streaming, and knowledge retrieval. Here's a quick look at the most important updates:\n🎬 New Features\n\nWorkflow Configuration: Added variable-reference support for model parame",
+        "published": "2026-03-30T09:13:23+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "go-ethereum",
+        "source_name": "ethereum/go-ethereum",
+        "source_type": "github",
+        "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+        "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+        "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+        "published": "2026-03-30T11:27:24+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
+        "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
+        "summary": "",
+        "published": "2026-04-03T19:02:51+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "What next as XRP rises to $1.33 but fails to break out",
+        "url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
+        "summary": "",
+        "published": "2026-04-03T16:32:33+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
+        "summary": "",
+        "published": "2026-04-03T13:18:50+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "U.S. March jobs smash expectations, with 178,000 added",
+        "url": "https://www.coindesk.com/markets/2026/04/03/u-s-march-jobs-smash-expectations-with-178-000-added",
+        "summary": "",
+        "published": "2026-04-03T12:33:40+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Async Python Is Secretly Deterministic",
+        "url": "https://www.dbos.dev/blog/async-python-is-secretly-deterministic",
+        "summary": "Article URL: https://www.dbos.dev/blog/async-python-is-secretly-deterministic\nComments URL: https://news.ycombinator.com/item?id=47630592\nPoints: 3\n# Comments: 0",
+        "published": "2026-04-03T18:55:12+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "How to Make a Sliding, Self-Locking, and Predator-Proof Chicken Coop Door (2020)",
+        "url": "https://www.backyardchickens.com/articles/how-to-make-a-sliding-self-locking-and-predator-proof-chicken-coop-door.75906/",
+        "summary": "Article URL: https://www.backyardchickens.com/articles/how-to-make-a-sliding-self-locking-and-predator-proof-chicken-coop-door.75906/\nComments URL: https://news.ycombinator.com/item?id=47630576\nPoints: 3\n# Comments: 1",
+        "published": "2026-04-03T18:54:11+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Firm boosts H.264 streaming license fees from $100k up to staggering $4.5M",
+        "url": "https://www.tomshardware.com/service-providers/streaming/h264-streaming-license-fees-jump-from-100000-to-4-5-million",
+        "summary": "Article URL: https://www.tomshardware.com/service-providers/streaming/h264-streaming-license-fees-jump-from-100000-to-4-5-million\nComments URL: https://news.ycombinator.com/item?id=47630109\nPoints: 15\n# Comments: 9",
+        "published": "2026-04-03T18:20:16+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Show HN: An evidence-rated encyclopedia of peptides",
+        "url": "https://www.whatthepeptide.org/",
+        "summary": "Article URL: https://www.whatthepeptide.org/\nComments URL: https://news.ycombinator.com/item?id=47629905\nPoints: 12\n# Comments: 2",
+        "published": "2026-04-03T18:03:34+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "Solana Drift Protocol drained of $285M via fake token and governance hijack",
+        "url": "https://anonhaven.com/en/news/drift-protocol-hack-285-million-solana/",
+        "summary": "Article URL: https://anonhaven.com/en/news/drift-protocol-hack-285-million-solana/\nComments URL: https://news.ycombinator.com/item?id=47629505\nPoints: 50\n# Comments: 20",
+        "published": "2026-04-03T17:29:21+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "hn-rss",
+        "source_name": "Hacker News Frontpage",
+        "source_type": "rss",
+        "title": "iNaturalist",
+        "url": "https://www.inaturalist.org/",
+        "summary": "Article URL: https://www.inaturalist.org/\nComments URL: https://news.ycombinator.com/item?id=47629433\nPoints: 130\n# Comments: 43",
+        "published": "2026-04-03T17:22:20+00:00",
+        "topics": [
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0",
+      "summary": "Gemma 4\nEffective 2B (E2B)\nollama run gemma4:e2b\n\nEffective 4B (E4B)\nollama run gemma4:e4b\n\n26B (Mixture of Experts model with 4B active parameters)\nollama run gemma4:26b\n\n31B (Dense)\nollama run gemma4:31b\n\nWhat's Changed\n\ndocs: update pi docs by @ParthSareen in #15152\nmlx: respect tokenizer add_bos",
+      "published": "2026-04-02T21:19:31+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775228618: [DTensor] redistribute from/to _StridedShard through Replicate (#179059)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775228618",
+      "summary": "why care about redistributing from/to _StridedShard.\nAs I was fixing _StridedShard.full_tensor(), I found cartesian_prod goes through _view_ops.py to generate _StridedShard, becuase of decomposation to meshgrid → flatten → stack. It triggers _StridedShard-to-Shard redistribution and ended up with Ru",
+      "published": "2026-04-03T10:56:33+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775219460: Add reuse_hash_fn escape hatch for nested_compile_region (#178239)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775219460",
+      "summary": "Add a user-provided reuse_hash_fn parameter to nested_compile_region\nthat bypasses the automatic fingerprint/guard machinery for subgraph\nreuse. Dynamo traces the hash function (with guard installation\nsuppressed via skip_guard_install) to get a constant integer key used\nfor O(1) cache lookup. Graph",
+      "published": "2026-04-03T07:29:59+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775217501",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775217501",
+      "summary": "fix(dynamo): Support BaseException str/repr/args interface during tra…",
+      "published": "2026-04-03T07:28:02+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain==1.2.15",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.15",
+      "summary": "Changes since langchain==1.2.14\nrelease: langchain v1.2.15 (#36496)\nchore: bump aiohttp from 3.13.3 to 3.13.4 in /libs/langchain_v1 (#36438)",
+      "published": "2026-04-03T14:26:22+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.0-rc1: convert: support new Gemma4 audio_tower tensor naming (#15221)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc1",
+      "summary": "Co-authored-by: jmorganca jmorganca@gmail.com",
+      "published": "2026-04-02T16:30:05+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.0-rc0: Merge pull request #42 from ollama/jmorganca/gemma4-ggml-improvements",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.0-rc0",
+      "summary": "gemma4: fix MoE fused gate_up split and multiline tool-call arg parsing",
+      "published": "2026-04-02T14:16:06+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-openrouter==0.2.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.1",
+      "summary": "Changes since langchain-openrouter==0.2.0\nrelease(openrouter): 0.2.1 (#36348)\nfix(openrouter): pass attribution headers via httpx default_headers (#36347)\nchore(model-profiles): refresh model profile data (#36267)\nchore: bump requests from 2.32.5 to 2.33.0 in /libs/partners/openrouter (#36247)",
+      "published": "2026-03-30T00:54:07+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "go-ethereum",
+      "source_name": "ethereum/go-ethereum",
+      "source_type": "github",
+      "title": "[GitHub] ethereum/go-ethereum: EMF Suppressor (v1.17.2)",
+      "url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2",
+      "summary": "This is a maintenance release with several important bug fixes. Notably, a critical issue in debug_executionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.\nGeth now also supports syncing with chains where pre-Prague history has been pru",
+      "published": "2026-03-30T11:27:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.5.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+      "summary": "Release v5.5.0\n\nNew Model additions\nGemma4\nGemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of ",
+      "published": "2026-04-02T16:15:33+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.2",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.2",
+      "summary": "Breaking\n\nPlugins/xAI: move x_search settings from the legacy core tools.web.x_search.* path to the plugin-owned plugins.entries.xai.config.xSearch.* path, standardize x_search auth on plugins.entries.xai.config.webSearch.apiKey / XAI_API_KEY, and migrate legacy config with openclaw doctor --fix. (#",
+      "published": "2026-04-02T18:59:28+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
+      "url": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+      "summary": "Research: Can JavaScript Escape a CSP Meta Tag Inside an Iframe?\n    In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed iframes without using a separate domain to host the files. Turns out you can inject &lt;meta http-equiv=\"Content-Security-Policy\"...&gt; tags at the top of the iframe content and they'll be obeyed even if subsequent untrusted JavaScript tries to manipulate them.\n    \n        Tags: iframes, security,",
+      "published": "2026-04-03T16:05:00+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "url": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
+      "summary": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day, and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how that worked:\n\nso the attack vector mimics what google has documented here: https://cloud.google.com/blog/topics/threat-intelligence/unc1069-targets-cryptocurrency-ai-social-engineering\nthey tailored th",
+      "published": "2026-04-03T13:54:53+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "url": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything",
+      "summary": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines. It's available on YouTube, Spotify, and Apple Podcasts. Here are my highlights from our conversation, with relevant links.\n\n \n\n\n  The November inflection point\n  Software engineers as bellwethers for other information workers\n  Writing code on my phone\n  Responsible vibe coding\n  Dark Factories and StrongDM\n  The bot",
+      "published": "2026-04-02T20:40:47+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "The two wildest stories today in tech",
+      "url": "https://garymarcus.substack.com/p/the-two-wildest-stories-today-in",
+      "summary": "Shifting goal posts and new efforts at redefining the narrative",
+      "published": "2026-04-03T02:13:25+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
+      "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
+      "summary": "",
+      "published": "2026-04-03T19:02:51+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "What next as XRP rises to $1.33 but fails to break out",
+      "url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
+      "summary": "",
+      "published": "2026-04-03T16:32:33+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
+      "summary": "",
+      "published": "2026-04-03T13:18:50+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "U.S. March jobs smash expectations, with 178,000 added",
+      "url": "https://www.coindesk.com/markets/2026/04/03/u-s-march-jobs-smash-expectations-with-178-000-added",
+      "summary": "",
+      "published": "2026-04-03T12:33:40+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Ethereum Foundation stakes another $93 million ether, reaching its 70,000 ETH target",
+      "url": "https://www.coindesk.com/markets/2026/04/03/ethereum-foundation-stakes-another-usd93-million-ether-reaching-its-70-000-eth-target",
+      "summary": "",
+      "published": "2026-04-03T11:38:11+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto snoozes into Good Friday as oil and macro stir: Crypto Daybook Americas",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/03/crypto-snoozes-into-good-friday-as-oil-and-macro-stir-crypto-daybook-americas",
+      "summary": "",
+      "published": "2026-04-03T11:15:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto consolidates as volatility cools and futures markets tilt bearish",
+      "url": "https://www.coindesk.com/markets/2026/04/03/crypto-consolidates-as-volatility-cools-and-futures-markets-tilt-bearish",
+      "summary": "",
+      "published": "2026-04-03T10:31:15+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Naoris Protocol's quantum-resistant blockchain goes live as Bitcoin and Ethereum face 'Q-Day' threats",
+      "url": "https://www.coindesk.com/markets/2026/04/03/naoris-protocol-s-quantum-resistance-blockchain-goes-live-as-bitcoin-and-ethereum-face-q-day-threats",
+      "summary": "",
+      "published": "2026-04-03T09:22:45+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin heads into holiday weekend exposed as ETF and CME flows go offline",
+      "url": "https://www.coindesk.com/markets/2026/04/03/bitcoin-heads-into-holiday-weekend-exposed-as-etf-and-cme-flows-go-offline",
+      "summary": "",
+      "published": "2026-04-03T04:15:49+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Todd Blanche, author of DOJ crypto enforcement memo, is now interim AG",
+      "url": "https://www.coindesk.com/policy/2026/04/02/todd-blanche-author-of-doj-crypto-enforcement-memo-now-interim-ag",
+      "summary": "",
+      "published": "2026-04-03T00:28:27+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
+      "url": "https://www.coindesk.com/policy/2026/04/02/crypto-market-structure-bill-release-pushed-back-as-industries-view-revised-stablecoin-yield-compromise-this-week",
+      "summary": "",
+      "published": "2026-04-02T22:12:10+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Cosmos ecosystem’s Leap Wallet is shutting down",
+      "url": "https://www.theblock.co/post/396325/cosmos-ecosystems-leap-wallet-is-shutting-down?utm_source=rss&utm_medium=rss",
+      "summary": "After the collapse of Terra, Leap Wallet pivoted to provide support for the wider multi-chain Cosmos ecosystem.",
+      "published": "2026-04-03T19:02:31+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "JPMorgan says crypto flows drop to $11 billion in Q1, about one-third of first quarter last year",
+      "url": "https://www.theblock.co/post/396327/jpmorgan-crypto-flows-drop-11-billion-q1?utm_source=rss&utm_medium=rss",
+      "summary": "Earlier this year, JPMorgan expected flows to rise further in 2026 after a record inflow of nearly $130 billion in 2025.",
+      "published": "2026-04-03T18:46:32+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Cambodia’s parliament passes law targeting online, crypto scam compounds",
+      "url": "https://www.theblock.co/post/396313/cambodias-parliment-passes-law-targeting-online-scam-compounds?utm_source=rss&utm_medium=rss",
+      "summary": "The Law on Anti-Technology Fraud introduces five new offenses aimed at rooting out modern online scams and crimes.",
+      "published": "2026-04-03T16:42:18+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "theblock-rss",
+      "source_name": "The Block",
+      "source_type": "rss",
+      "title": "Ethereum Foundation doubles staked ether, clearing two-thirds of 70,000 ETH target",
+      "url": "https://www.theblock.co/post/396297/ethereum-foundation-staked-ethereum-clearing-two-thirds-70000-eth-target?utm_source=rss&utm_medium=rss",
+      "summary": "The foundation’s latest staking allocation mirrors its biggest-ever single-day move and is a major step-up from its initial February deployment.",
+      "published": "2026-04-03T16:20:54+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}
