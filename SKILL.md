@@ -218,13 +218,18 @@ Re-read the summary you just wrote. For **every story**, verify:
 ### Step 3.1 — Read Podcast Guide
 - Read [PODCAST_PROMPT.md](PODCAST_PROMPT.md) for style guide
 
+### Step 3.15 — Episode Number
+- Read `episode-counter.txt` (in skill dir), increment by 1, write back
+- This is the episode number (EP) for today's podcast
+- Example: if file contains `34`, today is **EP35**, write `35` back to file
+
 ### Step 3.2 — Write Combined Podcast Script
 - **Target: 6000-10000 字** (繁體中文, ~15-25 分鐘語音)
 - **⚠️ HARD MINIMUM: 4000 中文字** — 低於此字數的稿件不合格，必須重寫擴充
 - **驗證方法：** 寫完後執行 `python3 -c "print(len(open('summaries/${TODAY}-podcast.md').read()))"` 確認檔案大小 **≥ 12000 bytes**（中文字約 3 bytes/字，4000字 ≈ 12000 bytes）。如不足 → 回到 Step 3.2 重寫擴充
 - **注意：4000 字 ≠ 4000 bytes！** 中文字每字佔 3 bytes，不要混淆
 - Structure:
-  1. **開場** (~1 min) — 打招呼 + 預告今天時事和科技各 2-3 件大事
+  1. **開場** (~1 min) — 打招呼 + **報集數和日期**：「這裡是每日新聞，第 EP{N} 集，今天是 {DATE}。」+ 預告今天時事和科技各 2-3 件大事
   2. **時事新聞** (~8-12 min) — 依重要性排序，5-8 個主題段落，融入多國視角
   3. **過場** — 自然轉場到科技：「聊完國際局勢，我們來看看科技圈今天有什麼動靜...」
   4. **科技新聞** (~5-8 min) — 依重要性排序，3-5 個主題段落，帶出技術觀點
@@ -257,7 +262,8 @@ python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODA
 
 ### Step 3.4 — Send Audio to Telegram (Review Copy)
 - Use message tool: action=send, channel=telegram:bird, target=-1003767828002, threadId=36
-- asVoice=true, filePath=summaries/${TODAY}.mp3, message="🎙️ 每日新聞 Podcast — 待審核"
+- Read `episode-counter.txt` for current EP number
+- asVoice=true, filePath=summaries/${TODAY}.mp3, message="🎙️ 每日新聞 EP{N} — {TODAY} 待審核"
 - **⚠️ 此時 NOT yet public.** 這只是 Telegram 內部版本供 Yihao 審聽。
 - 發完後附一則文字訊息：「✅ Podcast 已就緒，請審聽。確認 OK 請回覆 👍，有問題請回覆修改意見。」
 
