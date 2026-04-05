@@ -20,14 +20,16 @@
 - **模型**：Sonnet (low thinking)
 - **超時**：30 分鐘
 
-### 四階段流程
+### 五階段流程
 
 | Phase | 內容 | 詳情 |
 |-------|------|------|
-| 1 | 🔬 科技新聞 | RSS 39 feeds + GitHub 18 repos + Reddit 10 subs + Web Search → 品質評分 → 去重 |
+| 0 | 🔐 Pre-flight | 載入 secrets（1Password）、安裝依賴、抓市場數據 |
+| 1 | 🔬 科技新聞 | RSS 39 feeds + GitHub 18 repos + Reddit 10 subs + X + Web Search → 品質評分 → 去重 |
 | 2 | 🌍 時事新聞 | 9 大區域 + 多國視角（Format A/B）|
 | 3 | 🎙️ Podcast | 合併兩份摘要，6000-10000 字 → TTS 語音 |
-| 4 | 📤 Push | Git commit + push |
+| 4 | 📤 Validate & Push | 驗證 + Git commit + push |
+| 5 | 🎧 Publish | R2 上傳 + RSS 更新（排程自動 / 手動觸發）|
 
 ### 手動觸發
 
@@ -39,62 +41,52 @@ openclaw cron run 71c85d19-ff69-409f-b03d-9d7bed7c8268
 
 ```
 daily-world-news/
-├── SKILL.md               # 主流程定義（四階段）
-├── README.md              # 本文件
+├── SKILL.md                  # 主流程定義（精簡版，引用子檔案）
+├── README.md                 # 本文件
 │
-├── # 時事新聞
-├── FORMAT.md              # 時事格式規範（Format A 多元視角 / Format B 標準）
-├── SOURCES.md             # 時事媒體清單（40+ 來源，按國家分類）
+├── config/                   # 設定檔
+│   ├── ENV.md                # 環境設定、secrets、依賴
+│   ├── SOURCES.md            # 時事媒體清單（40+ 來源，按國家分類）
+│   └── TECH_SOURCES.json     # 科技來源 + Topic 定義（RSS/GitHub/Reddit/Web Search）
 │
-├── # 科技新聞
-├── TECH_SOURCES.json      # 科技來源（39 RSS + 18 GitHub + 10 Reddit + Web Search）
-├── TECH_TOPICS.json       # Topic 定義（LLM / AI Agent / Crypto / Frontier Tech）
-├── TECH_FORMAT.md         # 科技格式規範（品質分數 + Topic 分類）
-├── SCORING.md             # 品質評分公式 + 去重規則
-│
-├── # Podcast
-├── PODCAST_PROMPT.md      # Podcast 風格指引（時事+科技合併版）
+├── guidelines/               # 品質與格式規範
+│   ├── QUALITY.md            # 評分公式、去重規則、反面觀點、市場日期校正、事實核查
+│   ├── FORMAT.md             # 時事格式（Format A 多元視角 / Format B 標準）
+│   ├── TECH_FORMAT.md        # 科技格式（品質分數 + Topic 分類）
+│   └── PODCAST.md            # Podcast 風格指引
 │
 ├── scripts/
-│   └── generate-audio.py  # TTS 語音生成（edge-tts + ffmpeg）
+│   ├── load-secrets.sh       # 從 1Password 載入 secrets
+│   ├── generate-audio.py     # TTS 語音生成（edge-tts + ffmpeg）
+│   ├── generate-rss.py       # RSS feed 生成
+│   ├── upload-r2.sh          # 上傳到 Cloudflare R2
+│   ├── fetch_market.py       # 市場數據抓取
+│   └── validate.py           # 產出驗證
 │
-└── summaries/             # 每日產出（auto-generated）
+├── gather_tech.py            # 科技新聞資料收集（RSS + GitHub + Reddit）
+├── episode-counter.txt       # Podcast 集數計數器
+│
+└── summaries/                # 每日產出（auto-generated）
 ```
-
-## 設計原則
-
-### 品質評分（科技新聞）
-- 優先來源 +3 / 多來源交叉 +5 / 時效 +2 / 已報導 -5
-- 最低門檻 5 分，按分數降序排列
-- 詳見 `SCORING.md`
-
-### 多元視角（時事新聞）
-- 重大事件按**國家**比較報導角度（不用東/西方分組）
-- 3-5 則使用 Format A（多元視角），其餘用 Format B
-- 每則必須附來源連結
-
-### Podcast
-- 不是念稿，是主持人在聊天
-- 時事 + 科技自然串場
-- 多元視角用敘事方式帶出
 
 ## 如何調整
 
 | 想調整... | 編輯哪個檔案 |
 |-----------|-------------|
-| 時事來源 | `SOURCES.md` |
-| 時事格式 | `FORMAT.md` |
-| 科技來源（RSS/GitHub/Reddit）| `TECH_SOURCES.json` |
-| 科技 Topic 定義 | `TECH_TOPICS.json` |
-| 科技格式 | `TECH_FORMAT.md` |
-| 評分規則 | `SCORING.md` |
-| Podcast 風格/長度 | `PODCAST_PROMPT.md` |
+| 環境 / secrets / 依賴 | `config/ENV.md` |
+| 時事來源 | `config/SOURCES.md` |
+| 科技來源（RSS/GitHub/Reddit）| `config/TECH_SOURCES.json` |
+| 時事格式 | `guidelines/FORMAT.md` |
+| 科技格式 | `guidelines/TECH_FORMAT.md` |
+| 評分 / 去重 / 事實核查 | `guidelines/QUALITY.md` |
+| Podcast 風格/長度 | `guidelines/PODCAST.md` |
 | 語音設定 | `scripts/generate-audio.py` |
+| 主流程 | `SKILL.md` |
 | 排程時間 | `openclaw cron edit <id> --cron "..." --tz "..."` |
 
 ## 依賴
 
 ```bash
-pip install edge-tts
-apt install ffmpeg
+pip3 install feedparser requests thefuzz yfinance edge-tts --break-system-packages
+brew install ffmpeg  # macOS
 ```
