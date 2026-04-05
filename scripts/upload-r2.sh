@@ -5,9 +5,9 @@
 
 set -euo pipefail
 
-R2_ACCOUNT_ID="c1632d2611fa81b7d8762d0330979605"
-R2_BUCKET="ai-podcast"
-R2_API_TOKEN="${R2_API_TOKEN:-cfat_aEVJW49N6R9A9GVlj5fIrE3PlpxZB1aG0Aj6QGhzbea7d2bf}"
+R2_ACCOUNT_ID="${R2_ACCOUNT_ID:?R2_ACCOUNT_ID env var not set}"
+R2_BUCKET="${R2_BUCKET:-ai-podcast}"
+R2_API_TOKEN="${R2_API_TOKEN:?R2_API_TOKEN env var not set}"
 
 FILE="$1"
 OBJECT_KEY="${2:-podcasts/$(basename "$FILE")}"
