@@ -19,6 +19,11 @@ CHUNK_SIZE = 2000
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TRANSITION_SFX = os.path.join(SCRIPT_DIR, "..", "assets", "transition.mp3")
 
+# Ensure Homebrew tools are in PATH (macOS)
+HOMEBREW_BIN = "/opt/homebrew/bin"
+if os.path.isdir(HOMEBREW_BIN) and HOMEBREW_BIN not in os.environ.get("PATH", ""):
+    os.environ["PATH"] = HOMEBREW_BIN + ":" + os.environ.get("PATH", "")
+
 # Sentinel inserted where [🎵 ...] markers appear
 SFX_SENTINEL = "___SFX_TRANSITION___"
 
@@ -48,7 +53,7 @@ def md_to_script(text: str) -> str:
     return text.strip()
 
 
-def split_chunks(text: str) -> list[str]:
+def split_chunks(text: str):
     """將文字分成約 CHUNK_SIZE 字的段落"""
     chunks = []
     current = ""

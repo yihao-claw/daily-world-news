@@ -118,7 +118,7 @@ def estimate_duration(file_size: int) -> str:
     return f"{minutes}:{secs:02d}"
 
 
-def get_canonical_mp3(date_str: str) -> Path | None:
+def get_canonical_mp3(date_str: str):
     """Return the single canonical MP3 for a date. Prefer YYYY-MM-DD.mp3 over parts/podcast variants."""
     main = SUMMARIES_DIR / f"{date_str}.mp3"
     if main.exists() and main.stat().st_size > 0:

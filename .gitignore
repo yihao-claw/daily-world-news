@@ -1,0 +1,9 @@
+# Generated data (not summaries .md or feed.xml)
+summaries/*.mp3
+summaries/*-raw-tech.json
+summaries/*-x-tech.json
+summaries/*-market.json
+
+# Python
+__pycache__/
+*.pyc

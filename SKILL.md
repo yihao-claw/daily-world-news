@@ -34,12 +34,26 @@ Fallback chain: Brave API → SearXNG (local) → DuckDuckGo. Use `--type news` 
 
 ## PHASE 0 — Pre-flight
 
-1. `TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)`
-2. If `summaries/${TODAY}.md` AND `summaries/${TODAY}-tech.md` both exist and were delivered → STOP
-3. **Fetch market data** (deterministic, runs early so data is ready):
+1. Set date & PATH:
 ```bash
-cd /home/node/.openclaw/workspace/projects/daily-world-news && \
-python3 scripts/fetch_market.py -o summaries/${TODAY}-market.json
+TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+export PATH="/opt/homebrew/bin:$PATH"  # macOS: ensure op, ffmpeg available
+```
+2. **Load secrets** (if `load-secrets.sh` exists):
+```bash
+source "${SKILL_DIR}/scripts/load-secrets.sh"
+```
+This loads `OP_SERVICE_ACCOUNT_TOKEN` from `.env`, then uses `op` CLI to pull credentials from 1Password (vault: openclaw, item: secrets, stored in notesPlain field as KEY=VALUE lines). Exports: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` (`-1003767828002`), `BRIGHTDATA_API_TOKEN`, `R2_API_TOKEN`, `R2_ACCOUNT_ID`.
+
+3. If `summaries/${TODAY}.md` AND `summaries/${TODAY}-tech.md` both exist and were delivered → STOP
+4. **Install deps** (first run):
+```bash
+pip3 install feedparser requests thefuzz yfinance edge-tts --break-system-packages -q
+which ffmpeg || brew install ffmpeg  # macOS
+```
+5. **Fetch market data** (deterministic, runs early so data is ready):
+```bash
+cd "${SKILL_DIR}" && python3 scripts/fetch_market.py -o summaries/${TODAY}-market.json
 ```
 This JSON provides **exact numbers** for the market snapshot section. Do NOT write vague market data — use these numbers.
 
@@ -185,6 +199,7 @@ Fix errors in-place in `summaries/${TODAY}-tech.md` before proceeding.
 ### Step 2.5 — Write World Summary
 - Format per [FORMAT.md](FORMAT.md)
 - **市場快照段落**：讀取 `summaries/${TODAY}-market.json`，使用其中的 **確切數字**（price, change_pct）。禁止寫「待確認」或模糊描述。如果 JSON 中缺少某項數據，用 web_search 補充或直接省略該項，不要留佔位符。
+- **市場數據日期校正（必做）：** `market.json` 中每個指標有 `date` field。必須檢查數據日期是否為今天。週末/假日時股市數據會是上一個交易日的收盤價——休市就標注「休市」，不要重複舊數字（前一天已經報過了）。加密貨幣和外匯 24/7 交易，日期通常較即時。
 - Save to `summaries/${TODAY}.md`
 
 ### Step 2.55 — Fact Verification Pass (MANDATORY — zero exceptions)
@@ -231,7 +246,7 @@ Re-read the summary you just wrote. For **every story**, verify:
 - Structure:
   1. **開場** (~1 min) — 打招呼 + **報集數和日期**：「這裡是每日新聞，第 EP{N} 集，今天是 {DATE}。」+ 預告今天時事和科技各 2-3 件大事
   2. **時事新聞** (~8-12 min) — 依重要性排序，5-8 個主題段落，融入多國視角
-  3. **過場** — 自然轉場到科技：「聊完國際局勢，我們來看看科技圈今天有什麼動靜...」
+  3. **過場** — 自然口語轉場：「聊完國際局勢，我們來看看科技圈今天有什麼動靜...」（**不要使用 `[🎵 轉場]` 標記**——目前有相容性問題會導致音檔損壞）
   4. **科技新聞** (~5-8 min) — 依重要性排序，3-5 個主題段落，帶出技術觀點
   5. **市場快報** (~1 min) — 股市 + 加密貨幣重點數字
   6. **結尾** (~30 sec) — 簡短收尾
@@ -241,6 +256,14 @@ Re-read the summary you just wrote. For **every story**, verify:
   - Instead: "昨天我們聊過 [topic]，今天有新進展——" then go straight to what's new
   - Only provide brief context (1 sentence max) for listeners who might have missed yesterday
   - If a story has NO new development since yesterday → do not include it in the podcast at all
+- **📅 市場數據時間意識（必做）：**
+  - 讀取 `market.json` 時，**必須檢查每個指標的 `date` field**，判斷數據實際來自哪一天
+  - **對照 `$TODAY` 是星期幾：** 週六/週日/假日股市休市，加密貨幣和外匯 24/7 交易
+  - **休市就說休市，不要重複舊數字：** 如果某個市場的 `date` 不是今天或昨天，代表休市。直接說「今天休市」，不要念上一個交易日的收盤價——那些數字前一天的 podcast 已經講過了
+  - **只播報有新數據的市場：** 週末通常只有加密貨幣和外匯有新數據
+  - **不同市場數據日期可能不同：** 美股可能是週五、日股可能是週四。不能混在一起用「都漲了」概括
+  - 正確（週日）：「今天全球股市休市。加密貨幣方面，比特幣目前在六萬七千三百附近。」
+  - 錯誤（週日）：「美股方面變動不大，S&P 500 在六千五百八十二點。」
 - **✅ Fact-Check the Script:** After writing, do one final read-through comparing every fact/number in the podcast script against the verified summaries from Step 2.55 and 1.45. Oral rewriting often introduces subtle errors (rounding numbers wrong, swapping names, etc.)
 - Save to `summaries/${TODAY}-podcast.md`
 
@@ -253,11 +276,15 @@ cd /home/node/.openclaw/workspace/projects/daily-world-news && python3 scripts/v
 - If **warnings** → review and fix what you can, then proceed.
 
 ### Step 3.3 — Generate Audio
+
+**重要：** 不要在 podcast 稿中使用 `[🎵 轉場]` 標記。過場音效目前有相容性問題，會導致音檔損壞。用自然的口語轉場即可。
+
 ```bash
-cd /home/node/.openclaw/workspace/projects/daily-world-news && \
+cd "${SKILL_DIR}" && \
 python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODAY}.mp3
 ```
-- Verify mp3 exists after running
+- Verify mp3 exists after running and size > 500KB
+- Requires `ffmpeg` for segment concatenation (macOS: `brew install ffmpeg`)
 - **If TTS fails (503 or other error):** wait 30 seconds, then retry up to 2 more times. Edge TTS 503 is usually transient.
 
 ### Step 3.4 — Send Audio to Telegram (Review Copy)
@@ -267,17 +294,11 @@ python3 scripts/generate-audio.py summaries/${TODAY}-podcast.md summaries/${TODA
 - **⚠️ 此時 NOT yet public.** 這只是 Telegram 內部版本供 Yihao 審聽。
 - 發完後附一則文字訊息：「✅ Podcast 已就緒，請審聽。確認 OK 請回覆 👍，有問題請回覆修改意見。」
 
-### Step 3.5 — ⏸️ STOP HERE — 等待人工審核
-**Cron job 在此結束。** 不要自動上傳到 R2 或更新 RSS。
-
-Podcast 發布到 Spotify/Apple Podcast 的流程由 **PHASE 5** 處理，需要 Yihao 的明確批准。
-
 ---
 
-## PHASE 5 — Publish to Podcast Platforms（人工觸發）
+## PHASE 5 — Publish to Podcast Platforms
 
-> ⚠️ **此 Phase 不在 cron 自動執行範圍內。**
-> 觸發條件：Yihao 在 Telegram 對 podcast 訊息回覆 👍 emoji 或明確文字批准。
+排程模式下自動執行（R2 上傳 + RSS 更新）。手動模式下需使用者觸發（「發布 podcast」）。
 > Dan（main agent）收到批准後執行以下步驟。
 
 ### Step 5.1 — Upload to R2
