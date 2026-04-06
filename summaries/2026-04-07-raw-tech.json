@@ -1,0 +1,819 @@
+{
+  "generated_at": "2026-04-06T19:11:15.992510+00:00",
+  "today_jst": "2026-04-07",
+  "stats": {
+    "rss_fetched": 24,
+    "rss_errors": 16,
+    "github_fetched": 10,
+    "reddit_fetched": 0
+  },
+  "total_articles": 255,
+  "topic_distribution": {
+    "llm": 43,
+    "crypto": 79,
+    "ai-agent": 4,
+    "cybersecurity": 1,
+    "frontier-tech": 128
+  },
+  "web_search_queries": {
+    "llm": [
+      "LLM latest news today",
+      "large language model breakthroughs",
+      "GPT Claude Gemini updates"
+    ],
+    "ai-agent": [
+      "AI Agent latest developments",
+      "autonomous agent framework news"
+    ],
+    "crypto": [
+      "cryptocurrency bitcoin ethereum latest news",
+      "DeFi blockchain development"
+    ],
+    "frontier-tech": [
+      "artificial intelligence breakthroughs",
+      "frontier technology latest"
+    ],
+    "space-science": [
+      "space exploration latest news",
+      "scientific breakthroughs today"
+    ],
+    "consumer-tech": [
+      "consumer electronics hardware news today",
+      "Apple Google Samsung product launches"
+    ],
+    "cybersecurity": [
+      "cybersecurity breach vulnerability news today",
+      "zero-day exploit latest"
+    ],
+    "biotech": [
+      "biotech health tech AI drug discovery news"
+    ]
+  },
+  "articles_by_topic": {
+    "llm": [
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775498690",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775498690",
+        "summary": "negative mem alloc size error raised for  torch.cuda.memory.caching_a…",
+        "published": "2026-04-06T12:51:51+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "pytorch",
+        "source_name": "pytorch/pytorch",
+        "source_type": "github",
+        "title": "[GitHub] pytorch/pytorch: viable/strict/1775476886: [vllm hash update] update the pinned vllm hash (#179439)",
+        "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775476886",
+        "summary": "This PR is auto-generated nightly by this action.\nUpdate the pinned vllm hash.\nPull Request resolved: #179439\nApproved by: https://github.com/pytorchbot",
+        "published": "2026-04-06T05:09:47+00:00",
+        "topics": [
+          "llm",
+          "frontier-tech"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.2",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
+        "summary": "What's Changed\n\napp: default app home view to new chat instead of launch by @jmorganca in #15312\n\nFull Changelog: v0.20.1...v0.20.2",
+        "published": "2026-04-04T06:51:14+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.1-rc2: model/parsers: rework gemma4 tool call handling (#15306)",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc2",
+        "summary": "Replace the custom Gemma4 argument normalizer with a stricter\nreference-style conversion: preserve Gemma-quoted strings, quote bare\nkeys, and then unmarshal the result as JSON.\nThis keeps quoted scalars as strings, preserves typed unquoted values,\nand adds test coverage for malformed raw-quoted inpu",
+        "published": "2026-04-03T21:35:00+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "ollama",
+        "source_name": "ollama/ollama",
+        "source_type": "github",
+        "title": "[GitHub] ollama/ollama: v0.20.1-rc1: ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper",
+        "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc1",
+        "summary": "Add missing cublasGemmAlgo_t to hipblasGemmAlgo_t type mapping and\ncast away const qualifiers that hipblasGemmBatchedEx doesn't accept.",
+        "published": "2026-04-03T21:22:46+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "transformers",
+        "source_name": "huggingface/transformers",
+        "source_type": "github",
+        "title": "[GitHub] huggingface/transformers: Release v5.5.0",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+        "summary": "Release v5.5.0\n\nNew Model additions\nGemma4\nGemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of ",
+        "published": "2026-04-02T16:15:33+00:00",
+        "topics": [
+          "llm"
+        ],
+        "priority": true,
+        "quality_score": 11
+      }
+    ],
+    "crypto": [
+      {
+        "source_id": "bitcoin",
+        "source_name": "bitcoin/bitcoin",
+        "source_type": "github",
+        "title": "[GitHub] bitcoin/bitcoin: Bitcoin Core 28.4",
+        "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+        "summary": "Bitcoin Core version 28.4 is now available from:\nhttps://bitcoincore.org/bin/bitcoin-core-28.4/\nFor the release notes please see the git repository:\nhttps://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-28.4.md\nDo not use the links provided by GitHub. Use the above download ",
+        "published": "2026-04-06T06:37:18+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Aave loses key risk manager, Chaos Labs, amid contributor exodus and disputes",
+        "url": "https://www.coindesk.com/tech/2026/04/06/aave-loses-key-risk-manager-chaos-labs-amid-contributor-exodus-and-disputes",
+        "summary": "",
+        "published": "2026-04-06T17:50:02+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Polymarket reveals a 'full exchange upgrade' to take control of its own trading and truth",
+        "url": "https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth",
+        "summary": "",
+        "published": "2026-04-06T17:13:59+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Bitcoin climbs above $70,000 as more contrarian bottoming signs emerge",
+        "url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-climbs-above-usd70-000-as-more-contrarian-bottoming-signs-emerge",
+        "summary": "",
+        "published": "2026-04-06T16:28:09+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "coindesk-rss",
+        "source_name": "CoinDesk",
+        "source_type": "rss",
+        "title": "Appeals court blocks New Jersey from shutting down Kalshi's sports markets",
+        "url": "https://www.coindesk.com/policy/2026/04/06/appeals-court-blocks-new-jersey-from-shutting-down-kalshi-s-sports-markets",
+        "summary": "",
+        "published": "2026-04-06T16:10:29+00:00",
+        "topics": [
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "ai-agent": [
+      {
+        "source_id": "openclaw",
+        "source_name": "openclaw/openclaw",
+        "source_type": "github",
+        "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.5",
+        "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.5",
+        "summary": "Breaking\n\nConfig: remove legacy public config aliases such as talk.voiceId / talk.apiKey, agents.*.sandbox.perSession, browser.ssrfPolicy.allowPrivateNetwork, hooks.internal.handlers, and channel/group/room allow toggles in favor of the canonical public paths and enabled, while keeping load-time com",
+        "published": "2026-04-06T03:55:15+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 13
+      },
+      {
+        "source_id": "langchain",
+        "source_name": "langchain-ai/langchain",
+        "source_type": "github",
+        "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.26",
+        "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.26",
+        "summary": "Changes since langchain-core==1.2.25\nrelease(core): 1.2.26 (#36511)\nfix(core): add init validator and serialization mappings for Bedrock models (#34510)\nfeat(core): add ChatBaseten to serializable mapping (#36510)\nchore(core): drop gpt-3.5-turbo from docstrings (#36497)\nfix(core): correct parameter ",
+        "published": "2026-04-03T23:30:48+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": true,
+        "quality_score": 11
+      },
+      {
+        "source_id": "crewai",
+        "source_name": "crewAIInc/crewAI",
+        "source_type": "github",
+        "title": "[GitHub] crewAIInc/crewAI: 1.14.0a3",
+        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.0a3",
+        "summary": "What's Changed\nDocumentation\n\nUpdate changelog and version for v1.14.0a2\n\nContributors\n@joaomdmoura",
+        "published": "2026-04-06T08:18:12+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 10
+      },
+      {
+        "source_id": "llamaindex",
+        "source_name": "run-llama/llama_index",
+        "source_type": "github",
+        "title": "[GitHub] run-llama/llama_index: v0.14.20",
+        "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.20",
+        "summary": "Release Notes\n[2026-04-03]\nllama-index-agent-agentmesh [0.2.0]\n\nfix vulnerability with nltk (#21275)\n\nllama-index-callbacks-agentops [0.5.0]\n\nchore(deps): bump the uv group across 50 directories with 2 updates (#21164)\nchore(deps): bump the uv group across 24 directories with 1 update (#21219)\nchore",
+        "published": "2026-04-03T19:55:51+00:00",
+        "topics": [
+          "ai-agent"
+        ],
+        "priority": false,
+        "quality_score": 8
+      }
+    ],
+    "cybersecurity": [
+      {
+        "source_id": "krebs-rss",
+        "source_name": "Krebs on Security",
+        "source_type": "rss",
+        "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
+        "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+        "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.",
+        "published": "2026-04-06T02:07:17+00:00",
+        "topics": [
+          "cybersecurity"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ],
+    "frontier-tech": [
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "科氪 | 荣耀与京东签订战略合作协议 推进AI、机器人、C2M共创合作",
+        "url": "https://36kr.com/p/3755161993675523?f=rss",
+        "summary": "4月2日，荣耀与京东签订战略合作协议，正式建立全方位战略合作伙伴关系，双方将围绕产品共创、用户共营、生态共享三大核心领域，构建全面覆盖、深度融合、价值共生的新型合作体系，致力于实现三年累计规模超1000亿元的全领域合作目标。\n  \n  官方图片\n  产品共创方面，荣耀与京东将围绕手机、全场景、AIoT、机器人等各领域产品的全生命周期进行深度协作。双方将推进战略新品首发合作，共同打造行业爆品，基于各自优势，联合开展IP与C2M定制项目，推动行业级创新。双方将针对外卖骑手、快递员、游戏玩家等特定用户人群进行产品共创，将荣耀的软硬件定制能力与京东的用户洞察有机结合，打造更多基于场景的产品亮点，同时，双方将协同进行产品的生命周期管理，不断提升合作规模。\n  用户共营方面，荣耀与京东将整合全链路营销能力与资源，通过联合会员运营、精准人群触达等，为用户提供超预期的焕新体验。同时，双方将在电竞、运动健康等核心场景展开深度合作，探索数据赋能与广告创新的更多可能。\n  生态共享方面，荣耀与京东将在更广阔的生态领域加深战略合作，共同探索新增长曲线。双方将携手推动AI合作共创与用户体验提升，基于荣耀领先的端",
+        "published": "2026-04-06T09:48:30+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
+        "url": "https://36kr.com/p/3754812277998083?f=rss",
+        "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  AI硬件赛道，似乎一夜之间跨入新世界。\n  上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。\n  狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。\n  此前更多在极客圈子里风行的Agent Box忽然被推到前台。简单说，Agent Box就是⼀台面向个人用户的AI专用设备，其存在的唯⼀目的是在本地运行大模型和自主代理。\n  市面上已经有数家推出Agent Box的公司，包括Pamir、Violoop、Tiiny等等。Pamir估值超过2500万美元，而Tiiny AI推出的首款产品Tiiny AI Pocket Lab，在Kickstarter上众筹金额已达280万美金。有行业人士预计其最终众筹金额可能会超400万美金。\n  Tiiny AI Pocket Lab重量约300克，尺寸约一部手机大小，早鸟众筹价为1",
+        "published": "2026-04-06T03:53:43+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "在英伟达的新一轮投资中，澳大利亚AI基础设施公司Firmus估值接近70亿美元",
+        "url": "https://36kr.com/newsflashes/3755111672496649?f=rss",
+        "summary": "在英伟达的新一轮投资中，澳大利亚AI基础设施公司Firmus估值接近70亿美元。",
+        "published": "2026-04-06T09:05:02+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "2026清明档电影票房已破2.8亿元",
+        "url": "https://36kr.com/newsflashes/3755104242238216?f=rss",
+        "summary": "据网络平台数据，截至今日15时29分，2026年清明档档期（4月4日—4月6日）电影票房（含预售）突破2.8亿元。（每经网）",
+        "published": "2026-04-06T08:59:29+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "全球海拔最高的槽式光热电站在西藏开工建设",
+        "url": "https://36kr.com/newsflashes/3755103260918279?f=rss",
+        "summary": "4月6日上午，中广核西藏当雄乌玛塘“光热+光伏”一体化项目中的50兆瓦光热电站在拉萨市当雄县乌玛塘乡正式开工建设。据中广核光热技术型号首席专家尹航介绍，该项目场址海拔4550米，是目前全球海拔最高的槽式光热电站。 (新华社)",
+        "published": "2026-04-06T08:48:34+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      },
+      {
+        "source_id": "36kr-rss",
+        "source_name": "36氪",
+        "source_type": "rss",
+        "title": "中国核电：第一季度上网电量为549.25亿千瓦时 同比下降2.7%",
+        "url": "https://36kr.com/newsflashes/3755060414644739?f=rss",
+        "summary": "中国核电(601985.SH)公告称，截至2026年3月31日，公司2026年第一季度累计商运发电量为581.09亿千瓦时，同比下降2.73%；上网电量为549.25亿千瓦时，同比下降2.7%。2026年第一季度，公司核电机组发电量累计为478.55亿千瓦时，同比下降3.29%；上网电量累计为448.51亿千瓦时，同比下降3.28%。发电量和上网电量同比下降的主要原因为核电机组期间开展检修的天数多于去年同期。（财联社）",
+        "published": "2026-04-06T08:35:54+00:00",
+        "topics": [
+          "frontier-tech",
+          "crypto"
+        ],
+        "priority": true,
+        "quality_score": 10
+      }
+    ]
+  },
+  "top_articles": [
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775498690",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775498690",
+      "summary": "negative mem alloc size error raised for  torch.cuda.memory.caching_a…",
+      "published": "2026-04-06T12:51:51+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "pytorch",
+      "source_name": "pytorch/pytorch",
+      "source_type": "github",
+      "title": "[GitHub] pytorch/pytorch: viable/strict/1775476886: [vllm hash update] update the pinned vllm hash (#179439)",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1775476886",
+      "summary": "This PR is auto-generated nightly by this action.\nUpdate the pinned vllm hash.\nPull Request resolved: #179439\nApproved by: https://github.com/pytorchbot",
+      "published": "2026-04-06T05:09:47+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "bitcoin",
+      "source_name": "bitcoin/bitcoin",
+      "source_type": "github",
+      "title": "[GitHub] bitcoin/bitcoin: Bitcoin Core 28.4",
+      "url": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
+      "summary": "Bitcoin Core version 28.4 is now available from:\nhttps://bitcoincore.org/bin/bitcoin-core-28.4/\nFor the release notes please see the git repository:\nhttps://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-28.4.md\nDo not use the links provided by GitHub. Use the above download ",
+      "published": "2026-04-06T06:37:18+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "openclaw",
+      "source_name": "openclaw/openclaw",
+      "source_type": "github",
+      "title": "[GitHub] openclaw/openclaw: openclaw 2026.4.5",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.4.5",
+      "summary": "Breaking\n\nConfig: remove legacy public config aliases such as talk.voiceId / talk.apiKey, agents.*.sandbox.perSession, browser.ssrfPolicy.allowPrivateNetwork, hooks.internal.handlers, and channel/group/room allow toggles in favor of the canonical public paths and enabled, while keeping load-time com",
+      "published": "2026-04-06T03:55:15+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 13
+    },
+    {
+      "source_id": "langchain",
+      "source_name": "langchain-ai/langchain",
+      "source_type": "github",
+      "title": "[GitHub] langchain-ai/langchain: langchain-core==1.2.26",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.26",
+      "summary": "Changes since langchain-core==1.2.25\nrelease(core): 1.2.26 (#36511)\nfix(core): add init validator and serialization mappings for Bedrock models (#34510)\nfeat(core): add ChatBaseten to serializable mapping (#36510)\nchore(core): drop gpt-3.5-turbo from docstrings (#36497)\nfix(core): correct parameter ",
+      "published": "2026-04-03T23:30:48+00:00",
+      "topics": [
+        "ai-agent"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.2",
+      "summary": "What's Changed\n\napp: default app home view to new chat instead of launch by @jmorganca in #15312\n\nFull Changelog: v0.20.1...v0.20.2",
+      "published": "2026-04-04T06:51:14+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.1-rc2: model/parsers: rework gemma4 tool call handling (#15306)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc2",
+      "summary": "Replace the custom Gemma4 argument normalizer with a stricter\nreference-style conversion: preserve Gemma-quoted strings, quote bare\nkeys, and then unmarshal the result as JSON.\nThis keeps quoted scalars as strings, preserves typed unquoted values,\nand adds test coverage for malformed raw-quoted inpu",
+      "published": "2026-04-03T21:35:00+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "ollama",
+      "source_name": "ollama/ollama",
+      "source_type": "github",
+      "title": "[GitHub] ollama/ollama: v0.20.1-rc1: ggml: fix ROCm build for cublasGemmBatchedEx reserve wrapper",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.20.1-rc1",
+      "summary": "Add missing cublasGemmAlgo_t to hipblasGemmAlgo_t type mapping and\ncast away const qualifiers that hipblasGemmBatchedEx doesn't accept.",
+      "published": "2026-04-03T21:22:46+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "transformers",
+      "source_name": "huggingface/transformers",
+      "source_type": "github",
+      "title": "[GitHub] huggingface/transformers: Release v5.5.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+      "summary": "Release v5.5.0\n\nNew Model additions\nGemma4\nGemma 4 is a multimodal model with pretrained and instruction-tuned variants, available in 1B, 13B, and 27B parameters. The architecture is mostly the same as the previous Gemma versions. The key differences are a vision processor that can output images of ",
+      "published": "2026-04-02T16:15:33+00:00",
+      "topics": [
+        "llm"
+      ],
+      "priority": true,
+      "quality_score": 11
+    },
+    {
+      "source_id": "garymarcus-rss",
+      "source_name": "Gary Marcus",
+      "source_type": "rss",
+      "title": "Sam Altman, unconstrained by the truth",
+      "url": "https://garymarcus.substack.com/p/sam-altman-unconstrained-by-the-truth",
+      "summary": "New reporting from the New Yorker vindicates concerns that were first raised here",
+      "published": "2026-04-06T16:06:31+00:00",
+      "topics": [
+        "llm",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Google AI Edge Gallery",
+      "url": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+      "summary": "Google AI Edge Gallery\nTerrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on your iPhone.\nIt works really well. The E2B model is a 2.54GB download and is both fast and genuinely useful.\nThe app also provides \"ask questions about images\" and audio transcription (up to 30s) with the two small Gemma 4 models, and has an interesting \"skills\" demo which demonstrates tool calling agai",
+      "published": "2026-04-06T05:18:26+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "datasette-ports 0.2",
+      "url": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+      "summary": "Release: datasette-ports 0.2\n    \n\nNo longer requires Datasette - running uvx datasette-ports now works as well.\nInstalling it as a Datasette plugin continues to provide the datasette ports command.\n\n\n    \n        Tags: datasette",
+      "published": "2026-04-06T03:25:43+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "scan-for-secrets 0.3",
+      "url": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+      "summary": "Release: scan-for-secrets 0.3\n    \n\nNew -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED, taking escaping rules into account.\nNew Python function redact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -&gt; int.\n\n\n    \n        Tags: projects",
+      "published": "2026-04-06T02:59:28+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Cleanup Claude Code Paste",
+      "url": "https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything",
+      "summary": "Tool: Cleanup Claude Code Paste\n    Super-niche tool this. I sometimes copy prompts out of the Claude Code terminal app and they come out with a bunch of weird additional whitespace. This tool cleans that up.\n\n    \n        Tags: tools, claude-code",
+      "published": "2026-04-06T02:55:23+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Eight years of wanting, three months of building with AI",
+      "url": "https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything",
+      "summary": "Eight years of wanting, three months of building with AI\nLalit Maganti provides one of my favorite pieces of long-form writing on agentic engineering I've seen in ages.\nThey spent eight years thinking about and then three months building syntaqlite, which they describe as \"high-fidelity devtools that SQLite deserves\".\nThe goal was to provide fast, robust and comprehensive linting and verifying tools for SQLite, suitable for use in language servers and other development tools - a parser, formatte",
+      "published": "2026-04-05T23:54:18+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Quoting Chengpeng Mou",
+      "url": "https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything",
+      "summary": "From anonymized U.S. ChatGPT data, we are seeing:\n\n~2M weekly messages on health insurance\n~600K weekly messages [classified as healthcare] from people living in “hospital deserts” (30 min drive to nearest hospital)\n7 out of 10 msgs happen outside clinic hours\n\n&mdash; Chengpeng Mou, Head of Business Finance, OpenAI\n\n    Tags: ai-ethics, generative-ai, openai, chatgpt, ai, llms",
+      "published": "2026-04-05T21:47:06+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "simonwillison-rss",
+      "source_name": "Simon Willison",
+      "source_type": "rss",
+      "title": "Syntaqlite Playground",
+      "url": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "summary": "Tool: Syntaqlite Playground\n    Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of building with AI, a deep dive into how it was built.\nThis inspired me to revisit a research project I ran when Lalit first released it a couple of weeks ago, where I tried it out and then compiled it to a WebAssembly wheel so it could run in Pyodide in a browser (the library itself uses C and Rust).\nThis new playground loads up the Python librar",
+      "published": "2026-04-05T19:32:59+00:00",
+      "topics": [
+        "llm",
+        "ai-agent",
+        "frontier-tech"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Aave loses key risk manager, Chaos Labs, amid contributor exodus and disputes",
+      "url": "https://www.coindesk.com/tech/2026/04/06/aave-loses-key-risk-manager-chaos-labs-amid-contributor-exodus-and-disputes",
+      "summary": "",
+      "published": "2026-04-06T17:50:02+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Polymarket reveals a 'full exchange upgrade' to take control of its own trading and truth",
+      "url": "https://www.coindesk.com/markets/2026/04/06/polymarket-reveals-a-full-exchange-upgrade-to-take-control-of-its-own-trading-and-truth",
+      "summary": "",
+      "published": "2026-04-06T17:13:59+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin climbs above $70,000 as more contrarian bottoming signs emerge",
+      "url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-climbs-above-usd70-000-as-more-contrarian-bottoming-signs-emerge",
+      "summary": "",
+      "published": "2026-04-06T16:28:09+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Appeals court blocks New Jersey from shutting down Kalshi's sports markets",
+      "url": "https://www.coindesk.com/policy/2026/04/06/appeals-court-blocks-new-jersey-from-shutting-down-kalshi-s-sports-markets",
+      "summary": "",
+      "published": "2026-04-06T16:10:29+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "OpenAI CEO urges U.S. to prepare for AI ‘superintelligence’ risks and gains",
+      "url": "https://www.coindesk.com/tech/2026/04/06/openai-ceo-urges-u-s-to-prepare-for-ai-superintelligence-risks-and-gains",
+      "summary": "",
+      "published": "2026-04-06T15:47:44+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Jamie Dimon says JPMorgan must move faster as tokenization reshapes finance",
+      "url": "https://www.coindesk.com/markets/2026/04/06/jamie-dimon-says-jpmorgan-must-move-faster-as-tokenization-reshapes-finance",
+      "summary": "",
+      "published": "2026-04-06T15:41:24+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Solo bitcoin miner overcomes 1-in-28,000 odds to secure $210,000 block reward",
+      "url": "https://www.coindesk.com/tech/2026/04/06/solo-bitcoin-miner-overcomes-1-in-28-000-odds-to-secure-usd210-000-block-reward",
+      "summary": "",
+      "published": "2026-04-06T14:08:57+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "CoinDesk 20 performance update: NEAR Protocol (NEAR) jumps 8.1% over weekend",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/06/coindesk-20-performance-update-near-protocol-near-jumps-8-1-over-weekend",
+      "summary": "",
+      "published": "2026-04-06T13:36:47+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitmine's ether treasury hits 4.8 million ETH as stock listing moves to NYSE",
+      "url": "https://www.coindesk.com/markets/2026/04/06/bitmine-s-ether-treasury-hits-4-8-million-eth-as-stock-listing-moves-to-nyse",
+      "summary": "",
+      "published": "2026-04-06T13:32:19+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Strategy added another 4,871 bitcoin for $330 million, with holdings nearing 767,000 BTC",
+      "url": "https://www.coindesk.com/markets/2026/04/06/strategy-buys-another-4-871-bitcoin-for-usd330-million-as-holdings-near-767-000-btc",
+      "summary": "",
+      "published": "2026-04-06T12:17:05+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin has room to rally, but there's a catch",
+      "url": "https://www.coindesk.com/daybook-us/2026/04/06/bitcoin-has-room-to-rally-but-there-s-a-catch",
+      "summary": "",
+      "published": "2026-04-06T11:21:46+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "Bitcoin rallies on report of Iran ceasefire talks, Algorand extends gains",
+      "url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-rallies-on-report-of-iran-ceasefire-talks-algorand-extends-gains",
+      "summary": "",
+      "published": "2026-04-06T10:30:00+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    },
+    {
+      "source_id": "coindesk-rss",
+      "source_name": "CoinDesk",
+      "source_type": "rss",
+      "title": "IMF warns tokenization could bring crypto risks into global financial markets",
+      "url": "https://www.coindesk.com/markets/2026/04/06/imf-warns-tokenization-could-bring-crypto-risks-into-global-financial-markets",
+      "summary": "",
+      "published": "2026-04-06T09:17:49+00:00",
+      "topics": [
+        "crypto"
+      ],
+      "priority": true,
+      "quality_score": 10
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "fetched_at": "2026-04-06T19:10:29.040061+00:00",
+  "markets": {
+    "S&P 500": {
+      "price": 6603.34,
+      "prev_close": 6582.69,
+      "change_pct": 0.31,
+      "date": "2026-04-06"
+    },
+    "Nasdaq": {
+      "price": 21977.06,
+      "prev_close": 21879.18,
+      "change_pct": 0.45,
+      "date": "2026-04-06"
+    },
+    "Dow Jones": {
+      "price": 46609.23,
+      "prev_close": 46504.67,
+      "change_pct": 0.22,
+      "date": "2026-04-06"
+    },
+    "STOXX 600": {
+      "price": 596.63,
+      "prev_close": 597.69,
+      "change_pct": -0.18,
+      "date": "2026-04-02"
+    },
+    "Nikkei 225": {
+      "price": 53123.49,
+      "prev_close": 52463.27,
+      "change_pct": 1.26,
+      "date": "2026-04-03"
+    },
+    "Hang Seng": {
+      "price": 25116.53,
+      "prev_close": 25294.03,
+      "change_pct": -0.7,
+      "date": "2026-04-02"
+    },
+    "Shanghai Composite": {
+      "price": 3880.1,
+      "prev_close": 3919.28,
+      "change_pct": -1.0,
+      "date": "2026-04-03"
+    },
+    "TAIEX": {
+      "price": 32572.43,
+      "prev_close": 33174.82,
+      "change_pct": -1.82,
+      "date": "2026-04-02"
+    },
+    "USD/JPY": {
+      "price": 159.69,
+      "prev_close": 159.49,
+      "change_pct": 0.13,
+      "date": "2026-04-06"
+    },
+    "EUR/USD": {
+      "price": 1.15,
+      "prev_close": 1.15,
+      "change_pct": 0.06,
+      "date": "2026-04-06"
+    },
+    "USD/TWD": {
+      "price": 31.92,
+      "prev_close": 31.94,
+      "change_pct": -0.06,
+      "date": "2026-04-06"
+    },
+    "WTI Crude": {
+      "price": 112.26,
+      "prev_close": 111.54,
+      "change_pct": 0.65,
+      "date": "2026-04-06"
+    },
+    "Brent Crude": {
+      "price": 109.78,
+      "prev_close": 109.03,
+      "change_pct": 0.69,
+      "date": "2026-04-06"
+    },
+    "Gold": {
+      "price": 4684.9,
+      "prev_close": 4651.5,
+      "change_pct": 0.72,
+      "date": "2026-04-06"
+    },
+    "BTC/USD": {
+      "price": 69639.91,
+      "prev_close": 68981.9,
+      "change_pct": 0.95,
+      "date": "2026-04-06"
+    },
+    "ETH/USD": {
+      "price": 2137.47,
+      "prev_close": 2109.0,
+      "change_pct": 1.35,
+      "date": "2026-04-06"
+    }
+  }
+}
