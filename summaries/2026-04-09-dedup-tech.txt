@@ -1,0 +1,69 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-08
+- Google Gemini 3.1 Ultra 發布：2M token 跨模態原生推理，挑戰 GPT-5.4 與 Claude Mythos 5  [4.71 億]
+- CME Group 宣布加入 AVAX、SUI 期貨，5/29 全系列加密期貨轉 24/7 交易  [4.71 億]
+- Polygon Giugliano 硬分叉 4/8 UTC 14:00 於區塊 85,268,500 啟動，Bitcoin ETF 單日流入 $4.71 億  [200 萬]
+- Google Gemini 3.1 Ultra 正式發布：2M token context，跨模態原生訓練  [200 萬]
+- Anthropic Claude Mythos 5 細節曝光：10 兆參數定位網安與長程任務  [9,700 萬]
+- OpenAI GPT-5.4 Thinking 於 OSWorld-Verified 桌面任務基準拿下 75.0%，首度超越人類水準  [75.0%]
+- Ollama v0.20.4 穩定版釋出，Gemma 4 工具呼叫修復與舊 GPU FlashAttention 關閉
+- Anthropic MCP 單月安裝破 9,700 萬，成為 Agent 工具調用事實標準  [9,700 萬 / 40%]
+- LangChain 發布 langchain-core 1.2.27 與 langchain-ollama 1.1.0
+- CrewAI 1.14.0 發布：多代理協作穩定性修補
+- CME Group 加入 AVAX、SUI 期貨，5/29 起全系列加密期貨轉 24/7 交易
+- Polygon Giugliano 硬分叉 4/8 UTC 14:00 啟動，區塊 85,268,500
+- BTC 回測 $68,400 後反彈至 $71,900，ETF 單日流入 $4.71 億  [4.43% / 6.53% / 4.71 億]
+- FDIC 新提案為穩定幣發行商鋪路聯邦監管框架
+- 俄羅斯 GRU 駭入家用路由器竊取 Microsoft Office 365 token
+- 德國公開指認「UNKN」為 REvil、GandCrab 勒索集團首腦
+- 高盛：當前科技股估值提供投資機會，中國央行連 17 個月增持黃金
+- 紅熊 AI 完成 2.1 億元人民幣 A 輪融資，切入物理 AI 賽道  [2.1 億 / 3 億]
+- 賽富樂斯完成 3 億元 C 輪融資，領跑全彩 AR 微顯示屏量產  [3 億]
+- GLM-5.1 論文釋出：針對長程任務強化
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- openclaw/openclaw
+- SQLite WAL Mode Across Docker Containers Sharing a Volume
+
+## 2026-04-07
+- BTC 突破 $69,600：美伊停火談判引發軋空反彈，24 小時交易量破 $290 億
+- 歐盟執委會雲端遭駭：Trivy 供應鏈攻擊波及 29 個歐盟機構，300GB 資料外洩
+- Fortinet FortiClient EMS 零日漏洞 CVE-2026-35616 遭實際利用，CISA 下令 4/9 前修補
+- Anthropic Claude Mythos 模型資訊外洩：推理與網安能力大幅升級  [40 億]
+- OpenAI GPT-5.5「Spud」訓練完成，數週內可能發布
+- Stripe 內部 AI Coding Agent「Minions」曝光：LLM 驅動的自主開發流程
+- Qualys 推出 Agent Val：全自動漏洞發現與修補 AI Agent  [40%]
+- AWS 成立 Strands Labs：專注 Agent AI 實驗性開源專案
+- BTC 突破 $69,600：美伊 45 天停火談判引發軋空反彈  [3.25% / 290 億 / 4%]
+- Gnosis Chain 宣布 4/14 啟動 Fusaka 硬分叉
+- 歐盟執委會雲端遭駭：Trivy 供應鏈攻擊波及 29 個歐盟機構
+- Fortinet FortiClient EMS 零日漏洞 CVE-2026-35616（CVSS 9.1）遭實際利用
+- Artemis II 繞月完成，開始 4 天返航之旅
+- ESA-CAS SMILE 任務 4/9 發射：首個 X 射線太空氣象觀測衛星
+- AI 進入物理世界：Fortune 稱「辨識經濟」時代來臨
+- 冰巨星內部可能存在未知物質狀態  [0.95% / 1.35%]
+- Fortune: AI's Next Frontier is the Real World
+- InfoWorld: 6 AI Breakthroughs That Will Define 2026
+- Morgan Lewis: From Assistant to Actor
+
+## 2026-04-06
+- Artemis II 今日繞月：人類 54 年來首次近距離觀測月球背面，含日食奇觀  [2.7 億]
+- Drift 駭客事件確認為北韓情報行動：歷時 6 個月滲透，$2.7 億美元損失
+- Microsoft 開源 Agent Governance Toolkit：首個覆蓋 OWASP Agentic AI 全部 10 項風險的治理框架
+- Artemis II 今日繞月：月球背面觀測 + 太空日食 + 通訊中斷 40 分鐘
+- Microsoft 開源 Agent Governance Toolkit：7 模組、5 語言、覆蓋 OWASP Agentic Top 10
+- MindsDB 發布 Anton：開源自主 BI Agent
+- Edgerunner AI 發布 WarClaw：專為軍事任務訓練的小型 AI Agent
+- Anthropic MCP 突破 9,700 萬安裝量，從實驗性標準轉型為基礎設施  [9,700 萬]
+- Anthropic 調整 Claude 訂閱計費：第三方工具（含 OpenClaw）不再包含在訂閱額度內
+- Google TurboQuant 亮相 ICLR 2026：大幅壓縮 KV Cache 記憶體開銷
+- Drift 確認為北韓 6 個月情報行動：UNC4736 以假身分滲透 DeFi 生態  [2.7 億 / 100 萬]
+- Ant Group 區塊鏈子公司推出 AI Agent 加密交易平台  [5.8% / 3.6%]
+- BTC 持平 $67,385、山寨幣走強：NEAR +5.8%、AVAX +3.6%
+- Cisco IMC 最高嚴重度漏洞 CVSS 9.8：未授權遠端攻擊者可竄改任何帳戶密碼
+- App Store / Google Play 惡意程式掃描照片竊取加密錢包助記詞
+- Anthropic 意外洩漏 Claude Code 原始碼，歸因「流程錯誤」
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
