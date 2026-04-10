@@ -83,11 +83,25 @@ def fetch_all():
             prev = float(series.iloc[-2])
             change_pct = ((latest - prev) / prev) * 100
 
+            # Freshness: strictly within 24h of now (UTC). Anything older — including
+            # stock closes older than a day — is stale and should not be reported.
+            last_ts = series.index[-1]
+            if last_ts.tzinfo is None:
+                last_ts = last_ts.tz_localize("UTC")
+            age_hours = round(
+                (datetime.now(timezone.utc) - last_ts.to_pydatetime()).total_seconds()
+                / 3600,
+                1,
+            )
+            is_fresh = age_hours <= 24
+
             results[name] = {
                 "price": round(latest, 2),
                 "prev_close": round(prev, 2),
                 "change_pct": round(change_pct, 2),
                 "date": str(series.index[-1].date()),
+                "age_hours": age_hours,
+                "is_fresh": is_fresh,
             }
         except Exception as e:
             print(f"Error processing {name}: {e}", file=sys.stderr)
