@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-10
+- 美伊停火協議達成，BTC 飆破 $73,000：加密市場總值 24 小時增加 $1,000 億
+- Gary Marcus 撰文批評 Anthropic Claude Mythos「過度渲染」：開源小模型可復現多數能力
+- Artemis II 今日濺落太平洋：人類 54 年來首次繞月任務即將完成
+- Gary Marcus 批評 Anthropic Mythos 公告「過度渲染」：三大理由
+- GLM-5.1 詳細技術規格公開：744B MoE、MIT 授權、SWE-Bench Pro 首位  [58.4% / 57.3%]
+- Claude Opus 4.6 持續稱霸 LMSYS Arena：Coding Elo 1561 創歷史新高  [80%]
+- Anthropic Project Glasswing：10 家科技巨頭參與的 Mythos 網安計畫
+- Microsoft Agent Framework 1.0 正式發布：穩定 API + MCP/A2A 1.0 雙支持
+- EY 全球審計部門嵌入多代理 AI 框架，目標 2028 年 100% Agent 輔助  [13 萬]
+- DigitalOcean 收購 Katanemo Labs 及開源代理平台 Plano
+- 美伊停火協議達成，BTC 飆破 $73,000：加密市場 24h 增 $1,000 億  [4.6% / 1,000 億]
+- CME 比特幣期貨活動量跌至 14 個月新低，基差交易解套拖累機構參與
+- Tornado Cash 開發者 Roman Storm 案：法官稱指控「太多了」
+- 美國特勤局凍結 $1,200 萬加密資產：「大西洋行動」打擊全球詐騙  [1,200 萬]
+- Chrome 第四個零日漏洞：CVE-2026-5281 緊急修補
+- Docker Engine 高危漏洞 CVE-2026-34040（CVSS 8.8）：可繞過授權外掛
+- Artemis II 今晚濺落太平洋：人類 54 年來首次繞月任務完成
+- Northrop Grumman CRS-24 國際太空站補給任務延至 4/11
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- openclaw/openclaw
+- langchain-ai/langchain
+- Three reasons to think that the Claude Mythos announcement was overblown
+- GitHub Repo Size
+
+## 2026-04-09
+- OpenAI、Anthropic、Google 成立反盜取聯盟，對抗中國模型蒸餾
+- Anthropic 與 Google、Broadcom 簽 3.5 GW 算力擴張協議  [90 億 / 300 億]
+- Meta 睽違一年發表新模型 Muse Spark，僅開放私人 API preview
+- Ollama v0.20.4 穩定版釋出：Gemma 4 Flash Attention、M5 NAX 加速
+- HuggingFace Transformers v5.5.0 發布，正式支援 Gemma 4（1B/13B/27B）
+- Gary Marcus 評 Anthropic Mythos 報告：宣稱與實證落差太大
+- Pichai 在內部談話稱 2027 是 AI 重塑生產方式拐點  [10 億]
+- LangChain Core 0.3.84 + langchain-ollama 1.1.0：response_format 正式支援
+- OpenClaw 2026.4.8 釋出：修復 Telegram sidecar 載入
+- 阿里淘天圍繞 Token 重構電商，AI OKR 聚焦商家端
+- Bitcoin Core 31.0 RC4 + v28.4 同步釋出
+- 加密卡月交易量衝上 6 億美元，USDC 市佔追上 USDT  [6 億]
+- Canary Capital 向 SEC 提交 PEPE 現貨 ETF 申請
+- Chainalysis：2035 年穩定幣年交易量有望達 1.5 quadrillion 美元
+- 美國財政部公布穩定幣反洗錢規則草案
+- 賽富樂斯完成 3 億元 C 輪融資，領跑全彩 AR 微顯示屏量產  [3 億]
+- 蘇州灵動佳芯完成近億元 A 輪：柔性觸覺傳感器切入具身智能  [3,500 億 / 300 億]
+- Anthropic 員工要約收購完成：估值 3,500 億美元  [300 億]
+- 俄羅斯 GRU 以路由器 0day 大規模竊取 Microsoft 365 token
+- ESET：AI 讓攻擊者 breakout time 大幅縮短，防守需轉向預防優先
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- langchain-ai/langchain
+- openclaw/openclaw
+
+## 2026-04-08
+- Google Gemini 3.1 Ultra 發布：2M token 跨模態原生推理，挑戰 GPT-5.4 與 Claude Mythos 5  [4.71 億]
+- CME Group 宣布加入 AVAX、SUI 期貨，5/29 全系列加密期貨轉 24/7 交易  [4.71 億]
+- Polygon Giugliano 硬分叉 4/8 UTC 14:00 於區塊 85,268,500 啟動，Bitcoin ETF 單日流入 $4.71 億  [200 萬]
+- Google Gemini 3.1 Ultra 正式發布：2M token context，跨模態原生訓練  [200 萬]
+- Anthropic Claude Mythos 5 細節曝光：10 兆參數定位網安與長程任務  [9,700 萬]
+- OpenAI GPT-5.4 Thinking 於 OSWorld-Verified 桌面任務基準拿下 75.0%，首度超越人類水準  [75.0%]
+- Ollama v0.20.4 穩定版釋出，Gemma 4 工具呼叫修復與舊 GPU FlashAttention 關閉
+- Anthropic MCP 單月安裝破 9,700 萬，成為 Agent 工具調用事實標準  [9,700 萬 / 40%]
+- LangChain 發布 langchain-core 1.2.27 與 langchain-ollama 1.1.0
+- CrewAI 1.14.0 發布：多代理協作穩定性修補
+- CME Group 加入 AVAX、SUI 期貨，5/29 起全系列加密期貨轉 24/7 交易
+- Polygon Giugliano 硬分叉 4/8 UTC 14:00 啟動，區塊 85,268,500
+- BTC 回測 $68,400 後反彈至 $71,900，ETF 單日流入 $4.71 億  [4.43% / 6.53% / 4.71 億]
+- FDIC 新提案為穩定幣發行商鋪路聯邦監管框架
+- 俄羅斯 GRU 駭入家用路由器竊取 Microsoft Office 365 token
+- 德國公開指認「UNKN」為 REvil、GandCrab 勒索集團首腦
+- 高盛：當前科技股估值提供投資機會，中國央行連 17 個月增持黃金
+- 紅熊 AI 完成 2.1 億元人民幣 A 輪融資，切入物理 AI 賽道  [2.1 億 / 3 億]
+- 賽富樂斯完成 3 億元 C 輪融資，領跑全彩 AR 微顯示屏量產  [3 億]
+- GLM-5.1 論文釋出：針對長程任務強化
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- openclaw/openclaw
+- SQLite WAL Mode Across Docker Containers Sharing a Volume
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
