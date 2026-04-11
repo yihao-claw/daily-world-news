@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-11
+- Artemis II 今晚濺落太平洋——人類 54 年來最遠太空之旅即將劃下句點
+- Ollama v0.20.5 釋出：OpenClaw 頻道整合 + Gemma 4 Flash Attention
+- LangChain Core 1.3.0a1 Alpha 發布：重大版本躍進
+- HuggingFace Transformers v5.5.3 修復 Gemma 4 device_map
+- Simon Willison 提醒：ChatGPT 語音模式跑的是弱很多的舊模型
+- Anthropic Mythos 爭議持續：Gary Marcus 批「過度渲染」，但 Project Glasswing 已有 40+ 企業參與
+- CrewAI 1.14.2a2：Checkpoint TUI 樹狀圖 + Token 追蹤強化
+- Microsoft Agent Governance Toolkit 開源（MIT）：首個覆蓋 OWASP Agentic AI 全 10 項風險
+- OKX 創辦人徐明星公開稱 CZ 為「騙子」——全球最大交易所創辦人隔空交火
+- 比特幣量子防禦：Lightning 開發者 Osuntokun 打造首個量子防禦錢包原型
+- Amundi × Spiko 代幣化基金三週衝上 $4 億 AUM——史上最快  [4 億]
+- SEC 4/16 圓桌會議討論 CLARITY Act——數位資產監管權誰屬有望釐清  [16 日圓]
+- Ethereum Hegota 升級提案：4 項 EIP 加速 2MiB payload 傳輸 6 倍
+- Keychron 開源全系列鍵盤與滑鼠工業設計圖  [4 億]
+- Anthropic 以 $4 億收購 Coefficient Bio——AI 巨頭跨足生命科學
+- 全球智慧型手機 Q1 出貨量年減 6%——DRAM/NAND 短缺，供應商優先供貨 AI 資料中心  [21% / 1,000 萬 / 300 萬]
+- Artemis II 濺落倒數
+- SuperCDMS 暗物質實驗達成史上最低運行溫度
+- Samsung 將於 7 月淘汰美國原生 Messages App
+- Apple 折疊 iPhone 定價 $2,000–$2,400，Samsung 獨供 3 年 OLED
+- Fortinet FortiClient EMS 預認證繞過漏洞（CVE-2026-35616）入列 CISA KEV
+- Flowise AI 平台 CVSS 10.0 漏洞遭野外利用（CVE-2025-59528）  [27.5 億]
+- Insilico Medicine × Eli Lilly 簽 $27.5 億 AI 藥物商業化協議  [1.15 億 / 27.5 億]
+- ollama/ollama
+- huggingface/transformers
+
+## 2026-04-10
+- 美伊停火協議達成，BTC 飆破 $73,000：加密市場總值 24 小時增加 $1,000 億
+- Gary Marcus 撰文批評 Anthropic Claude Mythos「過度渲染」：開源小模型可復現多數能力
+- Artemis II 今日濺落太平洋：人類 54 年來首次繞月任務即將完成
+- Gary Marcus 批評 Anthropic Mythos 公告「過度渲染」：三大理由
+- GLM-5.1 詳細技術規格公開：744B MoE、MIT 授權、SWE-Bench Pro 首位  [58.4% / 57.3%]
+- Claude Opus 4.6 持續稱霸 LMSYS Arena：Coding Elo 1561 創歷史新高  [80%]
+- Anthropic Project Glasswing：10 家科技巨頭參與的 Mythos 網安計畫
+- Microsoft Agent Framework 1.0 正式發布：穩定 API + MCP/A2A 1.0 雙支持
+- EY 全球審計部門嵌入多代理 AI 框架，目標 2028 年 100% Agent 輔助  [13 萬]
+- DigitalOcean 收購 Katanemo Labs 及開源代理平台 Plano
+- 美伊停火協議達成，BTC 飆破 $73,000：加密市場 24h 增 $1,000 億  [4.6% / 1,000 億]
+- CME 比特幣期貨活動量跌至 14 個月新低，基差交易解套拖累機構參與
+- Tornado Cash 開發者 Roman Storm 案：法官稱指控「太多了」
+- 美國特勤局凍結 $1,200 萬加密資產：「大西洋行動」打擊全球詐騙  [1,200 萬]
+- Chrome 第四個零日漏洞：CVE-2026-5281 緊急修補
+- Docker Engine 高危漏洞 CVE-2026-34040（CVSS 8.8）：可繞過授權外掛
+- Artemis II 今晚濺落太平洋：人類 54 年來首次繞月任務完成
+- Northrop Grumman CRS-24 國際太空站補給任務延至 4/11
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- openclaw/openclaw
+- langchain-ai/langchain
+- Three reasons to think that the Claude Mythos announcement was overblown
+- GitHub Repo Size
+
+## 2026-04-09
+- OpenAI、Anthropic、Google 成立反盜取聯盟，對抗中國模型蒸餾
+- Anthropic 與 Google、Broadcom 簽 3.5 GW 算力擴張協議  [90 億 / 300 億]
+- Meta 睽違一年發表新模型 Muse Spark，僅開放私人 API preview
+- Ollama v0.20.4 穩定版釋出：Gemma 4 Flash Attention、M5 NAX 加速
+- HuggingFace Transformers v5.5.0 發布，正式支援 Gemma 4（1B/13B/27B）
+- Gary Marcus 評 Anthropic Mythos 報告：宣稱與實證落差太大
+- Pichai 在內部談話稱 2027 是 AI 重塑生產方式拐點  [10 億]
+- LangChain Core 0.3.84 + langchain-ollama 1.1.0：response_format 正式支援
+- OpenClaw 2026.4.8 釋出：修復 Telegram sidecar 載入
+- 阿里淘天圍繞 Token 重構電商，AI OKR 聚焦商家端
+- Bitcoin Core 31.0 RC4 + v28.4 同步釋出
+- 加密卡月交易量衝上 6 億美元，USDC 市佔追上 USDT  [6 億]
+- Canary Capital 向 SEC 提交 PEPE 現貨 ETF 申請
+- Chainalysis：2035 年穩定幣年交易量有望達 1.5 quadrillion 美元
+- 美國財政部公布穩定幣反洗錢規則草案
+- 賽富樂斯完成 3 億元 C 輪融資，領跑全彩 AR 微顯示屏量產  [3 億]
+- 蘇州灵動佳芯完成近億元 A 輪：柔性觸覺傳感器切入具身智能  [3,500 億 / 300 億]
+- Anthropic 員工要約收購完成：估值 3,500 億美元  [300 億]
+- 俄羅斯 GRU 以路由器 0day 大規模竊取 Microsoft 365 token
+- ESET：AI 讓攻擊者 breakout time 大幅縮短，防守需轉向預防優先
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- langchain-ai/langchain
+- openclaw/openclaw
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
