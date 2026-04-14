@@ -1,0 +1,3 @@
+# Past 3 days tech dedup digest
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
