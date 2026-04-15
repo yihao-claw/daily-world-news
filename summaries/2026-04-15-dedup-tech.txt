@@ -1,0 +1,80 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-14
+- Anthropic 發布 Claude Mythos Preview，自主發現並利用所有主流 OS 與瀏覽器零日漏洞  [72.4% / 0%]
+- Google 開源 Gemma 4：31B 模型擊敗 400B 級對手，Apache 2.0 授權
+- 智譜 AI 開源 GLM-5.1：744B MoE 模型以 MIT 授權發布，SWE-Bench Pro 超越 Claude Opus 4.6 與 GPT-5.4
+- Meta 開源 Llama 4 Scout：17B 視覺語言模型，單張消費級 GPU 即可運行
+- OpenAI 擴展 Responses API：新增 shell 工具、agent 執行迴路與 context compaction
+- Mistral AI 發布 Large 3 旗艦模型
+- Microsoft Agent Framework 1.0 正式發布：.NET 與 Python 雙平台 production-ready
+- Google 推出學術 AI Agent：PaperVizAgent 與 ScholarPeer
+- 94% 企業對 AI Agent 擴散表示擔憂  [40% / 94%]
+- Bitcoin 回升至 $74,675，週末拋壓緩解  [5.54%]
+- Ethereum 大漲 8.45% 至 $2,377，Fusaka 硬分叉助攻  [8.45%]
+- SEC 裁定：允許加密錢包交易的軟體不構成券商
+- BlackRock Q1 財報今日公布，機構加密佈局受矚目
+- Bitcoin Core v31.0 進入 RC4 階段
+- 2026 被譽為 AI World Models 與持續學習突破年
+- Apple 發布 MacBook Neo：史上最便宜 MacBook
+- Apple Q1 2026 全球智慧手機市占率首度登頂  [21% / 20% / 14%]
+- NASA Artemis II 太空人 4 月 10 日返回地球  [1% / 1%]
+- 宇宙膨脹之謎加深：哈伯常數測量精度突破 1%  [1%]
+- Citrix NetScaler ADC/Gateway 零日漏洞遭積極利用
+- Chrome 第四個零日漏洞修補：CVE-2026-5281
+- 北韓 APT37 透過 Facebook 社交工程散佈 RokRAT 木馬  [147.7 億 / 50 億]
+- Gilead 年內三筆收購累計 $147.7 億，最新 $50 億買下 ADC 新創 Tubulis
+- Anthropic 以 $4 億收購生技 AI 新創 Coefficient Bio  [10 人]
+- ollama/ollama
+
+## 2026-04-13
+- Trump 下令封鎖荷莫茲海峽，BTC 跌破 $71,000  [20% / 90% / 2.55%]
+- Ollama v0.20.6 RC1 釋出：Gemma 4 模板更新 + 平行 Tool Call 修正
+- Gary Marcus：Claude Code 是 LLM 以來最大進展——因為它是 Neurosymbolic AI
+- SQLite 3.53.0 大版本釋出：自修復索引 + WAL 損壞修復 + 新 JSON 函式
+- Google TurboQuant 論文於 ICLR 2026 發表：大幅降低 KV Cache 記憶體開銷  [200 萬]
+- HuggingFace 更新 Open LLM Leaderboard：抗污染新基準上線
+- OpenClaw 2026.4.11：Dreaming 模組支援 ChatGPT 對話匯入 + Memory Palace
+- LangChain Core 1.3.0a1 Alpha：重大版本躍進
+- CFTC 主席 Selig 主張預測市場「專屬監管權」——與 SEC 地盤戰升溫
+- Justin Sun 炮轟 Trump 旗下 WLFI「把用戶當 ATM」——WLFI 回嗆「法庭見」
+- 大宗商品交易商因伊朗戰爭遭銀行斷服務，轉向穩定幣
+- ECB 支持將加密監管集中至巴黎 ESMA
+- Bitcoin Core v31.0 RC4 釋出  [1% / 21% / 18%]
+- 全球智慧型手機 Q1 出貨逆勢微增 1%——Apple 21% 居冠，Samsung 18% 守成  [5% / 11%]
+- Apple 折疊 iPhone 確認採用 Samsung 獨家 OLED，定價 $2,000–$2,400
+- Artemis II 圓滿完成——人類 54 年來首次繞月任務成功濺落
+- Fortinet FortiClient EMS 預認證繞過漏洞 CVE-2026-35616 遭野外利用
+- Smart Slider 3 Pro WordPress 外掛更新系統遭劫持植入後門
+- Insilico Medicine × Eli Lilly $27.5 億 AI 藥物商業化協議  [1.15 億]
+- ollama/ollama
+- bitcoin/bitcoin
+- openclaw/openclaw
+- Gary Marcus — The biggest advance in AI since the LLM
+- Simon Willison — SQLite 3.53.0
+- The Closing of the Frontier
+
+## 2026-04-12
+- 日本內閣通過加密貨幣金融商品法案——亞洲最大經濟體重新定義數位資產  [300 萬 / 1,000 萬 / 20%]
+- Cygnus XL CRS-24 成功升空——SpaceX 為國際太空站送上 5 噸補給
+- Artemis II 圓滿完成——人類 54 年來首次繞月任務成功濺落
+- GLM-5.1 MIT 授權全面開源——744B MoE 奪下 SWE-Bench Pro 榜首  [58.4% / 57.3%]
+- Stripe Minions 每週產出 1,300+ PR——大規模自主 Coding Agent 進入量產
+- Microsoft Agent Framework 1.0 正式版——穩定 API + MCP/A2A 1.0 雙協定
+- Microsoft Agent Governance Toolkit 開源（MIT）——首個覆蓋 OWASP Agentic AI 全 10 項風險
+- SEC 4/16 圓桌會議在即——CLARITY Act 數位資產監管權劃分進入關鍵週
+- 不丹 18 個月拋售 70% 比特幣——持倉從 13,000 BTC 降至 3,954 BTC
+- Ethereum Hegota 升級提案——4 項 EIP 加速 2MiB payload 傳輸 6 倍  [4 億 / 10 人]
+- Anthropic 以 $4 億收購 Coefficient Bio——AI 巨頭跨足生命科學  [10 人]
+- SuperCDMS 暗物質實驗達成史上最低運行溫度
+- 半自主探測機器人原型——無需等待地球指令即可逐岩分析
+- Smart Slider 3 Pro WordPress 外掛遭供應鏈攻擊——更新系統被劫持植入後門
+- 北韓 Contagious Interview 攻擊延伸至 Go/Rust/PHP 生態系  [7.87 億]
+- Earendil Labs 獲 $7.87 億 Private Placement——Sanofi、Pfizer 領投 AI 藥物平台  [1,000 萬]
+- BMS × insitro 擴展合作——新增兩項 ALS 計劃，觸發 $1,000 萬里程碑付款
+- zai-org/GLM-5
+- Stripe Dev Blog: Minions Part 2
+- ByteByteGo: How Stripe's Minions Ship 1,300 PRs a Week
+- Firethering: GLM-5.1 越跑越好的開源模型
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
