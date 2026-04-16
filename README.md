@@ -7,9 +7,9 @@
 | 產出 | 檔案 | 說明 |
 |------|------|------|
 | 📝 時事摘要 | `summaries/YYYY-MM-DD.md` | 15-20 則國際新聞，重大事件附多國觀點 |
-| 🔬 科技摘要 | `summaries/YYYY-MM-DD-tech.md` | 科技新聞，品質評分排序 |
-| 🎙️ Podcast 稿 | `summaries/YYYY-MM-DD-podcast.md` | 時事+科技合併，口語化播報 |
-| 🔊 語音檔 | `summaries/YYYY-MM-DD.mp3` | 約 15-25 分鐘 |
+| 🔬 科技摘要 | `summaries/YYYY-MM-DD-tech.md` | 科技新聞，品質評分排序，市場快照只列 BTC / ETH / Gold / WTI / Brent |
+| 🎙️ Podcast 稿 | `summaries/YYYY-MM-DD-podcast.md` | 時事+科技合併，口語化播報（不含市場區段）|
+| 🔊 語音檔 | `summaries/YYYY-MM-DD.mp3` | 約 13-19 分鐘 |
 | 📬 Telegram | 自動推送 | 時事、科技分開發；Podcast 語音合併發 |
 
 ## 運作方式
@@ -27,7 +27,7 @@
 | 0 | 🔐 Pre-flight | 載入 secrets（1Password）、安裝依賴、抓市場數據 |
 | 1 | 🔬 科技新聞 | RSS 39 feeds + GitHub 18 repos + Reddit 10 subs + X + Web Search → 品質評分 → 去重 |
 | 2 | 🌍 時事新聞 | 9 大區域 + 多國視角（Format A/B）|
-| 3 | 🎙️ Podcast | 合併兩份摘要，6000-10000 字 → TTS 語音 |
+| 3 | 🎙️ Podcast | 合併兩份摘要，6000-10000 字 → TTS 語音（不含市場快報段，時間分回時事與科技）|
 | 4 | 📤 Validate & Push | 驗證 + Git commit + push |
 | 5 | 🎧 Publish | R2 上傳 + RSS 更新（排程自動 / 手動觸發）|
 
@@ -76,12 +76,8 @@ daily-world-news/
 | 環境 / secrets / 依賴 | `config/ENV.md` |
 | 時事來源 | `config/SOURCES.md` |
 | 科技來源（RSS/GitHub/Reddit）| `config/TECH_SOURCES.json` |
-| 時事格式 | `guidelines/FORMAT.md` |
-| 科技格式 | `guidelines/TECH_FORMAT.md` |
-| 評分 / 去重 / 事實核查 | `guidelines/QUALITY.md` |
-| Podcast 風格/長度 | `guidelines/PODCAST.md` |
+| 時事格式 / 科技格式 / 評分 / 去重 / Podcast 風格 / 市場規則 | `SKILL.md`（所有規則已內聯，`guidelines/*.md` 僅作歷史參考）|
 | 語音設定 | `scripts/generate-audio.py` |
-| 主流程 | `SKILL.md` |
 | 排程時間 | `openclaw cron edit <id> --cron "..." --tz "..."` |
 
 ## 依賴
