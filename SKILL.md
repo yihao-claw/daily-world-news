@@ -50,7 +50,6 @@ bash scripts/run.sh preflight
 1. Bump `episode-counter.txt` → EP number.
 2. Write `summaries/${TODAY}-podcast.md` (6000–10000 字, min 4000 字 / 12000 bytes). Structure: 開場 → 時事 → 過場(口語，**不要 `[🎵 轉場]` 標記**) → 科技 → 結尾. **Podcast 不含市場快報區段**（市場數據只留在 Telegram 時事/科技 digest），釋出的時間用來加深時事與科技的分析。Style in Rules.
 3. `bash scripts/run.sh audio` — validates + generates `summaries/${TODAY}.mp3` (TTS retry 2x on 503).
-4. Send to Telegram as voice (asVoice=true).
 
 ## PHASE 4 — Finalize (validate + push to GitHub)
 
@@ -63,7 +62,7 @@ bash scripts/run.sh finalize
 ## PHASE 5 — Publish (auto by cron / manual on demand)
 
 ```
-bash scripts/run.sh publish    # upload-r2 mp3 + generate-rss + upload feed.xml
+bash scripts/run.sh publish    # upload-r2 mp3 + generate-rss + upload feed.xml + 推 Apple Podcasts 連結到 Telegram
 ```
 
 ---
@@ -144,6 +143,6 @@ For every candidate, compare to dedup digest: **new facts/numbers/reactions → 
 ## Key invariants
 - All dates = **JST (Asia/Tokyo)**
 - 無 fabricated 新聞/URL — 每則必附 📎
-- 時事/科技分開發 Telegram，podcast 合併
+- 時事/科技分開發 Telegram；podcast 不發音檔，publish 時 poll iTunes 後送 Apple Podcasts 連結
 - 市場數據只保留 BTC / ETH / Gold / WTI / Brent；股指、FX 全面拿掉
 - Podcast **不含市場快報段**；市場數據只出現在 Telegram 科技 digest 的「市場快照」，且必做日期校正

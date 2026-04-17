@@ -85,6 +85,8 @@ case "$PHASE" in
     bash scripts/upload-r2.sh "summaries/${TODAY}.mp3" "podcasts/${TODAY}.mp3"
     python3 scripts/generate-rss.py
     bash scripts/upload-r2.sh "summaries/feed.xml" "feed.xml"
+    # Poll iTunes for today's episode link, send Telegram message (falls back to show URL on timeout)
+    python3 scripts/send_apple_link.py --date "${TODAY}"
     ;;
 
   *)

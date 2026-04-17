@@ -10,7 +10,7 @@
 | 🔬 科技摘要 | `summaries/YYYY-MM-DD-tech.md` | 科技新聞，品質評分排序，市場快照只列 BTC / ETH / Gold / WTI / Brent |
 | 🎙️ Podcast 稿 | `summaries/YYYY-MM-DD-podcast.md` | 時事+科技合併，口語化播報（不含市場區段）|
 | 🔊 語音檔 | `summaries/YYYY-MM-DD.mp3` | 約 13-19 分鐘 |
-| 📬 Telegram | 自動推送 | 時事、科技分開發；Podcast 語音合併發 |
+| 📬 Telegram | 自動推送 | 時事、科技分開發；Podcast 不發音檔，改發 Apple Podcasts 該集連結 |
 
 ## 運作方式
 
