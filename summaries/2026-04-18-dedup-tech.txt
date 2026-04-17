@@ -1,31 +1,31 @@
 # Past 3 days tech dedup digest
 
 ## 2026-04-17
-- OpenAI「Spud」即將發布，Polymarket 押注 78% 四月底前上線  [78% / 95%]
-- Ollama v0.21.0 RC 發布，Gemma 4 支援持續精進
-- Eli Lilly 啟用 LillyPod——製藥業最強 AI 超級電腦
-- llm-anthropic 0.25 釋出
-- Qwen3.6-35B-A3B 在筆電上跑贏 Claude Opus 4.7 畫鵜鶘
-- Stripe 自建 AI Agent「Minions」，每週產出 1,300+ PR
-- PyTorch viable/strict 持續更新
-- LangChain 多套件同步更新：Core 1.3.0a3、OpenAI 1.1.14、HuggingFace 1.2.2
-- Databricks Unity AI Gateway 統一 Agent 治理
-- Google 發表學術 AI Agent：PaperVizAgent + ScholarPeer
-- Reddit 測試 AI 搜尋功能
-- Bitcoin Core v31.0 進入 RC4 階段，Cluster Mempool 為最大亮點
-- Fed 主席提名人 Warsh 持有 30+ 加密投資，需在 4/21 聽證前出清
-- 俄羅斯關聯交易所 Grinex 遭駭 $1,500 萬後暫停營運  [1,500 萬]
-- Morgan Stanley：加密貨幣「已成日常業務」  [10 萬]
-- Metaplanet 目標年底前持有 10 萬 BTC，目前已達 40,177 BTC  [40 億]
-- 超過半數美國數據中心計畫延遲或取消  [65%]
-- Amazon $115.7 億收購 Globalstar，強化 Project Kuiper（Amazon Leo）
-- Sir-Bench：首個安全事件回應代理基準測試  [4,400 萬]
-- C/2025 R3 彗星今日最佳觀測窗口  [4,400 萬]
-- Artemis II 太空人 4/10 安全返回地球
-- 太陽活動：本週第三次遠端噴發，4/17 地磁可能擾動
-- Microsoft 四月 Patch Tuesday：167 漏洞含 2 個零日
-- Chrome 安全更新修補 31 個漏洞，5 個 Critical
-- CERT-UA 揭露針對政府與醫療機構的惡意攻擊  [4 億]
+- Claude Opus 4.7 正式 GA，SWE-bench Verified 87.6% 超越 GPT-5.4 與 Gemini 3.1 Pro  [87.6% / 80.8% / 80.6%]
+- Alibaba 開源 Qwen3.6-35B-A3B：MoE 35B/3B active、Apache 2.0、Terminal-Bench 51.5 勝 Gemma 4
+- Bitcoin Core v31.0 final 發布，核心協議層完成年度大版本
+- Ollama v0.21.0-rc0：MLX backend 修 gemma4 cache 邏輯視圖
+- Simon Willison：Qwen3.6 本地筆電畫鵜鶘勝 Opus 4.7
+- Hugging Face blog：transformers-to-mlx 自動化 PR
+- LangChain-Core 1.3.0a3 alpha：Chat model 呼叫參數納入 traceable metadata
+- OpenClaw 2026.4.15-beta.2：Claude Opus 4.7 成預設、Gemini TTS 首發支援
+- AI Agent × Mastercard／Lobster.cash：代理直接刷卡下單
+- Morgan Stanley MSBT 上市一週吸金 $1 億，費用 0.14% 為市場最低  [0.14% / 530 億]
+- CFTC 主席 Selig 遭眾院質詢：Polymarket 內線、Kalshi 川普家族關係、Hyperliquid 授權
+- Charles Schwab 今啟動現貨 BTC/ETH 交易平台 Schwab Crypto
+- Drift 取得 Tether $1.275 億救援，從 USDC 改押 USDT  [2.8 億 / 1.275 億]
+- Polkadot Hyperbridge 漏洞損失從 $23.7 萬十倍暴增至 $250 萬
+- Andon Labs 實驗：給 AI 一份 3 年零售店面租約自主經營
+- YC W26 Launch：Kampala — 以 MITM 代理把舊系統 agentic 逆向工程成 API
+- Gary Marcus「Peak absurdity Part II」：AI 泡沫的極致
+- IEA 警告歐洲 jet fuel「只剩 6 週」，夏季航班面臨大停飛  [75%]
+- Musk 的「X Money」衝擊 PayPal，加密計畫恐卡關監理：Mizuho 分析
+- Patch Tuesday 4 月版：Microsoft 修 167 個漏洞，含 SharePoint 零日與 Windows Defender「BlueHammer」
+- ollama/ollama
+- bitcoin/bitcoin
+- huggingface/transformers
+- openclaw/openclaw
+- langchain-ai/langchain
 
 ## 2026-04-16
 - Google 發表 Gemini 3.1 Flash TTS：200+ 音訊標籤控制，支援 70+ 語言
