@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-20
+- Anthropic ARR 衝到 $300 億、估值喊到 $8,000 億，正式超車 OpenAI 營收  [300 億 / 250 億 / 8,000 億]
+- Blue Origin New Glenn 首次回收火箭重飛成功，但衛星入錯軌
+- Kelp DAO 駭案擴散：Aave TVL 單日蒸發 $60 億、「DeFi is dead」焦慮蔓延  [2.92 億 / 60 億 / 930 億]
+- Simon Willison 解剖 Opus 4.6 → 4.7 系統 prompt 差異
+- 德國高等地方法院：AI 把照片改畫成漫畫「只抄動機不算侵權」
+- Hugging Face Transformers v5.5.4
+- PyTorch viable/strict：ROCm mi350 上啟用 `test_scaled_mm_deepseek_error_messages`
+- OpenClaw 2026.4.19-beta.2 續修 Opus 4.7 代理路徑  [0%]
+- LangChain 主幹一次到位
+- General Compute 推「ASIC-First」Agent 推論雲
+- LangChain SSRF 硬化延伸包
+- RaveDAO RAVE 代幣單日暴跌 90%，幣安/Bitget 調查內線  [4,500% / 90% / 42%]
+- EasyDNS 承認自己栽了：eth.limo 被社交工程綁走 DNS，28 年來首次
+- 野村研究：65% 機構投資人把加密視為「關鍵分散配置」  [65% / 48% / 12%]
+- 法國「扳手攻擊」成加密圈新夢魘
+- Saylor 把 Strategy 的 STRC 股息改成雙月發放
+- 北京亦庄人形機器人半馬：榮耀「閃電」50 分 26 秒奪冠
+- 華為系工程師創業：臨時鍵合載板「無損回收」獲數千萬天使輪
+- 力源信息 Q1 淨利年增 241%：存儲晶片、MLCC 全面漲價  [28.35 億 / 52.01% / 1.37 億]
+- 東方環宇 2025 年報：營收 ¥13.31 億 (-7.77%)、淨利 ¥2.16 億 (+9.43%)  [9 元]
+- Blue Origin BlueBird 7 入軌異常，AST SpaceMobile 面臨保險協商
+- SpaceX 單日 25 顆 Starlink + 今年第 1,000 顆上軌
+- Apple iPhone 17e 上架跑量
+- Adobe Reader/Acrobat 與 Fortinet EMS 零日正被積極利用
+- AWS 推 Amazon Bio Discovery，Anthropic $4 億併 Coefficient Bio  [4 億]
+
+## 2026-04-19
+- Ollama v0.21.0 推出 Hermes Agent：自動學習使用者工作流程
+- Kelp DAO rsETH bridge 被 LayerZero 路徑攻擊，損失約 $2.92 億美元  [2.92 億]
+- Bitcoin 回落 $76,000，伊朗再度關閉荷莫茲海峽  [2.6% / 5.93 億]
+- PyTorch viable/strict 連發三個修補：ARM 量化 op 禁用、graph capture 重構、XPU 測試修正
+- Hugging Face Transformers v5.5.4：Kimi-K2.5 tokenizer regression 修好
+- Sebastian Raschka 發佈「理解 LLM 架構」個人工作流
+- Simon Willison：「用 Claude Code 加一個 content type 到 blog-to-newsletter 工具」
+- LangChain Core 1.3.0 正式版 + Anthropic 1.4.1 補齊 Opus 4.7 支援
+- LangChain 套件群再補 SSRF 硬化：text-splitters 1.1.2 / huggingface 1.2.2
+- Joseph Lubin 警告：AI 被幾家大型科技公司把持的風險正在擴大
+- Kelp DAO rsETH bridge 被攻擊損失 $2.92 億美元（LayerZero 路徑）
+- Rhea Finance 事故擴大：損失實際為 $1,840 萬，原本估計的兩倍以上  [800 萬 / 1,840 萬]
+- Binance 與 Bitget 同步調查 RAVE 代幣 4,500% 暴漲：疑內線操縱
+- Alcoa 擬把紐約廢棄鋁冶煉廠賣給 Bitcoin 礦商 NYDIG
+- 法院裁定 Caitlyn Jenner 的 JENNER memecoin 不是證券
+- 智元機器人：一個月內量產破萬台、4/17 發表六大 AI 模型 + 七大生產力方案
+- 中國亦莊機器人馬拉松今日開跑，高德揭露首款四足機器人「途途」
+- NASA 敲定用 SpaceX「獵鷹重型」發射 ESA 火星車，2028 年升空
+- 海康威視 2025 年報：營收 ¥925 億、淨利 ¥141.95 億（+18.52%）  [0.01% / 18.5% / 91%]
+- SpaceX Falcon Heavy 將執行 ESA 火星車 2028 年發射任務
+- 雷軍：小米未來幾年不做 10 萬人民幣以下車型  [10 萬 / 10 萬]
+- WeLiveSecurity 警示：詐騙資料外洩通知正在偽裝成真通知
+- ollama/ollama
+- huggingface/transformers
+- langchain-ai/langchain
+
+## 2026-04-18
+- Ollama v0.21.0 推出 Hermes Agent：自我擴增技能的本地 AI 代理
+- Bitcoin 重返 $78,000，WTI 原油爆崩 12%，Trump 口頭拍板荷莫茲「開放且準備好做生意了」  [12.28% / 8.89%]
+- LangChain Core 1.3.0 正式版 + Anthropic 1.4.1 補完 Opus 4.7 feature 對接
+- NVIDIA 發表 Nemotron-OCR v2：用合成資料訓練的快速多語 OCR
+- Simon Willison 放出 `llm-anthropic 0.25`，首批支援 Opus 4.7 `thinking_effort: xhigh`
+- PyTorch viable/strict 分支：Arm CPU 上 SDPA kernel 大幅加速
+- Hugging Face Transformers v5.5.4：Kimi-K2.5 tokenizer regression 修復
+- OpenClaw 2026.4.15-beta：Opus 4.7 升為預設 + Google Gemini TTS 首發
+- LangChain 套件群再補 SSRF 硬化
+- Kraken 母公司 Payward $5.5 億美金收購 Bitnomial，正式落地美國 CFTC-licensed 衍生品場所  [2 億]
+- Circle 被集體訴訟：$2.8 億 Drift 攻擊事件「未及時凍結」USDC
+- Russia-linked Grinex 被盜 $1,500 萬、暫停服務，指控「敵對國家」所為
+- 波蘭總理 Tusk 國會開火：某加密公司受俄羅斯黑幫、情報機關金援資助反對派
+- 法國財長呼籲歐洲銀行擴發歐元穩定幣與代幣化存款，抗衡 $3,000 億美元穩定幣規模  [0.4%]
+- Circle 推 USDC Bridge：基於 CCTP 的原生跨鏈 USDC 轉帳
+- X Cashtags 功能上線後累計 $10 億交易量，Musk super-app 路徑有實據
+- World 推 World ID 「proof of human」升級：Tinder 整合、Zoom 反 deepfake、票務防刮
+- Wrapped XRP 上 Solana，XRP 持有者可直接進 Solana DeFi
+- Citadel Securities 考慮進預測市場，重點不放體育下注、瞄準地緣避險
+- 香港 Flow Capital 將 $1.5 億私募信貸基金上鏈，年底再募 $3,000 萬代幣化股權
+- bitcoin/bitcoin
+- huggingface/transformers
+- pytorch/pytorch
+- Simon Willison — `llm-anthropic 0.25` / `datasette 1.0a28`
+- Hugging Face — Nemotron-OCR v2
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
