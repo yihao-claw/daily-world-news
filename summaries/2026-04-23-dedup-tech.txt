@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-22
+- OpenAI 一口氣推 ChatGPT Images 2.0：2K 輸出、Thinking 模式、多國文字、連續 8 張
+- 紐約州總檢察長告 Coinbase、Gemini：預測市場是非法賭博、COIN 盤中跌 6%
+- Fed 主席提名人 Kevin Warsh 參院聽證：加密「已織進金融結構」、CBDC 是「壞政策」
+- Ollama v0.21.1-rc1：把 Kimi-K2.5 換成 K2.6 成為首選模型
+- Gary Marcus：別信 chatbot 看病——四篇獨立研究都指向同一結論
+- Hugging Face 推 QIMMA：阿拉伯文 LLM 排行榜、強調「品質優先」  [4 億]
+- Hugging Face + NVIDIA：用 Nemotron Persona 造韓國人口學真實的 AI agent
+- Simon Willison：「我支持 Steve Cosman 汙染『鵜鶘騎腳踏車』訓練集」
+- Andreas Påhlsson-Notini：「AI agents 已經太像人了——而且是糟糕的那一面」
+- LangChain `langchain-openai==1.1.16`：修 streaming 時 prompt_cache_retention 漂移
+- openclaw 2026.4.20：Setup wizard 改版、首次 model catalog 加 loading spinner
+- `langchain-text-splitters==1.1.2`：`split_text_from_url` 換成 SSRF-safe transport
+- LlamaIndex v0.14.21：DocumentSummaryIndex KeyError 修補
+- CrewAI 1.14.3a2：支援 Bedrock V4 + Daytona sandbox + 「Build with AI」文檔
+- 紐約告 Coinbase / Gemini 預測市場 — COIN 盤中 -6%
+- DoorDash + Stripe 的 Tempo 區塊鏈：外送員與商家穩定幣結算、40+ 國  [50 億 / 3,000 億]
+- Kelp DAO $2.92 億駭客開始跨鏈搬錢 — Arbitrum ETH 凍結後找新出口  [60 億]
+- Etherealize：ETH 長線價格目標調到 $250,000  [10 萬 / 25 萬 / 65%]
+- Circle 股價月漲 30%、與 Coinbase 脫鉤：穩定幣成長跑贏交易所主題
+- 馬斯克去年增持 SpaceX 股票 $14 億美元  [14 億]
+- 「Scattered Spider」成員 Tylerb 認罪：wire fraud + 嚴重身份盜竊
+- 荷莫茲海峽詐騙：假冒要求船隻支付 BTC / USDT 當「過境費」
+- 智界 V9 給供應商下 12 萬輛/年產能量綱、5 月發表、鴻蒙智行首款 MPV  [6,000 億]
+- 長安汽車：2030 年營收 6,000 億人民幣、進世界車廠前十  [6,000 億 / 400 萬 / 60%]
+- 猛士汽車 × 華為乾崑：兩年內 4+ 款新車落地「智能越野黑科技」  [9,663 萬 / 2,520 億 / 12.4%]
+
+## 2026-04-21
+- Bitcoin Core 31.0 正式發布，時隔三年再跨大版號
+- Saylor 的 Strategy 再掃 34,164 枚 BTC、總持倉突破 80 萬枚  [610 億 / 2,100 萬 / 3.8%]
+- LayerZero：Kelp DAO 被駭疑為北韓 Lazarus 集團所為，DeFi 一週蒸發 $6 億、TVL 跌到 12 個月低點
+- PyTorch viable/strict 連發 2 個 hotfix
+- Simon Willison：Opus 4.7 是首個更換 tokenizer 的 Claude 模型
+- OpenAI 宣布 Hyatt 集團全球員工導入 ChatGPT Enterprise  [15 萬]
+- Simon Willison：「Headless everything for personal AI」
+- Simon Willison TIL：Google Sheets 直接拉 Datasette
+- Ollama v0.21.0 Hermes Agent + Gemma 4 MLX 正式版
+- LangChain 放出 langchain-openai 1.1.15
+- OpenClaw 2026.4.19-beta.2 又補一刀  [0%]
+- CrewAI 1.14.3a1 正式支援 checkpoint 與 fork
+- Coinbase 把 x402 協議變成「AI bots 的 App Store」
+- Coinbase 用 AI Agent 模仿前高管給員工建議
+- Grayscale Hyperliquid ETF 修正案：Coinbase 被踢掉，Anchorage 接手託管
+- BIS：穩定幣行為更像 ETF 而非貨幣，警告 \$3,000 億美元市場缺乏全球規範將碎片化
+- Polymarket 尋求 \$4 億新融資，估值衝上 \$150 億  [90 億 / 67%]
+- Tom Lee 宣告加密寒冬接近終點，Bitmine 一週再買 101,627 枚 ETH  [4.12% / 10 萬 / 14 億]
+- Ripple 加速讓 XRP Ledger 抗量子化，宣稱比以太坊更早準備好
+- 天齐锂业 Q1 净利年增 1,530%–1,818%  [20 億 / 1 億 / 250%]
+- 華為發布首款鴻蒙 AI 眼鏡
+- 螞蟻「靈光」升級「靈光圈」：一人應用時代擴張社交屬性
+- 時駕科技拿下頭部車企 MPV 空懸獨家定點，Q4 SOP
+- VFS Global：2026 Q1 中國申根簽申請量年增 20%，旺季提前兩個月  [95% / 20% / 800 萬]
+- Tether 再出手：\$800 萬投資 RWA 新創 Kaio、並揭露約 200 萬股 Bitmain 關聯公司 Antalpha 持股  [27%]
+
+## 2026-04-20
+- Anthropic ARR 衝到 $300 億、估值喊到 $8,000 億，正式超車 OpenAI 營收  [300 億 / 250 億 / 8,000 億]
+- Blue Origin New Glenn 首次回收火箭重飛成功，但衛星入錯軌
+- Kelp DAO 駭案擴散：Aave TVL 單日蒸發 $60 億、「DeFi is dead」焦慮蔓延  [2.92 億 / 60 億 / 930 億]
+- Simon Willison 解剖 Opus 4.6 → 4.7 系統 prompt 差異
+- 德國高等地方法院：AI 把照片改畫成漫畫「只抄動機不算侵權」
+- Hugging Face Transformers v5.5.4
+- PyTorch viable/strict：ROCm mi350 上啟用 `test_scaled_mm_deepseek_error_messages`
+- OpenClaw 2026.4.19-beta.2 續修 Opus 4.7 代理路徑  [0%]
+- LangChain 主幹一次到位
+- General Compute 推「ASIC-First」Agent 推論雲
+- LangChain SSRF 硬化延伸包
+- RaveDAO RAVE 代幣單日暴跌 90%，幣安/Bitget 調查內線  [4,500% / 90% / 42%]
+- EasyDNS 承認自己栽了：eth.limo 被社交工程綁走 DNS，28 年來首次
+- 野村研究：65% 機構投資人把加密視為「關鍵分散配置」  [65% / 48% / 12%]
+- 法國「扳手攻擊」成加密圈新夢魘
+- Saylor 把 Strategy 的 STRC 股息改成雙月發放
+- 北京亦庄人形機器人半馬：榮耀「閃電」50 分 26 秒奪冠
+- 華為系工程師創業：臨時鍵合載板「無損回收」獲數千萬天使輪
+- 力源信息 Q1 淨利年增 241%：存儲晶片、MLCC 全面漲價  [28.35 億 / 52.01% / 1.37 億]
+- 東方環宇 2025 年報：營收 ¥13.31 億 (-7.77%)、淨利 ¥2.16 億 (+9.43%)  [9 元]
+- Blue Origin BlueBird 7 入軌異常，AST SpaceMobile 面臨保險協商
+- SpaceX 單日 25 顆 Starlink + 今年第 1,000 顆上軌
+- Apple iPhone 17e 上架跑量
+- Adobe Reader/Acrobat 與 Fortinet EMS 零日正被積極利用
+- AWS 推 Amazon Bio Discovery，Anthropic $4 億併 Coefficient Bio  [4 億]
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
