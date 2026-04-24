@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-24
+- OpenAI 發表 GPT-5.5：GDPval 84.9%、Terminal-Bench 2.0 跑贏 Claude Mythos Preview，API 定價 $5 / $30  [84.9% / 75.1% / 82.7%]
+- Meta 裁員 10%、約 8,000 人，5 月 20 日啟動，6,000 個在招職缺同步取消  [1,150 億 / 1,350 億 / 720 億]
+- Anthropic 公開 Claude Code 降智 Postmortem：鎖定三個獨立 bug、非 API 端問題  [3%]
+- Hugging Face Transformers v5.6.2 Patch：修復 Qwen 3.5 / 3.6 MoE 在 FP8 下壞掉的問題
+- Ollama v0.21.2-rc0：正式把 OpenClaw 的 ollama web search 內建綁進二進位發行
+- Simon Willison：「Gathering Structures」引用 Maggie Appleton，數位花園/Podcast 是職涯外掛
+- LangChain `langchain-openai==1.2.0`：阻止 ChatOpenAI streaming 靜默掛起
+- OpenClaw 2026.4.22：xAI provider 完整打通 image / TTS / STT
+- CrewAI 1.14.3a3：支援 e2b sandbox、Azure DefaultAzureCredential fallback  [3.44 億]
+- Tether 凍結 $3.44 億 USDT（Tron），與 OFAC / 美國執法部門協同行動  [2.13 億 / 1.31 億 / 44 億]
+- BTC 從近 $80,000 回檔：WTI 原油單日 +3.77% 壓掉風險資產胃口  [0.65% / 2.57% / 3.9%]
+- BIS + JPMorgan 同日發聲：交易所「影子銀行化」、DeFi 資安問題擋機構入場  [2.92 億]
+- Pantera 要求 Satsuma 倒掉 BTC 部位，DAT 股價崩 99%  [99%]
+- Blockchain Capital 再募 $7 億、100+ 加密公司連署催參院過市場結構法案  [7 億]
+- The Verge Podcast：「People Do Not Yearn for Automation」
+- PyTorch viable/strict 夜間流水線：Dynamo DataPtr 判等、vllm hash 更新、onehot XPU 連發 5 個 PR
+- 天文學家找到銀河系邊界：光暈外緣被量出有效物理邊界
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- Anthropic Engineering — April 23 Postmortem
+- Simon Willison — Quoting Maggie Appleton
+- The Verge Podcast — People Do Not Yearn for Automation  [0.65%]
+- BTC/USD  [0.65% / 2.57% / 0.39%]
+- ETH/USD  [2.57% / 0.39% / 3.77%]
+
+## 2026-04-23
+- Qwen3.6-27B 開源：27B 稠密模型壓過自家 397B MoE，檔案從 807GB 縮到 55.6GB
+- GitHub Copilot 大改價：Claude Opus 4.7 踢到 Pro+ \$39/月、個人版暫停註冊、舊 Opus 全下架
+- 紐約州長 Hochul 簽行政令：禁州府員工用內部資訊賭預測市場  [6%]
+- Hugging Face Transformers v5.6.0 釋出：內建 OpenAI Privacy Filter
+- Ollama v0.21.1：Kimi CLI 直接整合、MLX runner 新增 logprobs
+- Anthropic「Claude Mythos Preview」早期版協助 Firefox 150 修掉 271 個安全漏洞
+- Gary Marcus 連發兩文質疑 ChatGPT Images 2.0：「連攪拌器和手肘都分不清」
+- 「Over-editing」：研究者量化 LLM 改動超出必要範圍的行為
+- OpenAI 發表 Workspace Agents in ChatGPT
+- Zed Editor 推「Parallel Agents」
+- openclaw 2026.4.21：圖像生成預設 gpt-image-2、廣告 2K/4K size hints
+- LangChain 放出 langchain-openai 1.1.16：修 streaming 時 prompt_cache_retention 漂移
+- CrewAI 1.14.3a3：支援 e2b sandbox、Azure DefaultAzureCredential 回退
+- SBF 撤回重審動議：「從 Kaplan 法官拿不到公平聽證」
+- Kalshi × Pyth 推「Commodities Hub」：黃金、原油、鋰 24/7 報價
+- 穩定幣獎勵條款談判取得進展、但利益衝突疑慮再起
+- 法國「扳手攻擊」再升級：武裝歹徒闖民宅逼轉 \$82 萬加密
+- GSR 推 Core3 加密 ETF：BTC / ETH / SOL 多資產主動型基金  [12% / 0.6%]
+- 「Website streamed live directly from a model」：flipbook.page 首發
+- PyTorch Windows FBGEMM 註冊問題修復
+- LangChain text-splitters 1.1.2：\`split_text_from_url\` 換成 SSRF-safe transport
+- 新版 NGate：偽裝成 NFC 支付 App 的木馬
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+
+## 2026-04-22
+- OpenAI 一口氣推 ChatGPT Images 2.0：2K 輸出、Thinking 模式、多國文字、連續 8 張
+- 紐約州總檢察長告 Coinbase、Gemini：預測市場是非法賭博、COIN 盤中跌 6%
+- Fed 主席提名人 Kevin Warsh 參院聽證：加密「已織進金融結構」、CBDC 是「壞政策」
+- Ollama v0.21.1-rc1：把 Kimi-K2.5 換成 K2.6 成為首選模型
+- Gary Marcus：別信 chatbot 看病——四篇獨立研究都指向同一結論
+- Hugging Face 推 QIMMA：阿拉伯文 LLM 排行榜、強調「品質優先」  [4 億]
+- Hugging Face + NVIDIA：用 Nemotron Persona 造韓國人口學真實的 AI agent
+- Simon Willison：「我支持 Steve Cosman 汙染『鵜鶘騎腳踏車』訓練集」
+- Andreas Påhlsson-Notini：「AI agents 已經太像人了——而且是糟糕的那一面」
+- LangChain `langchain-openai==1.1.16`：修 streaming 時 prompt_cache_retention 漂移
+- openclaw 2026.4.20：Setup wizard 改版、首次 model catalog 加 loading spinner
+- `langchain-text-splitters==1.1.2`：`split_text_from_url` 換成 SSRF-safe transport
+- LlamaIndex v0.14.21：DocumentSummaryIndex KeyError 修補
+- CrewAI 1.14.3a2：支援 Bedrock V4 + Daytona sandbox + 「Build with AI」文檔
+- 紐約告 Coinbase / Gemini 預測市場 — COIN 盤中 -6%
+- DoorDash + Stripe 的 Tempo 區塊鏈：外送員與商家穩定幣結算、40+ 國  [50 億 / 3,000 億]
+- Kelp DAO $2.92 億駭客開始跨鏈搬錢 — Arbitrum ETH 凍結後找新出口  [60 億]
+- Etherealize：ETH 長線價格目標調到 $250,000  [10 萬 / 25 萬 / 65%]
+- Circle 股價月漲 30%、與 Coinbase 脫鉤：穩定幣成長跑贏交易所主題
+- 馬斯克去年增持 SpaceX 股票 $14 億美元  [14 億]
+- 「Scattered Spider」成員 Tylerb 認罪：wire fraud + 嚴重身份盜竊
+- 荷莫茲海峽詐騙：假冒要求船隻支付 BTC / USDT 當「過境費」
+- 智界 V9 給供應商下 12 萬輛/年產能量綱、5 月發表、鴻蒙智行首款 MPV  [6,000 億]
+- 長安汽車：2030 年營收 6,000 億人民幣、進世界車廠前十  [6,000 億 / 400 萬 / 60%]
+- 猛士汽車 × 華為乾崑：兩年內 4+ 款新車落地「智能越野黑科技」  [9,663 萬 / 2,520 億 / 12.4%]
+
+Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.
