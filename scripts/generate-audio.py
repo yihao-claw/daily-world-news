@@ -28,8 +28,29 @@ if os.path.isdir(HOMEBREW_BIN) and HOMEBREW_BIN not in os.environ.get("PATH", ""
 SFX_SENTINEL = "___SFX_TRANSITION___"
 
 
+def normalize_dates(text: str) -> str:
+    """把 M/D 與 M/D-D 改寫成中文日期，避免 TTS 唸成「斜線」"""
+    def fix_range(m):
+        mo, d1, d2 = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if 1 <= mo <= 12 and 1 <= d1 <= 31 and 1 <= d2 <= 31:
+            return f"{mo}月{d1}到{d2}日"
+        return m.group(0)
+
+    def fix_single(m):
+        mo, d = int(m.group(1)), int(m.group(2))
+        if 1 <= mo <= 12 and 1 <= d <= 31:
+            return f"{mo}月{d}日"
+        return m.group(0)
+
+    text = re.sub(r'(?<!\d)(\d{1,2})/(\d{1,2})-(\d{1,2})(?!\d)', fix_range, text)
+    text = re.sub(r'(?<!\d)(\d{1,2})/(\d{1,2})(?!\d)', fix_single, text)
+    return text
+
+
 def md_to_script(text: str) -> str:
     """將 markdown 轉成適合播報的純文字"""
+    # 日期格式 M/D → M月D日，避免 TTS 唸出「斜線」
+    text = normalize_dates(text)
     # 將 [🎵 ...] 標記替換為哨兵（稍後用音效替代）
     text = re.sub(r'\[🎵[^\]]*\]', SFX_SENTINEL, text)
     # 移除 markdown 連結，保留文字
