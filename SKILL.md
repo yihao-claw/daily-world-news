@@ -55,19 +55,21 @@ bash scripts/run.sh preflight
    總長維持 13-19 min. **Podcast 不含市場快報區段**（市場數據只留在 Telegram 時事/科技 digest），釋出的時間用來加深時事與科技的分析。三區制與類別變化事件清單見 Rules。Style in Rules.
 3. `bash scripts/run.sh audio` — validates + generates `summaries/${TODAY}.mp3` (TTS retry 2x on 503).
 
-## PHASE 4 — Finalize (validate + push to GitHub)
+## PHASE 4 — Validate (gate)
 
 ```
 bash scripts/run.sh finalize
 ```
 
-執行內容：`validate.py` → `git add -A` → `git commit -m "📰 每日新聞摘要 ${TODAY}"` → **`git push` 推回 GitHub**（必做，不可略過）。若 push 失敗必須檢查原因並重試，不能只靠 `|| echo "push skipped"` 默默放過。
+純跑 `validate.py`（人名一致性、來源連結、市場資料規則、與昨天 dedup）。fail → sys.exit(1)，後面 phase 全部不跑。**這個 phase 不做 git ops**——commit/push 移到 PHASE 5 結束後做，這樣才能把 publish 階段重生的 `feed.xml` 一起捕進當日 commit。
 
 ## PHASE 5 — Publish (auto by cron / manual on demand)
 
 ```
-bash scripts/run.sh publish    # upload-r2 mp3 + generate-rss + upload feed.xml + 推 Apple Podcasts 連結到 Telegram
+bash scripts/run.sh publish
 ```
+
+執行內容：upload-r2 mp3 → generate-rss → upload feed.xml → 推 Apple Podcasts 連結到 Telegram → `git add -A` + `git commit -m "📰 每日新聞摘要 ${TODAY}"` + **`git push` 推回 GitHub**（必做，不可略過）。push 失敗必須檢查原因並重試，不能只靠 `|| echo "push skipped"` 默默放過。
 
 ---
 

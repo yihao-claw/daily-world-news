@@ -69,16 +69,10 @@ case "$PHASE" in
     ;;
 
   finalize)
+    # Pure validation gate — fails sys.exit(1) on any check failure, blocks publish.
+    # git ops moved to publish so the regenerated feed.xml is captured in the daily commit.
     python3 scripts/validate.py "${TODAY}"
-    git add -A
-    if git diff --cached --quiet; then
-      echo "nothing to commit"
-    else
-      git commit -m "📰 每日新聞摘要 ${TODAY}"
-    fi
-    # Push is mandatory — fail loudly so the LLM can retry/diagnose
-    git push
-    echo "FINALIZE_OK pushed to $(git rev-parse --abbrev-ref HEAD)"
+    echo "VALIDATE_OK"
     ;;
 
   publish)
@@ -87,6 +81,16 @@ case "$PHASE" in
     bash scripts/upload-r2.sh "summaries/feed.xml" "feed.xml"
     # Poll iTunes for today's episode link, send Telegram message (falls back to show URL on timeout)
     python3 scripts/send_apple_link.py --date "${TODAY}"
+    # git ops moved here from finalize so the freshly regenerated feed.xml is in the same commit
+    git add -A
+    if git diff --cached --quiet; then
+      echo "nothing to commit"
+    else
+      git commit -m "📰 每日新聞摘要 ${TODAY}"
+    fi
+    # Push is mandatory — fail loudly so cron/LLM can retry/diagnose
+    git push
+    echo "PUBLISH_OK pushed to $(git rev-parse --abbrev-ref HEAD)"
     ;;
 
   *)
