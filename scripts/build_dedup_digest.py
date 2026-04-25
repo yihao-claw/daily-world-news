@@ -65,7 +65,9 @@ def build(kind: str) -> str:
         out.append(f"## {d}")
         out.extend(items)
         out.append("")
-    out.append("Apply New Development Test: only include a story if it has new facts / numbers / reactions vs. the above.")
+    out.append("以上是過去 3 天已充分報導的故事，**預設一律不進新事區**。")
+    out.append("有 1 句新 fact → 延續區（1 句封頂）；發生類別變化事件 → 深度區（每集最多 1 則）；")
+    out.append("其他 → 直接刪除。詳見 SKILL.md「三區制」與「類別變化事件清單」。")
     return "\n".join(out)
 
 

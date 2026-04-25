@@ -48,7 +48,11 @@ bash scripts/run.sh preflight
 ## PHASE 3 — Combined Podcast
 
 1. Bump `episode-counter.txt` → EP number.
-2. Write `summaries/${TODAY}-podcast.md` (6000–10000 字, min 4000 字 / 12000 bytes). Structure: 開場 → 時事 → 過場(口語，**不要 `[🎵 轉場]` 標記**) → 科技 → 結尾. **Podcast 不含市場快報區段**（市場數據只留在 Telegram 時事/科技 digest），釋出的時間用來加深時事與科技的分析。Style in Rules.
+2. Write `summaries/${TODAY}-podcast.md` (6000–10000 字, min 4000 字 / 12000 bytes). Structure:
+   開場 30s → 時事【新事區 + 延續區 + 深度區】→ 自然過場(口語，**不要 `[🎵 轉場]` 標記**) → 科技【新事區 + 延續區 + 深度區】→ 結尾 30s.
+   時事新事區 5-7 min / 延續區 60-90s / 深度區 0 或 1-2 min（僅當有類別變化事件）.
+   科技新事區 4-6 min / 延續區 45-60s / 深度區 0 或 1-2 min（同上條件）.
+   總長維持 13-19 min. **Podcast 不含市場快報區段**（市場數據只留在 Telegram 時事/科技 digest），釋出的時間用來加深時事與科技的分析。三區制與類別變化事件清單見 Rules。Style in Rules.
 3. `bash scripts/run.sh audio` — validates + generates `summaries/${TODAY}.mp3` (TTS retry 2x on 503).
 
 ## PHASE 4 — Finalize (validate + push to GitHub)
@@ -72,8 +76,29 @@ bash scripts/run.sh publish    # upload-r2 mp3 + generate-rss + upload feed.xml 
 ### Tech scoring (already done by gather_tech.py)
 Base 5; +3 priority source; +3 multi-source; +2 <24h; +3 Reddit>500 / +1 >200; +3 GitHub trending; −5 yesterday dup; −2 unknown source. Min publish = 5. `raw-tech.json` is already filtered.
 
-### Dedup (New Development Test)
-For every candidate, compare to dedup digest: **new facts/numbers/reactions → keep**; 同題微更新(如價格變動 1%) → 壓縮一句或合併; 無新進展 → 刪除; 連續 3 天無實質變化 → 必刪. 標題相似度 >85% → 合併. 跨區塊: 時事保留政治角度、科技保留技術角度.
+### 三區制（新事 / 延續 / 深度）— Podcast 專用
+
+dedup digest 不是「TODO 清單」，是「黑名單」。看到一則候選先做這個 router：
+
+1. 該故事**不在過去 3 天 dedup digest** → 進【新事區】，正常深度 2-4 段.
+2. 該故事**已在 dedup digest（任何一天）** → 進【延續區】，硬上限 1 句更新；無新 fact 可講 → 直接刪掉，不要寫「沒有新進展」這種廢話.
+3. 例外：當天該故事發生「**類別變化事件**」（見下方清單）→ 進【深度區】，每集**最多 1 則**；其餘符合條件的故事仍降級到延續區.
+
+**延續區寫法**：合併成 1 段，每則 1 句，中性連接詞串起來（「另外」「同時」「比較短的幾條」）。範例：「伊朗第 57 天，威特科夫跟 Araghchi 的會面延到禮拜天；歐盟 900 億貸款今天蓋章；杜特蒂的開審日確定 5 月 12；BOJ 利率決議倒數 2 天，市場押注降到 38%。」
+
+**Telegram digest（非 podcast）夾帶的舊規則仍適用**：標題相似度 >85% → 合併. 跨區塊: 時事保留政治角度、科技保留技術角度.
+
+### 類別變化事件清單（深度區唯一通行證）
+
+只有以下事件**今天**發生才能讓延續故事進深度區。寫之前先在心裡對清單，不在的不准升級。不確定 → 走延續區，不要冒險升級。
+
+- **司法**：判決宣判 / 起訴正式提交 / 引渡執行 / 死刑執行 / 重大法案通過
+- **戰爭/衝突**：開戰 / 停火協議簽署 / 停火正式破裂 / 單一事件 ≥50 人傷亡 / 領袖被擊殺被捕 / 領土易手 / 核設施被攻擊
+- **政治**：選舉結果公布 / 政變成功失敗 / 領袖辭職下台 / 內閣總辭 / 彈劾通過
+- **經濟**：央行利率決議公布（與市場預期相反才算）/ 主要指標單日波動 ≥5% / 主權違約 / 重大企業破產 / 跨國併購正式完成
+- **災害**：自然災害死亡 ≥100 / 核事故 / 流行病跨國爆發
+- **外交**：斷交 / 復交 / 重大條約簽署 / 領袖首訪敵對國
+- **科技**：旗艦級產品發表（GPT-5 / Claude 5 等級）/ 融資 ≥10 億美元公布 / IPO 上市或下市 / 重大資安事件（用戶數 ≥1000 萬）/ SpaceX-NASA 級別發射
 
 ### Counter-perspective (mandatory)
 - 時事格式 A: 每則重大新聞必含至少一個反對觀點，格式 `🔻 [來源/立場]：[觀點]`.
@@ -136,7 +161,7 @@ For every candidate, compare to dedup digest: **new facts/numbers/reactions → 
 - Telegram: 不用 markdown 表格, 純 bullet + bold.
 
 ### Podcast style
-轉角國際 / The Daily 風格的 podcast 主持人. 繁中口語. 用「你」稱呼聽眾. 有觀點有分析. 數字口語化（「跌了超過兩個百分點」而非「2.3%」）. 禁: emoji、markdown、`[🎵 轉場]`、「根據報導/據悉」、逐條念標題、重複昨天、**獨立的市場快報段**(禁止 podcast 出現「市場快報」「股市」「指數」等專門段落；股價/匯率/加密幣數字若要出現，只能順帶帶過，不另闢段落). 延續新聞：有新進展就「昨天跟你聊過X，今天又變了」；無新進展直接跳過. 結構: **開場 30s（只提最重要的 1-2 個重點，不要逐條預告）** → 時事 **7-11 min**(5-7 主題段，比過去多 1 段或加深 1 段背景/觀點) → 自然過場 → 科技 **6-9 min**(4-6 段，多一段深入解析或加碼一個 topic) → 結尾 30s. 總長維持原本 13-19 分鐘區間，把原本市場 1 min 的時間平均分回時事與科技。
+轉角國際 / The Daily 風格的 podcast 主持人. 繁中口語. 用「你」稱呼聽眾. 有觀點有分析. 數字口語化（「跌了超過兩個百分點」而非「2.3%」）. 禁: emoji、markdown、`[🎵 轉場]`、「根據報導/據悉」、逐條念標題、重複昨天、**獨立的市場快報段**(禁止 podcast 出現「市場快報」「股市」「指數」等專門段落；股價/匯率/加密幣數字若要出現，只能順帶帶過，不另闢段落). **延續區寫法**：1 句講新 fact，**禁止重述背景**——不解釋 ICC 是什麼、Druzhba 是哪條管線、賴清德為什麼要去史瓦帝尼。假設聽眾聽過昨天那集（訂戶模型是「每天聽」，不是隨機路過）. **深度區**因為符合類別變化事件、值得重開，可以給最少必要背景（≤2 句），但不能完整重講前情提要. 結構: **開場 30s（只提最重要的 1-2 個重點，不要逐條預告）** → 時事 **7-11 min**【新事 5-7 min / 延續 60-90s / 深度 0 或 1-2 min】 → 自然過場 → 科技 **6-9 min**【新事 4-6 min / 延續 45-60s / 深度 0 或 1-2 min】 → 結尾 30s. 總長維持原本 13-19 分鐘區間。三區制 router 與類別變化事件清單見上方 Rules。
 
 ---
 
