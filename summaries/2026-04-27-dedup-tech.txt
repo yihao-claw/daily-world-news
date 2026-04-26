@@ -1,0 +1,86 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-26
+- OpenClaw 2026.4.24 穩定版：Google Meet 內建外掛、DeepSeek V4 Flash + V4 Pro 入主目錄
+- OpenAI 一次補三槍：GPT-5.5 prompting 指南、生物安全 bug bounty、確認沒有獨立 Codex 版本
+- 不會再出 GPT-5.5-Codex
+- CFTC 三週內第四度告州、Brazil 直接把 Kalshi + Polymarket 全面封殺
+- Simon Willison 釋出 llm 0.31
+- GPT-5.5 prompting guide 釋出
+- 「ChatGPT Images 2.0 自己加了一塊『WHY ARE YOU LIKE THIS』看板」
+- Hugging Face Transformers v5.6.2 patch
+- ollama v0.21.3-rc0
+- OpenClaw 2026.4.24 把 DeepSeek V4 Flash + V4 Pro 排進預設
+- langchain-openai==1.2.1
+- langchain-fireworks==1.2.0
+- Coinbase / Alchemy 同調：「Crypto is built for AI agents, not humans」
+- LlamaIndex v0.14.21
+- BlackRock IBIT 創 spot ETF 里程碑
+- Aave / Kelp / LayerZero 連署要 Arbitrum DAO 解凍 7,100 萬美元 ETH
+- Trump「最 exclusive 加密晚會」陣容曝光
+- 量子破解威脅升溫：6.9M BTC（含中本聰錢包）受影響
+- JPMorgan：tokenization 會吃掉整個 funds 產業，但「好的應用情境」還要幾年
+- 「BTC 在 \$40,000 是接近統計上不可能的事件」  [4 萬 / 99%]
+- Niri 26.04 釋出
+- Framework Laptop 13 Pro 揭曉
+- HEALPix 重新爆紅
+- 「Hokusai and Tesselations」國立國會圖書館數位資料登 HN
+- 「It's OK to use agentic to revive projects you never were going to finish」
+
+## 2026-04-25
+- DeepSeek V4 Preview 空降：1.6T 總參數、49B 啟用、1M 上下文、MIT 授權  [100 萬 / 90.1%]
+- OpenAI 正式把 GPT-5.5 與 GPT-5.5 Pro 放進 API
+- 美國制裁伊朗加密錢包，Tether 一日後凍結 3.44 億 USDT  [3.44 億]
+- Hugging Face Transformers v5.6.2 Patch Release
+- Ollama v0.21.3-rc0
+- Anthropic 公開 Claude Code 降智三 bug 事後剖告，Simon Willison 追蹤
+- Simon Willison：DeepSeek V4 拆解筆記
+- honker：Postgres NOTIFY/LISTEN 語意 for SQLite
+- LangChain langchain-openai==1.2.1
+- OpenClaw 2026.4.23 穩定版 + beta.3
+- LangChain langchain-fireworks==1.2.0
+- CrewAI 1.14.3 釋出
+- Bitcoin Core 31.0 正式版 + v27 最終版同日放出
+- DOJ 撤銷對鮑爾調查，親加密的 Kevin Warsh 鋪路進 Fed 主席  [0.78%]
+- Spot Bitcoin ETF 連 8 日淨流入、累計 20 億美元  [2.232 億 / 1.675 億]
+- Fluent 推 Ethereum L2 主網與 BLEND 代幣、原生穩定幣首日流動性 5,000 萬美元  [5,000 萬]
+- 田納西州全州禁用加密 ATM，繼 Indiana 後第二州
+- 研究員在公開量子電腦破解 15-bit 橢圓曲線金鑰，拿走 1 BTC 懸賞
+- PyTorch 夜間修補 `MemoryReadAdapter::read` OOB 讀取
+- CC-Canary：偵測 Claude Code 退步的早期指標
+- SFO 每日減 90 分鐘播音：旅客反饋「像換了一座機場」
+- CSS 當作查詢語言：evdc.me 的實驗
+- Rode Caster Duo 韌體預設開 SSH
+- ollama/ollama
+- huggingface/transformers
+
+## 2026-04-24
+- OpenAI 發表 GPT-5.5：GDPval 84.9%、Terminal-Bench 2.0 跑贏 Claude Mythos Preview，API 定價 $5 / $30  [84.9% / 75.1% / 82.7%]
+- Meta 裁員 10%、約 8,000 人，5 月 20 日啟動，6,000 個在招職缺同步取消  [1,150 億 / 1,350 億 / 720 億]
+- Anthropic 公開 Claude Code 降智 Postmortem：鎖定三個獨立 bug、非 API 端問題  [3%]
+- Hugging Face Transformers v5.6.2 Patch：修復 Qwen 3.5 / 3.6 MoE 在 FP8 下壞掉的問題
+- Ollama v0.21.2-rc0：正式把 OpenClaw 的 ollama web search 內建綁進二進位發行
+- Simon Willison：「Gathering Structures」引用 Maggie Appleton，數位花園/Podcast 是職涯外掛
+- LangChain `langchain-openai==1.2.0`：阻止 ChatOpenAI streaming 靜默掛起
+- OpenClaw 2026.4.22：xAI provider 完整打通 image / TTS / STT
+- CrewAI 1.14.3a3：支援 e2b sandbox、Azure DefaultAzureCredential fallback  [3.44 億]
+- Tether 凍結 $3.44 億 USDT（Tron），與 OFAC / 美國執法部門協同行動  [2.13 億 / 1.31 億 / 44 億]
+- BTC 從近 $80,000 回檔：WTI 原油單日 +3.77% 壓掉風險資產胃口  [0.65% / 2.57% / 3.9%]
+- BIS + JPMorgan 同日發聲：交易所「影子銀行化」、DeFi 資安問題擋機構入場  [2.92 億]
+- Pantera 要求 Satsuma 倒掉 BTC 部位，DAT 股價崩 99%  [99%]
+- Blockchain Capital 再募 $7 億、100+ 加密公司連署催參院過市場結構法案  [7 億]
+- The Verge Podcast：「People Do Not Yearn for Automation」
+- PyTorch viable/strict 夜間流水線：Dynamo DataPtr 判等、vllm hash 更新、onehot XPU 連發 5 個 PR
+- 天文學家找到銀河系邊界：光暈外緣被量出有效物理邊界
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+- Anthropic Engineering — April 23 Postmortem
+- Simon Willison — Quoting Maggie Appleton
+- The Verge Podcast — People Do Not Yearn for Automation  [0.65%]
+- BTC/USD  [0.65% / 2.57% / 0.39%]
+- ETH/USD  [2.57% / 0.39% / 3.77%]
+
+以上是過去 3 天已充分報導的故事，**預設一律不進新事區**。
+有 1 句新 fact → 延續區（1 句封頂）；發生類別變化事件 → 深度區（每集最多 1 則）；
+其他 → 直接刪除。詳見 SKILL.md「三區制」與「類別變化事件清單」。
