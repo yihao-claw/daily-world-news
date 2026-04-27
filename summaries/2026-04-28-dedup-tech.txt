@@ -1,0 +1,86 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-27
+- Anthropic Claude Mythos「太危險不發布」的模型遭外洩，第三方承包商員工用 Mercor 洩漏憑證猜出 API URL
+- Google Cloud Next 2026 押注「代理人即基礎設施」：Gemini Enterprise Agent Platform 一統 Vertex AI 與 A2A 協作
+- Insilico Medicine Rentosertib Phase IIa 登 Nature Medicine：第一個「端到端 AI 設計藥物」拿到臨床 proof-of-concept  [600 萬 / 1 億 / 2 億]
+- Anthropic 推 Claude Managed Agents：$0.08 / session-hour + tokens
+- OpenAI 4月22日推 ChatGPT for Clinicians 免費版
+- Claude Opus 4.6 在 LMSYS Chatbot Arena 維持龍頭  [65.3%]
+- DeepSeek V4 Preview 後續觀察
+- Google Gemini Enterprise Agent Platform 重點拆解
+- 2026 年 4 月被定義為「代理人從試點走進基礎設施」的轉折月
+- Q1 2026 全球創投 3,000 億美元、AI 吃掉 80%（2,420 億）  [1,220 億 / 300 億 / 200 億]
+- Aave 募到 1.6 億美元（80% of 2 億美元目標）  [7,100 萬 / 130 億]
+- Litecoin 遭分散式阻斷服務攻擊，連回滾 13 個區塊、抹掉首次重大隱私層出包
+- 比特幣鯨魚資金費率轉深負仍持續加碼長倉
+- Coinbase John D'Agostino 在公開談話補一句  [1,960 億 / 99%]
+- Geely 在北京車展發表 Eva Cab：中國首款原生 Robotaxi  [1,960 億 / 99%]
+- Tesla Robotaxi 4月20日 擴張到德州 Dallas、Houston，價格比 Waymo 便宜 56%  [6.15 美元]
+- WeRide 2026 計劃出貨 2,000 台 GXR
+- Cerebras Systems 4月18日遞 IPO 申請
+- SpaceX Starship Flight 12（V3 首飛）滑出 4 月底窗口，重新定 5月 NET
+- Tesla 在德州 Dallas、Houston 推不需安全員 Robotaxi
+- CISA 4月25日把 4 個 KEV 加進主動利用清單
+- 4月24日勒索軟體爆發潮
+- Vercel 4月19日揭露第三方工具 Context.ai 被駭導致系統未授權存取
+- Insilico Rentosertib Phase IIa 結果（同頭條第三）  [73%]
+- Benchling 2026 Biotech AI Report  [73% / 52% / 50%]
+
+## 2026-04-26
+- OpenClaw 2026.4.24 穩定版：Google Meet 內建外掛、DeepSeek V4 Flash + V4 Pro 入主目錄
+- OpenAI 一次補三槍：GPT-5.5 prompting 指南、生物安全 bug bounty、確認沒有獨立 Codex 版本
+- 不會再出 GPT-5.5-Codex
+- CFTC 三週內第四度告州、Brazil 直接把 Kalshi + Polymarket 全面封殺
+- Simon Willison 釋出 llm 0.31
+- GPT-5.5 prompting guide 釋出
+- 「ChatGPT Images 2.0 自己加了一塊『WHY ARE YOU LIKE THIS』看板」
+- Hugging Face Transformers v5.6.2 patch
+- ollama v0.21.3-rc0
+- OpenClaw 2026.4.24 把 DeepSeek V4 Flash + V4 Pro 排進預設
+- langchain-openai==1.2.1
+- langchain-fireworks==1.2.0
+- Coinbase / Alchemy 同調：「Crypto is built for AI agents, not humans」
+- LlamaIndex v0.14.21
+- BlackRock IBIT 創 spot ETF 里程碑
+- Aave / Kelp / LayerZero 連署要 Arbitrum DAO 解凍 7,100 萬美元 ETH
+- Trump「最 exclusive 加密晚會」陣容曝光
+- 量子破解威脅升溫：6.9M BTC（含中本聰錢包）受影響
+- JPMorgan：tokenization 會吃掉整個 funds 產業，但「好的應用情境」還要幾年
+- 「BTC 在 \$40,000 是接近統計上不可能的事件」  [4 萬 / 99%]
+- Niri 26.04 釋出
+- Framework Laptop 13 Pro 揭曉
+- HEALPix 重新爆紅
+- 「Hokusai and Tesselations」國立國會圖書館數位資料登 HN
+- 「It's OK to use agentic to revive projects you never were going to finish」
+
+## 2026-04-25
+- DeepSeek V4 Preview 空降：1.6T 總參數、49B 啟用、1M 上下文、MIT 授權  [100 萬 / 90.1%]
+- OpenAI 正式把 GPT-5.5 與 GPT-5.5 Pro 放進 API
+- 美國制裁伊朗加密錢包，Tether 一日後凍結 3.44 億 USDT  [3.44 億]
+- Hugging Face Transformers v5.6.2 Patch Release
+- Ollama v0.21.3-rc0
+- Anthropic 公開 Claude Code 降智三 bug 事後剖告，Simon Willison 追蹤
+- Simon Willison：DeepSeek V4 拆解筆記
+- honker：Postgres NOTIFY/LISTEN 語意 for SQLite
+- LangChain langchain-openai==1.2.1
+- OpenClaw 2026.4.23 穩定版 + beta.3
+- LangChain langchain-fireworks==1.2.0
+- CrewAI 1.14.3 釋出
+- Bitcoin Core 31.0 正式版 + v27 最終版同日放出
+- DOJ 撤銷對鮑爾調查，親加密的 Kevin Warsh 鋪路進 Fed 主席  [0.78%]
+- Spot Bitcoin ETF 連 8 日淨流入、累計 20 億美元  [2.232 億 / 1.675 億]
+- Fluent 推 Ethereum L2 主網與 BLEND 代幣、原生穩定幣首日流動性 5,000 萬美元  [5,000 萬]
+- 田納西州全州禁用加密 ATM，繼 Indiana 後第二州
+- 研究員在公開量子電腦破解 15-bit 橢圓曲線金鑰，拿走 1 BTC 懸賞
+- PyTorch 夜間修補 `MemoryReadAdapter::read` OOB 讀取
+- CC-Canary：偵測 Claude Code 退步的早期指標
+- SFO 每日減 90 分鐘播音：旅客反饋「像換了一座機場」
+- CSS 當作查詢語言：evdc.me 的實驗
+- Rode Caster Duo 韌體預設開 SSH
+- ollama/ollama
+- huggingface/transformers
+
+以上是過去 3 天已充分報導的故事，**預設一律不進新事區**。
+有 1 句新 fact → 延續區（1 句封頂）；發生類別變化事件 → 深度區（每集最多 1 則）；
+其他 → 直接刪除。詳見 SKILL.md「三區制」與「類別變化事件清單」。
