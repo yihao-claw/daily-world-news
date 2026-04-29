@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-29
+- NVIDIA 釋出 Nemotron 3 Nano Omni：30B MoE 多模態模型，吞吐量比同級開源 9 倍
+- Anthropic 推「Claude for Creative Work」：Adobe / Blender / Autodesk Fusion / Ableton / Splice 五家連線
+- Google 簽五角大廈機密 AI 合約：可調安全濾鏡，Anthropic 拒簽
+- Hugging Face Transformers v5.7.0 把 Poolside 的 Laguna 系列合進 mainline
+- talkie-1930-13b：用 1931 年以前歷史英語訓練的「復古語言模型」
+- ollama v0.22.1
+- pip 26.1 推 lockfiles 與 dependency cooldowns
+- 「ChatGPT serves ads. Here's the full attribution loop」HN 起飛
+- langchain-anthropic 1.4.2 + langchain-core 1.3.2
+- Telegram 推 AI agent 直接執行鏈上動作
+- crewAI 1.14.3
+- OpenAI Codex base_instructions 流出片段
+- SBF 翻案被 Kaplan 法官駁回，措辭「異想天開的陰謀論」
+- Polymarket 與 CFTC 談主交易所回美國
+- Robinhood Q1 加密營收與交易量年減近 50%、總交易營收年增 7% 至 6.23 億美元  [8 萬]
+- Galaxy Q1 虧 2.16 億美元，Novogratz 喊 data center 業務逼近拐點
+- Tether 和 Canaan、ACME Swisstech 開模組化比特幣礦機；Visa 攜 WeFi 把加密接進支付網路
+- Bitcoin Core v27.x final
+- Anthropic Claude system prompt bug：浪費用戶錢、把 managed agent 直接 brick
+- 「Before GitHub」回憶錄文章 HN 衝 233 點
+- SpaceX Starship Flight 12（V3 首飛）目標 5 月
+- Microsoft SharePoint 零日 CVE-2026-32201：CISA 4 月 28 日為聯邦機構修補大限
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+
+## 2026-04-28
+- 微軟-OpenAI 重塑合作：AGI 條款正式失效
+- GitHub Copilot 全面改 Usage-Based Billing
+- Gemini 推 Agentic Trading：AI 直接下單  [25%]
+- OpenAI Symphony：Codex 的開源 orchestration 規格  [35%]
+- DeepMind 公開 Decoupled DiLoCo
+- Google Meet 語音翻譯今天上手機
+- Gary Marcus 開砲 Dario Amodei
+- OpenAI Privacy Filter 給 web app 用
+- OpenClaw 2026.4.25 + 4.26-beta.1 雙釋出
+- Choco：把食品配送交給 OpenAI agents  [40% / 100 萬]
+- Aven 推 BTC 抵押 Visa 信用卡，額度最高 100 萬美元  [7.99% / 2%]
+- BitMine ETH 持倉破 507 萬枚，是 12 月以來最大加碼  [2.33 億 / 2,200 美元]
+- 比特幣戰略儲備法案改名重提 + Tillis 卡關大法案
+- DeFi United 募資衝到 3 億美元  [7,000 萬 / 2.35 億 / 3 億]
+- MARA Foundation 成立，主打比特幣量子抗性  [5,000 萬]
+- Easyduino：開源 KiCad PCB for Arduino / ESP32 / RP2040
+- Super ZSNES：GPU 加速 SNES 模擬器釋出
+- bitcoin/bitcoin
+- openclaw/openclaw
+- pytorch/pytorch
+- Simon Willison — Tracking the now-deceased AGI clause
+- DeepMind — Decoupled DiLoCo
+- Gary Marcus — Dario Amodei, hype, AI safety  [2.28% / 3.37% / 0.57%]
+
+## 2026-04-27
+- Anthropic Claude Mythos「太危險不發布」的模型遭外洩，第三方承包商員工用 Mercor 洩漏憑證猜出 API URL
+- Google Cloud Next 2026 押注「代理人即基礎設施」：Gemini Enterprise Agent Platform 一統 Vertex AI 與 A2A 協作
+- Insilico Medicine Rentosertib Phase IIa 登 Nature Medicine：第一個「端到端 AI 設計藥物」拿到臨床 proof-of-concept  [600 萬 / 1 億 / 2 億]
+- Anthropic 推 Claude Managed Agents：$0.08 / session-hour + tokens
+- OpenAI 4月22日推 ChatGPT for Clinicians 免費版
+- Claude Opus 4.6 在 LMSYS Chatbot Arena 維持龍頭  [65.3%]
+- DeepSeek V4 Preview 後續觀察
+- Google Gemini Enterprise Agent Platform 重點拆解
+- 2026 年 4 月被定義為「代理人從試點走進基礎設施」的轉折月
+- Q1 2026 全球創投 3,000 億美元、AI 吃掉 80%（2,420 億）  [1,220 億 / 300 億 / 200 億]
+- Aave 募到 1.6 億美元（80% of 2 億美元目標）  [7,100 萬 / 130 億]
+- Litecoin 遭分散式阻斷服務攻擊，連回滾 13 個區塊、抹掉首次重大隱私層出包
+- 比特幣鯨魚資金費率轉深負仍持續加碼長倉
+- Coinbase John D'Agostino 在公開談話補一句  [1,960 億 / 99%]
+- Geely 在北京車展發表 Eva Cab：中國首款原生 Robotaxi  [1,960 億 / 99%]
+- Tesla Robotaxi 4月20日 擴張到德州 Dallas、Houston，價格比 Waymo 便宜 56%  [6.15 美元]
+- WeRide 2026 計劃出貨 2,000 台 GXR
+- Cerebras Systems 4月18日遞 IPO 申請
+- SpaceX Starship Flight 12（V3 首飛）滑出 4 月底窗口，重新定 5月 NET
+- Tesla 在德州 Dallas、Houston 推不需安全員 Robotaxi
+- CISA 4月25日把 4 個 KEV 加進主動利用清單
+- 4月24日勒索軟體爆發潮
+- Vercel 4月19日揭露第三方工具 Context.ai 被駭導致系統未授權存取
+- Insilico Rentosertib Phase IIa 結果（同頭條第三）  [73%]
+- Benchling 2026 Biotech AI Report  [73% / 52% / 50%]
+
+以上是過去 3 天已充分報導的故事，**預設一律不進新事區**。
+有 1 句新 fact → 延續區（1 句封頂）；發生類別變化事件 → 深度區（每集最多 1 則）；
+其他 → 直接刪除。詳見 SKILL.md「三區制」與「類別變化事件清單」。
