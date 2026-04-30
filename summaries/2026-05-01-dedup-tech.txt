@@ -1,0 +1,84 @@
+# Past 3 days tech dedup digest
+
+## 2026-04-30
+- Anthropic Claude Code 計費 bug 賠了 200 美元卻拒退款  [200 美元]
+- Strategy（MSTR）4 月狂掃 56,238 顆比特幣，持倉超越 BlackRock IBIT  [41 億 / 13% / 1%]
+- Google Deep Research Max 與 OpenAI Workspace Agents 同期上線，agentic 戰線開打  [400 億 / 250 億]
+- Hugging Face Transformers v5.7.0 把 Poolside 的 Laguna 系列收進 mainline
+- Simon Willison 釋出 LLM 0.32a0：從 prompt/response 改寫成 conversation/turn 模型
+- OpenAI Codex base_instructions 流出片段：「Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons」
+- Gary Marcus 撰文評 Musk vs OpenAI 訴訟：兩邊都不討喜，但 Musk 有道理
+- ollama v0.22.1：MLX runner 多序列批次採樣、修 BPE offset、支援 NVIDIA TensorRT-LLM 匯入
+- PyTorch CUTLASS EVT 加上 SiLU epilogue fusion  [3%]
+- OpenAI Workspace Agents 取代 Custom GPTs，雲端常駐多步執行
+- Google Deep Research Max 開放 Gemini API：可接 MCP 第三方來源、原生產出圖表
+- langchain-anthropic 1.4.2 + langchain-tests 1.1.7  [12%]
+- crewAI 1.14.4a1 alpha 釋出
+- Ramp 的 Sheets AI 被 prompt injection 抽走財務資料
+- Strategy 4 月買進 56,238 BTC 約 41 億美元、總持 818,334 BTC  [13% / 50 億 / 1,500 億]
+- Trump 背書的 WLFI 治理代幣單日跌 13%
+- Meta 開始用 USDC 付款給創作者，支援 Solana / Polygon 錢包
+- Celsius 創辦人 Mashinsky 與 FTC 達成 1,000 萬美元和解，終身禁入加密業  [47 億 / 1,000 萬]
+- Tether 大股東 Harborne 被爆未申報送 Farage 500 萬英鎊  [1,200 萬]
+- 京都櫻花連續創下 1,200 年來最早盛開紀錄  [60%]
+- HN 衝榜文「People who don't use AI will be left behind」反 AI 焦慮論
+- Copy Fail – CVE-2026-31431
+- Laws of UX 開源整理上 HN
+- 「Before GitHub」回憶錄文章再上 HN 233 點
+- SpaceX Starship Flight 12（V3 首飛）目標 5 月初到中旬
+
+## 2026-04-29
+- NVIDIA 釋出 Nemotron 3 Nano Omni：30B MoE 多模態模型，吞吐量比同級開源 9 倍
+- Anthropic 推「Claude for Creative Work」：Adobe / Blender / Autodesk Fusion / Ableton / Splice 五家連線
+- Google 簽五角大廈機密 AI 合約：可調安全濾鏡，Anthropic 拒簽
+- Hugging Face Transformers v5.7.0 把 Poolside 的 Laguna 系列合進 mainline
+- talkie-1930-13b：用 1931 年以前歷史英語訓練的「復古語言模型」
+- ollama v0.22.1
+- pip 26.1 推 lockfiles 與 dependency cooldowns
+- 「ChatGPT serves ads. Here's the full attribution loop」HN 起飛
+- langchain-anthropic 1.4.2 + langchain-core 1.3.2
+- Telegram 推 AI agent 直接執行鏈上動作
+- crewAI 1.14.3
+- OpenAI Codex base_instructions 流出片段
+- SBF 翻案被 Kaplan 法官駁回，措辭「異想天開的陰謀論」
+- Polymarket 與 CFTC 談主交易所回美國
+- Robinhood Q1 加密營收與交易量年減近 50%、總交易營收年增 7% 至 6.23 億美元  [8 萬]
+- Galaxy Q1 虧 2.16 億美元，Novogratz 喊 data center 業務逼近拐點
+- Tether 和 Canaan、ACME Swisstech 開模組化比特幣礦機；Visa 攜 WeFi 把加密接進支付網路
+- Bitcoin Core v27.x final
+- Anthropic Claude system prompt bug：浪費用戶錢、把 managed agent 直接 brick
+- 「Before GitHub」回憶錄文章 HN 衝 233 點
+- SpaceX Starship Flight 12（V3 首飛）目標 5 月
+- Microsoft SharePoint 零日 CVE-2026-32201：CISA 4 月 28 日為聯邦機構修補大限
+- ollama/ollama
+- huggingface/transformers
+- bitcoin/bitcoin
+
+## 2026-04-28
+- 微軟-OpenAI 重塑合作：AGI 條款正式失效
+- GitHub Copilot 全面改 Usage-Based Billing
+- Gemini 推 Agentic Trading：AI 直接下單  [25%]
+- OpenAI Symphony：Codex 的開源 orchestration 規格  [35%]
+- DeepMind 公開 Decoupled DiLoCo
+- Google Meet 語音翻譯今天上手機
+- Gary Marcus 開砲 Dario Amodei
+- OpenAI Privacy Filter 給 web app 用
+- OpenClaw 2026.4.25 + 4.26-beta.1 雙釋出
+- Choco：把食品配送交給 OpenAI agents  [40% / 100 萬]
+- Aven 推 BTC 抵押 Visa 信用卡，額度最高 100 萬美元  [7.99% / 2%]
+- BitMine ETH 持倉破 507 萬枚，是 12 月以來最大加碼  [2.33 億 / 2,200 美元]
+- 比特幣戰略儲備法案改名重提 + Tillis 卡關大法案
+- DeFi United 募資衝到 3 億美元  [7,000 萬 / 2.35 億 / 3 億]
+- MARA Foundation 成立，主打比特幣量子抗性  [5,000 萬]
+- Easyduino：開源 KiCad PCB for Arduino / ESP32 / RP2040
+- Super ZSNES：GPU 加速 SNES 模擬器釋出
+- bitcoin/bitcoin
+- openclaw/openclaw
+- pytorch/pytorch
+- Simon Willison — Tracking the now-deceased AGI clause
+- DeepMind — Decoupled DiLoCo
+- Gary Marcus — Dario Amodei, hype, AI safety  [2.28% / 3.37% / 0.57%]
+
+以上是過去 3 天已充分報導的故事，**預設一律不進新事區**。
+有 1 句新 fact → 延續區（1 句封頂）；發生類別變化事件 → 深度區（每集最多 1 則）；
+其他 → 直接刪除。詳見 SKILL.md「三區制」與「類別變化事件清單」。
